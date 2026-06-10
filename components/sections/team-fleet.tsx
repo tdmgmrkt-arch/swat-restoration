@@ -19,6 +19,8 @@ type PhotoSlot = {
   span: "lg:col-span-2" | "lg:col-span-1"
   /** Featured: gets the "Hero Shot" tag */
   featured?: boolean
+  /** CSS object-position override (e.g. "center top", "50% 20%") */
+  objectPosition?: string
 }
 
 const slots: PhotoSlot[] = [
@@ -40,9 +42,10 @@ const slots: PhotoSlot[] = [
   {
     label: "On Site",
     caption: "Water extraction in progress — every minute matters to stop secondary damage.",
-    img: "/atwork.jpeg",
+    img: "/atwork1.jpeg",
     aspect: "4/5",
     span: "lg:col-span-1",
+    objectPosition: "center top",
   },
   {
     label: "Dispatch Center",
@@ -121,6 +124,7 @@ function PhotoCard({ slot }: { slot: PhotoSlot }) {
               ? "(min-width: 1024px) 66vw, 100vw"
               : "(min-width: 1024px) 33vw, 100vw"
           }
+          style={slot.objectPosition ? { objectPosition: slot.objectPosition } : undefined}
           className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
         />
 
