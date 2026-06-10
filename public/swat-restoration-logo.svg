@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PLACEHOLDER LOGO — S.W.A.T. Restoration banner mark.
+  Replace with the real logo PNG/SVG provided by the client.
+  Drop the real file at /public/swat-restoration-logo.svg (or update
+  the <Image> src in site-header.tsx and site-footer.tsx if a PNG is preferred).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 322" width="432" height="322">
+  <rect width="432" height="322" fill="#232d5e"/>
+
+  <!-- Banner shape -->
+  <g transform="translate(0 158)">
+    <polygon points="0,0 18,18 18,80 0,80" fill="#0c1230"/>
+    <polygon points="432,0 414,18 414,80 432,80" fill="#0c1230"/>
+    <polygon points="18,0 414,0 432,-12 432,-30 414,-12 18,-12 0,-30 0,-12" fill="#aaaaaa"/>
+    <rect x="18" y="0" width="396" height="80" fill="#aaaaaa"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="216" y="218" text-anchor="middle"
+        font-family="Geist, Arial, sans-serif"
+        font-weight="900" font-size="40" letter-spacing="2"
+        fill="#ffffff">
+    RESTORATION
+  </text>
+
+  <!-- Placeholder note (hidden but recoverable) -->
+  <text x="216" y="280" text-anchor="middle"
+        font-family="Geist Mono, monospace" font-size="10"
+        fill="#ffffff" opacity="0.5">
+    placeholder · replace with real logo
+  </text>
+</svg>
