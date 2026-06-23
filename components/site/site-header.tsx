@@ -13,6 +13,9 @@ import {
   ChevronDown,
   Check,
   X,
+  Users,
+  FileCheck,
+  Newspaper,
 } from "lucide-react"
 import {
   Sheet,
@@ -133,7 +136,7 @@ const emergencyByMenu: Record<string, EmergencyContent> = {
     },
     cta: {
       label: "Start Your Claim",
-      href: "/insurance-claims",
+      href: "/reconstruction/insurance-claims",
       icon: "calendar",
     },
   },
@@ -158,6 +161,52 @@ const emergencyByMenu: Record<string, EmergencyContent> = {
       label: "Check Availability",
       href: "/contact-us",
       icon: "map",
+    },
+  },
+  services: {
+    label: "24/7 Emergency Dispatch",
+    headline: "Water. Fire. Mold. Reconstruction.",
+    subline: "One crew, one file, one accountable point of contact — from first call to keys back in your hand.",
+    signals: [
+      "Under 60-min arrival",
+      "Insurance claim experienced",
+      "IICRC-trained crews",
+    ],
+    data: {
+      label: "Response Profile",
+      items: [
+        "24/7 dispatch · every day",
+        "4 service verticals",
+        "49 DFW communities",
+      ],
+    },
+    cta: {
+      label: "Call Now",
+      href: siteConfig.phone.primary_tel,
+      icon: "phone",
+    },
+  },
+  company: {
+    label: "About S.W.A.T.",
+    headline: "Family owned. Built on every job done right.",
+    subline: "Dillon & Danielle Patterson — running restoration the way they'd want their own home handled.",
+    signals: [
+      "Family owned & operated",
+      "IICRC-trained crews",
+      "Insurance claim experienced",
+    ],
+    data: {
+      label: "By the Numbers",
+      items: [
+        "49 DFW communities served",
+        "1 Aledo HQ · 24/7 dispatch",
+        "Tarrant + Parker + Denton + Johnson",
+      ],
+    },
+    cta: {
+      label: "Get in Touch",
+      href: "/contact-us",
+      icon: "phone",
     },
   },
 }
@@ -413,6 +462,7 @@ export default function SiteHeader() {
           aria-hidden={!openMega}
         >
           <div className="max-w-7xl mx-auto px-5 sm:px-6">
+            {openMega === "services" && <ServicesMegaMenu onNavigate={closeNow} />}
             {activeCategory && (
               <CategoryMegaMenu
                 category={activeCategory}
@@ -420,6 +470,7 @@ export default function SiteHeader() {
               />
             )}
             {openMega === "areas" && <AreasMegaMenu onNavigate={closeNow} />}
+            {openMega === "company" && <CompanyMegaMenu onNavigate={closeNow} />}
           </div>
         </div>
       </div>
@@ -472,6 +523,102 @@ function MegaTrigger({
         />
       </button>
     </li>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+/* Desktop: Services Mega Menu                                          */
+/*   Unified panel — all 4 verticals side-by-side as columns            */
+/* ------------------------------------------------------------------ */
+function ServicesMegaMenu({ onNavigate }: { onNavigate: () => void }) {
+  const categories = siteConfig.serviceCategories
+  const emergency = emergencyByMenu.services ?? DEFAULT_EMERGENCY
+
+  return (
+    <div className="grid grid-cols-[1fr_320px]">
+      <div className="p-8 border-r border-white/8 flex flex-col">
+        {/* Briefing panel */}
+        <div className="relative bg-white/3 border border-white/10 mb-6 overflow-hidden">
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-red-600" aria-hidden="true" />
+          <div className="absolute top-2 right-2 w-2.5 h-2.5 border-t border-r border-red-600/60" aria-hidden="true" />
+
+          <div className="flex items-end justify-between gap-6 pl-6 pr-5 py-5">
+            <div className="max-w-2xl">
+              <p className="text-[10px] font-bold tracking-[0.2em] uppercase text-white/60">
+                Services
+              </p>
+              <p className="text-white/65 text-xs mt-2.5 leading-relaxed">
+                24/7 Emergency Dispatch
+                <span className="text-red-500/70 mx-2" aria-hidden="true">•</span>
+                Upfront Pricing
+                <span className="text-red-500/70 mx-2" aria-hidden="true">•</span>
+                Insurance Claim Experienced
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* 4-column grid — one column per service vertical. */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-6">
+          {categories.map((cat) => {
+            type CatWithNav = typeof cat & { navTitle?: string }
+            const subs = cat.services.filter((s) => s.href !== cat.hubHref)
+
+            return (
+              <div key={cat.slug} className="flex flex-col">
+                {/* Category header */}
+                <Link
+                  href={cat.hubHref}
+                  onClick={onNavigate}
+                  className="group flex items-start justify-between gap-2 mb-3 pb-2.5 border-b border-white/10 hover:border-red-600/40 transition-colors"
+                >
+                  <div>
+                    <p className="text-[9px] font-mono tracking-[0.2em] uppercase text-red-400/80 font-bold mb-1">
+                      Category
+                    </p>
+                    <p className="text-white text-sm font-black tracking-tight leading-tight group-hover:text-red-400 transition-colors">
+                      {(cat as CatWithNav).navTitle ?? cat.title}
+                    </p>
+                  </div>
+                  <ChevronRight
+                    className="h-3.5 w-3.5 text-white/40 group-hover:text-red-400 shrink-0 mt-0.5 transition-colors"
+                    aria-hidden="true"
+                  />
+                </Link>
+
+                {/* Sub-service list */}
+                <ul role="list" className="space-y-0.5">
+                  {subs.map((service) => {
+                    type SvcWithNav = typeof service & { navTitle?: string }
+                    return (
+                      <li key={service.href}>
+                        <Link
+                          href={service.href}
+                          onClick={onNavigate}
+                          className={cn(
+                            "group flex items-start gap-1.5 px-1.5 py-1.5 rounded transition-colors",
+                            "text-white/70 hover:text-white hover:bg-white/5"
+                          )}
+                        >
+                          <ChevronRight
+                            className="h-3 w-3 text-red-500/50 shrink-0 mt-0.5 group-hover:text-red-400 transition-colors"
+                            aria-hidden="true"
+                          />
+                          <span className="text-xs leading-snug">
+                            {(service as SvcWithNav).navTitle ?? service.title}
+                          </span>
+                        </Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+      <EmergencyPanel content={emergency} />
+    </div>
   )
 }
 
@@ -662,6 +809,89 @@ function AreasMegaMenu({ onNavigate }: { onNavigate: () => void }) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Desktop: Company Mega Menu                                           */
+/*   Card grid of About Us / Insurance Claims / Blog                    */
+/* ------------------------------------------------------------------ */
+const companyIconMap = {
+  Users,
+  FileCheck,
+  Newspaper,
+} as const
+
+type CompanyIcon = keyof typeof companyIconMap
+
+function CompanyMegaMenu({ onNavigate }: { onNavigate: () => void }) {
+  const links = siteConfig.companyLinks
+  const emergency = emergencyByMenu.company ?? DEFAULT_EMERGENCY
+
+  return (
+    <div className="grid grid-cols-[1fr_320px]">
+      <div className="p-8 border-r border-white/8 flex flex-col">
+        {/* Briefing panel */}
+        <div className="relative bg-white/3 border border-white/10 mb-6 overflow-hidden">
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-red-600" aria-hidden="true" />
+          <div className="absolute top-2 right-2 w-2.5 h-2.5 border-t border-r border-red-600/60" aria-hidden="true" />
+
+          <div className="flex items-end justify-between gap-6 pl-6 pr-5 py-5">
+            <div className="max-w-2xl">
+              <p className="text-[10px] font-bold tracking-[0.2em] uppercase text-white/60">
+                About S.W.A.T.
+              </p>
+              <p className="text-white/65 text-xs mt-2.5 leading-relaxed">
+                Who we are
+                <span className="text-red-500/70 mx-2" aria-hidden="true">•</span>
+                How we handle claims
+                <span className="text-red-500/70 mx-2" aria-hidden="true">•</span>
+                Field-tested guidance
+              </p>
+            </div>
+            <Link
+              href="/about-us"
+              onClick={onNavigate}
+              className="inline-flex items-center gap-1.5 text-xs text-red-400 hover:text-red-300 font-medium transition-colors shrink-0"
+            >
+              Meet the family
+              <ChevronRight className="h-3.5 w-3.5" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+
+        {/* Card grid — 3 cols */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+          {links.map((link) => {
+            const Icon = companyIconMap[link.icon as CompanyIcon]
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={onNavigate}
+                className={cn(
+                  "group flex items-start gap-3 p-4 rounded-md transition-all",
+                  "border border-white/8 hover:border-red-600/40 bg-white/2 hover:bg-white/5"
+                )}
+              >
+                <div className="w-9 h-9 flex items-center justify-center shrink-0 bg-red-600/10 border border-red-600/30 rounded-sm group-hover:bg-red-600/15 group-hover:border-red-600/50 transition-colors">
+                  <Icon className="h-4 w-4 text-red-400" aria-hidden="true" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-white/90 group-hover:text-white leading-tight">
+                    {link.title}
+                  </p>
+                  <p className="text-xs text-white/55 leading-snug mt-1">
+                    {link.description}
+                  </p>
+                </div>
+              </Link>
+            )
+          })}
+        </div>
+      </div>
+      <EmergencyPanel content={emergency} />
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------ */
 /* Shared: Emergency Panel (right column of mega menus)                */
 /* ------------------------------------------------------------------ */
 const ctaIconMap = {
@@ -800,36 +1030,55 @@ function MobileNav({ onClose }: { onClose: () => void }) {
       <nav className="flex-1 overflow-y-auto px-4 py-4" aria-label="Mobile navigation">
         <Accordion multiple className="w-full">
 
-          {/* One accordion per service category */}
-          {siteConfig.serviceCategories.map((cat) => (
-            <AccordionItem
-              key={cat.slug}
-              value={cat.slug}
-              className="border-b border-white/8"
-            >
-              <AccordionTrigger className="text-white/80 hover:text-white text-sm font-medium py-3 hover:no-underline">
-                {cat.title}
-              </AccordionTrigger>
-              <AccordionContent>
-                <div className="pb-2 space-y-0.5">
-                  {cat.services.map((service) => (
-                    <Link
-                      key={service.href}
-                      href={service.href}
-                      onClick={onClose}
-                      className="flex items-center gap-2 px-2 py-2.5 rounded text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors min-h-11"
-                    >
-                      <ChevronRight
-                        className="h-3 w-3 text-red-500/70 shrink-0"
-                        aria-hidden="true"
-                      />
-                      {service.title}
-                    </Link>
-                  ))}
-                </div>
-              </AccordionContent>
-            </AccordionItem>
-          ))}
+          {/* Services — single accordion with all 4 categories grouped inside */}
+          <AccordionItem value="services" className="border-b border-white/8">
+            <AccordionTrigger className="text-white/80 hover:text-white text-sm font-medium py-3 hover:no-underline">
+              Services
+            </AccordionTrigger>
+            <AccordionContent>
+              <div className="pb-2 space-y-4">
+                {siteConfig.serviceCategories.map((cat) => {
+                  type CatWithNav = typeof cat & { navTitle?: string }
+                  return (
+                    <div key={cat.slug}>
+                      <Link
+                        href={cat.hubHref}
+                        onClick={onClose}
+                        className="flex items-center justify-between px-2 py-2 mb-1 rounded text-[11px] font-bold tracking-[0.15em] uppercase text-red-400 hover:text-red-300 transition-colors"
+                      >
+                        {(cat as CatWithNav).navTitle ?? cat.title}
+                        <ChevronRight className="h-3.5 w-3.5" aria-hidden="true" />
+                      </Link>
+                      <div className="space-y-0.5">
+                        {cat.services
+                          .filter((s) => s.href !== cat.hubHref)
+                          .map((service) => {
+                            type SvcWithNav = typeof service & {
+                              navTitle?: string
+                            }
+                            return (
+                              <Link
+                                key={service.href}
+                                href={service.href}
+                                onClick={onClose}
+                                className="flex items-center gap-2 px-2 py-2.5 rounded text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors min-h-11"
+                              >
+                                <ChevronRight
+                                  className="h-3 w-3 text-red-500/70 shrink-0"
+                                  aria-hidden="true"
+                                />
+                                {(service as SvcWithNav).navTitle ??
+                                  service.title}
+                              </Link>
+                            )
+                          })}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
 
           {/* Areas accordion */}
           <AccordionItem value="areas" className="border-b border-white/8">
@@ -870,6 +1119,31 @@ function MobileNav({ onClose }: { onClose: () => void }) {
                     )
                   })}
                 </div>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          {/* About accordion */}
+          <AccordionItem value="company" className="border-b border-white/8">
+            <AccordionTrigger className="text-white/80 hover:text-white text-sm font-medium py-3 hover:no-underline">
+              About
+            </AccordionTrigger>
+            <AccordionContent>
+              <div className="pb-2 space-y-0.5">
+                {siteConfig.companyLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={onClose}
+                    className="flex items-center gap-2 px-2 py-2.5 rounded text-sm text-white/60 hover:text-white hover:bg-white/5 transition-colors min-h-11"
+                  >
+                    <ChevronRight
+                      className="h-3 w-3 text-red-500/70 shrink-0"
+                      aria-hidden="true"
+                    />
+                    {link.title}
+                  </Link>
+                ))}
               </div>
             </AccordionContent>
           </AccordionItem>

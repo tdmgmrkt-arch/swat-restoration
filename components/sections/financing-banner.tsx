@@ -148,7 +148,7 @@ export default function FinancingBanner() {
             {/* CTAs */}
             <div className="mt-6 flex flex-col gap-3">
               <Link
-                href="/insurance-claims"
+                href="/reconstruction/insurance-claims"
                 className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold text-sm tracking-wide uppercase px-6 py-3.5 rounded-sm border border-red-500/40 min-h-12 transition-colors"
               >
                 <FileCheck className="h-4 w-4" aria-hidden="true" />

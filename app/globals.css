@@ -171,3 +171,100 @@
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.02em;
 }
+
+/* ============================================================
+   Accessibility widget — user-controlled view adjustments.
+   Classes are toggled on <html> by AccessibilityWidget.
+   The widget itself opts out with `.a11y-widget-root`.
+   ============================================================ */
+
+/* Text size scaling — root font-size drives rem-based type. */
+html.a11y-text-1 { font-size: 112.5%; }
+html.a11y-text-2 { font-size: 125%; }
+html.a11y-text-3 { font-size: 137.5%; }
+
+/* Readable font — swap brand sans for a wider, more legible stack. */
+html.a11y-readable-font body,
+html.a11y-readable-font body * {
+  font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* High contrast — black canvas, white text, yellow links. */
+html.a11y-high-contrast body {
+  background: #000 !important;
+  color: #fff !important;
+}
+html.a11y-high-contrast body *:not(.a11y-widget-root):not(.a11y-widget-root *) {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+html.a11y-high-contrast body a:not(.a11y-widget-root):not(.a11y-widget-root *) {
+  color: #ffeb3b !important;
+  text-decoration: underline !important;
+}
+html.a11y-high-contrast body img,
+html.a11y-high-contrast body video {
+  filter: grayscale(0.4) contrast(1.1);
+}
+
+/* Invert colors — full canvas invert, then re-invert media. */
+html.a11y-invert body {
+  filter: invert(1) hue-rotate(180deg);
+}
+html.a11y-invert body img,
+html.a11y-invert body video,
+html.a11y-invert body iframe,
+html.a11y-invert body [style*="background-image"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Highlight links — bold + underline + outline so links are unmissable. */
+html.a11y-highlight-links a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  font-weight: 700 !important;
+  outline: 2px dashed #dc2626 !important;
+  outline-offset: 2px !important;
+}
+
+/* Large cursor — bigger SVG cursor, fallback to system. */
+html.a11y-big-cursor,
+html.a11y-big-cursor * {
+  cursor:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'><path d='M4 2 L4 32 L12 24 L17 36 L22 34 L17 22 L28 22 Z' fill='%23ffffff' stroke='%23000000' stroke-width='2' stroke-linejoin='round'/></svg>") 2 2,
+    auto !important;
+}
+
+/* Pause animations — disable motion across the page. */
+html.a11y-pause-anim *,
+html.a11y-pause-anim *::before,
+html.a11y-pause-anim *::after {
+  animation-duration: 0.001ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  transition-delay: 0ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Widget exemptions — keep the widget itself usable regardless of mode. */
+html.a11y-invert .a11y-widget-root,
+html.a11y-invert .a11y-widget-root * {
+  filter: invert(1) hue-rotate(180deg);
+}
+html.a11y-high-contrast .a11y-widget-root,
+html.a11y-high-contrast .a11y-widget-root * {
+  /* Allow widget's own colors to render through high-contrast mode */
+  background-color: revert !important;
+  color: revert !important;
+  border-color: revert !important;
+}
+html.a11y-readable-font .a11y-widget-root,
+html.a11y-readable-font .a11y-widget-root * {
+  font-family: var(--font-geist-sans), system-ui, sans-serif !important;
+}

@@ -71,7 +71,7 @@ export default function ServiceArea() {
 
         {/* Hub card — single Aledo office */}
         <div className="relative mb-14 lg:mb-16">
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-5 lg:gap-6 max-w-xl">
+          <div className="grid grid-cols-1 gap-5 lg:gap-6">
             {hubs.map((hub) => (
               <HubCard key={hub.name} hub={hub} />
             ))}

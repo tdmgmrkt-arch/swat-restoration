@@ -33,7 +33,7 @@ export const siteConfig = {
   // Flip to true once individual /areas-served/[slug] pages are built.
   // While false: city names render as plain text (no <a> tags), and city URLs
   // are excluded from the sitemap. Schema.org areaServed still lists all cities.
-  cityPagesLive: false,
+  cityPagesLive: true,
 
   // DFW service area — same 49-community footprint as legacy SWAT brands.
   // `featured: true` marks priority markets shown in the desktop mega menu.
@@ -95,15 +95,16 @@ export const siteConfig = {
       slug: "water-damage",
       hubHref: "/water-damage",
       title: "Water Damage Restoration",
+      navTitle: "Water Damage",
       shortDescription:
         "Emergency water extraction, structural drying, and full water damage restoration — residential and commercial.",
       icon: "Droplets",
       services: [
         { title: "Water Damage Restoration", href: "/water-damage" },
-        { title: "Emergency Water Extraction", href: "/water-damage/water-extraction" },
+        { title: "Emergency Water Extraction", navTitle: "Water Extraction", href: "/water-damage/water-extraction" },
         { title: "Water Removal", href: "/water-damage/water-removal" },
         { title: "Structural Drying", href: "/water-damage/structural-drying" },
-        { title: "Flood Damage Restoration", href: "/water-damage/flood-restoration" },
+        { title: "Flood Damage Restoration", navTitle: "Flood Damage", href: "/water-damage/flood-restoration" },
         { title: "Burst Pipe Cleanup", href: "/water-damage/burst-pipe-cleanup" },
         { title: "Ceiling Leak Repair", href: "/water-damage/ceiling-leak-repair" },
         { title: "Sewage Cleanup", href: "/water-damage/sewage-cleanup" },
@@ -113,47 +114,50 @@ export const siteConfig = {
       slug: "fire-damage",
       hubHref: "/fire-damage",
       title: "Fire & Smoke Damage",
+      navTitle: "Fire & Smoke",
       shortDescription:
         "Fire damage restoration, smoke and soot removal, odor neutralization, and contents recovery.",
       icon: "Flame",
       services: [
         { title: "Fire & Smoke Damage Restoration", href: "/fire-damage" },
-        { title: "Smoke Damage Restoration", href: "/fire-damage/smoke-damage" },
+        { title: "Smoke Damage Restoration", navTitle: "Smoke Damage", href: "/fire-damage/smoke-damage" },
         { title: "Soot Removal", href: "/fire-damage/soot-removal" },
-        { title: "Odor Removal & Neutralization", href: "/fire-damage/odor-removal" },
+        { title: "Odor Removal & Neutralization", navTitle: "Odor Removal", href: "/fire-damage/odor-removal" },
         { title: "Contents Cleaning", href: "/fire-damage/contents-cleaning" },
-        { title: "Board-Up Services", href: "/fire-damage/board-up" },
+        { title: "Board-Up Services", navTitle: "Board-Up", href: "/fire-damage/board-up" },
       ],
     },
     {
       slug: "mold-remediation",
       hubHref: "/mold-remediation",
       title: "Mold Remediation",
+      navTitle: "Mold",
       shortDescription:
         "Certified mold inspection, containment, removal, and air-quality restoration.",
       icon: "ShieldCheck",
       services: [
         { title: "Mold Remediation", href: "/mold-remediation" },
-        { title: "Mold Inspection & Testing", href: "/mold-remediation/mold-inspection" },
+        { title: "Mold Inspection & Testing", navTitle: "Mold Inspection", href: "/mold-remediation/mold-inspection" },
         { title: "Mold Removal", href: "/mold-remediation/mold-removal" },
-        { title: "Black Mold Remediation", href: "/mold-remediation/black-mold" },
-        { title: "Air Quality Restoration", href: "/mold-remediation/air-quality" },
+        { title: "Black Mold Remediation", navTitle: "Black Mold", href: "/mold-remediation/black-mold" },
+        { title: "Air Quality Restoration", navTitle: "Air Quality", href: "/mold-remediation/air-quality" },
       ],
     },
     {
       slug: "reconstruction",
       hubHref: "/reconstruction",
       title: "Reconstruction & Roofing",
+      navTitle: "Reconstruction",
       shortDescription:
         "Full-scope reconstruction, roofing, general construction, pack-out, and insurance claim assistance.",
       icon: "Wrench",
       services: [
         { title: "Reconstruction Services", href: "/reconstruction" },
-        { title: "Roofing Services", href: "/reconstruction/roofing" },
+        { title: "Roofing Services", navTitle: "Roofing", href: "/reconstruction/roofing" },
         { title: "General Construction", href: "/reconstruction/general-construction" },
-        { title: "Pack-Out & Cleaning", href: "/reconstruction/pack-out-cleaning" },
-        { title: "Insurance Claim Assistance", href: "/reconstruction/insurance-claims" },
-        { title: "Storm Damage Repair", href: "/reconstruction/storm-damage" },
+        { title: "Pack-Out & Cleaning", navTitle: "Pack-Out", href: "/reconstruction/pack-out-cleaning" },
+        { title: "Insurance Claim Assistance", navTitle: "Insurance Claims", href: "/reconstruction/insurance-claims" },
+        { title: "Storm Damage Repair", navTitle: "Storm Damage", href: "/reconstruction/storm-damage" },
       ],
     },
   ],
@@ -207,28 +211,10 @@ export const siteConfig = {
   // Top-level navigation. Mega-menu items are wired by category slug.
   nav: [
     {
-      label: "Water Damage",
+      label: "Services",
       href: "/water-damage",
       hasMega: true,
-      megaCategory: "water-damage",
-    },
-    {
-      label: "Fire & Smoke",
-      href: "/fire-damage",
-      hasMega: true,
-      megaCategory: "fire-damage",
-    },
-    {
-      label: "Mold Remediation",
-      href: "/mold-remediation",
-      hasMega: true,
-      megaCategory: "mold-remediation",
-    },
-    {
-      label: "Reconstruction",
-      href: "/reconstruction",
-      hasMega: true,
-      megaCategory: "reconstruction",
+      megaCategory: "services",
     },
     {
       label: "Areas Served",
@@ -237,21 +223,51 @@ export const siteConfig = {
       megaCategory: "areas",
     },
     {
+      label: "About",
+      href: "/about-us",
+      hasMega: true,
+      megaCategory: "company",
+    },
+    {
       label: "Contact",
       href: "/contact-us",
       hasMega: false,
     },
   ],
 
-  // Static routes (used by sitemap + redirects)
+  // Company / About sub-pages — wired into the Company mega menu.
+  companyLinks: [
+    {
+      title: "About Us",
+      href: "/about-us",
+      description: "Our story, the Patterson family, and the crew behind every dispatch.",
+      icon: "Users",
+    },
+    {
+      title: "Insurance Claims",
+      href: "/reconstruction/insurance-claims",
+      description: "Direct billing, adjuster coordination, full documentation from first call.",
+      icon: "FileCheck",
+    },
+    {
+      title: "Blog",
+      href: "/blog",
+      description: "Field notes on water, fire, mold, and insurance — from real jobs.",
+      icon: "Newspaper",
+    },
+  ],
+
+  // Static routes (used by sitemap + redirects).
+  // Insurance Claim Assistance lives at /reconstruction/insurance-claims and
+  // is emitted into the sitemap via the dynamic serviceCategories loop.
   staticPages: [
     { href: "/", priority: 1.0, changeFrequency: "weekly" as const },
     { href: "/about-us", priority: 0.7, changeFrequency: "monthly" as const },
     { href: "/areas-served", priority: 0.9, changeFrequency: "monthly" as const },
-    { href: "/insurance-claims", priority: 0.7, changeFrequency: "monthly" as const },
     { href: "/contact-us", priority: 0.8, changeFrequency: "monthly" as const },
     { href: "/blog", priority: 0.6, changeFrequency: "weekly" as const },
     { href: "/privacy-policy", priority: 0.3, changeFrequency: "yearly" as const },
+    { href: "/terms-of-service", priority: 0.3, changeFrequency: "yearly" as const },
   ],
 
   social: {

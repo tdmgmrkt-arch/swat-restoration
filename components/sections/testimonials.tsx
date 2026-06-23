@@ -128,32 +128,33 @@ export default async function Testimonials() {
               href={siteConfig.social.google}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-stretch bg-white rounded-md shadow-[0_4px_20px_-4px_rgba(0,0,0,0.6)] overflow-hidden transition-transform hover:-translate-y-0.5"
+              className="group inline-flex items-stretch bg-white/5 border border-white/10 backdrop-blur-sm rounded-md overflow-hidden transition-colors hover:bg-white/8 hover:border-white/20"
               aria-label={
                 rating && reviewCount
                   ? `Rated ${rating} out of 5 from ${reviewCount} Google reviews`
                   : "View S.W.A.T. Restoration on Google"
               }
             >
-              {/* Left cell: Google G mark on white — matches real Google widgets */}
-              <span className="flex items-center justify-center px-3 bg-white">
+              {/* Left cell: Google G mark on transparent backdrop */}
+              <span className="flex items-center justify-center px-3">
                 <GoogleGMark className="h-6 w-6" />
               </span>
+              <span className="w-px bg-white/10" aria-hidden="true" />
               {/* Right cell: data */}
-              <span className="flex items-center gap-2 pl-2.5 pr-3.5 py-2 bg-white">
+              <span className="flex items-center gap-2 pl-3 pr-3.5 py-2">
                 <span className="flex flex-col leading-none">
-                  <span className="text-gray-900 text-[10px] font-bold tracking-[0.12em] uppercase">
+                  <span className="text-white/65 text-[10px] font-bold tracking-[0.12em] uppercase">
                     Google
                   </span>
                   <span className="mt-1 inline-flex items-center gap-1.5">
                     {rating && (
-                      <span className="text-gray-900 text-base font-black font-mono leading-none">
+                      <span className="text-white text-base font-black font-mono leading-none">
                         {rating}
                       </span>
                     )}
                     <StarRow count={5} />
                     {reviewCount && (
-                      <span className="text-gray-500 text-xs font-medium leading-none">
+                      <span className="text-white/55 text-xs font-medium leading-none">
                         ({reviewCount})
                       </span>
                     )}

@@ -17,12 +17,12 @@ const featuredServices = [
   { label: "Mold Remediation", href: "/mold-remediation" },
   { label: "Pack-Out & Cleaning", href: "/reconstruction/pack-out-cleaning" },
   { label: "Roofing Services", href: "/reconstruction/roofing" },
-  { label: "Insurance Claim Assistance", href: "/insurance-claims" },
+  { label: "Insurance Claim Assistance", href: "/reconstruction/insurance-claims" },
 ]
 
 const company = [
   { label: "About Us", href: "/about-us" },
-  { label: "Insurance Claims", href: "/insurance-claims" },
+  { label: "Insurance Claims", href: "/reconstruction/insurance-claims" },
   { label: "Contact", href: "/contact-us" },
   { label: "Areas Served", href: "/areas-served" },
   { label: "Blog", href: "/blog" },
@@ -364,7 +364,7 @@ export default function SiteFooter() {
             <Link href="/privacy-policy" className="hover:text-white/50 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="hover:text-white/50 transition-colors">
+            <Link href="/terms-of-service" className="hover:text-white/50 transition-colors">
               Terms
             </Link>
           </div>
