@@ -274,17 +274,15 @@ export default async function BlogPostPage({
           />
 
           <div className="relative max-w-7xl mx-auto px-5 sm:px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-10 lg:gap-14">
-              {/* Main column */}
-              <article className="min-w-0">
-                <div className="space-y-5 max-w-3xl">
-                  {post.body.map((block, idx) => (
-                    <BlockRenderer key={idx} block={block} />
-                  ))}
-                </div>
+            <article className="max-w-4xl">
+              <div className="space-y-5">
+                {post.body.map((block, idx) => (
+                  <BlockRenderer key={idx} block={block} />
+                ))}
+              </div>
 
-                {/* End-of-article CTA */}
-                <div className="mt-12 relative bg-[#0c1230] border border-white/12 rounded-sm overflow-hidden">
+              {/* End-of-article CTA */}
+              <div className="mt-12 relative bg-[#0c1230] border border-white/12 rounded-sm overflow-hidden">
                   <div
                     className="absolute left-0 top-0 bottom-0 w-1 bg-red-600"
                     aria-hidden="true"
@@ -337,72 +335,7 @@ export default async function BlogPostPage({
                     </div>
                   </div>
                 </div>
-              </article>
-
-              {/* Sidebar */}
-              <aside className="lg:sticky lg:top-24 self-start space-y-5">
-                <div className="relative bg-[#0c1230] border border-white/10 rounded-sm overflow-hidden">
-                  <div
-                    className="absolute left-0 top-0 bottom-0 w-0.75 bg-red-600"
-                    aria-hidden="true"
-                  />
-                  <div className="p-5 pl-6">
-                    <div className="flex items-center gap-2 mb-3">
-                      <User
-                        className="h-3.5 w-3.5 text-red-400"
-                        aria-hidden="true"
-                      />
-                      <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-red-400 font-bold">
-                        Written By
-                      </span>
-                    </div>
-                    <p className="text-white font-black text-base tracking-tight leading-tight">
-                      Dillon Patterson
-                    </p>
-                    <p className="text-white/55 text-xs leading-relaxed mt-1.5">
-                      Owner, S.W.A.T. Restoration — family-owned water, fire,
-                      and mold restoration serving Aledo &amp; Fort Worth.
-                    </p>
-                    <Link
-                      href="/about-us"
-                      className="mt-3 inline-flex items-center gap-1.5 text-red-400 hover:text-red-300 text-xs font-semibold uppercase tracking-wider transition-colors"
-                    >
-                      View Bio
-                      <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="relative bg-[#0c1230] border border-white/10 rounded-sm overflow-hidden">
-                  <div
-                    className="absolute left-0 top-0 bottom-0 w-0.75 bg-red-600"
-                    aria-hidden="true"
-                  />
-                  <div className="p-5 pl-6">
-                    <div className="flex items-center gap-2 mb-3">
-                      <Phone
-                        className="h-3.5 w-3.5 text-red-400"
-                        aria-hidden="true"
-                      />
-                      <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-red-400 font-bold">
-                        24/7 Dispatch
-                      </span>
-                    </div>
-                    <Link
-                      href={siteConfig.phone.primary_tel}
-                      className="block group"
-                    >
-                      <p className="text-[10px] font-mono tracking-[0.18em] uppercase text-white/45 font-semibold mb-0.5">
-                        Aledo &amp; Fort Worth
-                      </p>
-                      <p className="text-white group-hover:text-red-400 font-bold text-base font-mono tracking-tight transition-colors">
-                        {siteConfig.phone.primary}
-                      </p>
-                    </Link>
-                  </div>
-                </div>
-              </aside>
-            </div>
+            </article>
           </div>
         </section>
 
