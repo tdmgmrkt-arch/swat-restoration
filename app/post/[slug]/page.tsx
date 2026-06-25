@@ -281,19 +281,48 @@ export default async function BlogPostPage({
             <article className="max-w-4xl">
               <div className="space-y-5">
                 {(() => {
-                  // Find the index of the first paragraph so it gets the
-                  // larger "lede" treatment. Headings/lists before the first
-                  // paragraph are rare but possible.
+                  // Pre-walk once to compute per-block metadata:
+                  // - the lede paragraph (first paragraph in the body) gets
+                  //   a larger lead-in treatment
+                  // - each heading gets its sequential number for location
+                  //   tracking ("02 / 12")
+                  // - headings with fewer than 2 content blocks between them
+                  //   and the next heading are treated as "short beats" and
+                  //   render with a softer style so the heavy heading
+                  //   treatment doesn't oversell a one-liner section
                   const firstParaIdx = post.body.findIndex(
                     (b) => b.type === "paragraph"
                   )
-                  return post.body.map((block, idx) => (
-                    <BlockRenderer
-                      key={idx}
-                      block={block}
-                      isLede={idx === firstParaIdx}
-                    />
-                  ))
+                  const totalHeadings = post.body.filter(
+                    (b) => b.type === "heading"
+                  ).length
+                  let runningHeadingIdx = 0
+                  return post.body.map((block, idx) => {
+                    if (block.type !== "heading") {
+                      return (
+                        <BlockRenderer
+                          key={idx}
+                          block={block}
+                          isLede={idx === firstParaIdx}
+                        />
+                      )
+                    }
+                    runningHeadingIdx++
+                    let contentCount = 0
+                    for (let j = idx + 1; j < post.body.length; j++) {
+                      if (post.body[j].type === "heading") break
+                      contentCount++
+                    }
+                    return (
+                      <BlockRenderer
+                        key={idx}
+                        block={block}
+                        headingNumber={runningHeadingIdx}
+                        totalHeadings={totalHeadings}
+                        isShortSection={contentCount < 2}
+                      />
+                    )
+                  })
                 })()}
               </div>
 
@@ -462,14 +491,22 @@ function AuthorBio() {
 
 /* ------------------------------------------------------------------ */
 /* Block renderer — discriminates on `type` to render each ContentBlock */
-/* `isLede` styles the first paragraph as a larger lead-in. */
+/* `isLede` styles the first paragraph as a larger lead-in.            */
+/* `headingNumber`/`totalHeadings` drive the section-number eyebrow.    */
+/* `isShortSection` softens the heading style for thin-content sections. */
 /* ------------------------------------------------------------------ */
 function BlockRenderer({
   block,
   isLede = false,
+  headingNumber,
+  totalHeadings,
+  isShortSection = false,
 }: {
   block: ContentBlock
   isLede?: boolean
+  headingNumber?: number
+  totalHeadings?: number
+  isShortSection?: boolean
 }) {
   if (block.type === "paragraph") {
     const paraClass = isLede
@@ -506,13 +543,38 @@ function BlockRenderer({
 
   if (block.type === "heading") {
     const id = block.id ?? slugify(block.text)
+    const num = String(headingNumber ?? 1).padStart(2, "0")
+    const total = String(totalHeadings ?? 1).padStart(2, "0")
+    const label = (
+      <span className="text-[10px] font-mono tracking-[0.28em] uppercase text-red-400 font-bold">
+        {num} <span className="text-red-400/40">/</span> {total}
+      </span>
+    )
+
+    // Short sections (≤1 content block between headings) get a softer
+    // treatment so the heavy bordered style doesn't oversell a one-liner.
+    if (isShortSection) {
+      return (
+        <div className="pt-6">
+          <div className="flex items-center gap-2.5 mb-2.5">
+            <span className="h-px w-6 bg-red-600/70" aria-hidden="true" />
+            {label}
+          </div>
+          <h2
+            id={id}
+            className="text-2xl sm:text-3xl font-black text-white tracking-tight leading-tight"
+          >
+            {block.text}
+          </h2>
+        </div>
+      )
+    }
+
     return (
       <div className="pt-10 lg:pt-12 mt-6 border-t border-white/10">
         <div className="flex items-center gap-2.5 mb-4">
           <span className="h-1 w-10 bg-red-600" aria-hidden="true" />
-          <span className="text-[10px] font-mono tracking-[0.28em] uppercase text-red-400 font-bold">
-            Section
-          </span>
+          {label}
         </div>
         <h2
           id={id}
@@ -538,8 +600,8 @@ function BlockRenderer({
               key={item}
               className="flex items-start gap-3 text-white/85 text-base leading-relaxed"
             >
-              <span
-                className="mt-2.5 h-1.5 w-1.5 rounded-sm bg-red-500 shrink-0 rotate-45"
+              <ChevronRight
+                className="h-4 w-4 text-red-500 mt-1 shrink-0"
                 aria-hidden="true"
               />
               <span>{item}</span>
