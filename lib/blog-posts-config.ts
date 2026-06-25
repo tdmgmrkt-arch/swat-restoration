@@ -118,26 +118,37 @@ export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
 }
 
 /**
- * Posts per blog hub page. 9 = 1 featured + 1 secondary + 7-card grid that
- * balances the asymmetric layout. Tweak here; everything (hub, sitemap,
- * page route) derives off this constant.
+ * Posts per paginated hub page (pages 2..N). 9 = 3 clean rows of 3 in the
+ * plain grid layout used on those pages.
  */
 export const POSTS_PER_PAGE = 9
 
+/**
+ * Posts on page 1. The page-1 layout is asymmetric — 1 featured (big) + 1
+ * secondary takes the top row, then a 3-col grid. Setting this to 8 means
+ * the grid below the featured row gets exactly 6 cards = 2 clean rows of 3
+ * (no orphaned card on the first page). The orphan shifts to the last page,
+ * which is the right place for it.
+ */
+export const POSTS_ON_PAGE_1 = 8
+
 /** Total number of paginated hub pages — at least 1. */
-export const TOTAL_BLOG_PAGES = Math.max(
-  1,
-  Math.ceil(allBlogPosts.length / POSTS_PER_PAGE)
-)
+export const TOTAL_BLOG_PAGES = (() => {
+  const total = allBlogPosts.length
+  if (total <= POSTS_ON_PAGE_1) return 1
+  return 1 + Math.ceil((total - POSTS_ON_PAGE_1) / POSTS_PER_PAGE)
+})()
 
 /**
  * Slice `allBlogPosts` to the posts that belong on a given hub page.
- * `page` is 1-indexed (page 1 = newest 9, page 2 = next 9, ...).
+ * `page` is 1-indexed. Page 1 returns the first POSTS_ON_PAGE_1 posts;
+ * pages 2..N return POSTS_PER_PAGE each (last page may be shorter).
  * Returns [] for out-of-range pages.
  */
 export function getPostsForPage(page: number): BlogPost[] {
   if (!Number.isInteger(page) || page < 1 || page > TOTAL_BLOG_PAGES) return []
-  const start = (page - 1) * POSTS_PER_PAGE
+  if (page === 1) return allBlogPosts.slice(0, POSTS_ON_PAGE_1)
+  const start = POSTS_ON_PAGE_1 + (page - 2) * POSTS_PER_PAGE
   return allBlogPosts.slice(start, start + POSTS_PER_PAGE)
 }
 

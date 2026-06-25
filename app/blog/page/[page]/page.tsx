@@ -9,6 +9,7 @@ import {
   getPostsForPage,
   TOTAL_BLOG_PAGES,
   POSTS_PER_PAGE,
+  POSTS_ON_PAGE_1,
 } from "@/lib/blog-posts-config"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 import {
@@ -77,7 +78,8 @@ export default async function PaginatedBlogPage({
   const posts = getPostsForPage(pageNum)
   if (posts.length === 0) notFound()
 
-  const startIdx = (pageNum - 1) * POSTS_PER_PAGE + 1
+  // Page 1 holds POSTS_ON_PAGE_1; subsequent pages hold POSTS_PER_PAGE each.
+  const startIdx = POSTS_ON_PAGE_1 + (pageNum - 2) * POSTS_PER_PAGE + 1
   const endIdx = Math.min(startIdx + posts.length - 1, allBlogPosts.length)
 
   return (
