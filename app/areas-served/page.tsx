@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Phone,
@@ -14,7 +15,7 @@ import {
   areasServedFaqSchema,
 } from "@/lib/schema"
 import { builtCitySlugs } from "@/lib/cities-config"
-import { cn } from "@/lib/utils"
+import { canonicalUrl, cn } from "@/lib/utils"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 
 import UtilityBar from "@/components/site/utility-bar"
@@ -24,7 +25,7 @@ import SiteFooter from "@/components/site/site-footer"
 import MobileCtaBar from "@/components/site/mobile-cta-bar"
 import FinalCta from "@/components/sections/final-cta"
 
-const CANONICAL = `${siteConfig.url}/areas-served`
+const CANONICAL = canonicalUrl("/areas-served")
 
 export const metadata: Metadata = {
   title: "Restoration Service Areas — 49 Communities | Aledo TX",
@@ -126,9 +127,26 @@ export default function AreasServedPage() {
 
         {/* ── 1. HERO ─────────────────────────────────────────────────────── */}
         <section
-          className="relative bg-[#0c1230] pt-24 pb-16 lg:pt-32 lg:pb-20 overflow-hidden"
+          className="relative isolate bg-[#0c1230] pt-24 pb-16 lg:pt-32 lg:pb-20 overflow-hidden"
           aria-labelledby="areas-hero-heading"
         >
+          <Image
+            src="/hero-images/service-pages-hero.webp"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center -z-10 opacity-55"
+            priority
+          />
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230] from-0% via-[#0c1230]/85 via-50% to-[#0c1230]/60 pointer-events-none"
+            aria-hidden="true"
+          />
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-transparent to-[#0c1230]/50 pointer-events-none"
+            aria-hidden="true"
+          />
+
           <div className="absolute inset-0 tactical-grid opacity-25" aria-hidden="true" />
           <div className="absolute left-0 inset-y-0 w-0.75 bg-linear-to-b from-transparent via-red-600/60 to-transparent" aria-hidden="true" />
           <div className="absolute top-8 left-8 w-6 h-6 border-t-2 border-l-2 border-red-600/50" aria-hidden="true" />

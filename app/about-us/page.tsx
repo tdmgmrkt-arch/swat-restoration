@@ -16,7 +16,7 @@ import {
 } from "lucide-react"
 
 import { siteConfig } from "@/lib/site-config"
-import { cn } from "@/lib/utils"
+import { canonicalUrl, cn } from "@/lib/utils"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 
 import SiteHeader from "@/components/site/site-header"
@@ -25,7 +25,7 @@ import SiteFooter from "@/components/site/site-footer"
 import MobileCtaBar from "@/components/site/mobile-cta-bar"
 import FinalCta from "@/components/sections/final-cta"
 
-const CANONICAL = `${siteConfig.url}/about-us`
+const CANONICAL = canonicalUrl("/about-us")
 
 export const metadata: Metadata = {
   title:
@@ -256,7 +256,7 @@ export default function AboutPage() {
 
                   <div className="relative bg-[#131a3e] border border-white/10 rounded-sm overflow-hidden aspect-4/3 lg:aspect-3/4">
                     <Image
-                      src="/swatteamphoto.jpeg"
+                      src="/aboutus.webp"
                       alt="S.W.A.T. Restoration crew — the team behind every dispatch"
                       fill
                       sizes="(min-width: 1024px) 40vw, 100vw"

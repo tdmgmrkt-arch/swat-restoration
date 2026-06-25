@@ -1,4 +1,5 @@
 import { siteConfig } from "./site-config"
+import { canonicalUrl } from "./utils"
 
 // Per-service configs live in lib/services/ — one file per service. This
 // keeps each page's content as a small, focused, reviewable unit and lets the
@@ -41,8 +42,6 @@ export type {
   RelatedService,
 } from "./services/_types"
 import type { ServiceConfig, RelatedService } from "./services/_types"
-
-const base = siteConfig.url
 
 // ---------------------------------------------------------------------------
 // Service registry — keyed by slug for O(1) lookup
@@ -166,11 +165,11 @@ export function servicePageSchema(cfg: ServiceConfig) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: cfg.name,
-    url: `${base}${cfg.href}`,
+    url: canonicalUrl(cfg.href),
     provider: {
       "@type": ["LocalBusiness", "GeneralContractor"],
       name: siteConfig.name,
-      url: base,
+      url: canonicalUrl("/"),
       telephone: siteConfig.phone.primary,
       address: {
         "@type": "PostalAddress",
@@ -238,7 +237,7 @@ export function serviceBreadcrumbSchema(cfg: ServiceConfig) {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: base,
+      item: canonicalUrl("/"),
     },
   ]
 
@@ -247,7 +246,7 @@ export function serviceBreadcrumbSchema(cfg: ServiceConfig) {
       "@type": "ListItem",
       position: 2,
       name: parent.name,
-      item: `${base}${parent.href}`,
+      item: canonicalUrl(parent.href),
     })
   }
 
@@ -255,7 +254,7 @@ export function serviceBreadcrumbSchema(cfg: ServiceConfig) {
     "@type": "ListItem",
     position: parent ? 3 : 2,
     name: cfg.name,
-    item: `${base}${cfg.href}`,
+    item: canonicalUrl(cfg.href),
   })
 
   return {

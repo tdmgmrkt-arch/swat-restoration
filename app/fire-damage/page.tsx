@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Phone,
@@ -18,7 +19,7 @@ import {
 import { siteConfig } from "@/lib/site-config"
 import { servicesConfig } from "@/lib/services-config"
 import { hubServiceSchema, hubBreadcrumbSchema, hubFaqSchema } from "@/lib/schema"
-import { cn } from "@/lib/utils"
+import { canonicalUrl, cn } from "@/lib/utils"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 
 import UtilityBar from "@/components/site/utility-bar"
@@ -35,7 +36,7 @@ import type { HubCardData } from "@/components/sections/hub/hub-service-card"
 // ─────────────────────────────────────────────────────────────────────────────
 
 const HUB_HREF = "/fire-damage"
-const CANONICAL = `${siteConfig.url}${HUB_HREF}`
+const CANONICAL = canonicalUrl(HUB_HREF)
 const LAST_UPDATED = "June 2026"
 
 const fireDamageCategory = siteConfig.serviceCategories.find(
@@ -244,6 +245,24 @@ export default function FireDamageHubPage() {
           className="relative isolate bg-[#0c1230] pt-16 pb-20 lg:pt-24 lg:pb-24 overflow-hidden"
           aria-labelledby="hub-heading"
         >
+          {/* Background image — heavily masked for legibility */}
+          <Image
+            src="/hero-images/service-pages-hero.webp"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center -z-10 opacity-55"
+            priority
+          />
+          {/* Stacked overlays — left-weighted so headline copy sits on near-solid backdrop */}
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230] from-0% via-[#0c1230]/85 via-50% to-[#0c1230]/60 pointer-events-none"
+            aria-hidden="true"
+          />
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-transparent to-[#0c1230]/50 pointer-events-none"
+            aria-hidden="true"
+          />
           <div
             className="absolute inset-0 tactical-grid opacity-30 pointer-events-none"
             aria-hidden="true"

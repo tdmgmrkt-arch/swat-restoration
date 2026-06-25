@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { Suspense } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Phone,
@@ -12,7 +14,7 @@ import {
 
 import { siteConfig } from "@/lib/site-config"
 import { contactPageSchema, contactBreadcrumbSchema } from "@/lib/schema"
-import { cn } from "@/lib/utils"
+import { canonicalUrl, cn } from "@/lib/utils"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 import { ContactForm } from "@/components/forms/contact-form"
 
@@ -22,7 +24,7 @@ import SiteFooter from "@/components/site/site-footer"
 import MobileCtaBar from "@/components/site/mobile-cta-bar"
 import FinalCta from "@/components/sections/final-cta"
 
-const CANONICAL = `${siteConfig.url}/contact-us`
+const CANONICAL = canonicalUrl("/contact-us")
 
 export const metadata: Metadata = {
   title: "Contact S.W.A.T. Restoration — Aledo, TX",
@@ -84,9 +86,27 @@ export default function ContactPage() {
         {/* 1. HERO — 2-column: copy/CTA + form (form lives above the fold) */}
         {/* ============================================================== */}
         <section
-          className="relative bg-[#0c1230] pt-16 pb-20 lg:pt-24 lg:pb-28 overflow-hidden"
+          className="relative isolate bg-[#0c1230] pt-16 pb-20 lg:pt-24 lg:pb-28 overflow-hidden"
           aria-labelledby="contact-heading"
         >
+          {/* Background image */}
+          <Image
+            src="/hero-images/contacthero.webp"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-right lg:object-center -z-10 opacity-55 scale-110 lg:translate-x-[4%]"
+            priority
+          />
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230] from-0% via-[#0c1230]/85 via-50% to-[#0c1230]/60 pointer-events-none"
+            aria-hidden="true"
+          />
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-transparent to-[#0c1230]/50 pointer-events-none"
+            aria-hidden="true"
+          />
+
           {/* Tactical grid */}
           <div
             className="absolute inset-0 tactical-grid opacity-30 pointer-events-none"
@@ -124,11 +144,11 @@ export default function ContactPage() {
 
                 <h1
                   id="contact-heading"
-                  className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.05] mb-5"
+                  className="text-4xl sm:text-5xl lg:text-5xl xl:text-6xl font-black text-white tracking-tight leading-[1.05] mb-5"
                 >
-                  First Responders
+                  <span className="whitespace-nowrap">First Responders</span>
                   <br />
-                  <span className="text-red-500">for Water & Fire.</span>
+                  <span className="text-red-500 whitespace-nowrap">for Water &amp; Fire.</span>
                 </h1>
 
                 <p className="text-white/65 text-base sm:text-lg leading-relaxed max-w-lg mb-8">
@@ -168,6 +188,67 @@ export default function ContactPage() {
                   <TrustStat value="<60" label="Min Arrival" unit="MIN" />
                   <TrustStat value={`${ratingFallback.rating}★`} label={`${ratingFallback.count}+ Reviews`} />
                 </ul>
+
+                {/* Active emergency callout — high-urgency redirect to phone */}
+                <div className="mt-6 relative bg-red-600/8 border border-red-600/35 rounded-sm p-5">
+                  <div
+                    className="absolute top-0 left-0 w-1 h-full bg-red-600"
+                    aria-hidden="true"
+                  />
+                  <div className="flex items-start gap-3 pl-2">
+                    <AlertTriangle
+                      className="h-5 w-5 text-red-400 shrink-0 mt-0.5"
+                      aria-hidden="true"
+                    />
+                    <div>
+                      <p className="text-[10px] font-mono tracking-[0.22em] uppercase text-red-400 font-bold mb-1.5">
+                        Active Emergency?
+                      </p>
+                      <p className="text-white/80 text-sm leading-relaxed mb-2">
+                        Water still rising, fire just out, or sewage backing up?
+                        Don&apos;t wait on the form — call dispatch direct, 24/7.
+                      </p>
+                      <Link
+                        href={loc.tel}
+                        className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-mono font-bold text-base tracking-tight transition-colors"
+                        aria-label={`Call dispatch at ${loc.phone}`}
+                      >
+                        <Phone className="h-4 w-4" aria-hidden="true" />
+                        {loc.phone}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                {/* What happens next — sets expectations, lowers form friction */}
+                <div className="mt-5">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-white/55 font-semibold">
+                      After You Submit
+                    </span>
+                    <span
+                      className="h-px flex-1 bg-linear-to-r from-white/15 to-transparent"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <ol role="list" className="space-y-3">
+                    <NextStep
+                      index="01"
+                      title="Dispatcher reviews your request"
+                      copy="A real person reads your notes and matches an IICRC-trained crew to the loss."
+                    />
+                    <NextStep
+                      index="02"
+                      title="We reach out your way"
+                      copy="Phone, text, or email — your call. We confirm timing and crew ETA."
+                    />
+                    <NextStep
+                      index="03"
+                      title="Insurance billing direct"
+                      copy="Covered losses get documented for the adjuster and billed to your carrier — no out-of-pocket wait."
+                    />
+                  </ol>
+                </div>
               </div>
 
               {/* RIGHT — form card, above the fold on desktop */}
@@ -215,7 +296,12 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  <ContactForm />
+                  {/* Suspense boundary required because ContactForm uses
+                      useSearchParams() to read ?service= and &detail= for
+                      deep-linked service-page CTAs. */}
+                  <Suspense fallback={null}>
+                    <ContactForm />
+                  </Suspense>
                 </div>
               </div>
             </div>
@@ -354,6 +440,36 @@ function DirectLineCard({
         {phone}
       </span>
     </Link>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+/* Next Step — numbered step in the "After You Submit" list             */
+/* ------------------------------------------------------------------ */
+function NextStep({
+  index,
+  title,
+  copy,
+}: {
+  index: string
+  title: string
+  copy: string
+}) {
+  return (
+    <li className="flex items-start gap-3.5">
+      <span
+        className="shrink-0 w-8 h-8 bg-red-600/15 border border-red-600/40 text-red-400 font-mono font-bold text-xs tracking-tight flex items-center justify-center rounded-sm"
+        aria-hidden="true"
+      >
+        {index}
+      </span>
+      <div className="min-w-0 pt-0.5">
+        <p className="text-white font-bold text-sm leading-tight mb-1">
+          {title}
+        </p>
+        <p className="text-white/55 text-[13px] leading-relaxed">{copy}</p>
+      </div>
+    </li>
   )
 }
 

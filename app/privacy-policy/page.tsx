@@ -18,7 +18,7 @@ import {
 } from "lucide-react"
 
 import { siteConfig } from "@/lib/site-config"
-import { cn } from "@/lib/utils"
+import { canonicalUrl, cn } from "@/lib/utils"
 import { TacticalLabel, AccentLine } from "@/components/ui/tactical-panel"
 
 import SiteHeader from "@/components/site/site-header"
@@ -26,7 +26,7 @@ import PageBreadcrumb from "@/components/site/page-breadcrumb"
 import SiteFooter from "@/components/site/site-footer"
 import MobileCtaBar from "@/components/site/mobile-cta-bar"
 
-const CANONICAL = `${siteConfig.url}/privacy-policy`
+const CANONICAL = canonicalUrl("/privacy-policy")
 const EFFECTIVE_DATE = "June 19, 2026"
 
 export const metadata: Metadata = {

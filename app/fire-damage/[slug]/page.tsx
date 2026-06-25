@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { siteConfig } from "@/lib/site-config"
+import { canonicalUrl } from "@/lib/utils"
 import {
   getServiceConfig,
   resolveRelatedServices,
@@ -41,15 +42,15 @@ export async function generateMetadata({
   const cfg = getServiceConfig(slug)
   if (!cfg) return {}
 
-  const canonicalUrl = `${siteConfig.url}${cfg.href}`
+  const canonical = canonicalUrl(cfg.href)
 
   return {
     title: cfg.metaTitle,
     description: cfg.metaDescription,
-    alternates: { canonical: canonicalUrl },
+    alternates: { canonical },
     openGraph: {
       type: "website",
-      url: canonicalUrl,
+      url: canonical,
       title: cfg.metaTitle,
       description: cfg.metaDescription,
       siteName: siteConfig.name,

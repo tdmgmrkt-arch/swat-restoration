@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { siteConfig } from "@/lib/site-config"
+import { canonicalUrl } from "@/lib/utils"
 import { plumberSchema } from "@/lib/schema"
 
 import UtilityBar from "@/components/site/utility-bar"
@@ -21,11 +22,11 @@ export const metadata: Metadata = {
   title: `${siteConfig.name} | Water & Fire Damage Restoration in DFW`,
   description: siteConfig.description,
   alternates: {
-    canonical: siteConfig.url,
+    canonical: canonicalUrl("/"),
   },
   openGraph: {
     type: "website",
-    url: siteConfig.url,
+    url: canonicalUrl("/"),
     title: `${siteConfig.name} | Water & Fire Damage Restoration in DFW`,
     description: siteConfig.description,
   },
