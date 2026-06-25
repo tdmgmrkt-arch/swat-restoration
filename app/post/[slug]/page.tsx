@@ -280,13 +280,28 @@ export default async function BlogPostPage({
           <div className="relative max-w-7xl mx-auto px-5 sm:px-6">
             <article className="max-w-4xl">
               <div className="space-y-5">
-                {post.body.map((block, idx) => (
-                  <BlockRenderer key={idx} block={block} />
-                ))}
+                {(() => {
+                  // Find the index of the first paragraph so it gets the
+                  // larger "lede" treatment. Headings/lists before the first
+                  // paragraph are rare but possible.
+                  const firstParaIdx = post.body.findIndex(
+                    (b) => b.type === "paragraph"
+                  )
+                  return post.body.map((block, idx) => (
+                    <BlockRenderer
+                      key={idx}
+                      block={block}
+                      isLede={idx === firstParaIdx}
+                    />
+                  ))
+                })()}
               </div>
 
+              {/* About the author — E-E-A-T signal tied to the article */}
+              <AuthorBio />
+
               {/* End-of-article CTA */}
-              <div className="mt-12 relative bg-[#0c1230] border border-white/12 rounded-sm overflow-hidden">
+              <div className="mt-10 relative bg-[#0c1230] border border-white/12 rounded-sm overflow-hidden">
                   <div
                     className="absolute left-0 top-0 bottom-0 w-1 bg-red-600"
                     aria-hidden="true"
@@ -396,12 +411,72 @@ export default async function BlogPostPage({
 }
 
 /* ------------------------------------------------------------------ */
-/* Block renderer — discriminates on `type` to render each ContentBlock */
+/* AuthorBio — E-E-A-T card placed after body, before end-of-article CTA */
 /* ------------------------------------------------------------------ */
-function BlockRenderer({ block }: { block: ContentBlock }) {
+function AuthorBio() {
+  return (
+    <aside
+      aria-label="About the author"
+      className="mt-12 relative bg-[#0c1230] border border-white/12 rounded-sm overflow-hidden"
+    >
+      <div
+        className="absolute left-0 top-0 bottom-0 w-1 bg-red-600"
+        aria-hidden="true"
+      />
+      <div className="p-6 lg:p-7 pl-7 lg:pl-8 flex flex-col sm:flex-row gap-5 items-start">
+        <div
+          className="shrink-0 w-16 h-16 rounded-sm bg-red-600/15 border border-red-600/40 flex items-center justify-center"
+          aria-hidden="true"
+        >
+          <User className="h-7 w-7 text-red-400" />
+        </div>
+        <div className="flex-1 min-w-0">
+          <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-red-400 font-bold">
+            About the Author
+          </span>
+          <h3 className="text-xl font-black text-white tracking-tight mt-2 mb-1">
+            {siteConfig.owners.names}
+          </h3>
+          <p className="text-white/55 text-xs font-mono tracking-wide mb-3 uppercase">
+            {siteConfig.owners.title} · Aledo, TX
+          </p>
+          <p className="text-white/75 text-sm sm:text-base leading-relaxed mb-4">
+            Family-owned and operated, S.W.A.T. Restoration is a 24/7
+            emergency response crew handling water damage, fire &amp; smoke
+            cleanup, mold remediation, and full reconstruction across 49 DFW
+            communities. Every post on this blog is written from the field —
+            real jobs, real callbacks, real decisions homeowners face.
+          </p>
+          <Link
+            href="/about-us"
+            className="inline-flex items-center gap-1.5 text-red-400 hover:text-red-300 text-xs font-bold uppercase tracking-wider transition-colors"
+          >
+            Meet the team
+            <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
+          </Link>
+        </div>
+      </div>
+    </aside>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+/* Block renderer — discriminates on `type` to render each ContentBlock */
+/* `isLede` styles the first paragraph as a larger lead-in. */
+/* ------------------------------------------------------------------ */
+function BlockRenderer({
+  block,
+  isLede = false,
+}: {
+  block: ContentBlock
+  isLede?: boolean
+}) {
   if (block.type === "paragraph") {
+    const paraClass = isLede
+      ? "text-white text-xl sm:text-2xl leading-relaxed font-light border-l-2 border-red-600/70 pl-5 sm:pl-6 my-2"
+      : "text-white/75 text-base sm:text-lg leading-relaxed"
     return (
-      <p className="text-white/75 text-base sm:text-lg leading-relaxed">
+      <p className={paraClass}>
         {typeof block.content === "string"
           ? block.content
           : block.content.map((token, i) => {
@@ -432,16 +507,16 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
   if (block.type === "heading") {
     const id = block.id ?? slugify(block.text)
     return (
-      <div className="pt-7 pb-1">
-        <div className="flex items-center gap-2.5 mb-3">
-          <span className="h-px w-6 bg-red-600" aria-hidden="true" />
-          <span className="text-[9px] font-mono tracking-[0.25em] uppercase text-red-400 font-bold">
+      <div className="pt-10 lg:pt-12 mt-6 border-t border-white/10">
+        <div className="flex items-center gap-2.5 mb-4">
+          <span className="h-1 w-10 bg-red-600" aria-hidden="true" />
+          <span className="text-[10px] font-mono tracking-[0.28em] uppercase text-red-400 font-bold">
             Section
           </span>
         </div>
         <h2
           id={id}
-          className="text-2xl sm:text-3xl font-black text-white tracking-tight leading-tight"
+          className="text-3xl sm:text-4xl font-black text-white tracking-tight leading-[1.1]"
         >
           {block.text}
         </h2>
@@ -451,20 +526,20 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
 
   if (block.type === "list") {
     return (
-      <div className="space-y-3">
+      <div className="relative my-3 bg-white/3 border-l-2 border-red-600/60 rounded-r-sm p-5 sm:p-6">
         {block.intro && (
-          <p className="text-white/75 text-base sm:text-lg leading-relaxed">
+          <p className="text-white text-base sm:text-lg leading-relaxed font-semibold mb-4">
             {block.intro}
           </p>
         )}
-        <ul role="list" className="space-y-2.5">
+        <ul role="list" className="space-y-3">
           {block.items.map((item) => (
             <li
               key={item}
-              className="flex items-start gap-3 text-white/75 text-base leading-relaxed"
+              className="flex items-start gap-3 text-white/85 text-base leading-relaxed"
             >
               <span
-                className="mt-2 h-1 w-1 rounded-full bg-red-500 shrink-0"
+                className="mt-2.5 h-1.5 w-1.5 rounded-sm bg-red-500 shrink-0 rotate-45"
                 aria-hidden="true"
               />
               <span>{item}</span>
