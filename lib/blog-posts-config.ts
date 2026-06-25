@@ -112,9 +112,31 @@ export function getBlogPost(slug: string): BlogPost | null {
   return post
 }
 
-/** Pick N most recent published posts excluding a given slug (for "Related Reading" lists). */
+/**
+ * Pick N "related" published posts for the Related Reading rail.
+ *
+ * Strategy: same-category siblings first (sorted newest-first), then
+ * backfill with the most recent posts from other categories so the list
+ * always reaches `count` items even for sparse categories like Insurance
+ * Claims that only have one or two posts. Topical relevance wins over
+ * pure recency — a Fire post shouldn't recommend three Mold posts just
+ * because Mold dominates the recent feed.
+ */
 export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
-  return allBlogPosts.filter((p) => p.slug !== currentSlug).slice(0, count)
+  const current = blogPosts[currentSlug]
+  if (!current) {
+    return allBlogPosts.filter((p) => p.slug !== currentSlug).slice(0, count)
+  }
+  const sameCategory = allBlogPosts.filter(
+    (p) => p.slug !== currentSlug && p.category === current.category
+  )
+  if (sameCategory.length >= count) return sameCategory.slice(0, count)
+  const pickedSlugs = new Set<string>([
+    currentSlug,
+    ...sameCategory.map((p) => p.slug),
+  ])
+  const backfill = allBlogPosts.filter((p) => !pickedSlugs.has(p.slug))
+  return [...sameCategory, ...backfill].slice(0, count)
 }
 
 /**
