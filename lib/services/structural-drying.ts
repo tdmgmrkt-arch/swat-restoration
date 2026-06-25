@@ -127,6 +127,7 @@ export const structuralDrying: ServiceConfig = {
         "Mold requires moisture above approximately 16–20% MC in wood materials and sustained elevated humidity — both conditions that exist in a structure that was flooded and not properly dried. Reaching and maintaining the IICRC S500 dry standard cuts off the moisture source mold needs to colonize. S.W.A.T. Restoration applies antimicrobial treatment (Concrobium or Microban) to at-risk surfaces during the drying phase as an added barrier. No drying job can retroactively remove mold that colonized before the crew arrived — but a properly completed structural dry-down eliminates the conditions that would allow new growth.",
     },
   ],
+  heroImage: "/service-warnings/structural-drying.webp",
   relatedSlugs: ["water-extraction", "water-removal", "flood-restoration"],
   lastUpdated: "2026-06-16",
 }

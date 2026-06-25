@@ -127,6 +127,7 @@ export const waterExtraction: ServiceConfig = {
         "If the source is an active leak, shut off the main water supply valve — for most Aledo and Fort Worth homes it is near the meter at the street or in a garage utility chase. Do not use electrical outlets, switches, or appliances in flooded areas. Move valuables, documents, and electronics to higher ground if it is safe to do so. Avoid walking through sewage or heavily contaminated water without protective gear. The dispatcher will walk you through any immediate steps when you call. Do not run fans into wet walls — that can spread contamination and slow the drying process; let the trained crew set the drying system.",
     },
   ],
+  heroImage: "/service-warnings/water-extraction.webp",
   relatedSlugs: ["water-removal", "structural-drying", "flood-restoration"],
   lastUpdated: "2026-06-16",
 }

@@ -127,6 +127,7 @@ export const generalConstruction: ServiceConfig = {
         "Texture matching — orange peel, knockdown, smooth, or hand-trowel — is done by eye and sample test before the full area is textured. Flooring is matched by species, plank width, and finish when the existing flooring is still in production; discontinued styles require an adjuster-approved substitution. Paint color is matched from the pre-loss photo documentation using spectrophotometer color matching at the paint supplier. S.W.A.T. Restoration documents the matching process and any approved substitutions in the closeout file.",
     },
   ],
+  heroImage: "/service-warnings/general-construction.webp",
   relatedSlugs: ["insurance-claims", "roofing", "pack-out-cleaning"],
   lastUpdated: "2026-06-16",
 }

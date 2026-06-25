@@ -1,0 +1,479 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]: Blog · Page 2
+    - region "Page 2 of 5" [ref=e39]:
+      - generic [ref=e42]:
+        - generic [ref=e47]: Intelligence Briefings
+        - paragraph [ref=e48]: Field Notes
+        - heading "Page 2 of 5" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Posts 9–17 of 39
+    - region "Blog posts, page 2" [ref=e52]:
+      - generic [ref=e54]:
+        - heading "Blog posts, page 2" [level=2] [ref=e55]
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Mold Remediation Process Length Mold Remediation May 4, 2026 4 min Mold Remediation Process Length We provide professional mold remediation services that help homeowners address contamination quickly while restoring safe, healthy indoor conditions with minimal disruption. Aledo, TX Read post" [ref=e58] [cursor=pointer]:
+              - /url: /post/mold-remediation-process-length/
+              - generic [ref=e59]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Mold Remediation Process Length" [ref=e60]
+                - generic [ref=e63]: Mold Remediation
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - img [ref=e67]
+                    - text: May 4, 2026
+                  - generic [ref=e69]: ·
+                  - generic [ref=e70]:
+                    - img [ref=e71]
+                    - text: 4 min
+                - heading "Mold Remediation Process Length" [level=3] [ref=e74]
+                - paragraph [ref=e75]: We provide professional mold remediation services that help homeowners address contamination quickly while restoring safe, healthy indoor conditions with minimal disruption.
+                - generic [ref=e76]:
+                  - generic [ref=e77]:
+                    - img [ref=e78]
+                    - text: Aledo, TX
+                  - generic [ref=e81]:
+                    - text: Read post
+                    - img [ref=e82]
+          - listitem [ref=e84]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Best Company For Mold Remediation Near Me Mold Remediation April 27, 2026 4 min Best Company For Mold Remediation Near Me We provide trusted, professional mold remediation services designed to remove mold at the source, protect your property, and restore a safe, healthy environment as quickly as possible. Aledo, TX Read post" [ref=e85] [cursor=pointer]:
+              - /url: /post/best-company-for-mold-remediation-near-me/
+              - generic [ref=e86]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Best Company For Mold Remediation Near Me" [ref=e87]
+                - generic [ref=e90]: Mold Remediation
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - img [ref=e94]
+                    - text: April 27, 2026
+                  - generic [ref=e96]: ·
+                  - generic [ref=e97]:
+                    - img [ref=e98]
+                    - text: 4 min
+                - heading "Best Company For Mold Remediation Near Me" [level=3] [ref=e101]
+                - paragraph [ref=e102]: We provide trusted, professional mold remediation services designed to remove mold at the source, protect your property, and restore a safe, healthy environment as quickly as possible.
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - img [ref=e105]
+                    - text: Aledo, TX
+                  - generic [ref=e108]:
+                    - text: Read post
+                    - img [ref=e109]
+          - listitem [ref=e111]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How To Tell If Mold Is Behind Walls Mold Remediation April 20, 2026 4 min How To Tell If Mold Is Behind Walls Our mold removal and mold remediation company offers professional mold inspection and remediation services that help homeowners detect hidden mold behind walls, stop it from spreading, and restore a safe, healthy living environment. Aledo, TX Read post" [ref=e112] [cursor=pointer]:
+              - /url: /post/how-to-tell-if-mold-is-behind-walls/
+              - generic [ref=e113]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How To Tell If Mold Is Behind Walls" [ref=e114]
+                - generic [ref=e117]: Mold Remediation
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - img [ref=e121]
+                    - text: April 20, 2026
+                  - generic [ref=e123]: ·
+                  - generic [ref=e124]:
+                    - img [ref=e125]
+                    - text: 4 min
+                - heading "How To Tell If Mold Is Behind Walls" [level=3] [ref=e128]
+                - paragraph [ref=e129]: Our mold removal and mold remediation company offers professional mold inspection and remediation services that help homeowners detect hidden mold behind walls, stop it from spreading, and restore a safe, healthy living environment.
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - img [ref=e132]
+                    - text: Aledo, TX
+                  - generic [ref=e135]:
+                    - text: Read post
+                    - img [ref=e136]
+          - listitem [ref=e138]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me Mold Remediation April 13, 2026 4 min Who To Call For Mold Removal Near Me Our mold removal team provides reliable mold remediation services that connect homeowners with trained professionals who can safely remove mold, stop it from spreading, and restore your property the right way. Aledo, TX Read post" [ref=e139] [cursor=pointer]:
+              - /url: /post/who-to-call-for-mold-removal-near-me/
+              - generic [ref=e140]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me" [ref=e141]
+                - generic [ref=e144]: Mold Remediation
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - generic [ref=e147]:
+                    - img [ref=e148]
+                    - text: April 13, 2026
+                  - generic [ref=e150]: ·
+                  - generic [ref=e151]:
+                    - img [ref=e152]
+                    - text: 4 min
+                - heading "Who To Call For Mold Removal Near Me" [level=3] [ref=e155]
+                - paragraph [ref=e156]: Our mold removal team provides reliable mold remediation services that connect homeowners with trained professionals who can safely remove mold, stop it from spreading, and restore your property the right way.
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - img [ref=e159]
+                    - text: Aledo, TX
+                  - generic [ref=e162]:
+                    - text: Read post
+                    - img [ref=e163]
+          - listitem [ref=e165]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How To Get Rid Of Mold In My House Fast Mold Remediation April 6, 2026 4 min How To Get Rid Of Mold In My House Fast We provide fast, professional mold remediation services that remove mold at the source, stop it from spreading, and restore your home safely so you can get back to normal without the stress. Aledo, TX Read post" [ref=e166] [cursor=pointer]:
+              - /url: /post/how-to-get-rid-of-mold-in-my-house-fast/
+              - generic [ref=e167]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How To Get Rid Of Mold In My House Fast" [ref=e168]
+                - generic [ref=e171]: Mold Remediation
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]:
+                    - img [ref=e175]
+                    - text: April 6, 2026
+                  - generic [ref=e177]: ·
+                  - generic [ref=e178]:
+                    - img [ref=e179]
+                    - text: 4 min
+                - heading "How To Get Rid Of Mold In My House Fast" [level=3] [ref=e182]
+                - paragraph [ref=e183]: We provide fast, professional mold remediation services that remove mold at the source, stop it from spreading, and restore your home safely so you can get back to normal without the stress.
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - img [ref=e186]
+                    - text: Aledo, TX
+                  - generic [ref=e189]:
+                    - text: Read post
+                    - img [ref=e190]
+          - listitem [ref=e192]:
+            - link "S.W.A.T. Restoration insurance claim documentation in Aledo, TX — Does Homeowners Insurance Cover Water Damage Restoration Costs Insurance Claims March 23, 2026 4 min Does Homeowners Insurance Cover Water Damage Restoration Costs We help homeowners navigate the restoration process after water damage by providing professional cleanup services and guidance on working with insurance companies to recover eligible restoration costs. Aledo, TX Read post" [ref=e193] [cursor=pointer]:
+              - /url: /post/does-homeowners-insurance-cover-water-damage-restoration-costs/
+              - generic [ref=e194]:
+                - img "S.W.A.T. Restoration insurance claim documentation in Aledo, TX — Does Homeowners Insurance Cover Water Damage Restoration Costs" [ref=e195]
+                - generic [ref=e198]: Insurance Claims
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - img [ref=e202]
+                    - text: March 23, 2026
+                  - generic [ref=e204]: ·
+                  - generic [ref=e205]:
+                    - img [ref=e206]
+                    - text: 4 min
+                - heading "Does Homeowners Insurance Cover Water Damage Restoration Costs" [level=3] [ref=e209]
+                - paragraph [ref=e210]: We help homeowners navigate the restoration process after water damage by providing professional cleanup services and guidance on working with insurance companies to recover eligible restoration costs.
+                - generic [ref=e211]:
+                  - generic [ref=e212]:
+                    - img [ref=e213]
+                    - text: Aledo, TX
+                  - generic [ref=e216]:
+                    - text: Read post
+                    - img [ref=e217]
+          - listitem [ref=e219]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How to Prevent Mold After a Flood or Water Damage Mold Remediation March 16, 2026 4 min How to Prevent Mold After a Flood or Water Damage We provide fast, professional restoration services that help property owners remove water, dry affected areas, and prevent mold from developing after flooding or water damage. Aledo, TX Read post" [ref=e220] [cursor=pointer]:
+              - /url: /post/how-to-prevent-mold-after-a-flood-or-water-damage/
+              - generic [ref=e221]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — How to Prevent Mold After a Flood or Water Damage" [ref=e222]
+                - generic [ref=e225]: Mold Remediation
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - img [ref=e229]
+                    - text: March 16, 2026
+                  - generic [ref=e231]: ·
+                  - generic [ref=e232]:
+                    - img [ref=e233]
+                    - text: 4 min
+                - heading "How to Prevent Mold After a Flood or Water Damage" [level=3] [ref=e236]
+                - paragraph [ref=e237]: We provide fast, professional restoration services that help property owners remove water, dry affected areas, and prevent mold from developing after flooding or water damage.
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - img [ref=e240]
+                    - text: Aledo, TX
+                  - generic [ref=e243]:
+                    - text: Read post
+                    - img [ref=e244]
+          - listitem [ref=e246]:
+            - link "S.W.A.T. Restoration water damage response in Aledo, TX — How Long Does Water Damage Restoration Take to Complete Water Damage March 9, 2026 4 min How Long Does Water Damage Restoration Take to Complete We provide professional water damage restoration services that move quickly to remove water, dry affected areas, and restore your property safely after leaks, flooding, or storm damage. Aledo, TX Read post" [ref=e247] [cursor=pointer]:
+              - /url: /post/how-long-does-water-damage-restoration-take-to-complete/
+              - generic [ref=e248]:
+                - img "S.W.A.T. Restoration water damage response in Aledo, TX — How Long Does Water Damage Restoration Take to Complete" [ref=e249]
+                - generic [ref=e252]: Water Damage
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - img [ref=e256]
+                    - text: March 9, 2026
+                  - generic [ref=e258]: ·
+                  - generic [ref=e259]:
+                    - img [ref=e260]
+                    - text: 4 min
+                - heading "How Long Does Water Damage Restoration Take to Complete" [level=3] [ref=e263]
+                - paragraph [ref=e264]: We provide professional water damage restoration services that move quickly to remove water, dry affected areas, and restore your property safely after leaks, flooding, or storm damage.
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - img [ref=e267]
+                    - text: Aledo, TX
+                  - generic [ref=e270]:
+                    - text: Read post
+                    - img [ref=e271]
+          - listitem [ref=e273]:
+            - link "S.W.A.T. Restoration water damage response in Aledo, TX — My Home Has Water Damage What Are the First Steps to Take Water Damage March 2, 2026 4 min My Home Has Water Damage What Are the First Steps to Take We provide rapid response water damage restoration services that help homeowners stop damage quickly, dry affected areas properly, and restore their property safely after unexpected flooding or leaks. Aledo, TX Read post" [ref=e274] [cursor=pointer]:
+              - /url: /post/my-home-has-water-damage-what-are-the-first-steps-to-take/
+              - generic [ref=e275]:
+                - img "S.W.A.T. Restoration water damage response in Aledo, TX — My Home Has Water Damage What Are the First Steps to Take" [ref=e276]
+                - generic [ref=e279]: Water Damage
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - img [ref=e283]
+                    - text: March 2, 2026
+                  - generic [ref=e285]: ·
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - text: 4 min
+                - heading "My Home Has Water Damage What Are the First Steps to Take" [level=3] [ref=e290]
+                - paragraph [ref=e291]: We provide rapid response water damage restoration services that help homeowners stop damage quickly, dry affected areas properly, and restore their property safely after unexpected flooding or leaks.
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - img [ref=e294]
+                    - text: Aledo, TX
+                  - generic [ref=e297]:
+                    - text: Read post
+                    - img [ref=e298]
+        - navigation "Blog pagination" [ref=e300]:
+          - link "Previous" [ref=e301] [cursor=pointer]:
+            - /url: /blog/
+            - img [ref=e302]
+            - generic [ref=e304]: Previous
+          - list [ref=e305]:
+            - listitem [ref=e306]:
+              - link "1" [ref=e307] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e308]:
+              - generic [ref=e309]: "2"
+            - listitem [ref=e310]:
+              - link "3" [ref=e311] [cursor=pointer]:
+                - /url: /blog/page/3/
+            - listitem [ref=e312]:
+              - link "4" [ref=e313] [cursor=pointer]:
+                - /url: /blog/page/4/
+            - listitem [ref=e314]:
+              - link "5" [ref=e315] [cursor=pointer]:
+                - /url: /blog/page/5/
+          - link "Next" [ref=e316] [cursor=pointer]:
+            - /url: /blog/page/3/
+            - generic [ref=e317]: Next
+            - img [ref=e318]
+    - region "Water or fire damage at your home?" [ref=e320]:
+      - generic [ref=e331]:
+        - generic [ref=e335]: Mission Status
+        - generic [ref=e336]: ·
+        - generic [ref=e337]: Ready
+      - generic [ref=e339]:
+        - generic [ref=e342]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e344]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e345]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e346]:
+          - listitem [ref=e347]:
+            - generic [ref=e349]: 24/7
+            - generic [ref=e354]: Dispatch Active
+          - listitem [ref=e355]:
+            - generic [ref=e357]: 100%
+            - generic [ref=e359]: Family Owned
+          - listitem [ref=e360]:
+            - generic [ref=e362]: 49+
+            - generic [ref=e364]: DFW Communities
+        - generic [ref=e365]:
+          - link "Contact Us Now" [ref=e366] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e367]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e369] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e370]
+            - text: Call 817-286-4966
+        - generic [ref=e372]:
+          - generic [ref=e377]: 24/7 Dispatch
+          - generic [ref=e378]: ·
+          - generic [ref=e379]: Family Owned · DFW
+          - generic [ref=e380]: ·
+          - generic [ref=e381]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e382]:
+    - generic [ref=e384]:
+      - generic [ref=e385]:
+        - link "S.W.A.T. Restoration Home" [ref=e386] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e387]
+        - paragraph [ref=e388]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e391]:
+          - img [ref=e392]
+          - generic [ref=e395]:
+            - generic [ref=e396]: Aledo
+            - generic [ref=e397]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e398] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e399]
+              - text: 817-286-4966
+      - generic [ref=e401]:
+        - heading "Services" [level=3] [ref=e402]
+        - list [ref=e403]:
+          - listitem [ref=e404]:
+            - link "Water Damage Restoration" [ref=e405] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e406]:
+            - link "Fire & Smoke Damage" [ref=e407] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e408]:
+            - link "Mold Remediation" [ref=e409] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e410]:
+            - link "Pack-Out & Cleaning" [ref=e411] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e412]:
+            - link "Roofing Services" [ref=e413] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e414]:
+            - link "Insurance Claim Assistance" [ref=e415] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e416]:
+        - heading "Company" [level=3] [ref=e417]
+        - list [ref=e418]:
+          - listitem [ref=e419]:
+            - link "About Us" [ref=e420] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e421]:
+            - link "Insurance Claims" [ref=e422] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e423]:
+            - link "Contact" [ref=e424] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e425]:
+            - link "Areas Served" [ref=e426] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e427]:
+            - link "Blog" [ref=e428] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e429]:
+        - heading "Emergency Line" [level=3] [ref=e430]
+        - generic [ref=e431]:
+          - generic [ref=e439]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e440] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e441]:
+            - listitem [ref=e442]: Under 60-min arrival
+            - listitem [ref=e444]: Dispatch in minutes
+          - link "Call Now" [ref=e446] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e447]
+            - text: Call Now
+            - img [ref=e449]
+          - link "Email S.W.A.T. Restoration" [ref=e452] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e453]
+            - text: main@swat-restoration.com
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - heading "Service Areas" [level=3] [ref=e459]
+        - paragraph [ref=e460]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e461]:
+        - generic [ref=e464]: Primary Response
+        - list [ref=e465]:
+          - listitem [ref=e466]:
+            - link "Aledo, TX" [ref=e467] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e468]:
+            - link "Arlington, TX" [ref=e469] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e470]:
+            - link "Bedford, TX" [ref=e471] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e472]:
+            - link "Euless, TX" [ref=e473] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e474]:
+            - link "Fort Worth, TX" [ref=e475] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e476]:
+            - link "Grapevine, TX" [ref=e477] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e478]:
+            - link "Hurst, TX" [ref=e479] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e480]:
+            - link "Keller, TX" [ref=e481] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e482]:
+            - link "Mansfield, TX" [ref=e483] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e484]:
+            - link "North Richland Hills, TX" [ref=e485] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e486]:
+            - link "Southlake, TX" [ref=e487] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e488]:
+            - link "Weatherford, TX" [ref=e489] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e490]:
+        - generic "Extended Coverage (37 more)" [ref=e491] [cursor=pointer]:
+          - generic [ref=e493]: Extended Coverage
+          - generic [ref=e494]: (37 more)
+          - generic [ref=e495]: ▼
+      - link "View All 49 Communities" [ref=e497] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e498]
+    - list [ref=e502]:
+      - listitem [ref=e503]:
+        - img [ref=e504]
+        - generic [ref=e507]: Licensed & Insured
+      - listitem [ref=e508]:
+        - img [ref=e509]
+        - generic [ref=e511]: 4.8 Google · 329+ reviews
+      - listitem [ref=e512]:
+        - img [ref=e513]
+        - generic [ref=e516]: Insurance Claim Experienced
+      - listitem [ref=e517]:
+        - generic [ref=e521]: 24/7 Dispatch
+    - generic [ref=e523]:
+      - paragraph [ref=e524]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e525]:
+        - link "Privacy Policy" [ref=e526] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e527] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e528]:
+    - img [ref=e529]
+  - button "Open Next.js Dev Tools" [ref=e540] [cursor=pointer]:
+    - img [ref=e541]
+  - alert [ref=e544]

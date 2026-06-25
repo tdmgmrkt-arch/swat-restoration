@@ -1,0 +1,412 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "Blog" [ref=e39] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e40]:
+          - img [ref=e41]
+        - listitem [ref=e43]:
+          - generic [ref=e44]: Winter Water Damage in DFW
+    - region "Winter Water Damage in DFW" [ref=e45]:
+      - img "S.W.A.T. Restoration water damage response in Fort Worth, TX — Winter Water Damage in DFW" [ref=e47]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - img [ref=e56]
+            - generic [ref=e58]: Water Damage
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e63]: Fort Worth, TX
+        - paragraph [ref=e64]: Field Notes
+        - heading "Winter Water Damage in DFW" [level=1] [ref=e66]
+        - paragraph [ref=e67]: We provide fast-response water damage restoration services that help DFW homeowners address winter-related water issues before they turn into costly structural repairs.
+        - generic [ref=e68]:
+          - link "Dillon Patterson · S.W.A.T. Restoration" [ref=e69] [cursor=pointer]:
+            - /url: /about-us/
+            - img [ref=e70]
+            - generic [ref=e73]: Dillon Patterson
+            - generic [ref=e74]: · S.W.A.T. Restoration
+          - generic [ref=e75]:
+            - img [ref=e76]
+            - time [ref=e78]: February 9, 2026
+          - generic [ref=e79]:
+            - img [ref=e80]
+            - generic [ref=e83]: 3 min read
+    - region "Article body" [ref=e84]:
+      - generic [ref=e86]:
+        - article [ref=e87]:
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: We provide fast-response water damage restoration services that help DFW homeowners address winter-related water issues before they turn into costly structural repairs.
+            - paragraph [ref=e90]: Winter weather in the Dallas–Fort Worth area may not bring constant snow, but it still creates serious water damage risks for homes and businesses. Freezing nights, sudden warm-ups, and seasonal storms place stress on plumbing systems, roofing materials, and foundations. Understanding how winter water damage happens in DFW allows property owners to act quickly and protect their spaces during colder months.
+            - generic [ref=e91]:
+              - generic [ref=e94]: Section
+              - heading "How Freezing Temperatures Affect DFW Plumbing" [level=2] [ref=e95]
+            - paragraph [ref=e96]: When temperatures drop below freezing, exposed or poorly insulated pipes are at risk of cracking or bursting. Many homes in North Texas are not built for extended cold spells, which makes plumbing systems especially vulnerable during sudden freezes. When pipes freeze, pressure builds inside the line, often leading to ruptures once the ice expands.
+            - paragraph [ref=e97]:
+              - text: These breaks frequently occur behind walls, under cabinets, or in attics, releasing water long after the initial freeze passes. Even slow leaks can saturate drywall, flooring, and insulation in a short time. Homeowners who suspect pipe-related issues often need immediate help from a professional
+              - link "water damage restoration" [ref=e98] [cursor=pointer]:
+                - /url: /water-damage/
+              - text: team to limit spread and begin drying affected materials.
+            - generic [ref=e99]:
+              - generic [ref=e102]: Section
+              - heading "Winter Storms and Roof-Related Water Damage" [level=2] [ref=e103]
+            - paragraph [ref=e104]: DFW winter storms bring a mix of freezing rain, sleet, and high winds that can compromise roofing systems. Damaged shingles, flashing, or roof decking allow moisture to enter attic spaces during storms or as ice melts. This water may drip slowly, making it difficult to notice until stains appear on ceilings or walls.
+            - paragraph [ref=e105]:
+              - text: Attic insulation can absorb moisture and hold it against wood framing, increasing the risk of structural damage and secondary issues like
+              - strong [ref=e106]: mold growth
+              - text: . Regular inspections after winter storms help identify roof vulnerabilities early. When storm-related water intrusion occurs, fast response reduces the chance of long-term repairs and interior damage.
+            - generic [ref=e107]:
+              - generic [ref=e110]: Section
+              - heading "Condensation and Hidden Moisture During Cold Months" [level=2] [ref=e111]
+            - paragraph [ref=e112]: Cold weather changes how moisture behaves inside homes. As warm indoor air meets colder surfaces, condensation forms on windows, exterior walls, and poorly insulated areas. While condensation may seem minor, repeated moisture exposure can soak into building materials over time.
+            - paragraph [ref=e113]: Common problem areas include window frames, crawl spaces, basements, and attics. These damp conditions create the perfect environment for mold and material breakdown. Homeowners dealing with recurring moisture often benefit from professional evaluation and targeted cleanup through trusted restoration services that address both visible and hidden water issues.
+            - generic [ref=e114]:
+              - generic [ref=e117]: Section
+              - heading "Signs of Winter Water Damage Homeowners Miss" [level=2] [ref=e118]
+            - paragraph [ref=e119]: Water damage during winter often goes unnoticed because it develops slowly and remains hidden. Subtle warning signs include peeling paint, warped flooring, musty odors, or unexplained increases in indoor humidity. Some homeowners notice higher utility bills caused by damp insulation losing effectiveness.
+            - paragraph [ref=e120]: Another overlooked sign is staining on ceilings or walls that appears days or weeks after a freeze or storm. These stains usually indicate water traveling along framing before becoming visible. Early detection helps reduce the scope of repairs and prevents damage from spreading into unaffected areas.
+            - generic [ref=e121]:
+              - generic [ref=e124]: Section
+              - heading "What DFW Homeowners Worry About Most" [level=2] [ref=e125]
+            - paragraph [ref=e126]: Health and comfort are major concerns when water damage occurs in winter. Damp environments affect indoor air quality and can aggravate respiratory sensitivities, especially when families spend more time indoors. Mold growth tied to winter water damage increases these concerns if moisture is not addressed promptly.
+            - paragraph [ref=e127]:
+              - text: Property damage and insurance questions also create stress. Homeowners often wonder whether frozen pipes, roof leaks, or storm-related damage are covered. Proper documentation and timely mitigation play a key role in insurance claims. According to guidance from the
+              - link "Insurance Information Institute" [ref=e128] [cursor=pointer]:
+                - /url: https://www.iii.org
+              - text: ", preventing further damage after a loss is an important responsibility for property owners."
+            - generic [ref=e129]:
+              - generic [ref=e132]: Section
+              - heading "Steps to Reduce Winter Water Damage Risk" [level=2] [ref=e133]
+            - paragraph [ref=e134]: Preventing winter water damage starts with preparation. Insulating exposed pipes, sealing air leaks, and keeping indoor temperatures consistent help reduce freezing risks. After storms, checking ceilings, attics, and exterior areas for signs of moisture allows homeowners to catch problems early.
+            - paragraph [ref=e135]: Prompt response matters even when damage appears minor. Small leaks can lead to major repairs if left untreated. Professional moisture detection tools help locate water behind walls and under flooring, limiting demolition and keeping restoration focused.
+            - generic [ref=e136]:
+              - generic [ref=e139]: Section
+              - heading "Professional Help During DFW Winters" [level=2] [ref=e140]
+            - paragraph [ref=e141]: Winter water damage often requires specialized drying techniques due to cooler temperatures and limited ventilation. Experienced restoration teams understand how to stabilize affected areas, remove moisture efficiently, and prevent secondary damage. This expertise becomes especially important when water issues overlap with freezing conditions or storm-related events.
+            - paragraph [ref=e142]:
+              - text: If you’re looking for reliable help with
+              - strong [ref=e143]: winter water damage
+              - text: in DFW, SWAT Restoration provides 24/7 emergency response, water removal, and full reconstruction services. Our team acts quickly, communicates clearly, and treats every property with care from initial assessment through final repairs. When winter weather threatens your home, having a trusted local restoration team makes all the difference.
+          - generic [ref=e147]:
+            - generic [ref=e152]: Dispatch — 24/7
+            - heading "Need restoration help right now?" [level=2] [ref=e153]
+            - paragraph [ref=e154]: Call the Fort Worth dispatch line directly — a live dispatcher answers, not a voicemail tree.
+            - generic [ref=e155]:
+              - link "Call 817-286-4966" [ref=e156] [cursor=pointer]:
+                - /url: tel:+18172864966
+                - img [ref=e157]
+                - text: Call 817-286-4966
+              - link "Request Service" [ref=e159] [cursor=pointer]:
+                - /url: /contact-us/
+                - img [ref=e160]
+                - text: Request Service
+        - complementary [ref=e162]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - generic [ref=e170]: Written By
+            - paragraph [ref=e171]: Dillon Patterson
+            - paragraph [ref=e172]: Owner, S.W.A.T. Restoration — family-owned water, fire, and mold restoration serving Aledo & Fort Worth.
+            - link "View Bio" [ref=e173] [cursor=pointer]:
+              - /url: /about-us/
+              - text: View Bio
+              - img [ref=e174]
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - img [ref=e181]
+              - generic [ref=e183]: 24/7 Dispatch
+            - link "Aledo & Fort Worth 817-286-4966" [ref=e184] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - paragraph [ref=e185]: Aledo & Fort Worth
+              - paragraph [ref=e186]: 817-286-4966
+    - region "More from the field." [ref=e187]:
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - paragraph [ref=e191]: Related Reading
+          - heading "More from the field." [level=2] [ref=e193]
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family Mold Remediation June 22, 2026 4 min Is Mold In My House Dangerous To My Family We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home. Read post" [ref=e196] [cursor=pointer]:
+              - /url: /post/is-mold-in-my-house-dangerous-to-my-family/
+              - generic [ref=e197]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family" [ref=e198]
+                - generic [ref=e201]: Mold Remediation
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - img [ref=e205]
+                    - text: June 22, 2026
+                  - generic [ref=e207]: ·
+                  - generic [ref=e208]:
+                    - img [ref=e209]
+                    - text: 4 min
+                - heading "Is Mold In My House Dangerous To My Family" [level=3] [ref=e212]
+                - paragraph [ref=e213]: We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.
+                - generic [ref=e214]:
+                  - text: Read post
+                  - img [ref=e215]
+          - listitem [ref=e217]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal Mold Remediation June 15, 2026 4 min Can I Stay In My House During Mold Removal Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold. Read post" [ref=e218] [cursor=pointer]:
+              - /url: /post/can-i-stay-in-my-house-during-mold-removal/
+              - generic [ref=e219]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal" [ref=e220]
+                - generic [ref=e223]: Mold Remediation
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - generic [ref=e226]:
+                    - img [ref=e227]
+                    - text: June 15, 2026
+                  - generic [ref=e229]: ·
+                  - generic [ref=e230]:
+                    - img [ref=e231]
+                    - text: 4 min
+                - heading "Can I Stay In My House During Mold Removal" [level=3] [ref=e234]
+                - paragraph [ref=e235]: Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold.
+                - generic [ref=e236]:
+                  - text: Read post
+                  - img [ref=e237]
+          - listitem [ref=e239]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me Mold Remediation June 15, 2026 4 min Who To Call For Mold Removal Near Me We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly. Read post" [ref=e240] [cursor=pointer]:
+              - /url: /post/who-to-call-for-mold-removal-near-me-2/
+              - generic [ref=e241]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me" [ref=e242]
+                - generic [ref=e245]: Mold Remediation
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - img [ref=e249]
+                    - text: June 15, 2026
+                  - generic [ref=e251]: ·
+                  - generic [ref=e252]:
+                    - img [ref=e253]
+                    - text: 4 min
+                - heading "Who To Call For Mold Removal Near Me" [level=3] [ref=e256]
+                - paragraph [ref=e257]: We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly.
+                - generic [ref=e258]:
+                  - text: Read post
+                  - img [ref=e259]
+    - region "Water or fire damage at your home?" [ref=e261]:
+      - generic [ref=e272]:
+        - generic [ref=e276]: Mission Status
+        - generic [ref=e277]: ·
+        - generic [ref=e278]: Ready
+      - generic [ref=e280]:
+        - generic [ref=e283]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e285]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e286]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e287]:
+          - listitem [ref=e288]:
+            - generic [ref=e290]: 24/7
+            - generic [ref=e295]: Dispatch Active
+          - listitem [ref=e296]:
+            - generic [ref=e298]: 100%
+            - generic [ref=e300]: Family Owned
+          - listitem [ref=e301]:
+            - generic [ref=e303]: 49+
+            - generic [ref=e305]: DFW Communities
+        - generic [ref=e306]:
+          - link "Contact Us Now" [ref=e307] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e308]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e310] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e311]
+            - text: Call 817-286-4966
+        - generic [ref=e313]:
+          - generic [ref=e318]: 24/7 Dispatch
+          - generic [ref=e319]: ·
+          - generic [ref=e320]: Family Owned · DFW
+          - generic [ref=e321]: ·
+          - generic [ref=e322]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e323]:
+    - generic [ref=e325]:
+      - generic [ref=e326]:
+        - link "S.W.A.T. Restoration Home" [ref=e327] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e328]
+        - paragraph [ref=e329]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e332]:
+          - img [ref=e333]
+          - generic [ref=e336]:
+            - generic [ref=e337]: Aledo
+            - generic [ref=e338]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e339] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e340]
+              - text: 817-286-4966
+      - generic [ref=e342]:
+        - heading "Services" [level=3] [ref=e343]
+        - list [ref=e344]:
+          - listitem [ref=e345]:
+            - link "Water Damage Restoration" [ref=e346] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e347]:
+            - link "Fire & Smoke Damage" [ref=e348] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e349]:
+            - link "Mold Remediation" [ref=e350] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e351]:
+            - link "Pack-Out & Cleaning" [ref=e352] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e353]:
+            - link "Roofing Services" [ref=e354] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e355]:
+            - link "Insurance Claim Assistance" [ref=e356] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e357]:
+        - heading "Company" [level=3] [ref=e358]
+        - list [ref=e359]:
+          - listitem [ref=e360]:
+            - link "About Us" [ref=e361] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e362]:
+            - link "Insurance Claims" [ref=e363] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e364]:
+            - link "Contact" [ref=e365] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e366]:
+            - link "Areas Served" [ref=e367] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e368]:
+            - link "Blog" [ref=e369] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e370]:
+        - heading "Emergency Line" [level=3] [ref=e371]
+        - generic [ref=e372]:
+          - generic [ref=e380]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e381] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e382]:
+            - listitem [ref=e383]: Under 60-min arrival
+            - listitem [ref=e385]: Dispatch in minutes
+          - link "Call Now" [ref=e387] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e388]
+            - text: Call Now
+            - img [ref=e390]
+          - link "Email S.W.A.T. Restoration" [ref=e393] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e394]
+            - text: main@swat-restoration.com
+    - generic [ref=e398]:
+      - generic [ref=e399]:
+        - heading "Service Areas" [level=3] [ref=e400]
+        - paragraph [ref=e401]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e402]:
+        - generic [ref=e405]: Primary Response
+        - list [ref=e406]:
+          - listitem [ref=e407]:
+            - link "Aledo, TX" [ref=e408] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e409]:
+            - link "Arlington, TX" [ref=e410] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e411]:
+            - link "Bedford, TX" [ref=e412] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e413]:
+            - link "Euless, TX" [ref=e414] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e415]:
+            - link "Fort Worth, TX" [ref=e416] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e417]:
+            - link "Grapevine, TX" [ref=e418] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e419]:
+            - link "Hurst, TX" [ref=e420] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e421]:
+            - link "Keller, TX" [ref=e422] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e423]:
+            - link "Mansfield, TX" [ref=e424] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e425]:
+            - link "North Richland Hills, TX" [ref=e426] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e427]:
+            - link "Southlake, TX" [ref=e428] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e429]:
+            - link "Weatherford, TX" [ref=e430] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e431]:
+        - generic "Extended Coverage (37 more)" [ref=e432] [cursor=pointer]:
+          - generic [ref=e434]: Extended Coverage
+          - generic [ref=e435]: (37 more)
+          - generic [ref=e436]: ▼
+      - link "View All 49 Communities" [ref=e438] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e439]
+    - list [ref=e443]:
+      - listitem [ref=e444]:
+        - img [ref=e445]
+        - generic [ref=e448]: Licensed & Insured
+      - listitem [ref=e449]:
+        - img [ref=e450]
+        - generic [ref=e452]: 4.8 Google · 329+ reviews
+      - listitem [ref=e453]:
+        - img [ref=e454]
+        - generic [ref=e457]: Insurance Claim Experienced
+      - listitem [ref=e458]:
+        - generic [ref=e462]: 24/7 Dispatch
+    - generic [ref=e464]:
+      - paragraph [ref=e465]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e466]:
+        - link "Privacy Policy" [ref=e467] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e468] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e469]:
+    - img [ref=e470]
+  - button "Open Next.js Dev Tools" [ref=e481] [cursor=pointer]:
+    - img [ref=e482]

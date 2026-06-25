@@ -319,6 +319,15 @@ export default function SiteHeader() {
     (c) => c.slug === openMega
   )
 
+  // Per-menu blueprint backdrop. Category sub-menus inherit the Services bg
+  // since they live under the Services umbrella.
+  const megaBgSrc =
+    openMega === "areas"
+      ? "/megamenubackground-areasserved.webp"
+      : openMega === "company"
+        ? "/megamenubackground-aboutus.webp"
+        : "/megamenubackground-service.webp"
+
   return (
     <header
       className="sticky top-0 z-40 w-full bg-[#1a2347] border-b border-white/8 shadow-lg"
@@ -454,14 +463,30 @@ export default function SiteHeader() {
       >
         <div
           className={cn(
-            "bg-[#1a2347] border-b border-white/10 shadow-2xl shadow-black/50 origin-top transition-[opacity,transform] duration-200 ease-out",
+            "relative isolate overflow-hidden bg-[#1a2347] border-b border-white/10 shadow-2xl shadow-black/50 origin-top transition-[opacity,transform] duration-200 ease-out",
             openMega
               ? "opacity-100 translate-y-0"
               : "opacity-0 -translate-y-1 invisible"
           )}
           aria-hidden={!openMega}
         >
-          <div className="max-w-7xl mx-auto px-5 sm:px-6">
+          {/* Per-menu blueprint backdrop — faint, layered behind content */}
+          <Image
+            key={megaBgSrc}
+            src={megaBgSrc}
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center -z-10 opacity-[0.08] pointer-events-none"
+            aria-hidden="true"
+          />
+          {/* Fade overlay so edges blend back into the panel color */}
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-r from-[#1a2347] via-[#1a2347]/60 to-[#1a2347] pointer-events-none"
+            aria-hidden="true"
+          />
+
+          <div className="relative max-w-7xl mx-auto px-5 sm:px-6">
             {openMega === "services" && <ServicesMegaMenu onNavigate={closeNow} />}
             {activeCategory && (
               <CategoryMegaMenu

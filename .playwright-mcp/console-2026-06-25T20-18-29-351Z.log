@@ -1,0 +1,3246 @@
+[     120ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2097ms] [LOG] [Fast Refresh] done in 2082ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2194ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2221ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2334ms] [WARNING] Image with src "/blog/best-company-for-mold-remediation-near-me.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2409ms] [WARNING] Image with src "/megamenubackground-service.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2582ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2583ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  102138ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  102147ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  211737ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  211852ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  211987ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  211989ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  212096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  212349ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/blog/page/2/?_rsc=6ssSKEhV6FP0mCSQ:0
+[  212363ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  212363ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  212364ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  212449ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/blog/page/2/?_rsc=6ssSKEhV6FP0mCSQ:0
+[  212454ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/blog/page/2/:0
+[  212716ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[  212783ms] Error: ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/post/[slug]/page.tsx:404:17)
+    at Object.getCompilationErrors (file://C:\Users\Owner\agency\clients\swat-restoration\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\Owner\agency\clients\swat-restoration\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\Owner\agency\clients\swat-restoration\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://C:\Users\Owner\agency\clients\swat-restoration\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\Owner\agency\clients\swat-restoration\node_modules\next\dist\server\base-server.js:1753:26)
+[  212784ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  212789ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  212861ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  212972ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  212988ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  213064ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213126ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213188ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213251ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213312ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213374ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213437ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213500ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213563ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213625ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213689ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213752ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213813ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213875ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213937ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  213999ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214077ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214140ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214202ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214265ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214327ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214391ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214452ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214514ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214576ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214640ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214703ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214765ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214829ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214890ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  214954ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215015ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215077ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215139ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215201ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215263ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215326ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215388ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215450ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215513ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215575ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215637ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215700ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215763ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215826ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215889ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  215952ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216015ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216077ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216138ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216200ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216263ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216325ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216388ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216449ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216512ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216574ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216636ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216698ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216760ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216822ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216885ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  216965ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217026ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217088ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217151ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217214ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217276ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217339ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217402ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217464ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217527ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217589ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217651ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217712ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217774ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217853ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217916ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  217980ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218043ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218105ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218166ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218228ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218292ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218354ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218416ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218478ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218542ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218605ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218668ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218731ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218794ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218856ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218919ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  218982ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219044ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219107ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219170ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219232ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219293ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219355ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219417ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219478ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219541ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219603ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219665ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219727ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219790ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219853ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219916ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  219980ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220042ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220104ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220167ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220231ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220293ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220356ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220418ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220481ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220544ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220607ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220669ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220731ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220793ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220854ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220916ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  220978ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221042ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221105ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221168ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221229ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221292ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221355ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221417ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221479ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221541ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221603ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221664ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221727ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221790ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221851ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221914ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  221977ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222038ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222101ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222164ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222224ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222287ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222351ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222413ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222476ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222538ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222600ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222662ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222724ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222786ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222848ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222911ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  222974ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223037ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223100ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223163ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223226ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223288ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223361ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223429ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223491ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223554ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223615ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223679ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223742ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223804ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223867ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223930ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  223992ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224055ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224116ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224179ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224240ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224303ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224365ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224429ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224492ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224554ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224617ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224679ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224741ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224805ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224867ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224929ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  224991ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225052ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225115ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225177ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225239ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225301ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225362ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225425ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225488ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225550ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225612ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225676ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225738ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225800ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225863ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225925ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  225987ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226050ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226113ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226174ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226236ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226299ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226361ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226423ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226486ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226549ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226612ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226674ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226737ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226799ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226860ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226922ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  226985ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227048ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227110ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227172ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227235ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227297ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227359ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227422ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227483ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227546ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227607ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227671ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227732ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227795ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227856ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  227927ms] [ERROR] ./app/post/[slug]/page.tsx:404:17
+Expected '</', got 'jsx text'
+  402 |               </aside>
+  403 |             </div>
+> 404 |           </div>
+      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 405 |         </section>
+      | ^^^^^^^^
+  406 |
+  407 |         {/* ============================================================== */}
+  408 |         {/* RELATED POSTS                                                   */}
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  228033ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  228127ms] [LOG] [Fast Refresh] done in 194ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  228297ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  228752ms] [LOG] [Fast Refresh] done in 558ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  231471ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  231494ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  231763ms] [WARNING] Image with src "/megamenubackground-service.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

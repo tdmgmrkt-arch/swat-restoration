@@ -1,0 +1,568 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - generic [ref=e9]: 24/7 Emergency Service
+    - generic [ref=e10]: •
+    - generic [ref=e11]: Same-As-Cash Financing
+    - generic [ref=e12]: •
+    - generic [ref=e13]: Family Owned & Operated
+  - banner [ref=e14]:
+    - generic [ref=e15]:
+      - link "S.W.A.T. Plumbing LLC — Home" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Plumbing LLC" [ref=e17]
+      - navigation "Main navigation" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Plumbing" [ref=e21]:
+              - text: Plumbing
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Water Heaters" [ref=e25]:
+              - text: Water Heaters
+              - img [ref=e26]
+          - listitem [ref=e28]:
+            - button "Water Quality" [ref=e29]:
+              - text: Water Quality
+              - img [ref=e30]
+          - listitem [ref=e32]:
+            - button "Areas Served" [ref=e33]:
+              - text: Areas Served
+              - img [ref=e34]
+          - listitem [ref=e36]:
+            - link "Coupons" [ref=e37] [cursor=pointer]:
+              - /url: /coupons-rebates/
+          - listitem [ref=e38]:
+            - button "Company" [ref=e39]:
+              - text: Company
+              - img [ref=e40]
+          - listitem [ref=e42]:
+            - link "Contact" [ref=e43] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e44]:
+        - link "Call S.W.A.T. Plumbing at 817-438-6142" [ref=e45] [cursor=pointer]:
+          - /url: tel:+18174386142
+          - img [ref=e46]
+          - text: Call Now
+        - link "Schedule Online" [ref=e48] [cursor=pointer]:
+          - /url: /schedule/
+          - img [ref=e49]
+          - text: Schedule Online
+  - main [ref=e51]:
+    - navigation "Breadcrumb" [ref=e52]:
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - link "Home" [ref=e56] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e57]:
+          - img [ref=e58]
+        - listitem [ref=e60]:
+          - link "Blog" [ref=e61] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e62]:
+          - img [ref=e63]
+        - listitem [ref=e65]:
+          - generic [ref=e66]: Sewer Line Repair Near Me Fort Worth TX
+    - region "Sewer Line Repair Near Me Fort Worth TX" [ref=e67]:
+      - img "S.W.A.T. Plumbing technician inspecting a residential sewer line in Fort Worth, Texas" [ref=e68]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - generic [ref=e79]: Sewer & Drains
+          - generic [ref=e80]:
+            - img [ref=e81]
+            - generic [ref=e84]: Fort Worth, TX
+        - paragraph [ref=e85]: Field Notes
+        - heading "Sewer Line Repair Near Me Fort Worth TX" [level=1] [ref=e87]
+        - paragraph [ref=e88]: Sewer line problems start quietly — slow drains, gurgling toilets, faint odors — then turn into full backups. Here's how to read the warning signs early.
+        - generic [ref=e89]:
+          - link "Dillon Patterson · Master Plumber" [ref=e90] [cursor=pointer]:
+            - /url: /about-us/#leadership-heading
+            - img [ref=e91]
+            - generic [ref=e94]: Dillon Patterson
+            - generic [ref=e95]: · Master Plumber
+          - generic [ref=e96]:
+            - img [ref=e97]
+            - time [ref=e99]: June 17, 2026
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - generic [ref=e104]: 7 min read
+    - region "Article body" [ref=e105]:
+      - article [ref=e107]:
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: S.W.A.T. Plumbing LLC provides professional sewer line repair services throughout Fort Worth TX. Their licensed plumbers diagnose underground sewer problems quickly, explain the issue clearly, and provide dependable repair solutions that help protect homes from backups, water damage, and costly plumbing emergencies.
+          - paragraph [ref=e110]: Sewer line problems often begin quietly. A drain may start running slower than normal, toilets may gurgle occasionally, or foul odors may appear around the home. Over time, these small warning signs can turn into major sewer backups that affect the entire plumbing system.
+          - paragraph [ref=e111]: Fast sewer line inspection and repair help homeowners avoid serious property damage and restore safe drainage throughout the home.
+          - generic [ref=e112]:
+            - generic [ref=e115]: 01 / 09
+            - heading "Common Signs of Sewer Line Problems" [level=2] [ref=e116]
+          - paragraph [ref=e117]: Many homeowners do not realize their sewer line is damaged until multiple plumbing fixtures begin having problems at the same time. Since every drain in the home connects to the main sewer line, a blockage or broken pipe can affect the entire plumbing system.
+          - paragraph [ref=e118]: One of the most common warning signs is slow drainage throughout the house. If sinks, showers, tubs, and toilets all begin draining slowly together, the issue may be deeper inside the sewer line rather than inside a single fixture drain.
+          - paragraph [ref=e119]: Homeowners may also notice bubbling or gurgling sounds coming from drains or toilets. This often happens because trapped air inside the sewer line cannot move properly around the blockage.
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: "Other common warning signs include:"
+            - list [ref=e122]:
+              - listitem [ref=e123]:
+                - img [ref=e124]
+                - generic [ref=e126]: Sewer odors inside or outside the home
+              - listitem [ref=e127]:
+                - img [ref=e128]
+                - generic [ref=e130]: Water backing up into tubs or showers
+              - listitem [ref=e131]:
+                - img [ref=e132]
+                - generic [ref=e134]: Frequent drain clogs
+              - listitem [ref=e135]:
+                - img [ref=e136]
+                - generic [ref=e138]: Wet areas in the yard
+              - listitem [ref=e139]:
+                - img [ref=e140]
+                - generic [ref=e142]: Sudden patches of bright green grass
+              - listitem [ref=e143]:
+                - img [ref=e144]
+                - generic [ref=e146]: Multiple plumbing fixtures backing up together
+          - paragraph [ref=e147]: If sewage begins backing up into the home, immediate professional service is recommended.
+          - complementary "Related service" [ref=e148]:
+            - generic [ref=e150]:
+              - paragraph [ref=e151]:
+                - text: S.W.A.T. Plumbing covers additional underground plumbing concerns on their
+                - link "Drain Cleaning Services page" [ref=e152] [cursor=pointer]:
+                  - /url: /plumbing/clogged-drain/
+                - text: .
+              - link "Drain Cleaning Services page" [ref=e153] [cursor=pointer]:
+                - /url: /plumbing/clogged-drain/
+                - text: View
+                - img [ref=e154]
+          - generic [ref=e157]:
+            - generic [ref=e160]: 02 / 09
+            - heading "What Causes Sewer Line Damage?" [level=2] [ref=e161]
+          - paragraph [ref=e162]: Several issues can damage sewer lines beneath Fort Worth homes. One of the biggest causes is tree root intrusion. Tree roots naturally seek moisture underground and can enter small cracks in sewer pipes. Once inside, roots continue growing and eventually block wastewater flow completely.
+          - paragraph [ref=e163]: Older sewer pipes may also weaken due to corrosion, shifting soil, or age-related deterioration. In some homes, the pipe material itself becomes brittle over time and begins cracking beneath the yard.
+          - paragraph [ref=e164]: Fort Worth soil movement also contributes to sewer line damage. The clay-heavy soil throughout North Texas expands and contracts as moisture levels change. This movement places stress on underground pipes and may eventually cause sections of the sewer line to separate or collapse.
+          - paragraph [ref=e165]: Grease buildup, flushing non-flushable materials, and heavy drain use can also create major blockages over time.
+          - complementary "Related service" [ref=e166]:
+            - generic [ref=e168]:
+              - paragraph [ref=e169]:
+                - text: Homeowners dealing with underground pipe concerns can review the
+                - link "Water Line Repair Services page" [ref=e170] [cursor=pointer]:
+                  - /url: /plumbing/water-line-repairs/
+                - text: .
+              - link "Water Line Repair Services page" [ref=e171] [cursor=pointer]:
+                - /url: /plumbing/water-line-repairs/
+                - text: View
+                - img [ref=e172]
+          - generic [ref=e175]:
+            - generic [ref=e178]: 03 / 09
+            - heading "Why Sewer Line Problems Should Never Be Ignored" [level=2] [ref=e179]
+          - paragraph [ref=e180]: Sewer line damage affects more than just convenience. Wastewater backing up into the home creates serious sanitation concerns and may damage flooring, drywall, and cabinets quickly.
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: "Leaks beneath the yard may also erode soil and weaken nearby structures over time. In severe cases, untreated sewer line problems may lead to:"
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - img [ref=e185]
+                - generic [ref=e187]: Sewage backups inside the home
+              - listitem [ref=e188]:
+                - img [ref=e189]
+                - generic [ref=e191]: Foundation moisture problems
+              - listitem [ref=e192]:
+                - img [ref=e193]
+                - generic [ref=e195]: Mold growth
+              - listitem [ref=e196]:
+                - img [ref=e197]
+                - generic [ref=e199]: Sinkholes or soil erosion
+              - listitem [ref=e200]:
+                - img [ref=e201]
+                - generic [ref=e203]: Damage to landscaping and driveways
+          - paragraph [ref=e204]: The longer the problem continues, the more extensive the repair process often becomes. Fast sewer line repair helps prevent larger structural and plumbing problems later.
+          - generic [ref=e205]:
+            - generic [ref=e208]: 04 / 09
+            - heading "How Professional Sewer Line Inspection Works" [level=2] [ref=e209]
+          - paragraph [ref=e210]: Professional sewer line diagnosis begins with identifying the exact location and cause of the problem. S.W.A.T. Plumbing uses specialized sewer camera equipment to inspect underground pipes without unnecessary digging.
+          - generic [ref=e211]:
+            - paragraph [ref=e212]: "A small waterproof camera is inserted into the sewer line, allowing plumbers to view the inside of the pipe in real time. This helps identify:"
+            - list [ref=e213]:
+              - listitem [ref=e214]:
+                - img [ref=e215]
+                - generic [ref=e217]: Tree root intrusion
+              - listitem [ref=e218]:
+                - img [ref=e219]
+                - generic [ref=e221]: Pipe cracks or collapses
+              - listitem [ref=e222]:
+                - img [ref=e223]
+                - generic [ref=e225]: Grease buildup
+              - listitem [ref=e226]:
+                - img [ref=e227]
+                - generic [ref=e229]: Offset pipe joints
+              - listitem [ref=e230]:
+                - img [ref=e231]
+                - generic [ref=e233]: Corrosion or deterioration
+          - paragraph [ref=e234]: Once the issue is identified, plumbers explain the condition of the line clearly and recommend the best repair solution.
+          - complementary "External resource" [ref=e235]:
+            - generic [ref=e236]:
+              - img [ref=e238]
+              - paragraph [ref=e242]:
+                - text: For general homeowner information about wastewater systems, the
+                - link "Environmental Protection Agency Wastewater Guide" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.epa.gov/septic
+                - text: provides additional information.
+          - generic [ref=e244]:
+            - generic [ref=e247]: 05 / 09
+            - heading "Sewer Line Repair Options" [level=2] [ref=e248]
+          - paragraph [ref=e249]: The best repair method depends on the severity of the damage and the condition of the existing pipe.
+          - paragraph [ref=e250]: In some situations, hydro jetting may fully clear grease, roots, and buildup from inside the sewer line. This process uses high-pressure water to clean the pipe walls safely and restore normal flow.
+          - paragraph [ref=e251]: For damaged or collapsed sections, spot repairs may be possible if the affected area is isolated. More severe problems may require partial or full sewer line replacement.
+          - paragraph [ref=e252]: Some homes may also qualify for trenchless repair methods, which reduce disruption to landscaping and driveways.
+          - complementary "Related service" [ref=e253]:
+            - generic [ref=e255]:
+              - paragraph [ref=e256]:
+                - text: S.W.A.T. Plumbing explains advanced pipe cleaning services on their
+                - link "Hydro Jetting Services page" [ref=e257] [cursor=pointer]:
+                  - /url: /plumbing/hydro-jetting/
+                - text: .
+              - link "Hydro Jetting Services page" [ref=e258] [cursor=pointer]:
+                - /url: /plumbing/hydro-jetting/
+                - text: View
+                - img [ref=e259]
+          - generic [ref=e262]:
+            - generic [ref=e265]: 06 / 09
+            - heading "How Sewer Line Problems Affect Daily Plumbing" [level=2] [ref=e266]
+          - paragraph [ref=e267]: Because the sewer line handles wastewater from the entire house, even partial blockages often affect multiple fixtures at once. Toilets may flush slowly, tubs may drain poorly, and washing machines may cause nearby drains to overflow.
+          - paragraph [ref=e268]: Many homeowners initially treat these problems as separate clogs, but recurring drainage issues throughout the home usually point to a deeper sewer line problem.
+          - paragraph [ref=e269]: Professional inspection helps identify whether the issue is inside a fixture drain or inside the main sewer system itself.
+          - generic [ref=e270]:
+            - generic [ref=e273]: 07 / 09
+            - heading "How S.W.A.T. Plumbing Helps Fort Worth Homeowners" [level=2] [ref=e274]
+          - paragraph [ref=e275]: S.W.A.T. Plumbing provides dependable sewer line repair services throughout Fort Worth TX with experienced licensed plumbers and advanced diagnostic equipment. Their team explains the problem clearly, protects the property during repairs, and focuses on long-term plumbing solutions instead of temporary fixes.
+          - paragraph [ref=e276]: One homeowner shared, “We kept having drain backups throughout the house, but couldn’t figure out the cause. S.W.A.T. used a sewer camera to find tree roots inside the line and fixed the problem quickly.”
+          - paragraph [ref=e277]: Local experience with Fort Worth soil conditions and aging underground plumbing systems helps the team diagnose sewer line problems accurately and recommend dependable repair options.
+          - generic [ref=e278]:
+            - generic [ref=e281]: 08 / 09
+            - heading "When to Call for Sewer Line Repair Near Me" [level=2] [ref=e282]
+          - paragraph [ref=e283]: Homeowners should contact a licensed plumber immediately if they notice recurring drain backups, sewer odors, wet areas in the yard, or multiple plumbing fixtures draining slowly at the same time.
+          - paragraph [ref=e284]: Small sewer line issues rarely improve on their own. Fast inspection and repair help protect the home from larger plumbing emergencies and costly property damage.
+          - generic [ref=e285]:
+            - generic [ref=e288]: 09 / 09
+            - heading "If You Need Sewer Line Repair Near Me in Fort Worth TX" [level=2] [ref=e289]
+          - paragraph [ref=e290]:
+            - text: If you’re looking for dependable sewer line repair near you in Fort Worth TX, call
+            - link "817-438-6955" [ref=e291] [cursor=pointer]:
+              - /url: tel:+18174386955
+            - text: to schedule service with S.W.A.T. Plumbing LLC. Their licensed plumbers can inspect the sewer line, locate underground damage, and restore safe drainage throughout your home.
+        - complementary "About the author" [ref=e292]:
+          - generic [ref=e294]:
+            - img [ref=e296]
+            - generic [ref=e299]:
+              - text: About the Author
+              - heading "Dillon Patterson" [level=3] [ref=e300]
+              - paragraph [ref=e301]: "Owner & Principal Master Plumber · TX License #M-39596"
+              - paragraph [ref=e302]: S.W.A.T. Plumbing LLC is a licensed Texas plumbing company dispatching from Aledo and Fort Worth — 24/7 emergency response, slab leaks, sewer line work, water heaters, and gas safety across North Texas. Every post on this blog is written from the field — real jobs, real callbacks, real decisions homeowners face.
+              - link "Read full bio" [ref=e303] [cursor=pointer]:
+                - /url: /about-us/#leadership-heading
+                - text: Read full bio
+                - img [ref=e304]
+        - generic [ref=e310]:
+          - generic [ref=e315]: Dispatch — Fort Worth
+          - heading "Ready to talk to a licensed plumber?" [level=2] [ref=e316]
+          - paragraph [ref=e317]: Call the Fort Worth dispatch line directly — a live dispatcher answers, not a voicemail tree.
+          - generic [ref=e318]:
+            - link "Call 817-438-6955" [ref=e319] [cursor=pointer]:
+              - /url: tel:+18174386955
+              - img [ref=e320]
+              - text: Call 817-438-6955
+            - link "Request a Quote" [ref=e322] [cursor=pointer]:
+              - /url: /contact-us/
+              - img [ref=e323]
+              - text: Request a Quote
+    - region "More from the field." [ref=e325]:
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - paragraph [ref=e329]: Related Reading
+          - heading "More from the field." [level=2] [ref=e331]
+        - list [ref=e332]:
+          - listitem [ref=e333]:
+            - link "S.W.A.T. Plumbing master plumber performing slab leak detection on a Fort Worth, Texas home Leak Detection June 15, 2026 7 min 5 Warning Signs of a Slab Leak in Fort Worth Homes Slab leaks hide under your foundation until the damage is structural. Here are 5 warning signs Fort Worth homeowners should watch for — and the first move to make when you see one. Read post" [ref=e334] [cursor=pointer]:
+              - /url: /blog/slab-leak-repair-fort-worth-tx-experts/
+              - generic [ref=e335]:
+                - img "S.W.A.T. Plumbing master plumber performing slab leak detection on a Fort Worth, Texas home" [ref=e336]
+                - generic [ref=e339]: Leak Detection
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - img [ref=e343]
+                    - text: June 15, 2026
+                  - generic [ref=e345]: ·
+                  - generic [ref=e346]:
+                    - img [ref=e347]
+                    - text: 7 min
+                - heading "5 Warning Signs of a Slab Leak in Fort Worth Homes" [level=3] [ref=e350]
+                - paragraph [ref=e351]: Slab leaks hide under your foundation until the damage is structural. Here are 5 warning signs Fort Worth homeowners should watch for — and the first move to make when you see one.
+                - generic [ref=e352]:
+                  - text: Read post
+                  - img [ref=e353]
+          - listitem [ref=e355]:
+            - link "S.W.A.T. Plumbing technician servicing a residential water heater in Aledo, Texas Water Heaters June 10, 2026 8 min No Hot Water Repair Aledo TX Plumber Cold showers in the morning? It's rarely just one thing. Failed elements, sediment, pilot lights, hidden leaks — here's how to diagnose what's actually broken. Read post" [ref=e356] [cursor=pointer]:
+              - /url: /blog/no-hot-water-repair-aledo-tx-plumber/
+              - generic [ref=e357]:
+                - img "S.W.A.T. Plumbing technician servicing a residential water heater in Aledo, Texas" [ref=e358]
+                - generic [ref=e361]: Water Heaters
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - img [ref=e365]
+                    - text: June 10, 2026
+                  - generic [ref=e367]: ·
+                  - generic [ref=e368]:
+                    - img [ref=e369]
+                    - text: 8 min
+                - heading "No Hot Water Repair Aledo TX Plumber" [level=3] [ref=e372]
+                - paragraph [ref=e373]: Cold showers in the morning? It's rarely just one thing. Failed elements, sediment, pilot lights, hidden leaks — here's how to diagnose what's actually broken.
+                - generic [ref=e374]:
+                  - text: Read post
+                  - img [ref=e375]
+          - listitem [ref=e377]:
+            - link "S.W.A.T. Plumbing technician using acoustic leak detection equipment in an Aledo, Texas home Leak Detection June 8, 2026 6 min Water Leak Detection Near Me Aledo TX Most leaks start small and stay hidden — behind walls, under floors, beneath the slab. Here's what to watch for and how modern detection finds them. Read post" [ref=e378] [cursor=pointer]:
+              - /url: /blog/water-leak-detection-near-me-aledo-tx/
+              - generic [ref=e379]:
+                - img "S.W.A.T. Plumbing technician using acoustic leak detection equipment in an Aledo, Texas home" [ref=e380]
+                - generic [ref=e383]: Leak Detection
+              - generic [ref=e384]:
+                - generic [ref=e385]:
+                  - generic [ref=e386]:
+                    - img [ref=e387]
+                    - text: June 8, 2026
+                  - generic [ref=e389]: ·
+                  - generic [ref=e390]:
+                    - img [ref=e391]
+                    - text: 6 min
+                - heading "Water Leak Detection Near Me Aledo TX" [level=3] [ref=e394]
+                - paragraph [ref=e395]: Most leaks start small and stay hidden — behind walls, under floors, beneath the slab. Here's what to watch for and how modern detection finds them.
+                - generic [ref=e396]:
+                  - text: Read post
+                  - img [ref=e397]
+    - region "Need a plumber on site fast?" [ref=e399]:
+      - generic [ref=e410]:
+        - generic [ref=e414]: Mission Status
+        - generic [ref=e415]: ·
+        - generic [ref=e416]: Ready
+      - generic [ref=e418]:
+        - generic [ref=e421]: Deploy Now
+        - heading "Need a plumber on site fast?" [level=2] [ref=e423]:
+          - text: Need a plumber
+          - text: on site fast?
+        - paragraph [ref=e424]: One call. Real dispatch. Under-60-minute arrival on emergencies — across 49+ North Texas communities.
+        - list [ref=e425]:
+          - listitem [ref=e426]:
+            - generic [ref=e428]: 24/7
+            - generic [ref=e433]: Dispatch Active
+          - listitem [ref=e434]:
+            - generic [ref=e435]:
+              - generic [ref=e436]: <60
+              - generic [ref=e437]: MIN
+            - generic [ref=e439]: Min Arrival
+          - listitem [ref=e440]:
+            - generic [ref=e442]: 49+
+            - generic [ref=e444]: Communities
+        - generic [ref=e445]:
+          - link "Schedule Online" [ref=e446] [cursor=pointer]:
+            - /url: /schedule/
+            - img [ref=e447]
+            - text: Schedule Online
+          - link "Call S.W.A.T. Plumbing at 817-438-6142" [ref=e449] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - img [ref=e450]
+            - text: Call 817-438-6142
+        - generic [ref=e452]:
+          - generic [ref=e457]: 24/7 Dispatch
+          - generic [ref=e458]: ·
+          - generic [ref=e459]: Aledo + Fort Worth
+          - generic [ref=e460]: ·
+          - generic [ref=e461]: 1,713+ Verified Reviews
+  - contentinfo "Site footer" [ref=e462]:
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - link "S.W.A.T. Plumbing LLC Home" [ref=e466] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Plumbing LLC" [ref=e467]
+        - paragraph [ref=e468]: Precision plumbing and rapid response across North Texas.
+        - generic [ref=e469]:
+          - generic [ref=e471]:
+            - img [ref=e472]
+            - generic [ref=e475]:
+              - generic [ref=e476]: Aledo
+              - generic [ref=e477]:
+                - text: 2111 East FM1187
+                - text: Aledo, TX 76008
+              - link "Call Aledo office at 817-438-6142" [ref=e478] [cursor=pointer]:
+                - /url: tel:+18174386142
+                - img [ref=e479]
+                - text: 817-438-6142
+          - generic [ref=e482]:
+            - img [ref=e483]
+            - generic [ref=e486]:
+              - generic [ref=e487]: Fort Worth
+              - generic [ref=e488]:
+                - text: 9905 Camp Bowie W Blvd
+                - text: Fort Worth, TX 76116
+              - link "Call Fort Worth office at 817-438-6955" [ref=e489] [cursor=pointer]:
+                - /url: tel:+18174386955
+                - img [ref=e490]
+                - text: 817-438-6955
+      - generic [ref=e492]:
+        - heading "Services" [level=3] [ref=e493]
+        - list [ref=e494]:
+          - listitem [ref=e495]:
+            - link "Plumbing Services" [ref=e496] [cursor=pointer]:
+              - /url: /plumbing/
+          - listitem [ref=e497]:
+            - link "Leak Detection & Repair" [ref=e498] [cursor=pointer]:
+              - /url: /plumbing/plumbing-leak-repairs/
+          - listitem [ref=e499]:
+            - link "Slab Leak Repair" [ref=e500] [cursor=pointer]:
+              - /url: /plumbing/slab-leak/
+          - listitem [ref=e501]:
+            - link "Water Heaters" [ref=e502] [cursor=pointer]:
+              - /url: /water-heater/
+          - listitem [ref=e503]:
+            - link "Clogged Drain" [ref=e504] [cursor=pointer]:
+              - /url: /plumbing/clogged-drain/
+          - listitem [ref=e505]:
+            - link "Water Quality" [ref=e506] [cursor=pointer]:
+              - /url: /water-quality/
+      - generic [ref=e507]:
+        - heading "Company" [level=3] [ref=e508]
+        - list [ref=e509]:
+          - listitem [ref=e510]:
+            - link "About Us" [ref=e511] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e512]:
+            - link "Financing" [ref=e513] [cursor=pointer]:
+              - /url: /financing/
+          - listitem [ref=e514]:
+            - link "Coupons & Rebates" [ref=e515] [cursor=pointer]:
+              - /url: /coupons-rebates/
+          - listitem [ref=e516]:
+            - link "Contact" [ref=e517] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e518]:
+            - link "Areas Served" [ref=e519] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e520]:
+            - link "Careers" [ref=e521] [cursor=pointer]:
+              - /url: /careers/
+          - listitem [ref=e522]:
+            - link "Blog" [ref=e523] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e524]:
+        - heading "Emergency Line" [level=3] [ref=e525]
+        - generic [ref=e526]:
+          - generic [ref=e534]: 24/7 Available
+          - link "Call S.W.A.T. Plumbing emergency line at 817-438-6142" [ref=e535] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - text: 817-438-6142
+          - list [ref=e536]:
+            - listitem [ref=e537]: Under 60-min arrival
+            - listitem [ref=e539]: Dispatch in minutes
+          - link "Call Now" [ref=e541] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - img [ref=e542]
+            - text: Call Now
+            - img [ref=e544]
+          - link "Email S.W.A.T. Plumbing" [ref=e547] [cursor=pointer]:
+            - /url: mailto:info@swatplumbing.com
+            - img [ref=e548]
+            - text: info@swatplumbing.com
+    - generic [ref=e552]:
+      - generic [ref=e553]:
+        - heading "Service Areas" [level=3] [ref=e554]
+        - paragraph [ref=e555]: Serving 49 North Texas communities across Tarrant, Parker, Denton & Johnson counties from our Aledo and Fort Worth bases.
+      - generic [ref=e556]:
+        - generic [ref=e559]: Primary Response
+        - list [ref=e560]:
+          - listitem [ref=e561]:
+            - link "Aledo, TX" [ref=e562] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e563]:
+            - link "Arlington, TX" [ref=e564] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e565]:
+            - link "Bedford, TX" [ref=e566] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e567]:
+            - link "Euless, TX" [ref=e568] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e569]:
+            - link "Fort Worth, TX" [ref=e570] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e571]:
+            - link "Grapevine, TX" [ref=e572] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e573]:
+            - link "Hurst, TX" [ref=e574] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e575]:
+            - link "Keller, TX" [ref=e576] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e577]:
+            - link "Mansfield, TX" [ref=e578] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e579]:
+            - link "North Richland Hills, TX" [ref=e580] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e581]:
+            - link "Southlake, TX" [ref=e582] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e583]:
+            - link "Weatherford, TX" [ref=e584] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e585]:
+        - generic "Extended Coverage (37 more)" [ref=e586] [cursor=pointer]:
+          - generic [ref=e588]: Extended Coverage
+          - generic [ref=e589]: (37 more)
+          - generic [ref=e590]: ▼
+      - link "View All 49 Communities" [ref=e592] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e593]
+    - list [ref=e597]:
+      - listitem [ref=e598]:
+        - img [ref=e599]
+        - generic [ref=e602]: Licensed & Insured
+      - listitem [ref=e603]:
+        - img [ref=e604]
+        - generic [ref=e606]: 4.2 Google · 1,710+ reviews
+      - listitem [ref=e607]:
+        - img [ref=e608]
+        - generic [ref=e611]: Same-As-Cash Financing
+      - listitem [ref=e612]:
+        - generic [ref=e616]: 24/7 Dispatch
+    - generic [ref=e618]:
+      - generic [ref=e619]: Follow S.W.A.T.
+      - list [ref=e620]:
+        - listitem [ref=e621]:
+          - link "S.W.A.T. Plumbing on Facebook (opens in new tab)" [ref=e622] [cursor=pointer]:
+            - /url: https://www.facebook.com/SWATplumbingllc
+            - img [ref=e623]
+        - listitem [ref=e625]:
+          - link "S.W.A.T. Plumbing on Instagram (opens in new tab)" [ref=e626] [cursor=pointer]:
+            - /url: https://www.instagram.com/s.w.a.t._plumbing_llc/
+            - img [ref=e627]
+        - listitem [ref=e629]:
+          - link "S.W.A.T. Plumbing on X (Twitter) (opens in new tab)" [ref=e630] [cursor=pointer]:
+            - /url: https://x.com/SWATPlumb
+            - img [ref=e631]
+        - listitem [ref=e633]:
+          - link "S.W.A.T. Plumbing on YouTube (opens in new tab)" [ref=e634] [cursor=pointer]:
+            - /url: https://www.youtube.com/@swatplumbingllc618
+            - img [ref=e635]
+    - generic [ref=e638]:
+      - paragraph [ref=e639]: © 2026 S.W.A.T. Plumbing LLC. All rights reserved. · Aledo, TX
+      - generic [ref=e640]:
+        - link "Privacy Policy" [ref=e641] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e642] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e643]:
+    - img [ref=e644]
+  - button "Open Next.js Dev Tools" [ref=e655] [cursor=pointer]:
+    - img [ref=e656]

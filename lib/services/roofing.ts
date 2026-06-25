@@ -127,6 +127,7 @@ export const roofing: ServiceConfig = {
         "Most single-family residential re-roofs in the Aledo area are completed in 1 to 2 days once materials are on-site and weather is clear. Material lead time depends on shingle availability — during high-demand periods following a regional storm event, GAF and Owens Corning distribution can run 1 to 3 weeks. Insurance approval of the Xactimate scope is typically the longest variable — S.W.A.T. Restoration tracks the claim status and schedules installation as soon as approval and materials align.",
     },
   ],
+  heroImage: "/service-warnings/roofing.webp",
   relatedSlugs: ["storm-damage", "general-construction", "insurance-claims"],
   lastUpdated: "2026-06-16",
 }

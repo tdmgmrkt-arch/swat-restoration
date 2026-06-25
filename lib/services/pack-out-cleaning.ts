@@ -127,6 +127,7 @@ export const packOutCleaning: ServiceConfig = {
         "Most fire-affected textiles that household washing cannot restore are recoverable through the Esporta Wash System — a hydraulic and enzymatic cleaning process used in professional sports equipment restoration that cleans at the fiber level. Items that ran through a standard washing machine and retained smoke odor after a fire, or that came back from a dry cleaner still smelling like smoke, are typically good candidates for Esporta processing. Items with physical fire damage — charring, melting, or structural loss — are evaluated for total-loss documentation rather than restoration.",
     },
   ],
+  heroImage: "/service-warnings/pack-out-cleaning.webp",
   relatedSlugs: ["general-construction", "contents-cleaning", "insurance-claims"],
   lastUpdated: "2026-06-16",
 }

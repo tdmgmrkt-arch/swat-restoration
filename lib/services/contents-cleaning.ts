@@ -127,6 +127,7 @@ export const contentsCleaning: ServiceConfig = {
         "The initial pack-out from a single-family home typically takes 1 to 2 days depending on the volume of contents affected. Esporta textile cleaning runs in cycles — a typical residential job processes in 3 to 5 days. Hard-surface and electronics decontamination is concurrent. Storage continues through the reconstruction phase, which varies by structural scope. S.W.A.T. Restoration provides a timeline estimate after the initial inventory walk and coordinates return delivery with the reconstruction completion date.",
     },
   ],
+  heroImage: "/service-warnings/contents-cleaning.webp",
   relatedSlugs: ["smoke-damage", "odor-removal", "pack-out-cleaning"],
   lastUpdated: "2026-06-16",
 }

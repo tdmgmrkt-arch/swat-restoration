@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { contactSchema } from "@/lib/contact-schema"
+import { verifyRecaptcha } from "@/lib/recaptcha-verify"
 
 export async function POST(req: NextRequest) {
   // GHL_WEBHOOK_URL is pending — add to Vercel env vars when provided by client.
@@ -23,6 +24,20 @@ export async function POST(req: NextRequest) {
       { ok: false, error: "Invalid request body" },
       { status: 400 }
     )
+  }
+
+  const recaptchaToken =
+    typeof body === "object" && body !== null && "recaptcha_token" in body
+      ? (body as { recaptcha_token?: unknown }).recaptcha_token
+      : null
+  const recaptcha = await verifyRecaptcha(
+    typeof recaptchaToken === "string" ? recaptchaToken : null,
+    "contact"
+  )
+  if (!recaptcha.ok) {
+    console.warn(`[contact/route] reCAPTCHA blocked submission: ${recaptcha.reason}`)
+    // Silently accept to avoid tipping off bots; lead is dropped.
+    return NextResponse.json({ ok: true })
   }
 
   const parsed = contactSchema.safeParse(body)

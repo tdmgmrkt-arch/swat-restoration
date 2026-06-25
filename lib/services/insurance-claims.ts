@@ -127,6 +127,7 @@ export const insuranceClaims: ServiceConfig = {
         "Initial adjuster inspections in the Aledo and DFW area typically occur within 3 to 7 business days of claim filing for non-catastrophe losses. Initial estimate approval can come within 5 to 14 days of the inspection for standard residential losses. Supplement requests typically add 2 to 4 weeks to the timeline depending on carrier response time. During a regional storm event when thousands of claims are filed simultaneously — common in North Texas spring storm seasons — all timelines extend. S.W.A.T. Restoration tracks claim status and follows up with the carrier at defined intervals to prevent claims from stalling.",
     },
   ],
+  heroImage: "/service-warnings/insurance-claims.webp",
   relatedSlugs: ["general-construction", "roofing", "storm-damage"],
   lastUpdated: "2026-06-16",
 }

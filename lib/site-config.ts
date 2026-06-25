@@ -26,7 +26,7 @@ export const siteConfig = {
       zip: "76008",
       phone: "817-286-4966",
       tel: "tel:+18172864966",
-      placeId: "", // TODO: add Google Place ID when GBP is verified
+      placeId: "ChIJv7lsMNYPToYRoqmCYKJ65Nc",
     },
   ],
 
@@ -276,10 +276,20 @@ export const siteConfig = {
   },
 
   // Google rating badge fallback — used when Places API env vars are not set,
-  // or when the live fetch fails. Replace with verified GBP numbers post-launch.
+  // or when the live fetch fails. Matches verified GBP as of 2026-06-24.
   googleRatingFallback: {
-    rating: 5.0,
-    count: 12,
+    rating: 4.8,
+    count: 329,
+  },
+
+  // Verifiable credentials. Each line renders in the footer trust strip only
+  // when its value is a non-empty string. Drop in real numbers as the client
+  // provides them — empty strings = nothing renders, no false claims.
+  credentials: {
+    iicrcCert: "",       // e.g. "IICRC #1234567"
+    trccLicense: "",     // Texas Residential Construction Commission (roofing/recon)
+    moldRemediator: "",  // TX Mold Assessor/Remediator registration #
+    insuranceCarrier: "", // e.g. "Liability + GL: The Hartford"
   },
 
   // Family / story — surfaced in the "Built on Family" homepage section and

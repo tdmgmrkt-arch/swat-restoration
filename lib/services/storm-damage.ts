@@ -127,6 +127,7 @@ export const stormDamage: ServiceConfig = {
         "S.W.A.T. Restoration covers the full multi-trade scope a North Texas storm event creates: emergency roof tarping, water extraction, structural drying, mold assessment and remediation when indicated, interior drywall and insulation replacement, flooring and paint, contents pack-out and cleaning, and roofing replacement. Siding, window, and gutter damage coordination is handled through the insurance claim scope. The single-team approach means the homeowner has one point of contact for the entire repair — one claim file, one Xactimate estimate, one adjuster relationship.",
     },
   ],
+  heroImage: "/service-warnings/storm-damage.webp",
   relatedSlugs: ["roofing", "insurance-claims", "water-extraction"],
   lastUpdated: "2026-06-16",
 }

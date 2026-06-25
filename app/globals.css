@@ -165,6 +165,12 @@
   border-width: 0 2px 2px 0;
 }
 
+/* Hide reCAPTCHA v3 floating badge — disclosure is shown inline under each
+   form per Google's terms. Keeps bottom-right free for the accessibility widget. */
+.grecaptcha-badge {
+  visibility: hidden !important;
+}
+
 /* Monospace numeric style */
 .mono-stat {
   font-family: var(--font-geist-mono), monospace;

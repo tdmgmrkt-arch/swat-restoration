@@ -1,0 +1,510 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - generic [ref=e9]: 24/7 Emergency Service
+    - generic [ref=e10]: •
+    - generic [ref=e11]: Same-As-Cash Financing
+    - generic [ref=e12]: •
+    - generic [ref=e13]: Family Owned & Operated
+  - banner [ref=e14]:
+    - generic [ref=e15]:
+      - link "S.W.A.T. Plumbing LLC — Home" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Plumbing LLC" [ref=e17]
+      - navigation "Main navigation" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Plumbing" [ref=e21]:
+              - text: Plumbing
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Water Heaters" [ref=e25]:
+              - text: Water Heaters
+              - img [ref=e26]
+          - listitem [ref=e28]:
+            - button "Water Quality" [ref=e29]:
+              - text: Water Quality
+              - img [ref=e30]
+          - listitem [ref=e32]:
+            - button "Areas Served" [ref=e33]:
+              - text: Areas Served
+              - img [ref=e34]
+          - listitem [ref=e36]:
+            - link "Coupons" [ref=e37] [cursor=pointer]:
+              - /url: /coupons-rebates/
+          - listitem [ref=e38]:
+            - button "Company" [ref=e39]:
+              - text: Company
+              - img [ref=e40]
+          - listitem [ref=e42]:
+            - link "Contact" [ref=e43] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e44]:
+        - link "Call S.W.A.T. Plumbing at 817-438-6142" [ref=e45] [cursor=pointer]:
+          - /url: tel:+18174386142
+          - img [ref=e46]
+          - text: Call Now
+        - link "Schedule Online" [ref=e48] [cursor=pointer]:
+          - /url: /schedule/
+          - img [ref=e49]
+          - text: Schedule Online
+  - main [ref=e51]:
+    - navigation "Breadcrumb" [ref=e52]:
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - link "Home" [ref=e56] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e57]:
+          - img [ref=e58]
+        - listitem [ref=e60]: Blog
+    - region "From the Crew. Not a content farm." [ref=e61]:
+      - generic [ref=e67]:
+        - generic [ref=e72]: Intelligence Briefings
+        - paragraph [ref=e73]: Field Notes
+        - heading "From the Crew. Not a content farm." [level=1] [ref=e75]:
+          - text: From the Crew.
+          - text: Not a content farm.
+        - paragraph [ref=e76]: Practical plumbing knowledge from licensed Texas Master Plumbers — slab leaks, water heaters, gas safety, sewer line diagnostics, and what to do before we arrive.
+        - paragraph [ref=e77]: Aledo, TX · Fort Worth, TX · North Texas Homeowners
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: "8"
+            - generic [ref=e81]: Published
+          - generic [ref=e82]:
+            - generic [ref=e83]: M-39596
+            - generic [ref=e84]: Master License
+          - generic [ref=e85]:
+            - generic [ref=e86]: "2013"
+            - generic [ref=e87]: Founded
+    - region "8 posts published. Newest first." [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e97]: Latest Dispatch
+            - heading "8 posts published. Newest first." [level=2] [ref=e98]
+          - generic [ref=e99]: 8 entries
+        - generic [ref=e100]:
+          - link "S.W.A.T. Plumbing technician inspecting a residential sewer line in Fort Worth, Texas Sewer & Drains June 17, 2026 7 min read Fort Worth, TX Sewer Line Repair Near Me Fort Worth TX Sewer line problems start quietly — slow drains, gurgling toilets, faint odors — then turn into full backups. Here's how to read the warning signs early. Read the full post" [ref=e102] [cursor=pointer]:
+            - /url: /blog/sewer-line-repair-near-me-fort-worth-tx/
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - img "S.W.A.T. Plumbing technician inspecting a residential sewer line in Fort Worth, Texas" [ref=e105]
+                - generic [ref=e107]:
+                  - img [ref=e108]
+                  - generic [ref=e110]: Sewer & Drains
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - img [ref=e114]
+                    - text: June 17, 2026
+                  - generic [ref=e116]: ·
+                  - generic [ref=e117]:
+                    - img [ref=e118]
+                    - text: 7 min read
+                  - generic [ref=e121]: ·
+                  - generic [ref=e122]:
+                    - img [ref=e123]
+                    - text: Fort Worth, TX
+                - heading "Sewer Line Repair Near Me Fort Worth TX" [level=3] [ref=e126]
+                - paragraph [ref=e128]: Sewer line problems start quietly — slow drains, gurgling toilets, faint odors — then turn into full backups. Here's how to read the warning signs early.
+                - generic [ref=e129]:
+                  - text: Read the full post
+                  - img [ref=e130]
+          - link "S.W.A.T. Plumbing master plumber performing slab leak detection on a Fort Worth, Texas home Leak Detection June 15, 2026 7 min 5 Warning Signs of a Slab Leak in Fort Worth Homes Slab leaks hide under your foundation until the damage is structural. Here are 5 warning signs Fort Worth homeowners should watch for — and the first move to make when you see one. Fort Worth, TX Read post" [ref=e133] [cursor=pointer]:
+            - /url: /blog/slab-leak-repair-fort-worth-tx-experts/
+            - generic [ref=e134]:
+              - img "S.W.A.T. Plumbing master plumber performing slab leak detection on a Fort Worth, Texas home" [ref=e135]
+              - generic [ref=e138]: Leak Detection
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - img [ref=e142]
+                  - text: June 15, 2026
+                - generic [ref=e144]: ·
+                - generic [ref=e145]:
+                  - img [ref=e146]
+                  - text: 7 min
+              - heading "5 Warning Signs of a Slab Leak in Fort Worth Homes" [level=3] [ref=e149]
+              - paragraph [ref=e150]: Slab leaks hide under your foundation until the damage is structural. Here are 5 warning signs Fort Worth homeowners should watch for — and the first move to make when you see one.
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - img [ref=e153]
+                  - text: Fort Worth, TX
+                - generic [ref=e156]:
+                  - text: Read post
+                  - img [ref=e157]
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - link "S.W.A.T. Plumbing technician servicing a residential water heater in Aledo, Texas Water Heaters June 10, 2026 8 min No Hot Water Repair Aledo TX Plumber Cold showers in the morning? It's rarely just one thing. Failed elements, sediment, pilot lights, hidden leaks — here's how to diagnose what's actually broken. Aledo, TX Read post" [ref=e161] [cursor=pointer]:
+              - /url: /blog/no-hot-water-repair-aledo-tx-plumber/
+              - generic [ref=e162]:
+                - img "S.W.A.T. Plumbing technician servicing a residential water heater in Aledo, Texas" [ref=e163]
+                - generic [ref=e166]: Water Heaters
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - img [ref=e170]
+                    - text: June 10, 2026
+                  - generic [ref=e172]: ·
+                  - generic [ref=e173]:
+                    - img [ref=e174]
+                    - text: 8 min
+                - heading "No Hot Water Repair Aledo TX Plumber" [level=3] [ref=e177]
+                - paragraph [ref=e178]: Cold showers in the morning? It's rarely just one thing. Failed elements, sediment, pilot lights, hidden leaks — here's how to diagnose what's actually broken.
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - img [ref=e181]
+                    - text: Aledo, TX
+                  - generic [ref=e184]:
+                    - text: Read post
+                    - img [ref=e185]
+          - listitem [ref=e187]:
+            - link "S.W.A.T. Plumbing technician using acoustic leak detection equipment in an Aledo, Texas home Leak Detection June 8, 2026 6 min Water Leak Detection Near Me Aledo TX Most leaks start small and stay hidden — behind walls, under floors, beneath the slab. Here's what to watch for and how modern detection finds them. Aledo, TX Read post" [ref=e188] [cursor=pointer]:
+              - /url: /blog/water-leak-detection-near-me-aledo-tx/
+              - generic [ref=e189]:
+                - img "S.W.A.T. Plumbing technician using acoustic leak detection equipment in an Aledo, Texas home" [ref=e190]
+                - generic [ref=e193]: Leak Detection
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - img [ref=e197]
+                    - text: June 8, 2026
+                  - generic [ref=e199]: ·
+                  - generic [ref=e200]:
+                    - img [ref=e201]
+                    - text: 6 min
+                - heading "Water Leak Detection Near Me Aledo TX" [level=3] [ref=e204]
+                - paragraph [ref=e205]: Most leaks start small and stay hidden — behind walls, under floors, beneath the slab. Here's what to watch for and how modern detection finds them.
+                - generic [ref=e206]:
+                  - generic [ref=e207]:
+                    - img [ref=e208]
+                    - text: Aledo, TX
+                  - generic [ref=e211]:
+                    - text: Read post
+                    - img [ref=e212]
+          - listitem [ref=e214]:
+            - link "S.W.A.T. Plumbing emergency service van responding to a late-night call in Fort Worth, Texas Emergency Service June 3, 2026 8 min What Counts as a Plumbing Emergency in Fort Worth? Burst pipe at 2am vs. a slow drip at 9pm — they're not the same call. Here's how to tell a real plumbing emergency from a wait-til-morning issue, and the first thing to do either way. Fort Worth, TX Read post" [ref=e215] [cursor=pointer]:
+              - /url: /blog/24-hour-plumber-fort-worth-tx-fast-response/
+              - generic [ref=e216]:
+                - img "S.W.A.T. Plumbing emergency service van responding to a late-night call in Fort Worth, Texas" [ref=e217]
+                - generic [ref=e220]: Emergency Service
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - img [ref=e224]
+                    - text: June 3, 2026
+                  - generic [ref=e226]: ·
+                  - generic [ref=e227]:
+                    - img [ref=e228]
+                    - text: 8 min
+                - heading "What Counts as a Plumbing Emergency in Fort Worth?" [level=3] [ref=e231]
+                - paragraph [ref=e232]: Burst pipe at 2am vs. a slow drip at 9pm — they're not the same call. Here's how to tell a real plumbing emergency from a wait-til-morning issue, and the first thing to do either way.
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - img [ref=e235]
+                    - text: Fort Worth, TX
+                  - generic [ref=e238]:
+                    - text: Read post
+                    - img [ref=e239]
+          - listitem [ref=e241]:
+            - link "S.W.A.T. Plumbing service van responding to an after-hours emergency call in Aledo, Texas Emergency Service June 1, 2026 7 min Emergency Plumber Near Me in Aledo TX When the worst happens, the first ten minutes matter most. Here's the Aledo homeowner's playbook for plumbing emergencies — from shutoff to dispatch. Aledo, TX Read post" [ref=e242] [cursor=pointer]:
+              - /url: /blog/emergency-plumber-near-me-in-aledo-tx/
+              - generic [ref=e243]:
+                - img "S.W.A.T. Plumbing service van responding to an after-hours emergency call in Aledo, Texas" [ref=e244]
+                - generic [ref=e247]: Emergency Service
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - img [ref=e251]
+                    - text: June 1, 2026
+                  - generic [ref=e253]: ·
+                  - generic [ref=e254]:
+                    - img [ref=e255]
+                    - text: 7 min
+                - heading "Emergency Plumber Near Me in Aledo TX" [level=3] [ref=e258]
+                - paragraph [ref=e259]: When the worst happens, the first ten minutes matter most. Here's the Aledo homeowner's playbook for plumbing emergencies — from shutoff to dispatch.
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - img [ref=e262]
+                    - text: Aledo, TX
+                  - generic [ref=e265]:
+                    - text: Read post
+                    - img [ref=e266]
+          - listitem [ref=e268]:
+            - link "S.W.A.T. Plumbing technician inspecting a residential water heater tank in Fort Worth, Texas Water Heaters May 27, 2026 7 min No Hot Water in House Fort Worth Cold shower at the worst time? Most no-hot-water calls trace back to one of six causes — failed elements, pilot light, sediment, thermostat, leak, or supply. Fort Worth, TX Read post" [ref=e269] [cursor=pointer]:
+              - /url: /blog/no-hot-water-in-house-fort-worth/
+              - generic [ref=e270]:
+                - img "S.W.A.T. Plumbing technician inspecting a residential water heater tank in Fort Worth, Texas" [ref=e271]
+                - generic [ref=e274]: Water Heaters
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e277]:
+                    - img [ref=e278]
+                    - text: May 27, 2026
+                  - generic [ref=e280]: ·
+                  - generic [ref=e281]:
+                    - img [ref=e282]
+                    - text: 7 min
+                - heading "No Hot Water in House Fort Worth" [level=3] [ref=e285]
+                - paragraph [ref=e286]: Cold shower at the worst time? Most no-hot-water calls trace back to one of six causes — failed elements, pilot light, sediment, thermostat, leak, or supply.
+                - generic [ref=e287]:
+                  - generic [ref=e288]:
+                    - img [ref=e289]
+                    - text: Fort Worth, TX
+                  - generic [ref=e292]:
+                    - text: Read post
+                    - img [ref=e293]
+          - listitem [ref=e295]:
+            - link "S.W.A.T. Plumbing technician using professional gas leak detection equipment near a residential gas line Gas Safety May 25, 2026 6 min Who to Call With a Gas Smell in House A rotten-egg smell inside your house is never a wait-and-see situation. Here's the exact order of steps — and who handles it once everyone's safely outside. Fort Worth, TX Read post" [ref=e296] [cursor=pointer]:
+              - /url: /blog/who-to-call-with-a-gas-smell-in-house/
+              - generic [ref=e297]:
+                - img "S.W.A.T. Plumbing technician using professional gas leak detection equipment near a residential gas line" [ref=e298]
+                - generic [ref=e301]: Gas Safety
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - img [ref=e305]
+                    - text: May 25, 2026
+                  - generic [ref=e307]: ·
+                  - generic [ref=e308]:
+                    - img [ref=e309]
+                    - text: 6 min
+                - heading "Who to Call With a Gas Smell in House" [level=3] [ref=e312]
+                - paragraph [ref=e313]: A rotten-egg smell inside your house is never a wait-and-see situation. Here's the exact order of steps — and who handles it once everyone's safely outside.
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - img [ref=e316]
+                    - text: Fort Worth, TX
+                  - generic [ref=e319]:
+                    - text: Read post
+                    - img [ref=e320]
+    - region "Need a plumber on site fast?" [ref=e322]:
+      - generic [ref=e333]:
+        - generic [ref=e337]: Mission Status
+        - generic [ref=e338]: ·
+        - generic [ref=e339]: Ready
+      - generic [ref=e341]:
+        - generic [ref=e344]: Deploy Now
+        - heading "Need a plumber on site fast?" [level=2] [ref=e346]:
+          - text: Need a plumber
+          - text: on site fast?
+        - paragraph [ref=e347]: One call. Real dispatch. Under-60-minute arrival on emergencies — across 49+ North Texas communities.
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - generic [ref=e351]: 24/7
+            - generic [ref=e356]: Dispatch Active
+          - listitem [ref=e357]:
+            - generic [ref=e358]:
+              - generic [ref=e359]: <60
+              - generic [ref=e360]: MIN
+            - generic [ref=e362]: Min Arrival
+          - listitem [ref=e363]:
+            - generic [ref=e365]: 49+
+            - generic [ref=e367]: Communities
+        - generic [ref=e368]:
+          - link "Schedule Online" [ref=e369] [cursor=pointer]:
+            - /url: /schedule/
+            - img [ref=e370]
+            - text: Schedule Online
+          - link "Call S.W.A.T. Plumbing at 817-438-6142" [ref=e372] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - img [ref=e373]
+            - text: Call 817-438-6142
+        - generic [ref=e375]:
+          - generic [ref=e380]: 24/7 Dispatch
+          - generic [ref=e381]: ·
+          - generic [ref=e382]: Aledo + Fort Worth
+          - generic [ref=e383]: ·
+          - generic [ref=e384]: 1,713+ Verified Reviews
+    - generic [ref=e386]:
+      - img [ref=e387]
+      - paragraph [ref=e390]: "Last updated: June 17, 2026"
+  - contentinfo "Site footer" [ref=e391]:
+    - generic [ref=e393]:
+      - generic [ref=e394]:
+        - link "S.W.A.T. Plumbing LLC Home" [ref=e395] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Plumbing LLC" [ref=e396]
+        - paragraph [ref=e397]: Precision plumbing and rapid response across North Texas.
+        - generic [ref=e398]:
+          - generic [ref=e400]:
+            - img [ref=e401]
+            - generic [ref=e404]:
+              - generic [ref=e405]: Aledo
+              - generic [ref=e406]:
+                - text: 2111 East FM1187
+                - text: Aledo, TX 76008
+              - link "Call Aledo office at 817-438-6142" [ref=e407] [cursor=pointer]:
+                - /url: tel:+18174386142
+                - img [ref=e408]
+                - text: 817-438-6142
+          - generic [ref=e411]:
+            - img [ref=e412]
+            - generic [ref=e415]:
+              - generic [ref=e416]: Fort Worth
+              - generic [ref=e417]:
+                - text: 9905 Camp Bowie W Blvd
+                - text: Fort Worth, TX 76116
+              - link "Call Fort Worth office at 817-438-6955" [ref=e418] [cursor=pointer]:
+                - /url: tel:+18174386955
+                - img [ref=e419]
+                - text: 817-438-6955
+      - generic [ref=e421]:
+        - heading "Services" [level=3] [ref=e422]
+        - list [ref=e423]:
+          - listitem [ref=e424]:
+            - link "Plumbing Services" [ref=e425] [cursor=pointer]:
+              - /url: /plumbing/
+          - listitem [ref=e426]:
+            - link "Leak Detection & Repair" [ref=e427] [cursor=pointer]:
+              - /url: /plumbing/plumbing-leak-repairs/
+          - listitem [ref=e428]:
+            - link "Slab Leak Repair" [ref=e429] [cursor=pointer]:
+              - /url: /plumbing/slab-leak/
+          - listitem [ref=e430]:
+            - link "Water Heaters" [ref=e431] [cursor=pointer]:
+              - /url: /water-heater/
+          - listitem [ref=e432]:
+            - link "Clogged Drain" [ref=e433] [cursor=pointer]:
+              - /url: /plumbing/clogged-drain/
+          - listitem [ref=e434]:
+            - link "Water Quality" [ref=e435] [cursor=pointer]:
+              - /url: /water-quality/
+      - generic [ref=e436]:
+        - heading "Company" [level=3] [ref=e437]
+        - list [ref=e438]:
+          - listitem [ref=e439]:
+            - link "About Us" [ref=e440] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e441]:
+            - link "Financing" [ref=e442] [cursor=pointer]:
+              - /url: /financing/
+          - listitem [ref=e443]:
+            - link "Coupons & Rebates" [ref=e444] [cursor=pointer]:
+              - /url: /coupons-rebates/
+          - listitem [ref=e445]:
+            - link "Contact" [ref=e446] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e447]:
+            - link "Areas Served" [ref=e448] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e449]:
+            - link "Careers" [ref=e450] [cursor=pointer]:
+              - /url: /careers/
+          - listitem [ref=e451]:
+            - link "Blog" [ref=e452] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e453]:
+        - heading "Emergency Line" [level=3] [ref=e454]
+        - generic [ref=e455]:
+          - generic [ref=e463]: 24/7 Available
+          - link "Call S.W.A.T. Plumbing emergency line at 817-438-6142" [ref=e464] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - text: 817-438-6142
+          - list [ref=e465]:
+            - listitem [ref=e466]: Under 60-min arrival
+            - listitem [ref=e468]: Dispatch in minutes
+          - link "Call Now" [ref=e470] [cursor=pointer]:
+            - /url: tel:+18174386142
+            - img [ref=e471]
+            - text: Call Now
+            - img [ref=e473]
+          - link "Email S.W.A.T. Plumbing" [ref=e476] [cursor=pointer]:
+            - /url: mailto:info@swatplumbing.com
+            - img [ref=e477]
+            - text: info@swatplumbing.com
+    - generic [ref=e481]:
+      - generic [ref=e482]:
+        - heading "Service Areas" [level=3] [ref=e483]
+        - paragraph [ref=e484]: Serving 49 North Texas communities across Tarrant, Parker, Denton & Johnson counties from our Aledo and Fort Worth bases.
+      - generic [ref=e485]:
+        - generic [ref=e488]: Primary Response
+        - list [ref=e489]:
+          - listitem [ref=e490]:
+            - link "Aledo, TX" [ref=e491] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e492]:
+            - link "Arlington, TX" [ref=e493] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e494]:
+            - link "Bedford, TX" [ref=e495] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e496]:
+            - link "Euless, TX" [ref=e497] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e498]:
+            - link "Fort Worth, TX" [ref=e499] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e500]:
+            - link "Grapevine, TX" [ref=e501] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e502]:
+            - link "Hurst, TX" [ref=e503] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e504]:
+            - link "Keller, TX" [ref=e505] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e506]:
+            - link "Mansfield, TX" [ref=e507] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e508]:
+            - link "North Richland Hills, TX" [ref=e509] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e510]:
+            - link "Southlake, TX" [ref=e511] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e512]:
+            - link "Weatherford, TX" [ref=e513] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e514]:
+        - generic "Extended Coverage (37 more)" [ref=e515] [cursor=pointer]:
+          - generic [ref=e517]: Extended Coverage
+          - generic [ref=e518]: (37 more)
+          - generic [ref=e519]: ▼
+      - link "View All 49 Communities" [ref=e521] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e522]
+    - list [ref=e526]:
+      - listitem [ref=e527]:
+        - img [ref=e528]
+        - generic [ref=e531]: Licensed & Insured
+      - listitem [ref=e532]:
+        - img [ref=e533]
+        - generic [ref=e535]: 4.2 Google · 1,710+ reviews
+      - listitem [ref=e536]:
+        - img [ref=e537]
+        - generic [ref=e540]: Same-As-Cash Financing
+      - listitem [ref=e541]:
+        - generic [ref=e545]: 24/7 Dispatch
+    - generic [ref=e547]:
+      - generic [ref=e548]: Follow S.W.A.T.
+      - list [ref=e549]:
+        - listitem [ref=e550]:
+          - link "S.W.A.T. Plumbing on Facebook (opens in new tab)" [ref=e551] [cursor=pointer]:
+            - /url: https://www.facebook.com/SWATplumbingllc
+            - img [ref=e552]
+        - listitem [ref=e554]:
+          - link "S.W.A.T. Plumbing on Instagram (opens in new tab)" [ref=e555] [cursor=pointer]:
+            - /url: https://www.instagram.com/s.w.a.t._plumbing_llc/
+            - img [ref=e556]
+        - listitem [ref=e558]:
+          - link "S.W.A.T. Plumbing on X (Twitter) (opens in new tab)" [ref=e559] [cursor=pointer]:
+            - /url: https://x.com/SWATPlumb
+            - img [ref=e560]
+        - listitem [ref=e562]:
+          - link "S.W.A.T. Plumbing on YouTube (opens in new tab)" [ref=e563] [cursor=pointer]:
+            - /url: https://www.youtube.com/@swatplumbingllc618
+            - img [ref=e564]
+    - generic [ref=e567]:
+      - paragraph [ref=e568]: © 2026 S.W.A.T. Plumbing LLC. All rights reserved. · Aledo, TX
+      - generic [ref=e569]:
+        - link "Privacy Policy" [ref=e570] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e571] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e572]:
+    - img [ref=e573]
+  - button "Open Next.js Dev Tools" [ref=e584] [cursor=pointer]:
+    - img [ref=e585]

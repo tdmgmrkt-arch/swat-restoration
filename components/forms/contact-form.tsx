@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { CheckCircle, AlertTriangle, Phone, Loader2 } from "lucide-react"
@@ -14,12 +15,32 @@ import {
   URGENCY_OPTIONS,
   PREFERRED_CONTACT_OPTIONS,
 } from "@/lib/contact-schema"
+import { executeRecaptcha } from "@/lib/recaptcha-client"
+import { RecaptchaScript } from "@/components/recaptcha/recaptcha-script"
 import { siteConfig } from "@/lib/site-config"
 
 type SubmitState = "idle" | "loading" | "success" | "error"
 
 export function ContactForm() {
   const [submitState, setSubmitState] = useState<SubmitState>("idle")
+
+  // Read service-page deep-link context from the URL:
+  //   ?service=<category> → pre-select dropdown (one of 8 broad categories)
+  //   &detail=<name>      → pre-fill message field with the specific service
+  //                         so dispatch sees the exact intent, not just the
+  //                         broad bucket the dropdown captures.
+  const searchParams = useSearchParams()
+  const preselectService = (() => {
+    const raw = searchParams.get("service")
+    if (!raw) return undefined
+    return (SERVICE_TYPE_OPTIONS as readonly string[]).includes(raw)
+      ? (raw as (typeof SERVICE_TYPE_OPTIONS)[number])
+      : undefined
+  })()
+  const detailParam = searchParams.get("detail")?.trim() || undefined
+  const preselectMessage = detailParam
+    ? `I'm interested in: ${detailParam}`
+    : undefined
 
   const {
     register,
@@ -29,6 +50,10 @@ export function ContactForm() {
     formState: { errors },
   } = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
+    defaultValues: {
+      ...(preselectService ? { service_type: preselectService } : {}),
+      ...(preselectMessage ? { message: preselectMessage } : {}),
+    },
   })
 
   const urgencyValue = watch("urgency")
@@ -37,10 +62,11 @@ export function ContactForm() {
   async function onSubmit(data: ContactFormValues) {
     setSubmitState("loading")
     try {
+      const recaptchaToken = await executeRecaptcha("contact")
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, recaptcha_token: recaptchaToken }),
       })
       const json = await res.json()
       if (json.ok) {
@@ -110,6 +136,8 @@ export function ContactForm() {
       noValidate
       className="bg-[#1a2347] border border-white/12 border-t-0 rounded-b-sm p-6 lg:p-8"
     >
+      <RecaptchaScript />
+
       {/* Honeypot — hidden from real users, bots will fill it */}
       <input
         type="text"
@@ -471,6 +499,27 @@ export function ContactForm() {
             </Link>
             , and consent to receive SMS messages about your service request
             (msg &amp; data rates may apply; reply STOP to opt-out).
+          </p>
+          <p className="text-white/30 text-[10px] mt-2 leading-relaxed">
+            This site is protected by reCAPTCHA and the Google{" "}
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white/60 underline underline-offset-2 transition-colors"
+            >
+              Privacy Policy
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://policies.google.com/terms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white/60 underline underline-offset-2 transition-colors"
+            >
+              Terms of Service
+            </a>{" "}
+            apply.
           </p>
         </div>
       </div>

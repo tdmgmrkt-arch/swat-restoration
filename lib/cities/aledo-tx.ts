@@ -8,7 +8,7 @@ export const aledoTx: CityConfig = {
   geoCenter: { lat: 32.6957, lng: -97.6028 },
   serviceRadiusMiles: 0,
   closestHubSlug: "aledo",
-  hasGbpListing: false, // Flag: set true once GBP Place ID confirmed with client
+  hasGbpListing: true, // GBP verified 2026-06-24 — Place ID in lib/site-config.ts
   primaryHubSlug: "aledo",
   driveTimeMinutes: 0,
   href: "/areas-served/aledo-tx",

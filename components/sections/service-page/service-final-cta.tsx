@@ -2,9 +2,19 @@ import Link from "next/link"
 import { CalendarDays, Phone } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { siteConfig } from "@/lib/site-config"
+import { hrefToContactServiceType } from "@/lib/contact-schema"
 import type { ServiceConfig } from "@/lib/services-config"
 
 export default function ServiceFinalCta({ cfg }: { cfg: ServiceConfig }) {
+  // Deep-link into the contact form. `service` pre-selects the dropdown;
+  // `detail` pre-fills the message field with the specific service so
+  // dispatch sees exact intent on top of the broad category.
+  const contactCategory = hrefToContactServiceType(cfg.href)
+  const params = new URLSearchParams()
+  if (contactCategory) params.set("service", contactCategory)
+  params.set("detail", cfg.name)
+  const requestHref = `/contact-us?${params.toString()}`
+
   return (
     <section
       className="relative bg-[#0c1230] py-20 lg:py-28 overflow-hidden"
@@ -76,7 +86,7 @@ export default function ServiceFinalCta({ cfg }: { cfg: ServiceConfig }) {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="/contact-us"
+            href={requestHref}
             className={cn(
               "bg-red-600 hover:bg-red-700 text-white font-bold text-base border border-red-500/40",
               "min-h-13 px-8 py-4 h-auto w-full sm:w-auto min-w-50",

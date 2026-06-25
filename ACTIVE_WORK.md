@@ -1,6 +1,6 @@
 # ACTIVE_WORK — S.W.A.T. Restoration
 
-_Last updated: 2026-06-17_
+_Last updated: 2026-06-23_
 
 ## In Progress
 _(nothing blocked — city Phase 2 wire-up complete)_
@@ -9,10 +9,12 @@ _(nothing blocked — city Phase 2 wire-up complete)_
 - [ ] **Service+City combo pages (programmatic SEO)** — defer until all base city pages ship
 - [ ] **Replace `/public/swat-restoration-logo.svg`** — current is a programmatically generated banner placeholder. Drop the real client-provided logo (PNG or SVG) at this exact path; the header/sheet/footer all reference it.
 - [ ] **`GHL_WEBHOOK_URL` env var** — contact form route handler is wired but returns 503 until this var is set. Add to Vercel env vars when client provides webhook URL.
-- [ ] **Remaining inner pages** — Static: `/about-us`, `/blog`, `/privacy-policy`
-- [ ] **Google Business Profile setup** — verify GBP listing, capture Place ID for `lib/site-config.ts` and `GOOGLE_PLACE_ID` env var
-- [ ] **Restrict Google Places API key** in Cloud Console once GBP comes online
-- [ ] **Set Vercel env vars on deploy:** `GOOGLE_PLACES_API_KEY` + `GOOGLE_PLACE_ID` (Production scope)
+- [ ] **Credentials block** — drop real values into `siteConfig.credentials` in `lib/site-config.ts` (IICRC cert #, TRCC license #, mold remediator registration). Footer trust strip only renders lines with non-empty values, so currently nothing shows. Pre-launch blocker per EEAT audit.
+- [ ] **Restrict Google Places API key** in Cloud Console — currently unrestricted (Application restrictions: None). Add HTTP referrer restriction for `swat-restoration.com/*` and `*.vercel.app/*` once domain is live.
+- [ ] **Set Vercel env vars on deploy (Production scope):**
+  - `GOOGLE_PLACES_API_KEY=AIzaSyBAmLsSEWxOQavcMXJVmWgcBzEoLmRQ6ok`
+  - `GOOGLE_PLACE_ID=ChIJv7lsMNYPToYRoqmCYKJ65Nc`
+  - `GHL_WEBHOOK_URL` (pending from client)
 - [ ] Real photography for `team-fleet` section — replace placeholder slots
 - [ ] Vercel project setup + domain (swat-restoration.com — confirm with client)
 - [ ] GitHub repo creation
@@ -29,7 +31,7 @@ The following items require client (Dillon & Danielle) confirmation before these
 4. **Third-party clearance testing on mold jobs** — `mold-removal.ts` + `black-mold.ts` specify post-remediation air sampling by an *independent* lab. Confirm this is standard SOP, not self-certified.
 5. **`ceiling-leak-repair.ts`** (water-damage, surfaced in prior pass) — neutral on whether S.W.A.T. does source-plumbing repair in-house or refers out. Confirm so language can sharpen.
 6. **TCEQ biohazard disposal language in `sewage-cleanup.ts`** (water-damage, surfaced in prior pass) — verify with client given legal weight.
-7. **Aledo GBP Place ID** — set `hasGbpListing: true` on `aledo-tx.ts` once Place ID is verified and added to `site-config.ts`; `GOOGLE_PLACE_ID` env var also needed.
+7. ~~**Aledo GBP Place ID**~~ — ✅ DONE 2026-06-23. Place ID `ChIJv7lsMNYPToYRoqmCYKJ65Nc` verified live (rating 4.8, 329 reviews). `hasGbpListing: true` on `aledo-tx.ts`, `placeId` set in `site-config.ts`, env var live in `.env.local`.
 8. **Mansfield county** — `mansfield-tx.ts` is set to Tarrant; city straddles the Tarrant/Johnson line. Confirm with client whether Johnson County belongs in any copy.
 9. **NRH meta title truncation** — `north-richland-hills-tx.ts` meta title trimmed to fit ≤60 chars (dropped "Restoration" word). Confirm acceptable or propose alternate trim.
 10. **Southlake/Grapevine share ZIP 76092** — both cities list 76092 in their `zipCodes` array. Verify nothing in the template breaks if both render simultaneously (no ZIP-based unique key in city components).
@@ -45,6 +47,10 @@ The following items require client (Dillon & Danielle) confirmation before these
 20. **Blue Mound** — only 3 neighborhood entries (Castleberry ISD zone, Bailey Boswell Rd corridor, Blue Mound Rd corridor); city has very limited platted subdivision data.
 
 ## Recently Completed
+- [x] **EEAT audit + pre-launch schema fixes** (2026-06-23): Full E-E-A-T audit completed → `audits/eeat-audit-2026-06-23.md`, overall B+. Pre-launch fixes shipped: (1) AggregateRating gated behind `placeId` in `lib/schema.ts` (was hard-coded 5.0/12), (2) verifiable credentials block stub added to `siteConfig.credentials` + footer trust strip — empty values render nothing, no false claims.
+- [x] **Aledo GBP wired up** (2026-06-23): Place ID `ChIJv7lsMNYPToYRoqmCYKJ65Nc` verified live (rating **4.8 / 329 reviews**). New API key `AIzaSyBAm...Q6ok` configured with Places API (New) restriction on its own Cloud project. Schema + fallback + city flag all updated.
+- [x] **Service-page universal hero background** (2026-06-23): `/public/hero-images/service-pages-hero.webp` set as default for all 22 service pages via `service-hero.tsx` fallback. Opacity standardized at 0.55.
+- [x] **GHL email templates** (2026-06-23): Two HTML templates added at `emails/internal-notification.html` (dispatch alert) + `emails/customer-confirmation.html` (auto-reply). Restoration-branded with navy palette and 4.8/329 ready to plug in. Logo CDN URL still needs swap (currently placeholder).
 - [x] **City pages Phase 2 shipped: 37 long-tail cities (all 49 of 49 service-area cities now live)** (2026-06-17): Annetta, Annetta North, Annetta South, Azle, Benbrook, Blue Mound, Burleson, Colleyville, Crowley, Dalworthington Gardens, Edgecliff Village, Everman, Flower Mound, Forest Hill, Grand Prairie, Haltom City, Haslet, Hudson Oaks, Kennedale, Lake Worth, Lakeside, Newark, Pantego, Pelican Bay, Reno, Richland Hills, River Oaks, Saginaw, Sansom Park, Springtown, Trophy Club, Watauga, Westlake, Westover Hills, Westworth Village, White Settlement, Willow Park. Build: 83 static routes clean, 49 pre-rendered `/areas-served/[slug]` paths.
 - [x] **Phase 2 Batch A — 12 city data files written** (2026-06-17): Annetta, Annetta North, Annetta South, Willow Park, Hudson Oaks, Reno, Springtown, Azle, Newark, Lake Worth, Lakeside, Pelican Bay. All conform to `CityConfig` type contract.
 - [x] **City pages Phase 1 shipped** (2026-06-17): `/areas-served` hub + 12 featured city pages (Aledo, Fort Worth, Arlington, Bedford, Euless, Grapevine, Hurst, Keller, Mansfield, North Richland Hills, Southlake, Weatherford). `cityPagesLive` flag flipped to `true`. Build: 46 static routes clean.

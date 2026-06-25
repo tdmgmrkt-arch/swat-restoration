@@ -127,6 +127,7 @@ export const smokeDamage: ServiceConfig = {
         "Wet soot comes from slow-burning, high-moisture fires like kitchen grease fires — it is oily and smears on contact, requiring alkaline degreasers and careful pre-treatment before wiping. Dry soot results from fast-burning paper and wood fires — powdery and acidic, it must be lifted with dry-cleaning sponges before any liquid is applied or it embeds deeper. Protein soot is produced by cooking fires and leaves a nearly invisible film with a sharp, persistent odor — it responds to enzymatic chemistry. Applying the wrong treatment to any of these three types makes the damage worse, not better.",
     },
   ],
+  heroImage: "/service-warnings/smoke-damage.webp",
   relatedSlugs: ["soot-removal", "odor-removal", "contents-cleaning"],
   lastUpdated: "2026-06-16",
 }

@@ -1,0 +1,518 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "Blog" [ref=e39] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e40]:
+          - img [ref=e41]
+        - listitem [ref=e43]:
+          - generic [ref=e44]: How Much Does Water Damage Repair Cost
+    - region "How Much Does Water Damage Repair Cost" [ref=e45]:
+      - img "S.W.A.T. Restoration water damage response in Aledo, TX — How Much Does Water Damage Repair Cost" [ref=e46]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: Water Damage
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e62]: Aledo, TX
+        - paragraph [ref=e63]: Field Notes
+        - heading "How Much Does Water Damage Repair Cost" [level=1] [ref=e65]
+        - paragraph [ref=e66]: How much will water damage cost if you wait too long to fix it? That’s one of the biggest concerns homeowners have after discovering flooding, burst pipes, ceiling leaks, or standing water inside their property.
+        - generic [ref=e67]:
+          - link "Dillon Patterson · S.W.A.T. Restoration" [ref=e68] [cursor=pointer]:
+            - /url: /about-us/
+            - img [ref=e69]
+            - generic [ref=e72]: Dillon Patterson
+            - generic [ref=e73]: · S.W.A.T. Restoration
+          - generic [ref=e74]:
+            - img [ref=e75]
+            - time [ref=e77]: June 1, 2026
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e82]: 4 min read
+    - region "Article body" [ref=e83]:
+      - article [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]:
+            - text: How much will water damage cost if you wait too long to fix it? That’s one of the biggest concerns homeowners have after discovering flooding, burst pipes, ceiling leaks, or standing water inside their property. The truth is that water damage repair costs can increase rapidly when moisture spreads into drywall, flooring, insulation, and structural materials. Fast professional
+            - strong [ref=e88]: water damage restoration
+            - text: not only protects your home—it can also save thousands in long-term repairs.
+          - paragraph [ref=e89]: Water damage is one of the most common and expensive property issues homeowners face. From small plumbing leaks to major storm flooding, every situation is different, which means repair costs can vary widely. Understanding what affects pricing helps homeowners make informed decisions and avoid delays that could lead to mold growth, structural damage, and higher restoration bills.
+          - generic [ref=e90]:
+            - generic [ref=e93]: Section
+            - heading "Average Water Damage Restoration Costs For Homes" [level=2] [ref=e94]
+          - paragraph [ref=e95]:
+            - text: The average cost of
+            - strong [ref=e96]: water damage repair
+            - text: depends on the size of the affected area, the type of water involved, and how long the moisture has been present. Minor damage from a small leak may cost a few hundred dollars, while severe flooding can lead to repairs costing several thousand dollars or more.
+          - paragraph [ref=e97]:
+            - text: Most professional
+            - strong [ref=e98]: water damage restoration services
+            - text: "include:"
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - generic [ref=e103]: Emergency water extraction
+            - listitem [ref=e104]:
+              - generic [ref=e106]: Structural drying and dehumidification
+            - listitem [ref=e107]:
+              - generic [ref=e109]: Moisture detection and monitoring
+            - listitem [ref=e110]:
+              - generic [ref=e112]: Removal of damaged materials
+            - listitem [ref=e113]:
+              - generic [ref=e115]: Cleaning and sanitizing
+            - listitem [ref=e116]:
+              - generic [ref=e118]: Repairs and reconstruction
+          - paragraph [ref=e119]: The faster restoration begins, the more likely it is that materials can be saved instead of replaced. Immediate response often lowers overall costs significantly.
+          - generic [ref=e120]:
+            - generic [ref=e123]: Section
+            - heading "Factors That Affect Water Damage Repair Prices" [level=2] [ref=e124]
+          - paragraph [ref=e125]:
+            - text: Several important factors determine how much
+            - strong [ref=e126]: water damage cleanup and restoration
+            - text: will cost.
+          - generic [ref=e127]:
+            - generic [ref=e130]: Section
+            - heading "Extent Of Water Damage" [level=2] [ref=e131]
+          - paragraph [ref=e132]: A small leak affecting one room is far less expensive than flooding that impacts multiple rooms or levels of a home. The more materials exposed to moisture, the more extensive the restoration process becomes.
+          - paragraph [ref=e133]: "Water can quickly spread into:"
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - generic [ref=e138]: Drywall and insulation
+            - listitem [ref=e139]:
+              - generic [ref=e141]: Hardwood and laminate flooring
+            - listitem [ref=e142]:
+              - generic [ref=e144]: Cabinets and baseboards
+            - listitem [ref=e145]:
+              - generic [ref=e147]: Subfloors and framing
+          - paragraph [ref=e148]: Larger affected areas require additional drying equipment, labor, and repairs.
+          - generic [ref=e149]:
+            - generic [ref=e152]: Section
+            - heading "Type Of Water Contamination" [level=2] [ref=e153]
+          - paragraph [ref=e154]: The category of water involved plays a major role in restoration pricing.
+          - paragraph [ref=e155]: Clean water from a plumbing leak is typically less expensive to handle than contaminated water from sewage backups or storm flooding. Contaminated water requires specialized cleaning, sanitization, and disposal procedures to protect health and safety.
+          - paragraph [ref=e156]:
+            - text: Professional
+            - strong [ref=e157]: emergency water removal services
+            - text: ensure contaminated areas are handled correctly and safely.
+          - generic [ref=e158]:
+            - generic [ref=e161]: Section
+            - heading "How Long Water Has Been Present" [level=2] [ref=e162]
+          - paragraph [ref=e163]: The longer water sits, the more damage it causes. Moisture trapped behind walls or under flooring often leads to swelling, warping, and mold growth.
+          - paragraph [ref=e164]:
+            - text: Mold can begin forming within
+            - strong [ref=e165]: 24 to 48 hours
+            - text: ", which may require additional"
+            - strong [ref=e166]: mold remediation services
+            - text: alongside water damage restoration. Delayed cleanup almost always increases repair costs and restoration timelines.
+          - generic [ref=e167]:
+            - generic [ref=e170]: Section
+            - heading "Cost Of Emergency Water Extraction Services" [level=2] [ref=e171]
+          - paragraph [ref=e172]:
+            - text: One of the first steps in restoration is removing standing water. Professional
+            - strong [ref=e173]: water extraction services
+            - text: use industrial pumps and vacuums to remove water quickly before it spreads further into the property.
+          - paragraph [ref=e174]: "Emergency response pricing depends on:"
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - generic [ref=e179]: Amount of standing water
+            - listitem [ref=e180]:
+              - generic [ref=e182]: Accessibility of affected areas
+            - listitem [ref=e183]:
+              - generic [ref=e185]: Time of service (after-hours emergencies)
+            - listitem [ref=e186]:
+              - generic [ref=e188]: Equipment required for extraction
+          - paragraph [ref=e189]: Fast extraction is critical because it limits structural damage and reduces the likelihood of mold contamination later.
+          - generic [ref=e190]:
+            - generic [ref=e193]: Section
+            - heading "Structural Drying And Dehumidification Costs" [level=2] [ref=e194]
+          - paragraph [ref=e195]: Even after visible water is removed, hidden moisture remains inside walls, flooring, and structural materials. Professional drying equipment is necessary to fully restore safe moisture levels.
+          - paragraph [ref=e196]: Industrial air movers and dehumidifiers typically remain in place for several days while technicians monitor moisture readings. The size of the affected area and the number of drying units required affect the overall cost.
+          - paragraph [ref=e197]:
+            - text: Proper
+            - strong [ref=e198]: structural drying services
+            - text: are essential because trapped moisture can continue causing damage long after surfaces appear dry.
+          - generic [ref=e199]:
+            - generic [ref=e202]: Section
+            - heading "Mold Remediation Costs After Water Damage" [level=2] [ref=e203]
+          - paragraph [ref=e204]: One of the biggest hidden expenses associated with water damage is mold growth. If moisture is not removed quickly and completely, mold can spread behind walls, under flooring, and into insulation.
+          - paragraph [ref=e205]:
+            - text: Professional
+            - strong [ref=e206]: mold remediation
+            - text: "may include:"
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - generic [ref=e211]: Mold inspection and testing
+            - listitem [ref=e212]:
+              - generic [ref=e214]: Containment barriers
+            - listitem [ref=e215]:
+              - generic [ref=e217]: HEPA air filtration
+            - listitem [ref=e218]:
+              - generic [ref=e220]: Removal of contaminated materials
+            - listitem [ref=e221]:
+              - generic [ref=e223]: Antimicrobial treatments
+          - paragraph [ref=e224]: Addressing mold early helps reduce repair costs and protects indoor air quality for your family.
+          - generic [ref=e225]:
+            - generic [ref=e228]: Section
+            - heading "Insurance Coverage For Water Damage Restoration" [level=2] [ref=e229]
+          - paragraph [ref=e230]: Many homeowners insurance policies cover sudden and accidental water damage, such as burst pipes or appliance failures. However, coverage depends on the source of the damage and the details of the policy.
+          - paragraph [ref=e231]: "Insurance may help pay for:"
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - generic [ref=e236]: Water extraction and drying
+            - listitem [ref=e237]:
+              - generic [ref=e239]: Structural repairs
+            - listitem [ref=e240]:
+              - generic [ref=e242]: Damaged flooring or drywall
+            - listitem [ref=e243]:
+              - generic [ref=e245]: Personal property restoration
+          - paragraph [ref=e246]: Long-term leaks or neglected maintenance issues may not be covered. Professional restoration companies often assist homeowners by documenting damage and working directly with insurance providers during the claims process.
+          - generic [ref=e247]:
+            - generic [ref=e250]: Section
+            - heading "Why Professional Water Damage Restoration Saves Money" [level=2] [ref=e251]
+          - paragraph [ref=e252]: Some homeowners attempt DIY cleanup to reduce costs, but incomplete drying often creates bigger problems later. Hidden moisture can weaken structural materials and lead to extensive mold growth that requires far more expensive repairs.
+          - paragraph [ref=e253]:
+            - text: Professional
+            - strong [ref=e254]: water damage restoration companies
+            - text: use moisture meters, thermal imaging, and industrial drying equipment to locate hidden water and restore the property correctly the first time.
+          - paragraph [ref=e255]: Fast professional response minimizes long-term damage, shortens recovery time, and helps preserve more of the home’s original materials.
+          - generic [ref=e256]:
+            - generic [ref=e259]: Section
+            - heading "How To Reduce Water Damage Repair Costs" [level=2] [ref=e260]
+          - paragraph [ref=e261]: "Quick action is the best way to control restoration expenses. Homeowners can help minimize damage by:"
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - generic [ref=e266]: Shutting off the water source immediately
+            - listitem [ref=e267]:
+              - generic [ref=e269]: Contacting a professional restoration company quickly
+            - listitem [ref=e270]:
+              - generic [ref=e272]: Documenting damage for insurance purposes
+            - listitem [ref=e273]:
+              - generic [ref=e275]: Removing valuables from affected areas when safe
+          - paragraph [ref=e276]: Routine plumbing inspections and roof maintenance can also help prevent future water damage events.
+          - generic [ref=e277]:
+            - generic [ref=e280]: Section
+            - heading "Get Fast, Reliable Water Damage Restoration Services" [level=2] [ref=e281]
+          - paragraph [ref=e282]:
+            - strong [ref=e283]: When you need professional help restoring your home after water damage, S.W.A.T. Restoration is ready to respond.
+            - text: Our team provides expert
+            - strong [ref=e284]: water damage restoration
+            - text: ", emergency water extraction, structural drying, and complete repair services designed to protect your property and reduce long-term costs. We respond quickly, use advanced restoration equipment, and help guide you through the insurance process from start to finish."
+          - paragraph [ref=e285]: If your home has experienced flooding, leaks, or storm damage, don’t wait for repair costs to rise. Contact S.W.A.T. Restoration today for fast, reliable restoration services you can trust.
+        - complementary "About the author" [ref=e286]:
+          - generic [ref=e288]:
+            - img [ref=e290]
+            - generic [ref=e293]:
+              - text: About the Author
+              - heading "Dillon & Danielle Patterson" [level=3] [ref=e294]
+              - paragraph [ref=e295]: Owners, S.W.A.T. Restoration · Aledo, TX
+              - paragraph [ref=e296]: Family-owned and operated, S.W.A.T. Restoration is a 24/7 emergency response crew handling water damage, fire & smoke cleanup, mold remediation, and full reconstruction across 49 DFW communities. Every post on this blog is written from the field — real jobs, real callbacks, real decisions homeowners face.
+              - link "Meet the team" [ref=e297] [cursor=pointer]:
+                - /url: /about-us/
+                - text: Meet the team
+                - img [ref=e298]
+        - generic [ref=e304]:
+          - generic [ref=e309]: Dispatch — 24/7
+          - heading "Need restoration help right now?" [level=2] [ref=e310]
+          - paragraph [ref=e311]: Call the Aledo dispatch line directly — a live dispatcher answers, not a voicemail tree.
+          - generic [ref=e312]:
+            - link "Call 817-286-4966" [ref=e313] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e314]
+              - text: Call 817-286-4966
+            - link "Request Service" [ref=e316] [cursor=pointer]:
+              - /url: /contact-us/
+              - img [ref=e317]
+              - text: Request Service
+    - region "More from the field." [ref=e319]:
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - paragraph [ref=e323]: Related Reading
+          - heading "More from the field." [level=2] [ref=e325]
+        - list [ref=e326]:
+          - listitem [ref=e327]:
+            - link "S.W.A.T. Restoration water damage response in Fort Worth, TX — Emergency Water Removal Services in Fort Worth Water Damage May 25, 2026 4 min Emergency Water Removal Services in Fort Worth We provide fast-response emergency water removal services in Fort Worth that help homeowners and businesses minimize damage, prevent mold growth, and begin recovery immediately after water intrusion. Read post" [ref=e328] [cursor=pointer]:
+              - /url: /post/emergency-water-removal-services-in-fort-worth/
+              - generic [ref=e329]:
+                - img "S.W.A.T. Restoration water damage response in Fort Worth, TX — Emergency Water Removal Services in Fort Worth" [ref=e330]
+                - generic [ref=e333]: Water Damage
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - img [ref=e337]
+                    - text: May 25, 2026
+                  - generic [ref=e339]: ·
+                  - generic [ref=e340]:
+                    - img [ref=e341]
+                    - text: 4 min
+                - heading "Emergency Water Removal Services in Fort Worth" [level=3] [ref=e344]
+                - paragraph [ref=e345]: We provide fast-response emergency water removal services in Fort Worth that help homeowners and businesses minimize damage, prevent mold growth, and begin recovery immediately after water intrusion.
+                - generic [ref=e346]:
+                  - text: Read post
+                  - img [ref=e347]
+          - listitem [ref=e349]:
+            - link "S.W.A.T. Restoration water damage response in Aledo, TX — How Long Does Water Damage Restoration Take to Complete Water Damage March 9, 2026 4 min How Long Does Water Damage Restoration Take to Complete We provide professional water damage restoration services that move quickly to remove water, dry affected areas, and restore your property safely after leaks, flooding, or storm damage. Read post" [ref=e350] [cursor=pointer]:
+              - /url: /post/how-long-does-water-damage-restoration-take-to-complete/
+              - generic [ref=e351]:
+                - img "S.W.A.T. Restoration water damage response in Aledo, TX — How Long Does Water Damage Restoration Take to Complete" [ref=e352]
+                - generic [ref=e355]: Water Damage
+              - generic [ref=e356]:
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - img [ref=e359]
+                    - text: March 9, 2026
+                  - generic [ref=e361]: ·
+                  - generic [ref=e362]:
+                    - img [ref=e363]
+                    - text: 4 min
+                - heading "How Long Does Water Damage Restoration Take to Complete" [level=3] [ref=e366]
+                - paragraph [ref=e367]: We provide professional water damage restoration services that move quickly to remove water, dry affected areas, and restore your property safely after leaks, flooding, or storm damage.
+                - generic [ref=e368]:
+                  - text: Read post
+                  - img [ref=e369]
+          - listitem [ref=e371]:
+            - link "S.W.A.T. Restoration water damage response in Aledo, TX — My Home Has Water Damage What Are the First Steps to Take Water Damage March 2, 2026 4 min My Home Has Water Damage What Are the First Steps to Take We provide rapid response water damage restoration services that help homeowners stop damage quickly, dry affected areas properly, and restore their property safely after unexpected flooding or leaks. Read post" [ref=e372] [cursor=pointer]:
+              - /url: /post/my-home-has-water-damage-what-are-the-first-steps-to-take/
+              - generic [ref=e373]:
+                - img "S.W.A.T. Restoration water damage response in Aledo, TX — My Home Has Water Damage What Are the First Steps to Take" [ref=e374]
+                - generic [ref=e377]: Water Damage
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - img [ref=e381]
+                    - text: March 2, 2026
+                  - generic [ref=e383]: ·
+                  - generic [ref=e384]:
+                    - img [ref=e385]
+                    - text: 4 min
+                - heading "My Home Has Water Damage What Are the First Steps to Take" [level=3] [ref=e388]
+                - paragraph [ref=e389]: We provide rapid response water damage restoration services that help homeowners stop damage quickly, dry affected areas properly, and restore their property safely after unexpected flooding or leaks.
+                - generic [ref=e390]:
+                  - text: Read post
+                  - img [ref=e391]
+    - region "Water or fire damage at your home?" [ref=e393]:
+      - generic [ref=e404]:
+        - generic [ref=e408]: Mission Status
+        - generic [ref=e409]: ·
+        - generic [ref=e410]: Ready
+      - generic [ref=e412]:
+        - generic [ref=e415]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e417]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e418]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e419]:
+          - listitem [ref=e420]:
+            - generic [ref=e422]: 24/7
+            - generic [ref=e427]: Dispatch Active
+          - listitem [ref=e428]:
+            - generic [ref=e430]: 100%
+            - generic [ref=e432]: Family Owned
+          - listitem [ref=e433]:
+            - generic [ref=e435]: 49+
+            - generic [ref=e437]: DFW Communities
+        - generic [ref=e438]:
+          - link "Contact Us Now" [ref=e439] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e440]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e442] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e443]
+            - text: Call 817-286-4966
+        - generic [ref=e445]:
+          - generic [ref=e450]: 24/7 Dispatch
+          - generic [ref=e451]: ·
+          - generic [ref=e452]: Family Owned · DFW
+          - generic [ref=e453]: ·
+          - generic [ref=e454]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e455]:
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - link "S.W.A.T. Restoration Home" [ref=e459] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e460]
+        - paragraph [ref=e461]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e464]:
+          - img [ref=e465]
+          - generic [ref=e468]:
+            - generic [ref=e469]: Aledo
+            - generic [ref=e470]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e471] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e472]
+              - text: 817-286-4966
+      - generic [ref=e474]:
+        - heading "Services" [level=3] [ref=e475]
+        - list [ref=e476]:
+          - listitem [ref=e477]:
+            - link "Water Damage Restoration" [ref=e478] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e479]:
+            - link "Fire & Smoke Damage" [ref=e480] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e481]:
+            - link "Mold Remediation" [ref=e482] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e483]:
+            - link "Pack-Out & Cleaning" [ref=e484] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e485]:
+            - link "Roofing Services" [ref=e486] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e487]:
+            - link "Insurance Claim Assistance" [ref=e488] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e489]:
+        - heading "Company" [level=3] [ref=e490]
+        - list [ref=e491]:
+          - listitem [ref=e492]:
+            - link "About Us" [ref=e493] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e494]:
+            - link "Insurance Claims" [ref=e495] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e496]:
+            - link "Contact" [ref=e497] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e498]:
+            - link "Areas Served" [ref=e499] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e500]:
+            - link "Blog" [ref=e501] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e502]:
+        - heading "Emergency Line" [level=3] [ref=e503]
+        - generic [ref=e504]:
+          - generic [ref=e512]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e513] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e514]:
+            - listitem [ref=e515]: Under 60-min arrival
+            - listitem [ref=e517]: Dispatch in minutes
+          - link "Call Now" [ref=e519] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e520]
+            - text: Call Now
+            - img [ref=e522]
+          - link "Email S.W.A.T. Restoration" [ref=e525] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e526]
+            - text: main@swat-restoration.com
+    - generic [ref=e530]:
+      - generic [ref=e531]:
+        - heading "Service Areas" [level=3] [ref=e532]
+        - paragraph [ref=e533]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e534]:
+        - generic [ref=e537]: Primary Response
+        - list [ref=e538]:
+          - listitem [ref=e539]:
+            - link "Aledo, TX" [ref=e540] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e541]:
+            - link "Arlington, TX" [ref=e542] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e543]:
+            - link "Bedford, TX" [ref=e544] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e545]:
+            - link "Euless, TX" [ref=e546] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e547]:
+            - link "Fort Worth, TX" [ref=e548] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e549]:
+            - link "Grapevine, TX" [ref=e550] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e551]:
+            - link "Hurst, TX" [ref=e552] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e553]:
+            - link "Keller, TX" [ref=e554] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e555]:
+            - link "Mansfield, TX" [ref=e556] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e557]:
+            - link "North Richland Hills, TX" [ref=e558] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e559]:
+            - link "Southlake, TX" [ref=e560] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e561]:
+            - link "Weatherford, TX" [ref=e562] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e563]:
+        - generic "Extended Coverage (37 more)" [ref=e564] [cursor=pointer]:
+          - generic [ref=e566]: Extended Coverage
+          - generic [ref=e567]: (37 more)
+          - generic [ref=e568]: ▼
+      - link "View All 49 Communities" [ref=e570] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e571]
+    - list [ref=e575]:
+      - listitem [ref=e576]:
+        - img [ref=e577]
+        - generic [ref=e580]: Licensed & Insured
+      - listitem [ref=e581]:
+        - img [ref=e582]
+        - generic [ref=e584]: 4.8 Google · 329+ reviews
+      - listitem [ref=e585]:
+        - img [ref=e586]
+        - generic [ref=e589]: Insurance Claim Experienced
+      - listitem [ref=e590]:
+        - generic [ref=e594]: 24/7 Dispatch
+    - generic [ref=e596]:
+      - paragraph [ref=e597]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e598]:
+        - link "Privacy Policy" [ref=e599] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e600] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e601]:
+    - img [ref=e602]
+  - button "Open Next.js Dev Tools" [ref=e613] [cursor=pointer]:
+    - img [ref=e614]

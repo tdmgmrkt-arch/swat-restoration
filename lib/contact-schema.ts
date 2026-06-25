@@ -58,3 +58,34 @@ export const URGENCY_OPTIONS = [
 ] as const
 
 export const PREFERRED_CONTACT_OPTIONS = ["Phone", "Email", "Text"] as const
+
+/**
+ * Map a service-page href (e.g. "/water-damage/sewage-cleanup") to one of the
+ * eight SERVICE_TYPE_OPTIONS used by the contact form. Returns undefined if the
+ * href doesn't match a known category — caller falls back to leaving the
+ * dropdown unselected.
+ *
+ * Used by service-page CTAs to deep-link into /contact-us with the service
+ * pre-selected, so visitors don't have to re-state what they came in for.
+ */
+export function hrefToContactServiceType(
+  href: string
+): (typeof SERVICE_TYPE_OPTIONS)[number] | undefined {
+  // Specific overrides for high-intent slugs that don't follow category mapping
+  if (
+    href === "/water-damage/water-extraction" ||
+    href === "/water-damage/water-removal"
+  )
+    return "Emergency Water Extraction"
+  if (href === "/water-damage/structural-drying") return "Structural Drying"
+  if (href === "/reconstruction/insurance-claims")
+    return "Insurance Claim Assistance"
+
+  // Category-level catch-alls
+  if (href.startsWith("/water-damage")) return "Water Damage Restoration"
+  if (href.startsWith("/fire-damage")) return "Fire & Smoke Damage"
+  if (href.startsWith("/mold-remediation")) return "Mold Remediation"
+  if (href.startsWith("/reconstruction")) return "Reconstruction & Roofing"
+
+  return undefined
+}

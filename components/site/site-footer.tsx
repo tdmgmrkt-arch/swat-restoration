@@ -351,6 +351,35 @@ export default function SiteFooter() {
               </span>
             </li>
           </ul>
+
+          {/* Verifiable credentials — only render lines with real values on file. */}
+          {(siteConfig.credentials.iicrcCert ||
+            siteConfig.credentials.trccLicense ||
+            siteConfig.credentials.moldRemediator) && (
+            <ul
+              role="list"
+              className="mt-3 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-white/40 font-mono text-[11px] tracking-wide"
+            >
+              {siteConfig.credentials.iicrcCert && (
+                <li className="inline-flex items-center gap-1.5">
+                  <BadgeCheck className="h-3 w-3 text-white/40" aria-hidden="true" />
+                  <span>{siteConfig.credentials.iicrcCert}</span>
+                </li>
+              )}
+              {siteConfig.credentials.trccLicense && (
+                <li className="inline-flex items-center gap-1.5">
+                  <BadgeCheck className="h-3 w-3 text-white/40" aria-hidden="true" />
+                  <span>{siteConfig.credentials.trccLicense}</span>
+                </li>
+              )}
+              {siteConfig.credentials.moldRemediator && (
+                <li className="inline-flex items-center gap-1.5">
+                  <BadgeCheck className="h-3 w-3 text-white/40" aria-hidden="true" />
+                  <span>{siteConfig.credentials.moldRemediator}</span>
+                </li>
+              )}
+            </ul>
+          )}
         </div>
       </div>
 

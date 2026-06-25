@@ -127,6 +127,7 @@ export const waterRemoval: ServiceConfig = {
         "Mold can begin colonizing wet materials within 24 to 48 hours at typical DFW humidity levels. Standing water accelerates that window. Basements and crawlspaces have limited airflow, which means residual moisture after a basic pump-out continues supporting mold growth unless a calculated drying system is deployed. S.W.A.T. Restoration treats pump-out and dry-down as a single job — removing standing water without completing the dry-down phase leaves the structure at elevated mold risk.",
     },
   ],
+  heroImage: "/service-warnings/water-removal.webp",
   relatedSlugs: ["water-extraction", "structural-drying", "burst-pipe-cleanup"],
   lastUpdated: "2026-06-16",
 }

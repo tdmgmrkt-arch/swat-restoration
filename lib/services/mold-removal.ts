@@ -127,6 +127,7 @@ export const moldRemoval: ServiceConfig = {
         "Third-party clearance testing is the objective confirmation. After S.W.A.T. Restoration completes remediation and removes containment, an independent party takes Air-O-Cell air samples inside the remediated zone. Those samples go to an accredited laboratory. Clearance is confirmed when indoor spore counts return to levels consistent with the outdoor baseline established during the initial mold inspection. S.W.A.T. Restoration provides the full project file — pre-remediation lab results, remediation scope documentation, and post-remediation clearance results — as the permanent record.",
     },
   ],
+  heroImage: "/service-warnings/mold-removal.webp",
   relatedSlugs: ["mold-inspection", "black-mold", "air-quality"],
   lastUpdated: "2026-06-16",
 }

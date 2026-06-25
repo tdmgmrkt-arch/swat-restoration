@@ -127,6 +127,7 @@ export const sootRemoval: ServiceConfig = {
         "A localized fire with soot confined to one or two rooms typically takes 1 to 2 days of cleaning work. A structure-wide fire with heavy residue on framing, drywall, and hard surfaces throughout the home can run 3 to 5 days before surfaces are cleared for reconstruction. S.W.A.T. Restoration scopes the affected zone on arrival and provides a timeline estimate before work begins.",
     },
   ],
+  heroImage: "/service-warnings/soot-removal.webp",
   relatedSlugs: ["smoke-damage", "odor-removal", "general-construction"],
   lastUpdated: "2026-06-16",
 }

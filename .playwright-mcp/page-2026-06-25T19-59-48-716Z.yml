@@ -1,0 +1,381 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "Blog" [ref=e39] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e40]:
+          - img [ref=e41]
+        - listitem [ref=e43]:
+          - generic [ref=e44]: How to Prepare Your Home for Storm Season
+    - region "How to Prepare Your Home for Storm Season" [ref=e45]:
+      - img "S.W.A.T. Restoration storm and roofing damage response in Aledo, TX — How to Prepare Your Home for Storm Season" [ref=e47]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - img [ref=e56]
+            - generic [ref=e58]: Storm & Roofing
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e63]: Aledo, TX
+        - paragraph [ref=e64]: Field Notes
+        - heading "How to Prepare Your Home for Storm Season" [level=1] [ref=e66]
+        - paragraph [ref=e67]: Storm season in Fort Worth, TX, can bring heavy rains, strong winds, and even hail, putting homes at risk of flooding and structural damage. The best way to protect your property is through proactive preparation.
+        - generic [ref=e68]:
+          - link "Dillon Patterson · S.W.A.T. Restoration" [ref=e69] [cursor=pointer]:
+            - /url: /about-us/
+            - img [ref=e70]
+            - generic [ref=e73]: Dillon Patterson
+            - generic [ref=e74]: · S.W.A.T. Restoration
+          - generic [ref=e75]:
+            - img [ref=e76]
+            - time [ref=e78]: December 18, 2025
+          - generic [ref=e79]:
+            - img [ref=e80]
+            - generic [ref=e83]: 2 min read
+    - region "Article body" [ref=e84]:
+      - generic [ref=e86]:
+        - article [ref=e87]:
+          - generic [ref=e88]:
+            - paragraph [ref=e89]:
+              - text: Storm season in
+              - strong [ref=e90]: Fort Worth, TX
+              - text: ", can bring heavy rains, strong winds, and even hail, putting homes at risk of flooding and structural damage. The best way to protect your property is through proactive preparation."
+            - paragraph [ref=e91]:
+              - text: Start by
+              - strong [ref=e92]: inspecting your roof
+              - text: for loose shingles and weak spots—these are often the first areas to sustain damage.
+              - strong [ref=e93]: Clean out your gutters
+              - text: to ensure proper drainage and prevent water from backing up into your home. If your area is prone to flooding, consider
+              - strong [ref=e94]: installing a sump pump
+              - text: or using sandbags to create a barrier around entry points.
+            - paragraph [ref=e95]:
+              - text: After a storm,
+              - strong [ref=e96]: act fast
+              - text: if you notice water intrusion, roof leaks, or any other damage.
+              - strong [ref=e97]: S.W.A.T. Restoration
+              - text: is ready to respond immediately, helping homeowners with storm damage assessments, water extraction, and complete restoration services in
+              - strong [ref=e98]: Fort Worth, TX
+              - text: . Don’t let storm season catch you off guard—be prepared and know who to call when you need help.
+          - generic [ref=e102]:
+            - generic [ref=e107]: Dispatch — 24/7
+            - heading "Need restoration help right now?" [level=2] [ref=e108]
+            - paragraph [ref=e109]: Call the Aledo dispatch line directly — a live dispatcher answers, not a voicemail tree.
+            - generic [ref=e110]:
+              - link "Call 817-286-4966" [ref=e111] [cursor=pointer]:
+                - /url: tel:+18172864966
+                - img [ref=e112]
+                - text: Call 817-286-4966
+              - link "Request Service" [ref=e114] [cursor=pointer]:
+                - /url: /contact-us/
+                - img [ref=e115]
+                - text: Request Service
+        - complementary [ref=e117]:
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - img [ref=e122]
+              - generic [ref=e125]: Written By
+            - paragraph [ref=e126]: Dillon Patterson
+            - paragraph [ref=e127]: Owner, S.W.A.T. Restoration — family-owned water, fire, and mold restoration serving Aledo & Fort Worth.
+            - link "View Bio" [ref=e128] [cursor=pointer]:
+              - /url: /about-us/
+              - text: View Bio
+              - img [ref=e129]
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - img [ref=e136]
+              - generic [ref=e138]: 24/7 Dispatch
+            - link "Aledo & Fort Worth 817-286-4966" [ref=e139] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - paragraph [ref=e140]: Aledo & Fort Worth
+              - paragraph [ref=e141]: 817-286-4966
+    - region "More from the field." [ref=e142]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e146]: Related Reading
+          - heading "More from the field." [level=2] [ref=e148]
+        - list [ref=e149]:
+          - listitem [ref=e150]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family Mold Remediation June 22, 2026 4 min Is Mold In My House Dangerous To My Family We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home. Read post" [ref=e151] [cursor=pointer]:
+              - /url: /post/is-mold-in-my-house-dangerous-to-my-family/
+              - generic [ref=e152]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family" [ref=e153]
+                - generic [ref=e156]: Mold Remediation
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - img [ref=e160]
+                    - text: June 22, 2026
+                  - generic [ref=e162]: ·
+                  - generic [ref=e163]:
+                    - img [ref=e164]
+                    - text: 4 min
+                - heading "Is Mold In My House Dangerous To My Family" [level=3] [ref=e167]
+                - paragraph [ref=e168]: We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.
+                - generic [ref=e169]:
+                  - text: Read post
+                  - img [ref=e170]
+          - listitem [ref=e172]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal Mold Remediation June 15, 2026 4 min Can I Stay In My House During Mold Removal Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold. Read post" [ref=e173] [cursor=pointer]:
+              - /url: /post/can-i-stay-in-my-house-during-mold-removal/
+              - generic [ref=e174]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal" [ref=e175]
+                - generic [ref=e178]: Mold Remediation
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - img [ref=e182]
+                    - text: June 15, 2026
+                  - generic [ref=e184]: ·
+                  - generic [ref=e185]:
+                    - img [ref=e186]
+                    - text: 4 min
+                - heading "Can I Stay In My House During Mold Removal" [level=3] [ref=e189]
+                - paragraph [ref=e190]: Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold.
+                - generic [ref=e191]:
+                  - text: Read post
+                  - img [ref=e192]
+          - listitem [ref=e194]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me Mold Remediation June 15, 2026 4 min Who To Call For Mold Removal Near Me We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly. Read post" [ref=e195] [cursor=pointer]:
+              - /url: /post/who-to-call-for-mold-removal-near-me-2/
+              - generic [ref=e196]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me" [ref=e197]
+                - generic [ref=e200]: Mold Remediation
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - img [ref=e204]
+                    - text: June 15, 2026
+                  - generic [ref=e206]: ·
+                  - generic [ref=e207]:
+                    - img [ref=e208]
+                    - text: 4 min
+                - heading "Who To Call For Mold Removal Near Me" [level=3] [ref=e211]
+                - paragraph [ref=e212]: We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly.
+                - generic [ref=e213]:
+                  - text: Read post
+                  - img [ref=e214]
+    - region "Water or fire damage at your home?" [ref=e216]:
+      - generic [ref=e227]:
+        - generic [ref=e231]: Mission Status
+        - generic [ref=e232]: ·
+        - generic [ref=e233]: Ready
+      - generic [ref=e235]:
+        - generic [ref=e238]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e240]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e241]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e242]:
+          - listitem [ref=e243]:
+            - generic [ref=e245]: 24/7
+            - generic [ref=e250]: Dispatch Active
+          - listitem [ref=e251]:
+            - generic [ref=e253]: 100%
+            - generic [ref=e255]: Family Owned
+          - listitem [ref=e256]:
+            - generic [ref=e258]: 49+
+            - generic [ref=e260]: DFW Communities
+        - generic [ref=e261]:
+          - link "Contact Us Now" [ref=e262] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e263]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e265] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e266]
+            - text: Call 817-286-4966
+        - generic [ref=e268]:
+          - generic [ref=e273]: 24/7 Dispatch
+          - generic [ref=e274]: ·
+          - generic [ref=e275]: Family Owned · DFW
+          - generic [ref=e276]: ·
+          - generic [ref=e277]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e278]:
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - link "S.W.A.T. Restoration Home" [ref=e282] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e283]
+        - paragraph [ref=e284]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e287]:
+          - img [ref=e288]
+          - generic [ref=e291]:
+            - generic [ref=e292]: Aledo
+            - generic [ref=e293]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e294] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e295]
+              - text: 817-286-4966
+      - generic [ref=e297]:
+        - heading "Services" [level=3] [ref=e298]
+        - list [ref=e299]:
+          - listitem [ref=e300]:
+            - link "Water Damage Restoration" [ref=e301] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e302]:
+            - link "Fire & Smoke Damage" [ref=e303] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e304]:
+            - link "Mold Remediation" [ref=e305] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e306]:
+            - link "Pack-Out & Cleaning" [ref=e307] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e308]:
+            - link "Roofing Services" [ref=e309] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e310]:
+            - link "Insurance Claim Assistance" [ref=e311] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e312]:
+        - heading "Company" [level=3] [ref=e313]
+        - list [ref=e314]:
+          - listitem [ref=e315]:
+            - link "About Us" [ref=e316] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e317]:
+            - link "Insurance Claims" [ref=e318] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e319]:
+            - link "Contact" [ref=e320] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e321]:
+            - link "Areas Served" [ref=e322] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e323]:
+            - link "Blog" [ref=e324] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e325]:
+        - heading "Emergency Line" [level=3] [ref=e326]
+        - generic [ref=e327]:
+          - generic [ref=e335]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e336] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e337]:
+            - listitem [ref=e338]: Under 60-min arrival
+            - listitem [ref=e340]: Dispatch in minutes
+          - link "Call Now" [ref=e342] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e343]
+            - text: Call Now
+            - img [ref=e345]
+          - link "Email S.W.A.T. Restoration" [ref=e348] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e349]
+            - text: main@swat-restoration.com
+    - generic [ref=e353]:
+      - generic [ref=e354]:
+        - heading "Service Areas" [level=3] [ref=e355]
+        - paragraph [ref=e356]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e357]:
+        - generic [ref=e360]: Primary Response
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - link "Aledo, TX" [ref=e363] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e364]:
+            - link "Arlington, TX" [ref=e365] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e366]:
+            - link "Bedford, TX" [ref=e367] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e368]:
+            - link "Euless, TX" [ref=e369] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e370]:
+            - link "Fort Worth, TX" [ref=e371] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e372]:
+            - link "Grapevine, TX" [ref=e373] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e374]:
+            - link "Hurst, TX" [ref=e375] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e376]:
+            - link "Keller, TX" [ref=e377] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e378]:
+            - link "Mansfield, TX" [ref=e379] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e380]:
+            - link "North Richland Hills, TX" [ref=e381] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e382]:
+            - link "Southlake, TX" [ref=e383] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e384]:
+            - link "Weatherford, TX" [ref=e385] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e386]:
+        - generic "Extended Coverage (37 more)" [ref=e387] [cursor=pointer]:
+          - generic [ref=e389]: Extended Coverage
+          - generic [ref=e390]: (37 more)
+          - generic [ref=e391]: ▼
+      - link "View All 49 Communities" [ref=e393] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e394]
+    - list [ref=e398]:
+      - listitem [ref=e399]:
+        - img [ref=e400]
+        - generic [ref=e403]: Licensed & Insured
+      - listitem [ref=e404]:
+        - img [ref=e405]
+        - generic [ref=e407]: 4.8 Google · 329+ reviews
+      - listitem [ref=e408]:
+        - img [ref=e409]
+        - generic [ref=e412]: Insurance Claim Experienced
+      - listitem [ref=e413]:
+        - generic [ref=e417]: 24/7 Dispatch
+    - generic [ref=e419]:
+      - paragraph [ref=e420]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e421]:
+        - link "Privacy Policy" [ref=e422] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e423] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e424]:
+    - img [ref=e425]
+  - button "Open Next.js Dev Tools" [ref=e436] [cursor=pointer]:
+    - img [ref=e437]

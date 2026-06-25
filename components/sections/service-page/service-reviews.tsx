@@ -4,6 +4,35 @@ import { siteConfig } from "@/lib/site-config"
 import { getGoogleReviews } from "@/lib/google-reviews"
 import type { ServiceConfig } from "@/lib/services-config"
 
+/* Official Google "G" mark — brand colors */
+function GoogleGMark({ className = "h-4 w-4" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      className={className}
+    >
+      <path
+        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+        fill="#4285F4"
+      />
+      <path
+        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.25 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+        fill="#34A853"
+      />
+      <path
+        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+        fill="#FBBC05"
+      />
+      <path
+        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+        fill="#EA4335"
+      />
+    </svg>
+  )
+}
+
 // Brand-voice fallback testimonials — used when Google Places fetch fails
 // or env vars are missing. Voiced to match the SWAT Restoration brand standard.
 const FALLBACK_QUOTES = [
@@ -81,33 +110,53 @@ export default async function ServiceReviews({ cfg }: { cfg: ServiceConfig }) {
             </p>
           </div>
 
-          {/* Aggregate rating badge */}
-          <div className="flex items-center gap-4 bg-[#131a3e] border border-white/10 rounded-sm px-5 py-4 self-start lg:self-end">
-            <div className="flex flex-col items-center">
-              <span className="text-3xl lg:text-4xl font-black text-white font-mono leading-none">
-                {rating.toFixed(1)}
+          {/* Aggregate rating badge — Google-branded, transparent backdrop */}
+          <a
+            href={siteConfig.social.google}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-stretch bg-white/5 border border-white/10 backdrop-blur-sm rounded-md overflow-hidden transition-colors hover:bg-white/8 hover:border-white/20 self-start lg:self-end"
+            aria-label={`Rated ${rating.toFixed(1)} out of 5 from ${count.toLocaleString()} Google reviews`}
+          >
+            {/* Left cell: Google G mark */}
+            <span className="flex items-center justify-center px-4">
+              <GoogleGMark className="h-7 w-7" />
+            </span>
+            <span className="w-px bg-white/10" aria-hidden="true" />
+            {/* Middle cell: rating + stars */}
+            <span className="flex items-center gap-3 px-4 py-3">
+              <span className="flex flex-col leading-none">
+                <span className="text-white/65 text-[10px] font-bold tracking-[0.15em] uppercase">
+                  Google
+                </span>
+                <span className="mt-1.5 inline-flex items-center gap-2">
+                  <span className="text-white text-2xl font-black font-mono leading-none">
+                    {rating.toFixed(1)}
+                  </span>
+                  <span className="flex items-center gap-0.5" aria-hidden="true">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star
+                        key={i}
+                        className="h-3.5 w-3.5"
+                        fill="#FBBC05"
+                        stroke="#FBBC05"
+                      />
+                    ))}
+                  </span>
+                </span>
               </span>
-              <div className="flex items-center gap-0.5 mt-1.5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star
-                    key={i}
-                    className="h-3 w-3 text-red-500"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="h-12 w-px bg-white/10" aria-hidden="true" />
-            <div className="flex flex-col">
-              <span className="text-white/85 text-sm font-bold leading-tight">
-                {count.toLocaleString()}+ Reviews
+            </span>
+            <span className="w-px bg-white/10" aria-hidden="true" />
+            {/* Right cell: review count */}
+            <span className="flex flex-col justify-center px-4 py-3">
+              <span className="text-white text-sm font-bold leading-tight">
+                {count.toLocaleString()}+
               </span>
-              <span className="text-[10px] font-mono tracking-[0.2em] uppercase text-white/45 font-semibold mt-1">
-                Google Verified
+              <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-white/50 font-semibold mt-1">
+                Reviews
               </span>
-            </div>
-          </div>
+            </span>
+          </a>
         </div>
 
         {/* Review cards */}

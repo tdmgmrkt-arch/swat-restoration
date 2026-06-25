@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Phone, CalendarDays, ShieldCheck, Clock, BadgeCheck, Zap } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { siteConfig } from "@/lib/site-config"
+import { hrefToContactServiceType } from "@/lib/contact-schema"
 import { AccentLine, TacticalLabel } from "@/components/ui/tactical-panel"
 import type { ServiceConfig } from "@/lib/services-config"
 
@@ -31,6 +32,17 @@ function renderH1(h1: string) {
 }
 
 export default function ServiceHero({ cfg }: { cfg: ServiceConfig }) {
+  // Deep-link into the contact form with two pieces of context:
+  //   ?service=<category>  → pre-selects one of the 8 dropdown categories
+  //   &detail=<name>       → pre-fills the message field with the specific
+  //                          service the visitor came in for, so dispatch
+  //                          knows the exact intent (not just the bucket).
+  const contactCategory = hrefToContactServiceType(cfg.href)
+  const params = new URLSearchParams()
+  if (contactCategory) params.set("service", contactCategory)
+  params.set("detail", cfg.name)
+  const requestHref = `/contact-us?${params.toString()}`
+
   const bgSrc = cfg.heroImage ?? "/hero-images/service-pages-hero.webp"
 
   return (
@@ -103,7 +115,7 @@ export default function ServiceHero({ cfg }: { cfg: ServiceConfig }) {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 mb-10">
             <Link
-              href="/contact-us"
+              href={requestHref}
               className={cn(
                 "inline-flex items-center justify-center gap-2",
                 "bg-red-600 hover:bg-red-700 text-white font-bold text-base",

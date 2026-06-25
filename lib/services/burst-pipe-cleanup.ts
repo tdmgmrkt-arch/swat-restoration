@@ -127,6 +127,7 @@ export const burstPipeCleanup: ServiceConfig = {
         "Drywall surface can feel dry while the framing and insulation behind it remain above 19% moisture content — the threshold where mold colonization actively occurs. Surface drying is not structural drying. S.W.A.T. Restoration uses FLIR thermal imaging and calibrated moisture meters to read conditions inside wall assemblies, not just on their surface. Materials that test above the IICRC S500 dry standard on day three get another day of drying — not a sign-off. That discipline is what prevents mold from appearing in the walls two weeks after the leak.",
     },
   ],
+  heroImage: "/service-warnings/burst-pipe-cleanup.webp",
   relatedSlugs: ["water-extraction", "water-removal", "structural-drying"],
   lastUpdated: "2026-06-16",
 }

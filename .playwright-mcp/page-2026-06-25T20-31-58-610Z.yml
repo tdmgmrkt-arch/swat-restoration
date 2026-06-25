@@ -1,0 +1,423 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "Blog" [ref=e39] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e40]:
+          - img [ref=e41]
+        - listitem [ref=e43]:
+          - generic [ref=e44]: Is Mold In My House Dangerous To My Family
+    - region "Is Mold In My House Dangerous To My Family" [ref=e45]:
+      - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family" [ref=e46]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: Mold Remediation
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e62]: Aledo, TX
+        - paragraph [ref=e63]: Field Notes
+        - heading "Is Mold In My House Dangerous To My Family" [level=1] [ref=e65]
+        - paragraph [ref=e66]: We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.
+        - generic [ref=e67]:
+          - link "Dillon Patterson · S.W.A.T. Restoration" [ref=e68] [cursor=pointer]:
+            - /url: /about-us/
+            - img [ref=e69]
+            - generic [ref=e72]: Dillon Patterson
+            - generic [ref=e73]: · S.W.A.T. Restoration
+          - generic [ref=e74]:
+            - img [ref=e75]
+            - time [ref=e77]: June 22, 2026
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e82]: 4 min read
+    - region "Article body" [ref=e83]:
+      - article [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.
+          - paragraph [ref=e88]:
+            - text: Finding mold inside your home can quickly raise concerns about your family’s health and safety. Many homeowners wonder whether mold is simply a cosmetic issue or something more serious. The truth is that
+            - strong [ref=e89]: dangerous household mold
+            - text: can affect both property conditions and indoor air quality when moisture problems remain untreated. Understanding how mold impacts a home helps families respond quickly and protect their living environment.
+          - generic [ref=e90]:
+            - generic [ref=e93]: Section
+            - heading "Why Mold Grows Inside Homes" [level=2] [ref=e94]
+          - paragraph [ref=e95]: Mold develops when moisture becomes trapped in enclosed spaces for extended periods. Leaks, humidity, storm damage, condensation, and plumbing failures all create conditions where spores can grow rapidly. Bathrooms, attics, crawl spaces, kitchens, and areas behind walls are common locations where mold begins spreading unnoticed.
+          - paragraph [ref=e96]:
+            - text: Once moisture is present, mold can spread through porous materials such as drywall, insulation, carpeting, and wood framing. Homes with poor ventilation or unresolved
+            - strong [ref=e97]: water damage
+            - text: often experience recurring mold issues because moisture continues feeding contamination behind surfaces.
+          - paragraph [ref=e98]:
+            - text: Even small visible patches may indicate larger hidden growth inside walls or beneath flooring. Professional inspections through experienced
+            - link "mold remediation services" [ref=e99] [cursor=pointer]:
+              - /url: /mold-remediation/
+            - text: help determine how widespread the problem may be.
+          - generic [ref=e100]:
+            - generic [ref=e103]: Section
+            - heading "Can Mold Affect Indoor Air Quality?" [level=2] [ref=e104]
+          - paragraph [ref=e105]: One of the biggest concerns surrounding mold is its impact on indoor air quality. As mold grows, it releases spores into the air that may circulate throughout the property, especially when HVAC systems are involved.
+          - paragraph [ref=e106]: Some individuals are more sensitive to mold exposure than others. Children, older adults, and people with allergies, asthma, or respiratory conditions may experience stronger reactions in contaminated environments. Homeowners often notice musty odors, irritation, or discomfort long before visible mold becomes widespread.
+          - paragraph [ref=e107]: Indoor air quality concerns increase when mold spreads into insulation, ventilation systems, or hidden structural spaces where contamination continues growing out of sight.
+          - generic [ref=e108]:
+            - generic [ref=e111]: Section
+            - heading "Common Signs Mold May Be Affecting Your Home" [level=2] [ref=e112]
+          - paragraph [ref=e113]: Visible discoloration is not always the first warning sign of mold. In many cases, homeowners notice indirect symptoms before discovering the actual source of contamination.
+          - paragraph [ref=e114]: "Common warning signs include:"
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - generic [ref=e119]: Persistent musty odors indoors
+            - listitem [ref=e120]:
+              - generic [ref=e122]: Peeling paint or bubbling drywall
+            - listitem [ref=e123]:
+              - generic [ref=e125]: Warped flooring or ceiling stains
+            - listitem [ref=e126]:
+              - generic [ref=e128]: Increased indoor humidity or condensation
+            - listitem [ref=e129]:
+              - generic [ref=e131]: Recurring allergy-like symptoms inside the home
+          - paragraph [ref=e132]:
+            - text: Mold often spreads quietly in dark, damp areas, making professional moisture detection especially important after leaks or flooding. Fast inspection and
+            - link "water damage restoration" [ref=e133] [cursor=pointer]:
+              - /url: /water-damage/
+            - text: help reduce the risk of contamination spreading further throughout the property.
+          - generic [ref=e134]:
+            - generic [ref=e137]: Section
+            - heading "Why Some Mold Problems Become More Serious" [level=2] [ref=e138]
+          - paragraph [ref=e139]: Not all mold growth develops at the same rate or in the same conditions. Small surface-level contamination on tile or non-porous materials may remain isolated if moisture is corrected quickly. However, hidden mold behind walls or under flooring can spread extensively before homeowners realize the severity of the issue.
+          - paragraph [ref=e140]: Long-term moisture exposure weakens structural materials and increases cleanup complexity over time. Mold affecting insulation, drywall, or wood framing often requires removal and replacement to fully eliminate contamination.
+          - paragraph [ref=e141]: Another concern is cross-contamination during improper cleanup. Disturbing mold without containment may spread spores into unaffected rooms, worsening indoor air quality and increasing restoration needs.
+          - generic [ref=e142]:
+            - generic [ref=e145]: Section
+            - heading "What Professional Mold Remediation Involves" [level=2] [ref=e146]
+          - paragraph [ref=e147]: Professional remediation focuses on safely removing contamination while correcting the moisture problem causing mold growth. The process usually begins with inspection and moisture mapping to locate hidden affected areas.
+          - paragraph [ref=e148]: Containment barriers and HEPA air filtration systems help prevent spores from spreading during cleanup. Depending on the severity of contamination, damaged materials such as drywall, carpeting, or insulation may require removal.
+          - paragraph [ref=e149]: Industrial drying equipment eliminates trapped moisture before reconstruction begins. Comprehensive restoration services help homeowners manage both cleanup and rebuilding under one team, creating a smoother recovery process.
+          - paragraph [ref=e150]: Professional remediation also improves long-term prevention by addressing leaks, humidity, and ventilation concerns contributing to mold growth.
+          - generic [ref=e151]:
+            - generic [ref=e154]: Section
+            - heading "What Homeowners Care About Most" [level=2] [ref=e155]
+          - paragraph [ref=e156]: Health concerns are usually the first priority once mold is discovered. Families want reassurance that their home is safe and that contamination can be removed effectively. Clear communication during remediation helps homeowners understand what areas are affected and how cleanup will restore indoor conditions.
+          - paragraph [ref=e157]: Another major concern is whether mold has spread beyond visible surfaces. Hidden contamination often surprises homeowners because mold may travel behind walls or beneath flooring without obvious warning signs.
+          - paragraph [ref=e158]: Property damage is also a significant worry. Untreated mold can weaken drywall, flooring, cabinetry, and structural materials over time, leading to larger repair projects later if moisture remains unresolved.
+          - generic [ref=e159]:
+            - generic [ref=e162]: Section
+            - heading "How To Reduce Mold Risks in the Home" [level=2] [ref=e163]
+          - paragraph [ref=e164]: Preventing mold growth starts with moisture control. Homeowners should address leaks quickly, maintain proper ventilation, and monitor indoor humidity levels regularly. Bathrooms, kitchens, attics, and laundry rooms benefit from strong airflow and routine inspections for dampness.
+          - paragraph [ref=e165]:
+            - text: After storms or plumbing failures, immediate drying significantly lowers the risk of mold developing. According to the
+            - link "Environmental Protection Agency" [ref=e166] [cursor=pointer]:
+              - /url: https://www.epa.gov/mold
+            - text: ", controlling moisture is the most important step in preventing mold growth indoors."
+          - paragraph [ref=e167]: Routine maintenance and fast response after water intrusion help homeowners avoid larger contamination issues later.
+          - generic [ref=e168]:
+            - generic [ref=e171]: Section
+            - heading "Professional Mold Removal Helps Protect Your Family" [level=2] [ref=e172]
+          - paragraph [ref=e173]: Mold problems rarely disappear without proper moisture control and remediation. Safe cleanup requires more than surface cleaning — it involves identifying hidden contamination, removing affected materials safely, and restoring healthy indoor conditions throughout the property.
+          - paragraph [ref=e174]:
+            - text: If you’re looking for trusted help with
+            - strong [ref=e175]: dangerous household mold
+            - text: ", SWAT Restoration provides professional mold remediation, water damage cleanup, and reconstruction services throughout North Texas. Our team identifies hidden moisture problems, contains contamination safely, and restores affected areas with clear communication from start to finish. When mold threatens your home and your family’s comfort, experienced restoration professionals help make recovery safer and less stressful."
+        - generic [ref=e179]:
+          - generic [ref=e184]: Dispatch — 24/7
+          - heading "Need restoration help right now?" [level=2] [ref=e185]
+          - paragraph [ref=e186]: Call the Aledo dispatch line directly — a live dispatcher answers, not a voicemail tree.
+          - generic [ref=e187]:
+            - link "Call 817-286-4966" [ref=e188] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e189]
+              - text: Call 817-286-4966
+            - link "Request Service" [ref=e191] [cursor=pointer]:
+              - /url: /contact-us/
+              - img [ref=e192]
+              - text: Request Service
+    - region "More from the field." [ref=e194]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - paragraph [ref=e198]: Related Reading
+          - heading "More from the field." [level=2] [ref=e200]
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal Mold Remediation June 15, 2026 4 min Can I Stay In My House During Mold Removal Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold. Read post" [ref=e203] [cursor=pointer]:
+              - /url: /post/can-i-stay-in-my-house-during-mold-removal/
+              - generic [ref=e204]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Can I Stay In My House During Mold Removal" [ref=e205]
+                - generic [ref=e208]: Mold Remediation
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - img [ref=e212]
+                    - text: June 15, 2026
+                  - generic [ref=e214]: ·
+                  - generic [ref=e215]:
+                    - img [ref=e216]
+                    - text: 4 min
+                - heading "Can I Stay In My House During Mold Removal" [level=3] [ref=e219]
+                - paragraph [ref=e220]: Will mold remediation force you to leave your home for days—or can you safely stay during the process? That’s one of the biggest concerns homeowners have after discovering mold.
+                - generic [ref=e221]:
+                  - text: Read post
+                  - img [ref=e222]
+          - listitem [ref=e224]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me Mold Remediation June 15, 2026 4 min Who To Call For Mold Removal Near Me We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly. Read post" [ref=e225] [cursor=pointer]:
+              - /url: /post/who-to-call-for-mold-removal-near-me-2/
+              - generic [ref=e226]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Who To Call For Mold Removal Near Me" [ref=e227]
+                - generic [ref=e230]: Mold Remediation
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - img [ref=e234]
+                    - text: June 15, 2026
+                  - generic [ref=e236]: ·
+                  - generic [ref=e237]:
+                    - img [ref=e238]
+                    - text: 4 min
+                - heading "Who To Call For Mold Removal Near Me" [level=3] [ref=e241]
+                - paragraph [ref=e242]: We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly.
+                - generic [ref=e243]:
+                  - text: Read post
+                  - img [ref=e244]
+          - listitem [ref=e246]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — What Does Mold Remediation Cost In Texas Mold Remediation June 8, 2026 4 min What Does Mold Remediation Cost In Texas We provide professional mold remediation services across Texas that help homeowners address contamination quickly while preventing long-term structural and indoor air quality problems. Read post" [ref=e247] [cursor=pointer]:
+              - /url: /post/what-does-mold-remediation-cost-in-texas/
+              - generic [ref=e248]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — What Does Mold Remediation Cost In Texas" [ref=e249]
+                - generic [ref=e252]: Mold Remediation
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - img [ref=e256]
+                    - text: June 8, 2026
+                  - generic [ref=e258]: ·
+                  - generic [ref=e259]:
+                    - img [ref=e260]
+                    - text: 4 min
+                - heading "What Does Mold Remediation Cost In Texas" [level=3] [ref=e263]
+                - paragraph [ref=e264]: We provide professional mold remediation services across Texas that help homeowners address contamination quickly while preventing long-term structural and indoor air quality problems.
+                - generic [ref=e265]:
+                  - text: Read post
+                  - img [ref=e266]
+    - region "Water or fire damage at your home?" [ref=e268]:
+      - generic [ref=e279]:
+        - generic [ref=e283]: Mission Status
+        - generic [ref=e284]: ·
+        - generic [ref=e285]: Ready
+      - generic [ref=e287]:
+        - generic [ref=e290]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e292]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e293]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e294]:
+          - listitem [ref=e295]:
+            - generic [ref=e297]: 24/7
+            - generic [ref=e302]: Dispatch Active
+          - listitem [ref=e303]:
+            - generic [ref=e305]: 100%
+            - generic [ref=e307]: Family Owned
+          - listitem [ref=e308]:
+            - generic [ref=e310]: 49+
+            - generic [ref=e312]: DFW Communities
+        - generic [ref=e313]:
+          - link "Contact Us Now" [ref=e314] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e315]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e317] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e318]
+            - text: Call 817-286-4966
+        - generic [ref=e320]:
+          - generic [ref=e325]: 24/7 Dispatch
+          - generic [ref=e326]: ·
+          - generic [ref=e327]: Family Owned · DFW
+          - generic [ref=e328]: ·
+          - generic [ref=e329]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e330]:
+    - generic [ref=e332]:
+      - generic [ref=e333]:
+        - link "S.W.A.T. Restoration Home" [ref=e334] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e335]
+        - paragraph [ref=e336]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e339]:
+          - img [ref=e340]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Aledo
+            - generic [ref=e345]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e346] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e347]
+              - text: 817-286-4966
+      - generic [ref=e349]:
+        - heading "Services" [level=3] [ref=e350]
+        - list [ref=e351]:
+          - listitem [ref=e352]:
+            - link "Water Damage Restoration" [ref=e353] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e354]:
+            - link "Fire & Smoke Damage" [ref=e355] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e356]:
+            - link "Mold Remediation" [ref=e357] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e358]:
+            - link "Pack-Out & Cleaning" [ref=e359] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e360]:
+            - link "Roofing Services" [ref=e361] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e362]:
+            - link "Insurance Claim Assistance" [ref=e363] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e364]:
+        - heading "Company" [level=3] [ref=e365]
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - link "About Us" [ref=e368] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e369]:
+            - link "Insurance Claims" [ref=e370] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e371]:
+            - link "Contact" [ref=e372] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e373]:
+            - link "Areas Served" [ref=e374] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e375]:
+            - link "Blog" [ref=e376] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e377]:
+        - heading "Emergency Line" [level=3] [ref=e378]
+        - generic [ref=e379]:
+          - generic [ref=e387]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e388] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e389]:
+            - listitem [ref=e390]: Under 60-min arrival
+            - listitem [ref=e392]: Dispatch in minutes
+          - link "Call Now" [ref=e394] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e395]
+            - text: Call Now
+            - img [ref=e397]
+          - link "Email S.W.A.T. Restoration" [ref=e400] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e401]
+            - text: main@swat-restoration.com
+    - generic [ref=e405]:
+      - generic [ref=e406]:
+        - heading "Service Areas" [level=3] [ref=e407]
+        - paragraph [ref=e408]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e409]:
+        - generic [ref=e412]: Primary Response
+        - list [ref=e413]:
+          - listitem [ref=e414]:
+            - link "Aledo, TX" [ref=e415] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e416]:
+            - link "Arlington, TX" [ref=e417] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e418]:
+            - link "Bedford, TX" [ref=e419] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e420]:
+            - link "Euless, TX" [ref=e421] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e422]:
+            - link "Fort Worth, TX" [ref=e423] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e424]:
+            - link "Grapevine, TX" [ref=e425] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e426]:
+            - link "Hurst, TX" [ref=e427] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e428]:
+            - link "Keller, TX" [ref=e429] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e430]:
+            - link "Mansfield, TX" [ref=e431] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e432]:
+            - link "North Richland Hills, TX" [ref=e433] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e434]:
+            - link "Southlake, TX" [ref=e435] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e436]:
+            - link "Weatherford, TX" [ref=e437] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e438]:
+        - generic "Extended Coverage (37 more)" [ref=e439] [cursor=pointer]:
+          - generic [ref=e441]: Extended Coverage
+          - generic [ref=e442]: (37 more)
+          - generic [ref=e443]: ▼
+      - link "View All 49 Communities" [ref=e445] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e446]
+    - list [ref=e450]:
+      - listitem [ref=e451]:
+        - img [ref=e452]
+        - generic [ref=e455]: Licensed & Insured
+      - listitem [ref=e456]:
+        - img [ref=e457]
+        - generic [ref=e459]: 4.8 Google · 329+ reviews
+      - listitem [ref=e460]:
+        - img [ref=e461]
+        - generic [ref=e464]: Insurance Claim Experienced
+      - listitem [ref=e465]:
+        - generic [ref=e469]: 24/7 Dispatch
+    - generic [ref=e471]:
+      - paragraph [ref=e472]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e473]:
+        - link "Privacy Policy" [ref=e474] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e475] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e476]:
+    - img [ref=e477]
+  - button "Open Next.js Dev Tools" [ref=e488] [cursor=pointer]:
+    - img [ref=e489]

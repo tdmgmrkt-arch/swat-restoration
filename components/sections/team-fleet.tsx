@@ -27,7 +27,7 @@ const slots: PhotoSlot[] = [
   {
     label: "Built on Family",
     caption: "Dillon & Danielle Patterson — Owners. We treat your home like our own.",
-    img: "/teamphoto.jpeg",
+    img: "/teamshot.webp",
     aspect: "16/9",
     span: "lg:col-span-2",
     featured: true,
@@ -35,14 +35,14 @@ const slots: PhotoSlot[] = [
   {
     label: "Fleet Ready",
     caption: "Fully stocked trucks. Drying equipment, air scrubbers, containment — on every dispatch.",
-    img: "/fleet.jpeg",
+    img: "/fleet.webp",
     aspect: "4/5",
     span: "lg:col-span-1",
   },
   {
     label: "On Site",
     caption: "Water extraction in progress — every minute matters to stop secondary damage.",
-    img: "/atwork1.jpeg",
+    img: "/techatwork.webp",
     aspect: "4/5",
     span: "lg:col-span-1",
     objectPosition: "center top",
@@ -50,7 +50,7 @@ const slots: PhotoSlot[] = [
   {
     label: "Dispatch Center",
     caption: "24/7 dispatch — when disaster hits, the first call is to family.",
-    img: "/dispatch.png",
+    img: "/dispatch.webp",
     aspect: "16/9",
     span: "lg:col-span-2",
   },

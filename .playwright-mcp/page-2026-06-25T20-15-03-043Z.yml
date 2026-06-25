@@ -1,0 +1,333 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]: Blog · Page 5
+    - region "Page 5 of 5" [ref=e39]:
+      - generic [ref=e42]:
+        - generic [ref=e47]: Intelligence Briefings
+        - paragraph [ref=e48]: Field Notes
+        - heading "Page 5 of 5" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Posts 37–39 of 39
+    - region "Blog posts, page 5" [ref=e52]:
+      - generic [ref=e54]:
+        - heading "Blog posts, page 5" [level=2] [ref=e55]
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - 'link "S.W.A.T. Restoration fire and smoke damage response in Fort Worth, TX — Fire Damage Restoration in North Texas: What Homeowners Need to Know Fire Damage December 18, 2025 2 min Fire Damage Restoration in North Texas: What Homeowners Need to Know Few events are more devastating than a fire in your home or business. Beyond the immediate danger, the aftermath can feel overwhelming—charred belongings, lingering smoke odors, and water damage from firefighting efforts. Fort Worth, TX Read post" [ref=e58] [cursor=pointer]':
+              - /url: /post/fire-damage-restoration-in-north-texas-what-homeowners-need-to-know/
+              - generic [ref=e59]:
+                - 'img "S.W.A.T. Restoration fire and smoke damage response in Fort Worth, TX — Fire Damage Restoration in North Texas: What Homeowners Need to Know" [ref=e60]'
+                - generic [ref=e63]: Fire Damage
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - img [ref=e67]
+                    - text: December 18, 2025
+                  - generic [ref=e69]: ·
+                  - generic [ref=e70]:
+                    - img [ref=e71]
+                    - text: 2 min
+                - 'heading "Fire Damage Restoration in North Texas: What Homeowners Need to Know" [level=3] [ref=e74]'
+                - paragraph [ref=e75]: Few events are more devastating than a fire in your home or business. Beyond the immediate danger, the aftermath can feel overwhelming—charred belongings, lingering smoke odors, and water damage from firefighting efforts.
+                - generic [ref=e76]:
+                  - generic [ref=e77]:
+                    - img [ref=e78]
+                    - text: Fort Worth, TX
+                  - generic [ref=e81]:
+                    - text: Read post
+                    - img [ref=e82]
+          - listitem [ref=e84]:
+            - 'link "S.W.A.T. Restoration storm and roofing damage response in Fort Worth, TX — Storm Damage in North Texas: How to Protect Your Home and Recover Fast Storm & Roofing December 18, 2025 2 min Storm Damage in North Texas: How to Protect Your Home and Recover Fast If you’ve lived in North Texas for any length of time, you know storms aren’t just an inconvenience—they can be destructive. Fort Worth, TX Read post" [ref=e85] [cursor=pointer]':
+              - /url: /post/storm-damage-in-north-texas-how-to-protect-your-home-and-recover-fast/
+              - generic [ref=e86]:
+                - 'img "S.W.A.T. Restoration storm and roofing damage response in Fort Worth, TX — Storm Damage in North Texas: How to Protect Your Home and Recover Fast" [ref=e87]'
+                - generic [ref=e90]: Storm & Roofing
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - img [ref=e94]
+                    - text: December 18, 2025
+                  - generic [ref=e96]: ·
+                  - generic [ref=e97]:
+                    - img [ref=e98]
+                    - text: 2 min
+                - 'heading "Storm Damage in North Texas: How to Protect Your Home and Recover Fast" [level=3] [ref=e101]'
+                - paragraph [ref=e102]: If you’ve lived in North Texas for any length of time, you know storms aren’t just an inconvenience—they can be destructive.
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - img [ref=e105]
+                    - text: Fort Worth, TX
+                  - generic [ref=e108]:
+                    - text: Read post
+                    - img [ref=e109]
+          - listitem [ref=e111]:
+            - link "S.W.A.T. Restoration team serving Aledo, TX — Why Choosing a Family-Owned, Local Restoration Company Matters About SWAT December 18, 2025 2 min Why Choosing a Family-Owned, Local Restoration Company Matters When disaster strikes your home or business—whether it’s a burst pipe, storm damage, fire, or mold—the first call you make can shape your entire recovery process. Aledo, TX Read post" [ref=e112] [cursor=pointer]:
+              - /url: /post/why-choosing-a-family-owned-local-restoration-company-matters/
+              - generic [ref=e113]:
+                - img "S.W.A.T. Restoration team serving Aledo, TX — Why Choosing a Family-Owned, Local Restoration Company Matters" [ref=e114]
+                - generic [ref=e117]: About SWAT
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - img [ref=e121]
+                    - text: December 18, 2025
+                  - generic [ref=e123]: ·
+                  - generic [ref=e124]:
+                    - img [ref=e125]
+                    - text: 2 min
+                - heading "Why Choosing a Family-Owned, Local Restoration Company Matters" [level=3] [ref=e128]
+                - paragraph [ref=e129]: When disaster strikes your home or business—whether it’s a burst pipe, storm damage, fire, or mold—the first call you make can shape your entire recovery process.
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - img [ref=e132]
+                    - text: Aledo, TX
+                  - generic [ref=e135]:
+                    - text: Read post
+                    - img [ref=e136]
+        - navigation "Blog pagination" [ref=e138]:
+          - link "Previous" [ref=e139] [cursor=pointer]:
+            - /url: /blog/page/4/
+            - img [ref=e140]
+            - generic [ref=e142]: Previous
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - link "1" [ref=e145] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e146]:
+              - link "2" [ref=e147] [cursor=pointer]:
+                - /url: /blog/page/2/
+            - listitem [ref=e148]:
+              - link "3" [ref=e149] [cursor=pointer]:
+                - /url: /blog/page/3/
+            - listitem [ref=e150]:
+              - link "4" [ref=e151] [cursor=pointer]:
+                - /url: /blog/page/4/
+            - listitem [ref=e152]:
+              - generic [ref=e153]: "5"
+          - generic [ref=e154]:
+            - generic [ref=e155]: Next
+            - img [ref=e156]
+    - region "Water or fire damage at your home?" [ref=e158]:
+      - generic [ref=e169]:
+        - generic [ref=e173]: Mission Status
+        - generic [ref=e174]: ·
+        - generic [ref=e175]: Ready
+      - generic [ref=e177]:
+        - generic [ref=e180]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e182]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e183]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e184]:
+          - listitem [ref=e185]:
+            - generic [ref=e187]: 24/7
+            - generic [ref=e192]: Dispatch Active
+          - listitem [ref=e193]:
+            - generic [ref=e195]: 100%
+            - generic [ref=e197]: Family Owned
+          - listitem [ref=e198]:
+            - generic [ref=e200]: 49+
+            - generic [ref=e202]: DFW Communities
+        - generic [ref=e203]:
+          - link "Contact Us Now" [ref=e204] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e205]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e207] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e208]
+            - text: Call 817-286-4966
+        - generic [ref=e210]:
+          - generic [ref=e215]: 24/7 Dispatch
+          - generic [ref=e216]: ·
+          - generic [ref=e217]: Family Owned · DFW
+          - generic [ref=e218]: ·
+          - generic [ref=e219]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e220]:
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - link "S.W.A.T. Restoration Home" [ref=e224] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e225]
+        - paragraph [ref=e226]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e229]:
+          - img [ref=e230]
+          - generic [ref=e233]:
+            - generic [ref=e234]: Aledo
+            - generic [ref=e235]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e236] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e237]
+              - text: 817-286-4966
+      - generic [ref=e239]:
+        - heading "Services" [level=3] [ref=e240]
+        - list [ref=e241]:
+          - listitem [ref=e242]:
+            - link "Water Damage Restoration" [ref=e243] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e244]:
+            - link "Fire & Smoke Damage" [ref=e245] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e246]:
+            - link "Mold Remediation" [ref=e247] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e248]:
+            - link "Pack-Out & Cleaning" [ref=e249] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e250]:
+            - link "Roofing Services" [ref=e251] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e252]:
+            - link "Insurance Claim Assistance" [ref=e253] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e254]:
+        - heading "Company" [level=3] [ref=e255]
+        - list [ref=e256]:
+          - listitem [ref=e257]:
+            - link "About Us" [ref=e258] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e259]:
+            - link "Insurance Claims" [ref=e260] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e261]:
+            - link "Contact" [ref=e262] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e263]:
+            - link "Areas Served" [ref=e264] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e265]:
+            - link "Blog" [ref=e266] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e267]:
+        - heading "Emergency Line" [level=3] [ref=e268]
+        - generic [ref=e269]:
+          - generic [ref=e277]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e278] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e279]:
+            - listitem [ref=e280]: Under 60-min arrival
+            - listitem [ref=e282]: Dispatch in minutes
+          - link "Call Now" [ref=e284] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e285]
+            - text: Call Now
+            - img [ref=e287]
+          - link "Email S.W.A.T. Restoration" [ref=e290] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e291]
+            - text: main@swat-restoration.com
+    - generic [ref=e295]:
+      - generic [ref=e296]:
+        - heading "Service Areas" [level=3] [ref=e297]
+        - paragraph [ref=e298]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e299]:
+        - generic [ref=e302]: Primary Response
+        - list [ref=e303]:
+          - listitem [ref=e304]:
+            - link "Aledo, TX" [ref=e305] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e306]:
+            - link "Arlington, TX" [ref=e307] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e308]:
+            - link "Bedford, TX" [ref=e309] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e310]:
+            - link "Euless, TX" [ref=e311] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e312]:
+            - link "Fort Worth, TX" [ref=e313] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e314]:
+            - link "Grapevine, TX" [ref=e315] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e316]:
+            - link "Hurst, TX" [ref=e317] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e318]:
+            - link "Keller, TX" [ref=e319] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e320]:
+            - link "Mansfield, TX" [ref=e321] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e322]:
+            - link "North Richland Hills, TX" [ref=e323] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e324]:
+            - link "Southlake, TX" [ref=e325] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e326]:
+            - link "Weatherford, TX" [ref=e327] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e328]:
+        - generic "Extended Coverage (37 more)" [ref=e329] [cursor=pointer]:
+          - generic [ref=e331]: Extended Coverage
+          - generic [ref=e332]: (37 more)
+          - generic [ref=e333]: ▼
+      - link "View All 49 Communities" [ref=e335] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e336]
+    - list [ref=e340]:
+      - listitem [ref=e341]:
+        - img [ref=e342]
+        - generic [ref=e345]: Licensed & Insured
+      - listitem [ref=e346]:
+        - img [ref=e347]
+        - generic [ref=e349]: 4.8 Google · 329+ reviews
+      - listitem [ref=e350]:
+        - img [ref=e351]
+        - generic [ref=e354]: Insurance Claim Experienced
+      - listitem [ref=e355]:
+        - generic [ref=e359]: 24/7 Dispatch
+    - generic [ref=e361]:
+      - paragraph [ref=e362]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e363]:
+        - link "Privacy Policy" [ref=e364] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e365] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e366]:
+    - img [ref=e367]
+  - button "Open Next.js Dev Tools" [ref=e378] [cursor=pointer]:
+    - img [ref=e379]

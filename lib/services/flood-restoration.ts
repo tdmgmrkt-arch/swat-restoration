@@ -127,6 +127,7 @@ export const floodRestoration: ServiceConfig = {
         "Mold can begin colonizing wet materials within 24 to 48 hours at DFW humidity levels — especially in enclosed spaces like wall cavities, subfloor assemblies, and crawlspaces where floodwater can sit unseen. Fast pump-out reduces risk but doesn't eliminate it without a complete structural dry-down. S.W.A.T. Restoration applies Concrobium or Microban antimicrobial treatment to all affected surfaces after drying and monitors moisture content daily to confirm the structure reaches the IICRC S500 dry standard before the job is closed. That combination — documented drying plus antimicrobial treatment — is the defensible standard for mold prevention after a flood event.",
     },
   ],
+  heroImage: "/service-warnings/flood-restoration.webp",
   relatedSlugs: ["water-extraction", "structural-drying", "sewage-cleanup"],
   lastUpdated: "2026-06-16",
 }

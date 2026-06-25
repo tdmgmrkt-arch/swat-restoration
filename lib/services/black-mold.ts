@@ -127,6 +127,7 @@ export const blackMold: ServiceConfig = {
         "For confirmed Stachybotrys remediation, S.W.A.T. Restoration recommends that occupants — particularly children, elderly individuals, and anyone with respiratory conditions or compromised immune systems — not remain in the structure during active remediation. The containment and negative-pressure system is designed to prevent cross-contamination, but the risk level with Stachybotrys warrants temporary relocation during the active removal phase. Re-occupancy of the remediated zone specifically is not recommended until third-party clearance results confirm Stachybotrys counts are at non-detect or outdoor-baseline level.",
     },
   ],
+  heroImage: "/service-warnings/black-mold.webp",
   relatedSlugs: ["mold-inspection", "mold-removal", "air-quality"],
   lastUpdated: "2026-06-16",
 }

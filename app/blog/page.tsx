@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Phone,
@@ -126,8 +127,22 @@ function PublishedHero() {
       className="relative isolate bg-[#0c1230] pt-12 pb-8 lg:pt-16 lg:pb-10 overflow-hidden"
       aria-labelledby="blog-hero-heading"
     >
+      {/* Background image — masked for legibility */}
+      <Image
+        src="/hero-images/bloghero.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        className="object-cover object-center -z-10 opacity-55"
+        priority
+      />
+      {/* Left-weighted overlay so headline copy sits on near-solid backdrop */}
       <div
-        className="absolute inset-0 -z-10 bg-linear-to-b from-[#0a0f28] via-[#0c1230] to-[#131a3e] pointer-events-none"
+        className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230] from-0% via-[#0c1230]/85 via-50% to-[#0c1230]/60 pointer-events-none"
+        aria-hidden="true"
+      />
+      <div
+        className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-transparent to-[#0c1230]/50 pointer-events-none"
         aria-hidden="true"
       />
       <div
@@ -298,8 +313,21 @@ function ComingSoonHero() {
       className="relative isolate bg-[#0c1230] pt-14 pb-12 lg:pt-20 lg:pb-16 overflow-hidden"
       aria-labelledby="blog-hero-heading"
     >
+      {/* Background image — masked for legibility */}
+      <Image
+        src="/hero-images/bloghero.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        className="object-cover object-center -z-10 opacity-55"
+        priority
+      />
       <div
-        className="absolute inset-0 -z-10 bg-linear-to-b from-[#0a0f28] via-[#0c1230] to-[#131a3e] pointer-events-none"
+        className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230] from-0% via-[#0c1230]/85 via-50% to-[#0c1230]/60 pointer-events-none"
+        aria-hidden="true"
+      />
+      <div
+        className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-transparent to-[#0c1230]/50 pointer-events-none"
         aria-hidden="true"
       />
       <div

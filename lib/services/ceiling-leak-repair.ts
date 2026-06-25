@@ -127,6 +127,7 @@ export const ceilingLeakRepair: ServiceConfig = {
         "A ceiling stain that has been dry to the touch for weeks can still have framing above it testing above 19% moisture content — the threshold where mold colonization actively occurs in an enclosed cavity. Painting over the stain seals moisture in. S.W.A.T. Restoration uses calibrated moisture meters and FLIR imaging to confirm what is actually happening in the ceiling assembly, not just on its surface. Antimicrobial treatment with Concrobium or Microban is applied to exposed framing before enclosing — that combination is the defensible standard against mold returning after repair.",
     },
   ],
+  heroImage: "/service-warnings/ceiling-leak-repair.webp",
   relatedSlugs: ["structural-drying", "burst-pipe-cleanup", "water-extraction"],
   lastUpdated: "2026-06-16",
 }

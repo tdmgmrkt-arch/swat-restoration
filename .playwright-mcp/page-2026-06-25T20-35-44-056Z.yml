@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "S.W.A.T. Restoration — Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "S.W.A.T. Restoration" [ref=e5]
+      - navigation "Main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "Services" [ref=e9]:
+              - text: Services
+              - img [ref=e10]
+          - listitem [ref=e12]:
+            - button "Areas Served" [ref=e13]:
+              - text: Areas Served
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - button "About" [ref=e17]:
+              - text: About
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e22]:
+        - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18172864966
+          - img [ref=e24]
+          - text: Call Now
+        - link "Request Service" [ref=e26] [cursor=pointer]:
+          - /url: /contact-us/
+          - img [ref=e27]
+          - text: Request Service
+  - main [ref=e29]:
+    - navigation "Breadcrumb" [ref=e30]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e35]:
+          - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "Blog" [ref=e39] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e40]:
+          - img [ref=e41]
+        - listitem [ref=e43]:
+          - generic [ref=e44]: What To Do After A House Fire in Fort Worth
+    - region "What To Do After A House Fire in Fort Worth" [ref=e45]:
+      - img "S.W.A.T. Restoration fire and smoke damage response in Fort Worth, TX — What To Do After A House Fire in Fort Worth" [ref=e46]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: Fire Damage
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e62]: Fort Worth, TX
+        - paragraph [ref=e63]: Field Notes
+        - heading "What To Do After A House Fire in Fort Worth" [level=1] [ref=e65]
+        - paragraph [ref=e66]: We provide fast-response fire damage restoration services that help Fort Worth homeowners recover safely after a house fire while protecting their property from further damage.
+        - generic [ref=e67]:
+          - link "Dillon Patterson · S.W.A.T. Restoration" [ref=e68] [cursor=pointer]:
+            - /url: /about-us/
+            - img [ref=e69]
+            - generic [ref=e72]: Dillon Patterson
+            - generic [ref=e73]: · S.W.A.T. Restoration
+          - generic [ref=e74]:
+            - img [ref=e75]
+            - time [ref=e77]: May 18, 2026
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e82]: 4 min read
+    - region "Article body" [ref=e83]:
+      - article [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: We provide fast-response fire damage restoration services that help Fort Worth homeowners recover safely after a house fire while protecting their property from further damage.
+          - paragraph [ref=e88]:
+            - text: A house fire can leave homeowners overwhelmed long after the flames are extinguished. Smoke, soot, water damage, and structural concerns often continue affecting the property in the hours and days that follow. Knowing the right steps to take after a fire helps protect your safety, supports insurance claims, and speeds up the recovery process. Understanding the early stages of
+            - strong [ref=e89]: house fire recovery
+            - text: can make a difficult situation feel more manageable.
+          - generic [ref=e90]:
+            - generic [ref=e93]: Section
+            - heading "Prioritize Safety Before Reentering the Property" [level=2] [ref=e94]
+          - paragraph [ref=e95]: After a fire, safety should remain the top priority. Even if the visible flames are gone, the structure may still contain hidden hazards such as weakened flooring, unstable ceilings, electrical damage, or lingering smoke contamination.
+          - paragraph [ref=e96]: Homeowners should only reenter the property once fire officials confirm it is safe to do so. Breathing in smoke residue or disturbing damaged materials without protection may create additional health risks. In many cases, utilities such as gas, electricity, and water should remain off until inspections are completed.
+          - paragraph [ref=e97]: If emergency responders secure parts of the home, avoid moving damaged materials or entering restricted areas. Structural instability is common after fires, especially when heat has compromised framing or roofing components.
+          - generic [ref=e98]:
+            - generic [ref=e101]: Section
+            - heading "Document the Damage Immediately" [level=2] [ref=e102]
+          - paragraph [ref=e103]: Once the property is safe to enter, documenting the damage becomes extremely important. Homeowners should take clear photos and videos of affected rooms, damaged belongings, and visible smoke or soot residue before cleanup begins.
+          - paragraph [ref=e104]: Detailed documentation helps support insurance claims and provides restoration teams with a clearer understanding of the fire’s impact. Keep records of temporary expenses as well, including hotel stays, emergency supplies, and temporary repairs.
+          - paragraph [ref=e105]:
+            - text: Fire damage often extends beyond the burned area itself. Smoke particles can travel throughout the property, affecting walls, ceilings, furniture, and HVAC systems. Fast assessment through professional
+            - link "fire damage restoration" [ref=e106] [cursor=pointer]:
+              - /url: /fire-damage/
+            - text: services helps identify hidden damage before conditions worsen.
+          - generic [ref=e107]:
+            - generic [ref=e110]: Section
+            - heading "Contact Your Insurance Provider Quickly" [level=2] [ref=e111]
+          - paragraph [ref=e112]: Most homeowners contact their insurance provider shortly after securing safety. Early communication helps begin the claims process and allows adjusters to assess the property before repairs start.
+          - paragraph [ref=e113]: "Insurance companies typically request:"
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - generic [ref=e118]: Photos and videos of damage
+            - listitem [ref=e119]:
+              - generic [ref=e121]: An inventory of affected belongings
+            - listitem [ref=e122]:
+              - generic [ref=e124]: Emergency mitigation records
+            - listitem [ref=e125]:
+              - generic [ref=e127]: Professional inspection reports
+          - paragraph [ref=e128]: Keeping organized records helps reduce delays during the claims process. Restoration companies often assist homeowners by documenting moisture levels, soot contamination, and structural concerns to support accurate claim evaluations.
+          - paragraph [ref=e129]:
+            - text: The
+            - link "American Red Cross" [ref=e130] [cursor=pointer]:
+              - /url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html
+            - text: also recommends securing important documents and contacting local support resources after residential fires.
+          - generic [ref=e131]:
+            - generic [ref=e134]: Section
+            - heading "Address Water and Smoke Damage Quickly" [level=2] [ref=e135]
+          - paragraph [ref=e136]: Many homeowners are surprised to learn that water damage becomes a major concern after a fire. Firefighting efforts often leave behind soaked flooring, wet insulation, and standing water that can quickly lead to mold growth if not addressed immediately.
+          - paragraph [ref=e137]: Smoke and soot residue also continue damaging surfaces long after the fire ends. Acidic soot particles may discolor walls, corrode metal surfaces, and leave persistent odors throughout the property. Professional drying and cleaning help prevent secondary damage from spreading further.
+          - paragraph [ref=e138]:
+            - text: Specialized
+            - link "water damage restoration" [ref=e139] [cursor=pointer]:
+              - /url: /water-damage/
+            - text: and smoke cleanup equipment remove trapped moisture while improving indoor air quality during recovery.
+          - generic [ref=e140]:
+            - generic [ref=e143]: Section
+            - heading "Secure the Property From Further Damage" [level=2] [ref=e144]
+          - paragraph [ref=e145]: After a fire, portions of the property may remain exposed to weather, vandalism, or additional structural deterioration. Emergency board-up services and temporary roof tarping help secure vulnerable areas while restoration planning begins.
+          - paragraph [ref=e146]: Broken windows, damaged roofing materials, and weakened exterior walls can allow rain, debris, and pests into the property if left unprotected. Fast mitigation reduces the likelihood of further repair costs and stabilizes the home during the insurance and restoration process.
+          - paragraph [ref=e147]: Professional restoration services often include emergency stabilization measures designed to protect the property immediately after a disaster.
+          - generic [ref=e148]:
+            - generic [ref=e151]: Section
+            - heading "What Homeowners Care About Most After a Fire" [level=2] [ref=e152]
+          - paragraph [ref=e153]: One of the biggest concerns after a house fire is whether the property can be restored safely. Homeowners want reassurance that smoke contamination, odors, and structural issues can be fully addressed before returning home.
+          - paragraph [ref=e154]: Another major concern is the emotional stress tied to damaged belongings and disrupted routines. Fires affect more than physical structures — they interrupt daily life and create uncertainty about what comes next. Clear communication from restoration professionals helps reduce confusion during the recovery process.
+          - paragraph [ref=e155]: Homeowners also worry about how long repairs will take. Restoration timelines vary depending on the severity of structural damage, smoke contamination, and reconstruction needs. Fast mitigation and organized planning often shorten recovery time significantly.
+          - generic [ref=e156]:
+            - generic [ref=e159]: Section
+            - heading "The Fire Restoration Process Explained" [level=2] [ref=e160]
+          - paragraph [ref=e161]: Professional fire restoration usually begins with emergency mitigation and property stabilization. After the initial assessment, restoration teams remove debris, extract water, clean soot residue, and begin structural drying.
+          - paragraph [ref=e162]: Air scrubbers and odor removal equipment improve indoor air quality while cleaning crews treat affected surfaces. In some cases, damaged drywall, insulation, flooring, or framing materials must be removed and replaced.
+          - paragraph [ref=e163]: Once cleaning and drying are complete, reconstruction begins. Coordinating mitigation and rebuilding through one restoration company often creates a smoother experience for homeowners and reduces delays between project phases.
+          - generic [ref=e164]:
+            - generic [ref=e167]: Section
+            - heading "Professional Help Makes Recovery Easier" [level=2] [ref=e168]
+          - paragraph [ref=e169]: Recovering after a house fire involves far more than cleaning visible damage. Smoke residue, hidden moisture, and structural concerns all require specialized attention to restore the property safely and completely.
+          - paragraph [ref=e170]:
+            - text: If you’re looking for trusted help with
+            - strong [ref=e171]: house fire recovery
+            - text: in Fort Worth, SWAT Restoration provides 24/7 emergency response, smoke cleanup, water removal, and reconstruction services throughout North Texas. Our team works quickly to stabilize your property, document damage for insurance purposes, and guide you through every stage of restoration with clear communication and dependable support. When fire damage disrupts your home, having experienced professionals on your side helps make recovery less stressful and far more manageable.
+        - complementary "About the author" [ref=e172]:
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - generic [ref=e179]:
+              - text: About the Author
+              - heading "Dillon & Danielle Patterson" [level=3] [ref=e180]
+              - paragraph [ref=e181]: Owners, S.W.A.T. Restoration · Aledo, TX
+              - paragraph [ref=e182]: Family-owned and operated, S.W.A.T. Restoration is a 24/7 emergency response crew handling water damage, fire & smoke cleanup, mold remediation, and full reconstruction across 49 DFW communities. Every post on this blog is written from the field — real jobs, real callbacks, real decisions homeowners face.
+              - link "Meet the team" [ref=e183] [cursor=pointer]:
+                - /url: /about-us/
+                - text: Meet the team
+                - img [ref=e184]
+        - generic [ref=e190]:
+          - generic [ref=e195]: Dispatch — 24/7
+          - heading "Need restoration help right now?" [level=2] [ref=e196]
+          - paragraph [ref=e197]: Call the Fort Worth dispatch line directly — a live dispatcher answers, not a voicemail tree.
+          - generic [ref=e198]:
+            - link "Call 817-286-4966" [ref=e199] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e200]
+              - text: Call 817-286-4966
+            - link "Request Service" [ref=e202] [cursor=pointer]:
+              - /url: /contact-us/
+              - img [ref=e203]
+              - text: Request Service
+    - region "More from the field." [ref=e205]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - paragraph [ref=e209]: Related Reading
+          - heading "More from the field." [level=2] [ref=e211]
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - 'link "S.W.A.T. Restoration fire and smoke damage response in Aledo, TX — Space Heaters and Fire Damage: What Homeowners Should Know Fire Damage February 16, 2026 4 min Space Heaters and Fire Damage: What Homeowners Should Know We provide professional fire damage restoration and emergency response services that help homeowners recover quickly when heating equipment leads to unexpected fire damage. Read post" [ref=e214] [cursor=pointer]':
+              - /url: /post/space-heaters-and-fire-damage-what-homeowners-should-know/
+              - generic [ref=e215]:
+                - 'img "S.W.A.T. Restoration fire and smoke damage response in Aledo, TX — Space Heaters and Fire Damage: What Homeowners Should Know" [ref=e216]'
+                - generic [ref=e219]: Fire Damage
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - img [ref=e223]
+                    - text: February 16, 2026
+                  - generic [ref=e225]: ·
+                  - generic [ref=e226]:
+                    - img [ref=e227]
+                    - text: 4 min
+                - 'heading "Space Heaters and Fire Damage: What Homeowners Should Know" [level=3] [ref=e230]'
+                - paragraph [ref=e231]: We provide professional fire damage restoration and emergency response services that help homeowners recover quickly when heating equipment leads to unexpected fire damage.
+                - generic [ref=e232]:
+                  - text: Read post
+                  - img [ref=e233]
+          - listitem [ref=e235]:
+            - 'link "S.W.A.T. Restoration fire and smoke damage response in Fort Worth, TX — Fire Damage Restoration in North Texas: What Homeowners Need to Know Fire Damage December 18, 2025 2 min Fire Damage Restoration in North Texas: What Homeowners Need to Know Few events are more devastating than a fire in your home or business. Beyond the immediate danger, the aftermath can feel overwhelming—charred belongings, lingering smoke odors, and water damage from firefighting efforts. Read post" [ref=e236] [cursor=pointer]':
+              - /url: /post/fire-damage-restoration-in-north-texas-what-homeowners-need-to-know/
+              - generic [ref=e237]:
+                - 'img "S.W.A.T. Restoration fire and smoke damage response in Fort Worth, TX — Fire Damage Restoration in North Texas: What Homeowners Need to Know" [ref=e238]'
+                - generic [ref=e241]: Fire Damage
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - img [ref=e245]
+                    - text: December 18, 2025
+                  - generic [ref=e247]: ·
+                  - generic [ref=e248]:
+                    - img [ref=e249]
+                    - text: 2 min
+                - 'heading "Fire Damage Restoration in North Texas: What Homeowners Need to Know" [level=3] [ref=e252]'
+                - paragraph [ref=e253]: Few events are more devastating than a fire in your home or business. Beyond the immediate danger, the aftermath can feel overwhelming—charred belongings, lingering smoke odors, and water damage from firefighting efforts.
+                - generic [ref=e254]:
+                  - text: Read post
+                  - img [ref=e255]
+          - listitem [ref=e257]:
+            - link "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family Mold Remediation June 22, 2026 4 min Is Mold In My House Dangerous To My Family We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home. Read post" [ref=e258] [cursor=pointer]:
+              - /url: /post/is-mold-in-my-house-dangerous-to-my-family/
+              - generic [ref=e259]:
+                - img "S.W.A.T. Restoration mold remediation crew in Aledo, TX — Is Mold In My House Dangerous To My Family" [ref=e260]
+                - generic [ref=e263]: Mold Remediation
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - img [ref=e267]
+                    - text: June 22, 2026
+                  - generic [ref=e269]: ·
+                  - generic [ref=e270]:
+                    - img [ref=e271]
+                    - text: 4 min
+                - heading "Is Mold In My House Dangerous To My Family" [level=3] [ref=e274]
+                - paragraph [ref=e275]: We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.
+                - generic [ref=e276]:
+                  - text: Read post
+                  - img [ref=e277]
+    - region "Water or fire damage at your home?" [ref=e279]:
+      - generic [ref=e290]:
+        - generic [ref=e294]: Mission Status
+        - generic [ref=e295]: ·
+        - generic [ref=e296]: Ready
+      - generic [ref=e298]:
+        - generic [ref=e301]: Deploy Now
+        - heading "Water or fire damage at your home?" [level=2] [ref=e303]:
+          - text: Water or fire damage
+          - text: at your home?
+        - paragraph [ref=e304]: One call. Real dispatch. First responders for water and fire disasters — across 49+ DFW communities, 24/7.
+        - list [ref=e305]:
+          - listitem [ref=e306]:
+            - generic [ref=e308]: 24/7
+            - generic [ref=e313]: Dispatch Active
+          - listitem [ref=e314]:
+            - generic [ref=e316]: 100%
+            - generic [ref=e318]: Family Owned
+          - listitem [ref=e319]:
+            - generic [ref=e321]: 49+
+            - generic [ref=e323]: DFW Communities
+        - generic [ref=e324]:
+          - link "Contact Us Now" [ref=e325] [cursor=pointer]:
+            - /url: /contact-us/
+            - img [ref=e326]
+            - text: Contact Us Now
+          - link "Call S.W.A.T. Restoration at 817-286-4966" [ref=e328] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e329]
+            - text: Call 817-286-4966
+        - generic [ref=e331]:
+          - generic [ref=e336]: 24/7 Dispatch
+          - generic [ref=e337]: ·
+          - generic [ref=e338]: Family Owned · DFW
+          - generic [ref=e339]: ·
+          - generic [ref=e340]: 329+ Verified Reviews
+  - contentinfo "Site footer" [ref=e341]:
+    - generic [ref=e343]:
+      - generic [ref=e344]:
+        - link "S.W.A.T. Restoration Home" [ref=e345] [cursor=pointer]:
+          - /url: /
+          - img "S.W.A.T. Restoration" [ref=e346]
+        - paragraph [ref=e347]: First responders for water & fire disasters. Family owned and operated across DFW.
+        - generic [ref=e350]:
+          - img [ref=e351]
+          - generic [ref=e354]:
+            - generic [ref=e355]: Aledo
+            - generic [ref=e356]:
+              - text: 2111 FM 1187 Suite 100
+              - text: Aledo, TX 76008
+            - link "Call Aledo office at 817-286-4966" [ref=e357] [cursor=pointer]:
+              - /url: tel:+18172864966
+              - img [ref=e358]
+              - text: 817-286-4966
+      - generic [ref=e360]:
+        - heading "Services" [level=3] [ref=e361]
+        - list [ref=e362]:
+          - listitem [ref=e363]:
+            - link "Water Damage Restoration" [ref=e364] [cursor=pointer]:
+              - /url: /water-damage/
+          - listitem [ref=e365]:
+            - link "Fire & Smoke Damage" [ref=e366] [cursor=pointer]:
+              - /url: /fire-damage/
+          - listitem [ref=e367]:
+            - link "Mold Remediation" [ref=e368] [cursor=pointer]:
+              - /url: /mold-remediation/
+          - listitem [ref=e369]:
+            - link "Pack-Out & Cleaning" [ref=e370] [cursor=pointer]:
+              - /url: /reconstruction/pack-out-cleaning/
+          - listitem [ref=e371]:
+            - link "Roofing Services" [ref=e372] [cursor=pointer]:
+              - /url: /reconstruction/roofing/
+          - listitem [ref=e373]:
+            - link "Insurance Claim Assistance" [ref=e374] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+      - generic [ref=e375]:
+        - heading "Company" [level=3] [ref=e376]
+        - list [ref=e377]:
+          - listitem [ref=e378]:
+            - link "About Us" [ref=e379] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e380]:
+            - link "Insurance Claims" [ref=e381] [cursor=pointer]:
+              - /url: /reconstruction/insurance-claims/
+          - listitem [ref=e382]:
+            - link "Contact" [ref=e383] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e384]:
+            - link "Areas Served" [ref=e385] [cursor=pointer]:
+              - /url: /areas-served/
+          - listitem [ref=e386]:
+            - link "Blog" [ref=e387] [cursor=pointer]:
+              - /url: /blog/
+      - generic [ref=e388]:
+        - heading "Emergency Line" [level=3] [ref=e389]
+        - generic [ref=e390]:
+          - generic [ref=e398]: 24/7 Available
+          - link "Call S.W.A.T. Restoration emergency line at 817-286-4966" [ref=e399] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - text: 817-286-4966
+          - list [ref=e400]:
+            - listitem [ref=e401]: Under 60-min arrival
+            - listitem [ref=e403]: Dispatch in minutes
+          - link "Call Now" [ref=e405] [cursor=pointer]:
+            - /url: tel:+18172864966
+            - img [ref=e406]
+            - text: Call Now
+            - img [ref=e408]
+          - link "Email S.W.A.T. Restoration" [ref=e411] [cursor=pointer]:
+            - /url: mailto:main@swat-restoration.com
+            - img [ref=e412]
+            - text: main@swat-restoration.com
+    - generic [ref=e416]:
+      - generic [ref=e417]:
+        - heading "Service Areas" [level=3] [ref=e418]
+        - paragraph [ref=e419]: Serving 49 DFW communities across Tarrant, Parker, Denton & Johnson counties from our Aledo office. Family owned & operated.
+      - generic [ref=e420]:
+        - generic [ref=e423]: Primary Response
+        - list [ref=e424]:
+          - listitem [ref=e425]:
+            - link "Aledo, TX" [ref=e426] [cursor=pointer]:
+              - /url: /areas-served/aledo-tx/
+          - listitem [ref=e427]:
+            - link "Arlington, TX" [ref=e428] [cursor=pointer]:
+              - /url: /areas-served/arlington-tx/
+          - listitem [ref=e429]:
+            - link "Bedford, TX" [ref=e430] [cursor=pointer]:
+              - /url: /areas-served/bedford-tx/
+          - listitem [ref=e431]:
+            - link "Euless, TX" [ref=e432] [cursor=pointer]:
+              - /url: /areas-served/euless-tx/
+          - listitem [ref=e433]:
+            - link "Fort Worth, TX" [ref=e434] [cursor=pointer]:
+              - /url: /areas-served/fort-worth-tx/
+          - listitem [ref=e435]:
+            - link "Grapevine, TX" [ref=e436] [cursor=pointer]:
+              - /url: /areas-served/grapevine-tx/
+          - listitem [ref=e437]:
+            - link "Hurst, TX" [ref=e438] [cursor=pointer]:
+              - /url: /areas-served/hurst-tx/
+          - listitem [ref=e439]:
+            - link "Keller, TX" [ref=e440] [cursor=pointer]:
+              - /url: /areas-served/keller-tx/
+          - listitem [ref=e441]:
+            - link "Mansfield, TX" [ref=e442] [cursor=pointer]:
+              - /url: /areas-served/mansfield-tx/
+          - listitem [ref=e443]:
+            - link "North Richland Hills, TX" [ref=e444] [cursor=pointer]:
+              - /url: /areas-served/north-richland-hills-tx/
+          - listitem [ref=e445]:
+            - link "Southlake, TX" [ref=e446] [cursor=pointer]:
+              - /url: /areas-served/southlake-tx/
+          - listitem [ref=e447]:
+            - link "Weatherford, TX" [ref=e448] [cursor=pointer]:
+              - /url: /areas-served/weatherford-tx/
+      - group [ref=e449]:
+        - generic "Extended Coverage (37 more)" [ref=e450] [cursor=pointer]:
+          - generic [ref=e452]: Extended Coverage
+          - generic [ref=e453]: (37 more)
+          - generic [ref=e454]: ▼
+      - link "View All 49 Communities" [ref=e456] [cursor=pointer]:
+        - /url: /areas-served/
+        - text: View All 49 Communities
+        - img [ref=e457]
+    - list [ref=e461]:
+      - listitem [ref=e462]:
+        - img [ref=e463]
+        - generic [ref=e466]: Licensed & Insured
+      - listitem [ref=e467]:
+        - img [ref=e468]
+        - generic [ref=e470]: 4.8 Google · 329+ reviews
+      - listitem [ref=e471]:
+        - img [ref=e472]
+        - generic [ref=e475]: Insurance Claim Experienced
+      - listitem [ref=e476]:
+        - generic [ref=e480]: 24/7 Dispatch
+    - generic [ref=e482]:
+      - paragraph [ref=e483]: © 2026 S.W.A.T. Restoration. All rights reserved. · Aledo, TX
+      - generic [ref=e484]:
+        - link "Privacy Policy" [ref=e485] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Terms" [ref=e486] [cursor=pointer]:
+          - /url: /terms-of-service/
+  - button "Open accessibility menu" [ref=e487]:
+    - img [ref=e488]
+  - button "Open Next.js Dev Tools" [ref=e499] [cursor=pointer]:
+    - img [ref=e500]

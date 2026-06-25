@@ -127,6 +127,7 @@ export const airQuality: ServiceConfig = {
         "Post-remediation air sampling can be collected within 24 hours of containment removal after the structure has settled and air currents have normalized. Laboratory turnaround is 3 to 5 business days. HVAC inspection and filtration upgrade can be completed within 1 to 2 days of clearance confirmation. Whole-home dehumidifier installation, if recommended, is coordinated as a separate scope with the appropriate trade. The full IAQ restoration process — sampling through clearance certificate — typically takes 5 to 7 business days from the end of remediation.",
     },
   ],
+  heroImage: "/service-warnings/air-quality.webp",
   relatedSlugs: ["mold-removal", "mold-inspection", "black-mold"],
   lastUpdated: "2026-06-16",
 }

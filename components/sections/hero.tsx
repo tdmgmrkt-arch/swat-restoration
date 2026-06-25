@@ -26,7 +26,7 @@ export default async function Hero() {
           loop
           playsInline
           preload="auto"
-          poster="/swatteamphoto.jpeg"
+          poster="/aboutus.webp"
           tabIndex={-1}
           aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover pointer-events-none"

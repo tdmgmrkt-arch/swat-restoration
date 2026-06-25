@@ -127,6 +127,7 @@ export const sewageCleanup: ServiceConfig = {
         "Sewage events that are not fully remediated to the IICRC S500 standard leave behind both moisture and biological contamination — two of the three conditions mold needs to colonize. Residual moisture in subfloor assemblies and framing after a sewage event is particularly dangerous because Category 3 contamination accelerates mold growth compared to clean-water losses. S.W.A.T. Restoration applies EPA-registered antimicrobials twice — once during active remediation and once after the initial drying cycle — and monitors moisture readings daily until materials reach the S500 dry standard before any enclosing or reconstruction work begins.",
     },
   ],
+  heroImage: "/service-warnings/sewage-cleanup.webp",
   relatedSlugs: ["water-extraction", "flood-restoration", "structural-drying"],
   lastUpdated: "2026-06-16",
 }

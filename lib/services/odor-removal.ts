@@ -127,6 +127,7 @@ export const odorRemoval: ServiceConfig = {
         "In many cases, yes. Thermal fogging and hydroxyl or ozone treatment can destroy odor compounds bonded to drywall paper and framing without requiring demolition. When framing is heavily saturated or when drywall is being replaced anyway as part of fire reconstruction, encapsulant sealers are applied to framing before new drywall is installed to block any residual off-gassing. S.W.A.T. Restoration assesses odor penetration depth on arrival and scopes the least-invasive treatment path that fully resolves the odor.",
     },
   ],
+  heroImage: "/service-warnings/odor-removal.webp",
   relatedSlugs: ["smoke-damage", "soot-removal", "contents-cleaning"],
   lastUpdated: "2026-06-16",
 }
