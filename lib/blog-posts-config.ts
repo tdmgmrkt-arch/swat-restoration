@@ -117,6 +117,30 @@ export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
   return allBlogPosts.filter((p) => p.slug !== currentSlug).slice(0, count)
 }
 
+/**
+ * Posts per blog hub page. 9 = 1 featured + 1 secondary + 7-card grid that
+ * balances the asymmetric layout. Tweak here; everything (hub, sitemap,
+ * page route) derives off this constant.
+ */
+export const POSTS_PER_PAGE = 9
+
+/** Total number of paginated hub pages — at least 1. */
+export const TOTAL_BLOG_PAGES = Math.max(
+  1,
+  Math.ceil(allBlogPosts.length / POSTS_PER_PAGE)
+)
+
+/**
+ * Slice `allBlogPosts` to the posts that belong on a given hub page.
+ * `page` is 1-indexed (page 1 = newest 9, page 2 = next 9, ...).
+ * Returns [] for out-of-range pages.
+ */
+export function getPostsForPage(page: number): BlogPost[] {
+  if (!Number.isInteger(page) || page < 1 || page > TOTAL_BLOG_PAGES) return []
+  const start = (page - 1) * POSTS_PER_PAGE
+  return allBlogPosts.slice(start, start + POSTS_PER_PAGE)
+}
+
 /** Format an ISO date (YYYY-MM-DD) as "Month D, YYYY" for display. */
 export function formatBlogDate(iso: string): string {
   const [y, m, d] = iso.split("-").map((s) => parseInt(s, 10))

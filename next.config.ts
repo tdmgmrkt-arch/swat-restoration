@@ -48,6 +48,10 @@ const nextConfig: NextConfig = {
       // /schedule is referenced by CTAs but no /schedule route exists —
       // route to the actual scheduling surface (the contact form).
       { source: "/schedule", destination: "/contact-us/", permanent: true },
+
+      // /blog/page/1/ is duplicate content of /blog/ — collapse to the
+      // canonical hub URL so Google never indexes the alias.
+      { source: "/blog/page/1", destination: "/blog/", permanent: true },
     ]
   },
 }

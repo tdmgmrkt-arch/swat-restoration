@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next"
 import { siteConfig } from "@/lib/site-config"
 import { canonicalUrl } from "@/lib/utils"
-import { allBlogPosts } from "@/lib/blog-posts-config"
+import { allBlogPosts, TOTAL_BLOG_PAGES } from "@/lib/blog-posts-config"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -59,11 +59,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Paginated blog hub pages 2..N. Page 1 lives at /blog/ (already in
+  // staticRoutes); /blog/page/1/ is redirected to /blog/ in next.config.ts
+  // so it doesn't belong here either.
+  const blogPaginationRoutes: MetadataRoute.Sitemap = Array.from(
+    { length: Math.max(0, TOTAL_BLOG_PAGES - 1) },
+    (_, i) => ({
+      url: canonicalUrl(`/blog/page/${i + 2}`),
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })
+  )
+
   return [
     ...staticRoutes,
     ...categoryHubs,
     ...serviceRoutes,
     ...cityRoutes,
     ...blogRoutes,
+    ...blogPaginationRoutes,
   ]
 }
