@@ -155,59 +155,63 @@ export default async function BlogPostPage({
         </nav>
 
         {/* ============================================================== */}
-        {/* HERO                                                            */}
+        {/* HERO — image as backdrop with title overlaid                    */}
         {/* ============================================================== */}
         <section
-          className="relative isolate bg-[#0c1230] overflow-hidden"
+          className="relative isolate flex items-end overflow-hidden min-h-[520px] sm:min-h-[600px] lg:min-h-[680px] bg-[#0c1230]"
           aria-labelledby="post-heading"
         >
-          {/* Hero image — large header treatment */}
-          <div className="relative h-[280px] sm:h-[360px] lg:h-[440px] w-full">
-            <Image
-              src={post.heroImage}
-              alt={post.heroAlt}
-              fill
-              sizes="100vw"
-              priority
-              className="object-cover"
-            />
-            <div
-              className="absolute inset-0 bg-linear-to-t from-[#0c1230] via-[#0c1230]/40 to-[#0c1230]/10"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute inset-0 bg-linear-to-r from-[#0c1230]/60 via-transparent to-transparent"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute inset-0 tactical-grid opacity-15"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute left-0 inset-y-0 w-1 bg-red-600"
-              aria-hidden="true"
-            />
-          </div>
+          {/* Background image */}
+          <Image
+            src={post.heroImage}
+            alt={post.heroAlt}
+            fill
+            sizes="100vw"
+            priority
+            className="object-cover -z-10"
+          />
+          {/* Heavy bottom-up gradient so the title sits on a dark base for
+              legibility, fading to a soft tint at the top so the image's
+              top portion stays visible. */}
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-t from-[#0c1230] via-[#0c1230]/85 via-40% to-[#0c1230]/15"
+            aria-hidden="true"
+          />
+          {/* Left-side bias overlay so the title side gets extra darkness */}
+          <div
+            className="absolute inset-0 -z-10 bg-linear-to-r from-[#0c1230]/70 via-[#0c1230]/20 to-transparent"
+            aria-hidden="true"
+          />
+          {/* Tactical grid texture */}
+          <div
+            className="absolute inset-0 -z-10 tactical-grid opacity-20"
+            aria-hidden="true"
+          />
+          {/* Red left stripe */}
+          <div
+            className="absolute left-0 inset-y-0 w-1 bg-red-600"
+            aria-hidden="true"
+          />
 
-          {/* Title block — sits below hero image */}
-          <div className="relative max-w-7xl mx-auto px-5 sm:px-6 py-10 lg:py-14">
+          {/* Title block — anchored to bottom of the hero */}
+          <div className="relative w-full max-w-7xl mx-auto px-5 sm:px-6 py-10 lg:py-14">
             <div className="max-w-4xl">
               <div className="flex flex-wrap items-center gap-2.5 mb-5">
-                <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-sm bg-red-600/15 border border-red-600/40">
+                <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-sm bg-red-600/90 backdrop-blur-sm">
                   <BookOpen
-                    className="h-3 w-3 text-red-400"
+                    className="h-3 w-3 text-white"
                     aria-hidden="true"
                   />
-                  <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-red-300 font-bold">
+                  <span className="text-[10px] font-mono tracking-[0.22em] uppercase text-white font-bold">
                     {post.category}
                   </span>
                 </span>
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/5 border border-white/15 rounded-sm">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-black/50 backdrop-blur-sm border border-white/20 rounded-sm">
                   <MapPin
                     className="h-3 w-3 text-red-400"
                     aria-hidden="true"
                   />
-                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-white/65 font-semibold">
+                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-white/80 font-semibold">
                     {post.city}, TX
                   </span>
                 </span>
@@ -218,13 +222,13 @@ export default async function BlogPostPage({
 
               <h1
                 id="post-heading"
-                className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white tracking-tight leading-[1.07] mb-5"
+                className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white tracking-tight leading-[1.07] mb-5 [text-shadow:0_2px_24px_rgba(0,0,0,0.6)]"
               >
                 {post.title}
               </h1>
 
               {post.excerpt && (
-                <p className="text-white/65 text-base sm:text-lg leading-relaxed max-w-2xl mb-6">
+                <p className="text-white/80 text-base sm:text-lg leading-relaxed max-w-2xl mb-6 [text-shadow:0_1px_12px_rgba(0,0,0,0.5)]">
                   {post.excerpt}
                 </p>
               )}
@@ -233,24 +237,24 @@ export default async function BlogPostPage({
               <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
                 <Link
                   href="/about-us"
-                  className="inline-flex items-center gap-1.5 text-white/80 hover:text-red-400 transition-colors group"
+                  className="inline-flex items-center gap-1.5 text-white/90 hover:text-red-400 transition-colors group"
                 >
                   <User
                     className="h-3.5 w-3.5 text-red-400"
                     aria-hidden="true"
                   />
                   <span className="font-semibold">Dillon Patterson</span>
-                  <span className="text-white/40 font-mono">
+                  <span className="text-white/55 font-mono">
                     · S.W.A.T. Restoration
                   </span>
                 </Link>
-                <span className="inline-flex items-center gap-1.5 text-white/55">
+                <span className="inline-flex items-center gap-1.5 text-white/70">
                   <CalendarDays className="h-3.5 w-3.5" aria-hidden="true" />
                   <time dateTime={post.date} className="font-mono">
                     {formatBlogDate(post.date)}
                   </time>
                 </span>
-                <span className="inline-flex items-center gap-1.5 text-white/55">
+                <span className="inline-flex items-center gap-1.5 text-white/70">
                   <Clock className="h-3.5 w-3.5" aria-hidden="true" />
                   <span className="font-mono">
                     {post.readMinutes} min read
