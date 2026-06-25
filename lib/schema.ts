@@ -1,4 +1,5 @@
 import { siteConfig } from "./site-config"
+import { canonicalUrl } from "./utils"
 
 // =============================================================================
 // SHARED CONSTANTS
@@ -58,12 +59,12 @@ export function areasServedPageSchema() {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Restoration Services — North Texas Coverage",
-    url: `${siteConfig.url}/areas-served`,
+    url: canonicalUrl("/areas-served"),
     provider: {
       "@type": ["LocalBusiness", "GeneralContractor"],
       "@id": `${siteConfig.url}/#restoration-aledo`,
       name: siteConfig.name,
-      url: siteConfig.url,
+      url: canonicalUrl("/"),
       telephone: siteConfig.phone.primary,
     },
     areaServed: siteConfig.serviceArea.map((city) => ({
@@ -85,13 +86,13 @@ export function areasServedBreadcrumbSchema() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: siteConfig.url,
+        item: canonicalUrl("/"),
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Areas Served",
-        item: `${siteConfig.url}/areas-served`,
+        item: canonicalUrl("/areas-served"),
       },
     ],
   }
@@ -151,7 +152,6 @@ const HUB_DATA = {
       addressCountry: "US",
     },
     placeId: siteConfig.locations[0].placeId,
-    rating: { ratingValue: 5.0, reviewCount: 12 },
   },
 } as const
 
@@ -168,18 +168,23 @@ const HUB_DATA = {
  *   No address.addressLocality set to the served city.
  */
 export function cityPageSchema(city: CitySchemaConfig) {
-  const base = siteConfig.url
-  const pageUrl = `${base}/areas-served/${city.slug}`
+  const pageUrl = canonicalUrl(`/areas-served/${city.slug}`)
   const hub = HUB_DATA[city.closestHubSlug]
 
   // ── Tier 1: GBP-backed location page ──────────────────────────────────────
   if (city.hasGbpListing) {
+    // Only emit AggregateRating when a verified Place ID is on file. Until then
+    // we never publish a rating to Google — avoids unverifiable-rating risk.
+    const rating = siteConfig.locations[0].placeId
+      ? siteConfig.googleRatingFallback
+      : null
+
     return {
       "@context": "https://schema.org",
       "@type": ["LocalBusiness", "GeneralContractor"],
       "@id": hub.id,
       name: siteConfig.name,
-      url: base,
+      url: canonicalUrl("/"),
       mainEntityOfPage: pageUrl,
       telephone: hub.telephone,
       email: siteConfig.email,
@@ -202,13 +207,15 @@ export function cityPageSchema(city: CitySchemaConfig) {
         EMERGENCY_CONTACT_POINT,
       ],
       priceRange: "$$",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: hub.rating.ratingValue,
-        reviewCount: hub.rating.reviewCount,
-        bestRating: 5,
-        worstRating: 1,
-      },
+      ...(rating && {
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: rating.rating,
+          reviewCount: rating.count,
+          bestRating: 5,
+          worstRating: 1,
+        },
+      }),
       areaServed: {
         "@type": "City",
         name: city.name,
@@ -229,7 +236,7 @@ export function cityPageSchema(city: CitySchemaConfig) {
       "@type": ["LocalBusiness", "GeneralContractor"],
       "@id": hub.id,
       name: siteConfig.name,
-      url: base,
+      url: canonicalUrl("/"),
       telephone: hub.telephone,
       openingHoursSpecification: OFFICE_HOURS,
       contactPoint: [
@@ -280,7 +287,6 @@ export function cityFaqSchema(city: CitySchemaConfig) {
  * Three-level trail: Home → Areas Served → [City], TX.
  */
 export function cityBreadcrumbSchema(city: CitySchemaConfig) {
-  const base = siteConfig.url
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -289,19 +295,19 @@ export function cityBreadcrumbSchema(city: CitySchemaConfig) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: base,
+        item: canonicalUrl("/"),
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Areas Served",
-        item: `${base}/areas-served`,
+        item: canonicalUrl("/areas-served"),
       },
       {
         "@type": "ListItem",
         position: 3,
         name: `${city.name}, TX`,
-        item: `${base}/areas-served/${city.slug}`,
+        item: canonicalUrl(`/areas-served/${city.slug}`),
       },
     ],
   }
@@ -321,7 +327,7 @@ function _offerCatalog() {
       itemOffered: {
         "@type": "Service",
         name: s.title,
-        url: `${siteConfig.url}${s.href}`,
+        url: canonicalUrl(s.href),
       },
     })),
   }
@@ -337,11 +343,11 @@ export function contactPageSchema() {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     name: "Contact S.W.A.T. Restoration",
-    url: `${siteConfig.url}/contact-us`,
+    url: canonicalUrl("/contact-us"),
     mainEntity: {
       "@type": ["LocalBusiness", "GeneralContractor"],
       name: siteConfig.name,
-      url: siteConfig.url,
+      url: canonicalUrl("/"),
       telephone: siteConfig.phone.primary,
       email: siteConfig.email,
       description: siteConfig.description,
@@ -390,13 +396,13 @@ export function contactBreadcrumbSchema() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: siteConfig.url,
+        item: canonicalUrl("/"),
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact",
-        item: `${siteConfig.url}/contact-us`,
+        item: canonicalUrl("/contact-us"),
       },
     ],
   }
@@ -413,7 +419,7 @@ export function plumberSchema() {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "GeneralContractor"],
     name: siteConfig.name,
-    url: siteConfig.url,
+    url: canonicalUrl("/"),
     telephone: siteConfig.phone.primary,
     email: siteConfig.email,
     description: siteConfig.description,
@@ -455,7 +461,7 @@ export function plumberSchema() {
         itemOffered: {
           "@type": "Service",
           name: s.title,
-          url: `${siteConfig.url}${s.href}`,
+          url: canonicalUrl(s.href),
         },
       })),
     },
@@ -491,7 +497,7 @@ export function hubServiceSchema(cfg: HubSchemaConfig) {
     provider: {
       "@type": ["LocalBusiness", "GeneralContractor"],
       name: siteConfig.name,
-      url: siteConfig.url,
+      url: canonicalUrl("/"),
       telephone: siteConfig.phone.primary,
       address: {
         "@type": "PostalAddress",
@@ -524,7 +530,7 @@ export function hubBreadcrumbSchema(cfg: Pick<HubSchemaConfig, "name" | "url">) 
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: siteConfig.url,
+        item: canonicalUrl("/"),
       },
       {
         "@type": "ListItem",
@@ -548,5 +554,125 @@ export function hubFaqSchema(
       name: f.question,
       acceptedAnswer: { "@type": "Answer", text: f.answer },
     })),
+  }
+}
+
+// =============================================================================
+// BLOG SCHEMA
+// /blog/ hub + /post/[slug]/ individual articles
+// Legacy URL structure is preserved — posts live at /post/, not /blog/[slug]/.
+// =============================================================================
+
+/** Blog / CollectionPage JSON-LD for /blog/ */
+export function blogPageSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "Field Notes — S.W.A.T. Restoration",
+    url: canonicalUrl("/blog"),
+    description:
+      "Restoration field notes from IICRC-trained crews in Aledo and Fort Worth — water damage, fire & smoke cleanup, mold prevention, and insurance claim guidance.",
+    publisher: {
+      "@type": "LocalBusiness",
+      name: siteConfig.name,
+      url: canonicalUrl("/"),
+    },
+  }
+}
+
+/** BreadcrumbList for /blog/ */
+export function blogBreadcrumbSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: canonicalUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: canonicalUrl("/blog"),
+      },
+    ],
+  }
+}
+
+/**
+ * BlogPosting JSON-LD for individual /post/[slug]/ pages.
+ * Author reference points at the about-us anchor so authorship inherits the
+ * restoration company's credentials → E-E-A-T signal for AI Overviews.
+ */
+export function blogPostingSchema(post: {
+  slug: string
+  title: string
+  metaDescription: string
+  date: string
+  lastUpdated?: string
+  heroImage: string
+  city: "Aledo" | "Fort Worth"
+}) {
+  const url = canonicalUrl(`/post/${post.slug}`)
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${url}#blogposting`,
+    headline: post.title,
+    description: post.metaDescription,
+    url,
+    mainEntityOfPage: url,
+    datePublished: post.date,
+    dateModified: post.lastUpdated ?? post.date,
+    image: `${siteConfig.url}${post.heroImage}`,
+    author: {
+      "@type": "Person",
+      "@id": `${siteConfig.url}/about-us#dillon-patterson`,
+      name: "Dillon Patterson",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: canonicalUrl("/"),
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/swat-restoration-logo.svg`,
+      },
+    },
+    about: {
+      "@type": "Place",
+      name: `${post.city}, TX`,
+    },
+  }
+}
+
+/** BreadcrumbList for /post/[slug]/ — Home → Blog → {Post Title}. */
+export function blogPostBreadcrumbSchema(post: { slug: string; title: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: canonicalUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: canonicalUrl("/blog"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: canonicalUrl(`/post/${post.slug}`),
+      },
+    ],
   }
 }

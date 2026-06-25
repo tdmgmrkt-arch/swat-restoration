@@ -1,27 +1,28 @@
 import { MetadataRoute } from "next"
 import { siteConfig } from "@/lib/site-config"
+import { canonicalUrl } from "@/lib/utils"
+import { allBlogPosts } from "@/lib/blog-posts-config"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = siteConfig.url
   const now = new Date()
 
   const staticRoutes: MetadataRoute.Sitemap = siteConfig.staticPages.map((p) => ({
-    url: `${base}${p.href === "/" ? "" : p.href}`,
+    url: canonicalUrl(p.href),
     lastModified: now,
     changeFrequency: p.changeFrequency,
     priority: p.priority,
   }))
 
-  // Category hub pages (/plumbing, /water-heater, /water-quality)
+  // Category hub pages (/water-damage, /fire-damage, /mold-remediation, /reconstruction)
   const categoryHubs: MetadataRoute.Sitemap = siteConfig.serviceCategories.map((c) => ({
-    url: `${base}${c.hubHref}`,
+    url: canonicalUrl(c.hubHref),
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.9,
   }))
 
   // All sub-service pages, flattened across categories.
-  // De-duplicate hrefs that point back to a category hub (e.g. "All Water Heaters" → /water-heater).
+  // De-duplicate hrefs that point back to a category hub.
   type ServiceLink = { title: string; href: string }
   const hubHrefs = new Set<string>(
     siteConfig.serviceCategories.map((c) => c.hubHref)
@@ -32,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes: MetadataRoute.Sitemap = allServices
     .filter((s) => !hubHrefs.has(s.href))
     .map((s) => ({
-      url: `${base}${s.href}`,
+      url: canonicalUrl(s.href),
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
@@ -41,12 +42,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // City pages: /areas-served/[slug] — only emitted once cityPagesLive is true
   const cityRoutes: MetadataRoute.Sitemap = siteConfig.cityPagesLive
     ? siteConfig.serviceArea.map((city) => ({
-        url: `${base}/areas-served/${city.slug}`,
+        url: canonicalUrl(`/areas-served/${city.slug}`),
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.85,
       }))
     : []
 
-  return [...staticRoutes, ...categoryHubs, ...serviceRoutes, ...cityRoutes]
+  // Blog posts: only published posts make it into the sitemap.
+  // Draft stubs (published: false) carry the legacy URL slots but stay hidden
+  // until body content is filled in and the flag is flipped.
+  const blogRoutes: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
+    url: canonicalUrl(`/post/${post.slug}`),
+    lastModified: new Date(post.lastUpdated ?? post.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  return [
+    ...staticRoutes,
+    ...categoryHubs,
+    ...serviceRoutes,
+    ...cityRoutes,
+    ...blogRoutes,
+  ]
 }
