@@ -398,6 +398,17 @@ export default function SiteFooter() {
             </Link>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 pb-4 text-center text-white/20 text-[11px]">
+          Designed &amp; Developed by{" "}
+          <a
+            href="https://tdmarketinggroup.com/"
+            target="_blank"
+            rel="noopener"
+            className="hover:text-white/50 transition-colors"
+          >
+            TD Marketing Group
+          </a>
+        </div>
       </div>
     </footer>
   )
