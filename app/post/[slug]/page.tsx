@@ -278,7 +278,7 @@ export default async function BlogPostPage({
           />
 
           <div className="relative max-w-7xl mx-auto px-5 sm:px-6">
-            <article className="max-w-4xl">
+            <article>
               <div className="space-y-5">
                 {(() => {
                   // Pre-walk once to compute per-block metadata:

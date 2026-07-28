@@ -37,6 +37,14 @@ import { whoToCallForMoldRemovalNearMe2 } from "./blog/who-to-call-for-mold-remo
 import { whatDoesMoldRemediationCostInTexas } from "./blog/what-does-mold-remediation-cost-in-texas"
 import { howMuchDoesWaterDamageRepairCost } from "./blog/how-much-does-water-damage-repair-cost"
 import { canIStayInMyHouseDuringMoldRemoval } from "./blog/can-i-stay-in-my-house-during-mold-removal"
+import { summerStormHailDamageAledoRoofWarningSigns } from "./blog/summer-storm-hail-damage-aledo-roof-warning-signs"
+import { hiddenWaterDamageAfterFortWorthThunderstorm } from "./blog/hidden-water-damage-after-fort-worth-thunderstorm"
+import { dfwSummerHumidityMoldGrowthInHomes } from "./blog/dfw-summer-humidity-mold-growth-in-homes"
+import { acCondensateLineOverflowWaterDamageNorthTexas } from "./blog/ac-condensate-line-overflow-water-damage-north-texas"
+import { filingHomeownersInsuranceClaimStormDamageFortWorth } from "./blog/filing-homeowners-insurance-claim-storm-damage-fort-worth"
+import { fireDamageRestorationTimelineWeekByWeek } from "./blog/fire-damage-restoration-timeline-week-by-week"
+import { smokeOdorRemovalAfterKitchenFire } from "./blog/smoke-odor-removal-after-kitchen-fire"
+import { restorationCompanyVsGeneralContractorStormDamage } from "./blog/restoration-company-vs-general-contractor-storm-damage"
 
 export type { BlogPost, BlogCategory, ContentBlock } from "./blog/_types"
 export { BLOG_CATEGORIES } from "./blog/_types"
@@ -93,6 +101,14 @@ export const blogPosts: Record<string, BlogPost> = {
   [whatDoesMoldRemediationCostInTexas.slug]: whatDoesMoldRemediationCostInTexas,
   [howMuchDoesWaterDamageRepairCost.slug]: howMuchDoesWaterDamageRepairCost,
   [canIStayInMyHouseDuringMoldRemoval.slug]: canIStayInMyHouseDuringMoldRemoval,
+  [summerStormHailDamageAledoRoofWarningSigns.slug]: summerStormHailDamageAledoRoofWarningSigns,
+  [hiddenWaterDamageAfterFortWorthThunderstorm.slug]: hiddenWaterDamageAfterFortWorthThunderstorm,
+  [dfwSummerHumidityMoldGrowthInHomes.slug]: dfwSummerHumidityMoldGrowthInHomes,
+  [acCondensateLineOverflowWaterDamageNorthTexas.slug]: acCondensateLineOverflowWaterDamageNorthTexas,
+  [filingHomeownersInsuranceClaimStormDamageFortWorth.slug]: filingHomeownersInsuranceClaimStormDamageFortWorth,
+  [fireDamageRestorationTimelineWeekByWeek.slug]: fireDamageRestorationTimelineWeekByWeek,
+  [smokeOdorRemovalAfterKitchenFire.slug]: smokeOdorRemovalAfterKitchenFire,
+  [restorationCompanyVsGeneralContractorStormDamage.slug]: restorationCompanyVsGeneralContractorStormDamage,
 }
 
 /** Every post (including drafts), sorted newest-first by date. */
