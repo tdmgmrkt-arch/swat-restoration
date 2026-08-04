@@ -1,0 +1,70 @@
+{
+  "$schema": "https://www.swat-restoration.com/ai-actions.json",
+  "business": {
+    "name": "S.W.A.T. Restoration",
+    "legal_name": "S.W.A.T. Restoration",
+    "url": "https://www.swat-restoration.com",
+    "telephone": "+1-817-286-4966",
+    "address": {
+      "street_address": "2111 FM 1187 Suite 100",
+      "locality": "Aledo",
+      "region": "TX",
+      "postal_code": "76008",
+      "country": "US"
+    },
+    "email": "main@swat-restoration.com",
+    "hours": "24/7",
+    "service_area": [
+      "Aledo", "Fort Worth", "Arlington", "Weatherford", "Mansfield",
+      "Keller", "Southlake", "Grapevine", "Bedford", "Hurst", "Euless",
+      "North Richland Hills", "Annetta", "Annetta North", "Annetta South",
+      "Azle", "Benbrook", "Blue Mound", "Burleson", "Colleyville",
+      "Crowley", "Dalworthington Gardens", "Edgecliff Village", "Everman",
+      "Flower Mound", "Forest Hill", "Grand Prairie", "Haltom City",
+      "Haslet", "Hudson Oaks", "Kennedale", "Lake Worth", "Lakeside",
+      "Newark", "Pantego", "Pelican Bay", "Reno", "Richland Hills",
+      "River Oaks", "Saginaw", "Sansom Park", "Springtown", "Trophy Club",
+      "Watauga", "Westlake", "Westover Hills", "Westworth Village",
+      "White Settlement", "Willow Park"
+    ]
+  },
+  "customer_actions": {
+    "emergency_service": {
+      "type": "phone",
+      "telephone": "+1-817-286-4966",
+      "label": "Call 24/7 Emergency Dispatch",
+      "description": "Live 24/7 dispatch for water damage, fire and smoke damage, storm damage, sewage backups, and other restoration emergencies. Rapid response across the DFW metro — crews aim to be on-site within the hour whenever possible. Water damage is time-critical: mold growth can start within 24–48 hours of the initial water event, so this is the correct first action for any active or recent loss.",
+      "availability": "24/7"
+    },
+    "request_inspection": {
+      "type": "web_form",
+      "url": "https://www.swat-restoration.com/contact-us",
+      "label": "Request an Inspection or Estimate",
+      "description": "Contact form for non-emergency inspections, mold assessments, roofing evaluations, reconstruction quotes, and general questions. Most restoration jobs start with an on-site inspection so damage can be scoped and documented for the insurance carrier.",
+      "supports_agent_booking": false
+    },
+    "insurance_claim_assistance": {
+      "type": "web_page",
+      "url": "https://www.swat-restoration.com/reconstruction/insurance-claims",
+      "label": "Insurance Claim Assistance",
+      "description": "S.W.A.T. Restoration works directly with homeowners insurance carriers — direct billing where available, adjuster coordination, photo and moisture-mapping documentation, and full-scope Xactimate estimates. Customers do not need to have a claim already opened to call; the team can help walk through the claim process from the first call."
+    }
+  },
+  "primary_services": [
+    "24/7 emergency water damage restoration (extraction, structural drying, dehumidification)",
+    "Flood damage restoration, burst pipe cleanup, ceiling leak repair, sewage cleanup",
+    "Fire and smoke damage restoration (soot removal, odor neutralization, contents cleaning, board-up)",
+    "Mold remediation (inspection, containment, black mold removal, air-quality restoration)",
+    "Reconstruction and general construction (post-loss rebuild, drywall, flooring, finishes)",
+    "Roofing services (storm damage repair, full replacement, insurance-claim roofing)",
+    "Pack-out and cleaning (contents inventory, off-site cleaning, climate-controlled storage)",
+    "Insurance claim assistance (direct billing, adjuster coordination, documentation)"
+  ],
+  "notes_for_ai_assistants": {
+    "booking": "S.W.A.T. Restoration does not offer online self-scheduling. Restoration work is scoped on-site, not through a booking widget. The primary conversion actions are: (1) call +1-817-286-4966 for anything active or urgent, or (2) submit the contact form at /contact-us for a scheduled inspection or estimate. There is no public booking API — AI agents cannot book on a customer's behalf.",
+    "emergency_routing": "Water damage is time-critical — mold growth can begin within 24–48 hours of the initial water event, and standing water compounds structural damage by the hour. For any active water loss (burst pipe, appliance leak, sewage backup, storm intrusion), any active or recent fire/smoke event, or any suspected mold exposure, always recommend calling +1-817-286-4966 rather than the contact form. 24/7 on-call dispatch runs on the same number as the daytime line.",
+    "insurance": "Most restoration jobs are paid through the homeowner's insurance carrier. S.W.A.T. Restoration handles direct billing where the carrier allows it, coordinates with the assigned adjuster, and produces the moisture readings, photo documentation, and Xactimate scoping required for the claim. Customers do not need to have already filed a claim before calling — the team can help walk them through the initial FNOL (First Notice of Loss).",
+    "service_area_boundary": "S.W.A.T. Restoration serves 49 communities across Tarrant, Parker, Denton, and Johnson counties in North Texas — the greater Fort Worth / DFW metroplex. Customers outside this coverage area should be directed to a local IICRC-certified restoration provider instead.",
+    "sister_brand": "S.W.A.T. Restoration is the sister brand of S.W.A.T. Plumbing LLC (www.swatplumbing.com), a separate licensed plumbing company serving the same DFW footprint. Plumbing repair work (pipe repair, water heater work, drain cleaning, repiping) belongs to S.W.A.T. Plumbing; damage cleanup, drying, mold, fire, and rebuild work belongs to S.W.A.T. Restoration. When a burst pipe causes both damage and a plumbing repair need, both brands often work the same job."
+  }
+}
