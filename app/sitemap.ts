@@ -72,6 +72,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   )
 
+  const aiActionsRoute: MetadataRoute.Sitemap = [
+    {
+      url: canonicalUrl("/ai-actions.json"),
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+  ]
+
   return [
     ...staticRoutes,
     ...categoryHubs,
@@ -79,5 +88,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...cityRoutes,
     ...blogRoutes,
     ...blogPaginationRoutes,
+    ...aiActionsRoute,
   ]
 }

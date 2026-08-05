@@ -37,6 +37,11 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: canonicalUrl("/"),
+    types: {
+      "application/json": [
+        { url: "/ai-actions.json", title: "S.W.A.T. Restoration AI Service Menu" },
+      ],
+    },
   },
   openGraph: {
     type: "website",
