@@ -45,6 +45,8 @@ import { filingHomeownersInsuranceClaimStormDamageFortWorth } from "./blog/filin
 import { fireDamageRestorationTimelineWeekByWeek } from "./blog/fire-damage-restoration-timeline-week-by-week"
 import { smokeOdorRemovalAfterKitchenFire } from "./blog/smoke-odor-removal-after-kitchen-fire"
 import { restorationCompanyVsGeneralContractorStormDamage } from "./blog/restoration-company-vs-general-contractor-storm-damage"
+import { sewageBackupEmergencyFortWorthNoDiy } from "./blog/sewage-backup-emergency-fort-worth-no-diy"
+import { chimneyWaterDamageFortWorthFireplaceCeilingLeak } from "./blog/chimney-water-damage-fort-worth-fireplace-ceiling-leak"
 
 export type { BlogPost, BlogCategory, ContentBlock } from "./blog/_types"
 export { BLOG_CATEGORIES } from "./blog/_types"
@@ -109,6 +111,8 @@ export const blogPosts: Record<string, BlogPost> = {
   [fireDamageRestorationTimelineWeekByWeek.slug]: fireDamageRestorationTimelineWeekByWeek,
   [smokeOdorRemovalAfterKitchenFire.slug]: smokeOdorRemovalAfterKitchenFire,
   [restorationCompanyVsGeneralContractorStormDamage.slug]: restorationCompanyVsGeneralContractorStormDamage,
+  [sewageBackupEmergencyFortWorthNoDiy.slug]: sewageBackupEmergencyFortWorthNoDiy,
+  [chimneyWaterDamageFortWorthFireplaceCeilingLeak.slug]: chimneyWaterDamageFortWorthFireplaceCeilingLeak,
 }
 
 /** Every post (including drafts), sorted newest-first by date. */
