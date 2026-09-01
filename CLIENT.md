@@ -40,7 +40,7 @@ Family-owned water & fire damage restoration company serving Aledo, Fort Worth, 
 - IICRC-trained crews
 
 ## Service Area
-**49 DFW cities** across Tarrant, Parker, Denton & Johnson counties. Full list lives in `lib/site-config.ts`. 12 featured markets surface in the desktop mega menu. All 49 appear on the homepage service-area section, the footer, and in the JSON-LD `areaServed` schema.
+**49 DFW cities** across Tarrant, Parker, Denton, Johnson & Wise counties (Newark is Wise County). Full list lives in `lib/site-config.ts`. 12 featured markets surface in the desktop mega menu. All 49 appear on the homepage service-area section, the footer, and in the JSON-LD `areaServed` schema.
 
 **City pages:** gated behind `siteConfig.cityPagesLive` (default `false`). While false, city names render as plain text (no `<a>`) and individual city URLs are excluded from the sitemap.
 
@@ -58,3 +58,7 @@ Family-owned water & fire damage restoration company serving Aledo, Fort Worth, 
 - SheetTrigger/SheetClose use `render={<element />}` not `asChild`
 - Logo file needs replacement (`/public/swat-restoration-logo.svg` is a placeholder banner)
 - Google Place ID for Aledo location: _pending GBP verification_ — once known, add to `lib/site-config.ts` and set `GOOGLE_PLACE_ID` env var
+
+## GBP (Google Business Profile)
+- **GBP location_id (auto-poster format):** `locations/1559128427364597090` — S.W.A.T. RESTORATION at 2111 E. FM 1187 Suite 100, Aledo TX 76008
+- **Auto-poster status (2026-08-26):** Onboarded as `client_id = 12` on `https://gbautopost-production.up.railway.app`. 50 images in library (Google Drive folder `1PFK-Y3RIU7KcNdjZ2quK_jMtzvQV4mzg` — all AI-generated `swat-restoration-gbp-XX.png` scenes with navy/red S.W.A.T. Restoration shield logo lower-third overlay). Posting daily. `industry_context`: "Water, fire, storm, and mold damage restoration serving Aledo, Fort Worth, and the DFW metroplex out of Aledo HQ. Focus on 24/7 emergency response and direct insurance billing. Currently August - peak DFW summer heat and thunderstorm season; bias content toward AC condensate line leaks, sudden thunderstorm water intrusion, and hot-attic mold growth." First live post: 2026-08-26 (thermal-imaging-moisture-detection image, LEARN_MORE CTA to website). Onboarding used the create-then-immediately-pause workaround (`PATCH last_post_date = <today>` before uploading images) to avoid the create → upload cron race that hit Gallagher and SWAT Plumbing.

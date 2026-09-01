@@ -72,9 +72,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   )
 
+  // Static machine-readable files: canonicalUrl() would append a trailing
+  // slash and break the URL, so these are built from siteConfig.url directly.
   const aiActionsRoute: MetadataRoute.Sitemap = [
     {
-      url: canonicalUrl("/ai-actions.json"),
+      url: `${siteConfig.url}/ai-actions.json`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${siteConfig.url}/llms.txt`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.5,

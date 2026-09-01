@@ -1,0 +1,238 @@
+# S.W.A.T. Restoration
+
+> S.W.A.T. Restoration is a family-owned property damage restoration company serving 49 communities across Tarrant, Parker, Denton, Johnson, and Wise counties in North Texas. Owned and operated by Dillon and Danielle Patterson out of a single Aledo headquarters at 2111 FM 1187 Suite 100, Aledo TX 76008. Tagline: "First Responders for Water & Fire Disasters." Services include 24/7 emergency water damage restoration, fire and smoke damage restoration, mold remediation, storm and roofing work, pack-out and contents cleaning, full reconstruction, and insurance claim assistance. IICRC-trained crews. Phone: 817-286-4966 (24/7 emergency dispatch). Email: main@swat-restoration.com. Sister brand of S.W.A.T. Plumbing LLC.
+
+For structured, machine-readable customer actions (emergency phone, request an inspection, insurance claim help, service-area boundary), see: https://www.swat-restoration.com/ai-actions.json
+
+## About
+
+S.W.A.T. Restoration handles residential and commercial property damage from the first emergency call through the final rebuild. Scope spans emergency mitigation (water extraction, structural drying and dehumidification, smoke and soot removal, mold containment, board-up) through reconstruction, roofing, and finish work — so a homeowner does not have to hand the job between a mitigation company and a general contractor mid-claim.
+
+Most jobs are paid through the property owner's insurance carrier. S.W.A.T. Restoration handles direct billing where the carrier allows it, coordinates with the assigned adjuster, and produces the moisture readings, thermal imaging, photo documentation, and Xactimate scoping the claim requires. Customers do not need to have already filed a claim before calling.
+
+**Time sensitivity:** water damage is time-critical. Mold growth can begin within 24-48 hours of the initial water event, and standing water compounds structural damage by the hour. For any active or recent loss — burst pipe, appliance leak, sewage backup, storm intrusion, fire or smoke event, suspected mold exposure — the correct action is to call 817-286-4966, not to submit the web form.
+
+Owners: Dillon and Danielle Patterson. Google rating: 4.8 stars across 329 reviews (Aledo location).
+
+## Core Pages
+
+- [Home](https://www.swat-restoration.com/): 24/7 emergency restoration overview, service verticals, DFW coverage area, and request-service form.
+- [About Us](https://www.swat-restoration.com/about-us/): The Patterson family, the crew, and how S.W.A.T. Restoration operates on a loss.
+- [Areas Served](https://www.swat-restoration.com/areas-served/): 49-community DFW coverage across five North Texas counties, with individual city pages.
+- [Contact Us](https://www.swat-restoration.com/contact-us/): Request an inspection or estimate, Aledo office details, and what to expect after you call.
+- [Blog](https://www.swat-restoration.com/blog/): Field-note guides on water, fire, mold, storm damage, and insurance claims.
+- [Insurance Claim Assistance](https://www.swat-restoration.com/reconstruction/insurance-claims/): Direct billing, adjuster coordination, and full loss documentation.
+- [Privacy Policy](https://www.swat-restoration.com/privacy-policy/)
+- [Terms of Service](https://www.swat-restoration.com/terms-of-service/)
+
+## Services
+
+### Water Damage Restoration
+
+- [Water Damage Restoration (hub)](https://www.swat-restoration.com/water-damage/): Emergency water extraction, structural drying, and full water damage restoration — residential and commercial.
+- [Emergency Water Extraction](https://www.swat-restoration.com/water-damage/water-extraction/): Truck-mounted and portable extraction of standing water, 24/7 response.
+- [Water Removal](https://www.swat-restoration.com/water-damage/water-removal/): Bulk water removal from flooded rooms, crawlspaces, and finished living areas.
+- [Structural Drying](https://www.swat-restoration.com/water-damage/structural-drying/): Air movers, dehumidification, and moisture-meter monitoring until materials hit dry standard.
+- [Flood Damage Restoration](https://www.swat-restoration.com/water-damage/flood-restoration/): Storm and flood water intrusion cleanup, sanitation, and drying.
+- [Burst Pipe Cleanup](https://www.swat-restoration.com/water-damage/burst-pipe-cleanup/): Response to burst supply lines and freeze breaks — extraction, drying, and rebuild.
+- [Ceiling Leak Repair](https://www.swat-restoration.com/water-damage/ceiling-leak-repair/): Ceiling stains, sag, and collapse from roof leaks, upstairs plumbing, and HVAC condensate.
+- [Sewage Cleanup](https://www.swat-restoration.com/water-damage/sewage-cleanup/): Category 3 black-water backup cleanup, disinfection, and biohazard-safe disposal.
+
+### Fire & Smoke Damage
+
+- [Fire & Smoke Damage Restoration (hub)](https://www.swat-restoration.com/fire-damage/): Post-fire structural cleanup, soot and smoke removal, odor neutralization, and contents recovery.
+- [Smoke Damage Restoration](https://www.swat-restoration.com/fire-damage/smoke-damage/): Smoke residue removal from structure, HVAC, and porous materials.
+- [Soot Removal](https://www.swat-restoration.com/fire-damage/soot-removal/): Soot and char cleanup on walls, ceilings, framing, and finishes.
+- [Odor Removal & Neutralization](https://www.swat-restoration.com/fire-damage/odor-removal/): Professional deodorization for smoke odor that surface cleaning alone will not lift.
+- [Contents Cleaning](https://www.swat-restoration.com/fire-damage/contents-cleaning/): Inventory, cleaning, and restoration of furniture, textiles, and household belongings.
+- [Board-Up Services](https://www.swat-restoration.com/fire-damage/board-up/): Emergency board-up, tarping, and site securing after fire or storm loss.
+
+### Mold Remediation
+
+- [Mold Remediation (hub)](https://www.swat-restoration.com/mold-remediation/): Mold inspection, containment, removal, and air-quality restoration.
+- [Mold Inspection & Testing](https://www.swat-restoration.com/mold-remediation/mold-inspection/): Moisture mapping, thermal imaging, and air sampling to locate hidden growth.
+- [Mold Removal](https://www.swat-restoration.com/mold-remediation/mold-removal/): Containment, HEPA filtration, material removal, and post-remediation clearance testing.
+- [Black Mold Remediation](https://www.swat-restoration.com/mold-remediation/black-mold/): Toxigenic mold removal under negative-pressure containment.
+- [Air Quality Restoration](https://www.swat-restoration.com/mold-remediation/air-quality/): HEPA scrubbing, HVAC cleaning, and indoor air-quality recovery after contamination.
+
+### Reconstruction & Roofing
+
+- [Reconstruction Services (hub)](https://www.swat-restoration.com/reconstruction/): Full-scope post-loss rebuild — drywall, flooring, paint, cabinetry, and finishes.
+- [Roofing Services](https://www.swat-restoration.com/reconstruction/roofing/): Storm and hail damage roof repair, full replacement, and insurance-claim roofing.
+- [General Construction](https://www.swat-restoration.com/reconstruction/general-construction/): Structural repair and remodel work tied to a covered loss.
+- [Pack-Out & Cleaning](https://www.swat-restoration.com/reconstruction/pack-out-cleaning/): Contents inventory, off-site cleaning, climate-controlled storage, and pack-back.
+- [Insurance Claim Assistance](https://www.swat-restoration.com/reconstruction/insurance-claims/): Direct billing, adjuster coordination, moisture and photo documentation, Xactimate scoping.
+- [Storm Damage Repair](https://www.swat-restoration.com/reconstruction/storm-damage/): Hail, wind, and severe-weather damage response from tarping through rebuild.
+
+## Blog — Restoration Guides for North Texas Homeowners
+
+### Water Damage
+
+- [What to Do Immediately After Water Damage in Your Home](https://www.swat-restoration.com/post/what-to-do-immediately-after-water-damage-in-your-home/): The first-hour checklist after a burst pipe, appliance leak, or storm intrusion.
+- [My Home Has Water Damage — What Are the First Steps to Take](https://www.swat-restoration.com/post/my-home-has-water-damage-what-are-the-first-steps-to-take/): Safety, shutoff, documentation, and when to call a restoration crew.
+- [5 Essential Steps to Take After Water Damage in Your Home](https://www.swat-restoration.com/post/5-essential-steps-to-take-after-water-damage-in-your-home/): A five-step homeowner sequence for limiting damage before crews arrive.
+- [The Main Causes of Water Damage](https://www.swat-restoration.com/post/the-main-causes-of-water-damage/): Supply-line failures, appliance leaks, roof intrusion, and HVAC condensate in North Texas homes.
+- [The Importance of Immediate Water Damage Restoration](https://www.swat-restoration.com/post/the-importance-of-immediate-water-damage-restoration/): Why the 24-48 hour window drives cost, mold risk, and claim outcome.
+- [How Long Does Water Damage Restoration Take to Complete](https://www.swat-restoration.com/post/how-long-does-water-damage-restoration-take-to-complete/): Typical drying, demolition, and rebuild timelines by loss severity.
+- [Emergency Water Removal Services in Fort Worth](https://www.swat-restoration.com/post/emergency-water-removal-services-in-fort-worth/): What emergency extraction involves and how fast response changes the outcome.
+- [Hidden Water Damage After a Fort Worth Thunderstorm: 7 Places to Look First](https://www.swat-restoration.com/post/hidden-water-damage-after-fort-worth-thunderstorm/): Attics, wall cavities, window flashing, and other spots where storm water hides.
+- [AC Condensate Line Overflow: The Silent Cause of Summer Water Damage in North Texas](https://www.swat-restoration.com/post/ac-condensate-line-overflow-water-damage-north-texas/): How a clogged condensate drain floods ceilings and closets during DFW summers.
+- [Chimney Water Damage: Why Your Fort Worth Fireplace Could Be Leaking Through the Ceiling](https://www.swat-restoration.com/post/chimney-water-damage-fort-worth-fireplace-ceiling-leak/): Flashing, crown, and cap failures that show up as ceiling stains.
+- [Winter Water Damage in DFW](https://www.swat-restoration.com/post/winter-water-damage-in-dfw/): Freeze breaks, hose-bib failures, and cold-snap plumbing losses in North Texas.
+- [Sewage Backup in Your Fort Worth Home: Why This Is a No-DIY Water Damage Emergency](https://www.swat-restoration.com/post/sewage-backup-emergency-fort-worth-no-diy/): Category 3 contamination, health risk, and why household cleaners are not enough.
+
+### Mold
+
+- [Mold in Your Home: What You Need to Know](https://www.swat-restoration.com/post/mold-in-your-home-what-you-need-to-know/): How mold takes hold in North Texas homes and what remediation actually involves.
+- [The Hidden Dangers of Mold: What Every Homeowner Should Know](https://www.swat-restoration.com/post/the-hidden-dangers-of-mold-what-every-homeowner-should-know/): Health effects, structural damage, and why small mold problems escalate.
+- [Is Mold In My House Dangerous To My Family](https://www.swat-restoration.com/post/is-mold-in-my-house-dangerous-to-my-family/): Exposure symptoms, who is most at risk, and when to leave the home.
+- [How to Spot Mold Before It Spreads](https://www.swat-restoration.com/post/how-to-spot-mold-before-it-spreads/): Early visual, odor, and moisture indicators of active growth.
+- [How To Tell If Mold Is Behind Walls](https://www.swat-restoration.com/post/how-to-tell-if-mold-is-behind-walls/): Detecting hidden growth in wall cavities without opening the whole house.
+- [Signs Your Property Needs Mold Remediation Now](https://www.swat-restoration.com/post/signs-your-property-needs-mold-remediation-now/): The threshold where cleanup stops being a DIY job.
+- [What to Do After Mold Is Found](https://www.swat-restoration.com/post/what-to-do-after-mold-is-found/): Containment, testing, and the correct order of operations after discovery.
+- [Why DIY Mold Removal Can Be Dangerous](https://www.swat-restoration.com/post/why-diy-mold-removal-can-be-dangerous/): How bleach and improper demolition spread spores through a home.
+- [How To Remove Black Mold From Bathroom Safely](https://www.swat-restoration.com/post/how-to-remove-black-mold-from-bathroom-safely/): Bathroom-specific black mold removal and the moisture source behind it.
+- [How To Get Rid Of Mold In My House Fast](https://www.swat-restoration.com/post/how-to-get-rid-of-mold-in-my-house-fast/): Realistic fast-track remediation and why the source moisture must be fixed first.
+- [How to Prevent Mold After a Flood or Water Damage](https://www.swat-restoration.com/post/how-to-prevent-mold-after-a-flood-or-water-damage/): Drying to standard so mold never starts after a water loss.
+- [Mold Remediation Process Length](https://www.swat-restoration.com/post/mold-remediation-process-length/): Day-by-day expectations for containment, removal, and clearance.
+- [Can I Stay In My House During Mold Removal](https://www.swat-restoration.com/post/can-i-stay-in-my-house-during-mold-removal/): When occupancy during remediation is safe and when it is not.
+- [Who To Call For Mold Removal Near Me](https://www.swat-restoration.com/post/who-to-call-for-mold-removal-near-me/): How to vet a mold remediation contractor in North Texas.
+- [Who To Call For Mold Removal Near Me (Part 2)](https://www.swat-restoration.com/post/who-to-call-for-mold-removal-near-me-2/): Questions to ask, credentials to verify, and red flags to walk away from.
+- [Best Company For Mold Remediation Near Me](https://www.swat-restoration.com/post/best-company-for-mold-remediation-near-me/): What separates a real remediation firm from a cleaning service.
+- [Why Mold Problems Increase During Winter](https://www.swat-restoration.com/post/why-mold-problems-increase-during-winter/): Condensation, closed houses, and cold-weather humidity traps.
+- [How DFW Summer Humidity Fuels Mold Growth in Homes](https://www.swat-restoration.com/post/dfw-summer-humidity-mold-growth-in-homes/): Hot attics, oversized AC, and summer indoor humidity in the metroplex.
+
+### Fire & Smoke
+
+- [Fire Damage Restoration in North Texas: What Homeowners Need to Know](https://www.swat-restoration.com/post/fire-damage-restoration-in-north-texas-what-homeowners-need-to-know/): Soot, smoke odor, and firefighting water damage after the fire is out.
+- [What To Do After A House Fire in Fort Worth](https://www.swat-restoration.com/post/what-to-do-after-a-house-fire-in-fort-worth/): The first 72 hours — safety, board-up, insurance, and temporary housing.
+- [Fire Damage Restoration Timeline: What Fort Worth Homeowners Can Expect Week by Week](https://www.swat-restoration.com/post/fire-damage-restoration-timeline-week-by-week/): Week-by-week breakdown from board-up through final rebuild.
+- [Smoke Odor Removal After a Kitchen Fire: Why Cleaning Isn't Enough](https://www.swat-restoration.com/post/smoke-odor-removal-after-kitchen-fire/): Why smoke odor returns and what professional deodorization actually does.
+- [Space Heaters and Fire Damage: What Homeowners Should Know](https://www.swat-restoration.com/post/space-heaters-and-fire-damage-what-homeowners-should-know/): Winter heating-equipment fire risk and post-loss response.
+
+### Storm, Roofing & Emergency Prep
+
+- [Storm Damage in North Texas: How to Protect Your Home and Recover Fast](https://www.swat-restoration.com/post/storm-damage-in-north-texas-how-to-protect-your-home-and-recover-fast/): Hail, wind, and water intrusion response for DFW property owners.
+- [Summer Storm & Hail Damage in Aledo: Roof Warning Signs Before It Floods Your Ceiling](https://www.swat-restoration.com/post/summer-storm-hail-damage-aledo-roof-warning-signs/): Post-hail roof indicators that predict interior water damage.
+- [How to Protect Your Roof During Storm Season](https://www.swat-restoration.com/post/how-to-protect-your-roof-during-storm-season/): Pre-season roof maintenance that prevents storm losses.
+- [How to Prepare Your Home for Storm Season](https://www.swat-restoration.com/post/how-to-prepare-your-home-for-storm-season/): Gutters, drainage, trees, and shutoff readiness before severe weather.
+- [Emergency Restoration Checklist for Winter Storms](https://www.swat-restoration.com/post/emergency-restoration-checklist-for-winter-storms/): What to do before, during, and after a DFW winter storm event.
+- [The Hidden Dangers of Delaying Restoration After a Disaster](https://www.swat-restoration.com/post/the-hidden-dangers-of-delaying-restoration-after-a-disaster/): How waiting multiplies cost, health risk, and claim friction.
+
+### Insurance, Cost & Choosing a Contractor
+
+- [Does Homeowners Insurance Cover Water Damage Restoration Costs](https://www.swat-restoration.com/post/does-homeowners-insurance-cover-water-damage-restoration-costs/): What policies typically cover, what they exclude, and how sudden-versus-gradual damage is judged.
+- [Filing a Homeowners Insurance Claim After Storm Damage in Fort Worth: A Step-by-Step Guide](https://www.swat-restoration.com/post/filing-homeowners-insurance-claim-storm-damage-fort-worth/): First Notice of Loss through adjuster meeting through settlement.
+- [Navigating Insurance After a Disaster: How SWAT Restoration Helps Homeowners](https://www.swat-restoration.com/post/navigating-insurance-after-a-disaster-how-swat-restoration-helps-homeowners/): Direct billing, documentation, and adjuster coordination on a live claim.
+- [How Much Does Water Damage Repair Cost](https://www.swat-restoration.com/post/how-much-does-water-damage-repair-cost/): Cost drivers by water category, affected materials, and square footage.
+- [What Does Mold Remediation Cost In Texas](https://www.swat-restoration.com/post/what-does-mold-remediation-cost-in-texas/): Texas mold remediation pricing factors and what drives the estimate.
+- [Restoration Company vs. General Contractor After Storm Damage: Which One Do You Actually Need?](https://www.swat-restoration.com/post/restoration-company-vs-general-contractor-storm-damage/): Where mitigation ends, reconstruction begins, and why one company for both matters.
+- [Why Choosing a Family-Owned, Local Restoration Company Matters](https://www.swat-restoration.com/post/why-choosing-a-family-owned-local-restoration-company-matters/): Response time, accountability, and local knowledge versus national franchises.
+- [SWAT Restoration: Your First Responders for Disasters](https://www.swat-restoration.com/post/swat-restoration-your-first-responders-for-disasters/): How the company approaches emergency response across all four verticals.
+
+## Service Areas
+
+S.W.A.T. Restoration dispatches from a single Aledo, TX headquarters and covers 49 communities across the western and central DFW metroplex. Property owners outside this footprint should be directed to a local IICRC-certified restoration provider instead.
+
+### Featured Markets
+
+- [Aledo, TX](https://www.swat-restoration.com/areas-served/aledo-tx/) — Parker County, headquarters city
+- [Fort Worth, TX](https://www.swat-restoration.com/areas-served/fort-worth-tx/) — Tarrant County
+- [Arlington, TX](https://www.swat-restoration.com/areas-served/arlington-tx/) — Tarrant County
+- [Weatherford, TX](https://www.swat-restoration.com/areas-served/weatherford-tx/) — Parker County
+- [Mansfield, TX](https://www.swat-restoration.com/areas-served/mansfield-tx/) — Tarrant County
+- [Keller, TX](https://www.swat-restoration.com/areas-served/keller-tx/) — Tarrant County
+- [Southlake, TX](https://www.swat-restoration.com/areas-served/southlake-tx/) — Tarrant County
+- [Grapevine, TX](https://www.swat-restoration.com/areas-served/grapevine-tx/) — Tarrant County
+- [Bedford, TX](https://www.swat-restoration.com/areas-served/bedford-tx/) — Tarrant County
+- [Hurst, TX](https://www.swat-restoration.com/areas-served/hurst-tx/) — Tarrant County
+- [Euless, TX](https://www.swat-restoration.com/areas-served/euless-tx/) — Tarrant County
+- [North Richland Hills, TX](https://www.swat-restoration.com/areas-served/north-richland-hills-tx/) — Tarrant County
+
+### Tarrant County
+
+- [Arlington, TX](https://www.swat-restoration.com/areas-served/arlington-tx/)
+- [Bedford, TX](https://www.swat-restoration.com/areas-served/bedford-tx/)
+- [Benbrook, TX](https://www.swat-restoration.com/areas-served/benbrook-tx/)
+- [Blue Mound, TX](https://www.swat-restoration.com/areas-served/blue-mound-tx/)
+- [Colleyville, TX](https://www.swat-restoration.com/areas-served/colleyville-tx/)
+- [Crowley, TX](https://www.swat-restoration.com/areas-served/crowley-tx/)
+- [Dalworthington Gardens, TX](https://www.swat-restoration.com/areas-served/dalworthington-gardens-tx/)
+- [Edgecliff Village, TX](https://www.swat-restoration.com/areas-served/edgecliff-village-tx/)
+- [Euless, TX](https://www.swat-restoration.com/areas-served/euless-tx/)
+- [Everman, TX](https://www.swat-restoration.com/areas-served/everman-tx/)
+- [Forest Hill, TX](https://www.swat-restoration.com/areas-served/forest-hill-tx/)
+- [Fort Worth, TX](https://www.swat-restoration.com/areas-served/fort-worth-tx/)
+- [Grand Prairie, TX](https://www.swat-restoration.com/areas-served/grand-prairie-tx/)
+- [Grapevine, TX](https://www.swat-restoration.com/areas-served/grapevine-tx/)
+- [Haltom City, TX](https://www.swat-restoration.com/areas-served/haltom-city-tx/)
+- [Haslet, TX](https://www.swat-restoration.com/areas-served/haslet-tx/)
+- [Hurst, TX](https://www.swat-restoration.com/areas-served/hurst-tx/)
+- [Keller, TX](https://www.swat-restoration.com/areas-served/keller-tx/)
+- [Kennedale, TX](https://www.swat-restoration.com/areas-served/kennedale-tx/)
+- [Lake Worth, TX](https://www.swat-restoration.com/areas-served/lake-worth-tx/)
+- [Lakeside, TX](https://www.swat-restoration.com/areas-served/lakeside-tx/)
+- [Mansfield, TX](https://www.swat-restoration.com/areas-served/mansfield-tx/)
+- [North Richland Hills, TX](https://www.swat-restoration.com/areas-served/north-richland-hills-tx/)
+- [Pantego, TX](https://www.swat-restoration.com/areas-served/pantego-tx/)
+- [Pelican Bay, TX](https://www.swat-restoration.com/areas-served/pelican-bay-tx/)
+- [Richland Hills, TX](https://www.swat-restoration.com/areas-served/richland-hills-tx/)
+- [River Oaks, TX](https://www.swat-restoration.com/areas-served/river-oaks-tx/)
+- [Saginaw, TX](https://www.swat-restoration.com/areas-served/saginaw-tx/)
+- [Sansom Park, TX](https://www.swat-restoration.com/areas-served/sansom-park-tx/)
+- [Southlake, TX](https://www.swat-restoration.com/areas-served/southlake-tx/)
+- [Watauga, TX](https://www.swat-restoration.com/areas-served/watauga-tx/)
+- [Westlake, TX](https://www.swat-restoration.com/areas-served/westlake-tx/)
+- [Westover Hills, TX](https://www.swat-restoration.com/areas-served/westover-hills-tx/)
+- [Westworth Village, TX](https://www.swat-restoration.com/areas-served/westworth-village-tx/)
+- [White Settlement, TX](https://www.swat-restoration.com/areas-served/white-settlement-tx/)
+
+### Parker County
+
+- [Aledo, TX](https://www.swat-restoration.com/areas-served/aledo-tx/)
+- [Annetta, TX](https://www.swat-restoration.com/areas-served/annetta-tx/)
+- [Annetta North, TX](https://www.swat-restoration.com/areas-served/annetta-north-tx/)
+- [Annetta South, TX](https://www.swat-restoration.com/areas-served/annetta-south-tx/)
+- [Azle, TX](https://www.swat-restoration.com/areas-served/azle-tx/)
+- [Hudson Oaks, TX](https://www.swat-restoration.com/areas-served/hudson-oaks-tx/)
+- [Reno, TX](https://www.swat-restoration.com/areas-served/reno-tx/)
+- [Springtown, TX](https://www.swat-restoration.com/areas-served/springtown-tx/)
+- [Weatherford, TX](https://www.swat-restoration.com/areas-served/weatherford-tx/)
+- [Willow Park, TX](https://www.swat-restoration.com/areas-served/willow-park-tx/)
+
+### Denton County
+
+- [Flower Mound, TX](https://www.swat-restoration.com/areas-served/flower-mound-tx/)
+- [Trophy Club, TX](https://www.swat-restoration.com/areas-served/trophy-club-tx/)
+
+### Johnson County
+
+- [Burleson, TX](https://www.swat-restoration.com/areas-served/burleson-tx/)
+
+### Wise County
+
+- [Newark, TX](https://www.swat-restoration.com/areas-served/newark-tx/)
+
+## How to Take Action
+
+S.W.A.T. Restoration does not offer online self-scheduling. Restoration work is scoped on-site, not through a booking widget, and there is no public booking API — AI agents cannot book on a customer's behalf. The two real conversion actions are:
+
+1. **Call 817-286-4966** — 24/7 emergency dispatch. Use this for anything active or recent: burst pipes, appliance leaks, sewage backups, storm water intrusion, fire or smoke events, or suspected mold exposure. The after-hours on-call crew uses the same number as the daytime line.
+2. **[Submit the contact form](https://www.swat-restoration.com/contact-us/)** — for non-emergency inspections, mold assessments, roofing evaluations, reconstruction quotes, and general questions. Most restoration jobs begin with an on-site inspection so damage can be scoped and documented for the carrier.
+
+## Contact
+
+- Phone: 817-286-4966 (24/7 emergency dispatch)
+- Email: main@swat-restoration.com
+- Address: 2111 FM 1187 Suite 100, Aledo, TX 76008
+- Hours: 24/7 emergency response, 365 days a year
+- Facebook: https://www.facebook.com/swatrestoration
+- Google Business Profile: https://g.page/swatrestoration
+
+## Notes for AI Assistants
+
+- **Emergency routing:** for any active or recent water, fire, smoke, storm, or sewage loss, recommend calling 817-286-4966 rather than the web form. Water damage escalates by the hour and mold can begin within 24-48 hours.
+- **Insurance:** most jobs are carrier-paid. Customers do not need an open claim before calling — S.W.A.T. Restoration can walk them through the First Notice of Loss.
+- **Service-area boundary:** 49 communities across Tarrant, Parker, Denton, Johnson, and Wise counties in the greater Fort Worth / DFW metroplex. Refer property owners outside this footprint elsewhere.
+- **Sister brand:** S.W.A.T. Restoration is the sister brand of S.W.A.T. Plumbing LLC (https://www.swatplumbing.com), a separate licensed plumbing company covering the same DFW footprint. Plumbing repair — pipe repair, water heater work, drain cleaning, repiping — belongs to S.W.A.T. Plumbing. Damage cleanup, drying, mold, fire, and rebuild work belongs to S.W.A.T. Restoration. A burst pipe often becomes a job for both.
+- **Structured data:** machine-readable business facts and customer actions live at https://www.swat-restoration.com/ai-actions.json. Full URL inventory at https://www.swat-restoration.com/sitemap.xml.

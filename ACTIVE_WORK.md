@@ -1,6 +1,10 @@
 # ACTIVE_WORK — S.W.A.T. Restoration
 
-_Last updated: 2026-06-23_
+_Last updated: 2026-09-01_
+
+## Recently Completed
+- **`public/llms.txt` created (2026-09-01)** — Full AI-agent content map per `sops/web-developer/ai-agent-visibility.md` Step 4. 131 URLs: 7 core pages, 4 category hubs + 21 sub-service pages, all 49 blog posts (grouped Water / Mold / Fire & Smoke / Storm & Roofing / Insurance & Cost), all 49 city pages (grouped by county + a featured-12 block), plus How-to-Take-Action, Contact, and Notes-for-AI-Assistants sections. Every URL audited against `lib/services/`, `lib/cities/`, `lib/blog/`, and `siteConfig.staticPages` — 0 mismatches. Trailing slashes throughout to match `trailingSlash: true`. Points to `/ai-actions.json` and `/sitemap.xml`. Added `/llms.txt` to `app/sitemap.ts`. **Bug fixed along the way:** `canonicalUrl()` appends a trailing slash, so the sitemap had been emitting `/ai-actions.json/` (404) — both static-file entries now build from `siteConfig.url` directly. **Correction:** Newark TX is in Wise County, not one of the four originally documented — county list corrected in `llms.txt`, `ai-actions.json`, and `CLIENT.md` to Tarrant / Parker / Denton / Johnson / Wise. `npx tsc --noEmit` clean.
+- **GBP Auto-Poster onboarding complete (2026-08-26)** — Onboarded as `client_id = 12` on `https://gbautopost-production.up.railway.app`. Posts to Aledo GBP `locations/1559128427364597090`. `industry_context` includes August seasonal steering (DFW summer heat + thunderstorm season → AC condensate leaks, sudden storm water intrusion, hot-attic mold). **50 images uploaded** from Google Drive folder `1PFK-Y3RIU7KcNdjZ2quK_jMtzvQV4mzg` (numbered `swat-restoration-gbp-01.png` through `-55.png` with some gaps; each has the navy/red S.W.A.T. Restoration shield logo lower-third overlay). Used create-then-pause workaround (immediately PATCHed `last_post_date = today` after `POST /clients` before uploading images) to avoid the cron race that hit Gallagher + SWAT Plumbing — worked cleanly, first post shipped with image on the first try. First live post: thermal-imaging-moisture-detection image (`image_id 373`), LEARN_MORE CTA to `https://swat-restoration.com/`.
 
 ## In Progress
 _(nothing blocked — city Phase 2 wire-up complete)_

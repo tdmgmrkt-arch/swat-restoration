@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# GBP auto-poster source images (staged locally, uploaded to the Railway
+# auto-poster from Google Drive — not served by the site)
+public/gbp/
