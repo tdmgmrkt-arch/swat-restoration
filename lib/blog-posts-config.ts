@@ -47,6 +47,16 @@ import { smokeOdorRemovalAfterKitchenFire } from "./blog/smoke-odor-removal-afte
 import { restorationCompanyVsGeneralContractorStormDamage } from "./blog/restoration-company-vs-general-contractor-storm-damage"
 import { sewageBackupEmergencyFortWorthNoDiy } from "./blog/sewage-backup-emergency-fort-worth-no-diy"
 import { chimneyWaterDamageFortWorthFireplaceCeilingLeak } from "./blog/chimney-water-damage-fort-worth-fireplace-ceiling-leak"
+import { waterHeaterFailureFloodingFortWorthHome } from "./blog/water-heater-failure-flooding-fort-worth-home"
+import { hvacSystemSpreadingMoldThroughHouseAledo } from "./blog/hvac-system-spreading-mold-through-house-aledo"
+import { tropicalStormRemnantsNorthTexasFlooding } from "./blog/tropical-storm-remnants-north-texas-flooding"
+import { policyRenewalRestorationCoverageGapsAledo } from "./blog/policy-renewal-restoration-coverage-gaps-aledo"
+import { slabLeakWaterDamageUnderFoundationFortWorth } from "./blog/slab-leak-water-damage-under-foundation-fort-worth"
+import { fireplaceFirstFireSafetyChimneyFireRiskAledo } from "./blog/fireplace-first-fire-safety-chimney-fire-risk-aledo"
+import { closingUpHouseFallVentilationMoldFortWorth } from "./blog/closing-up-house-fall-ventilation-mold-fort-worth"
+import { guttersDownspoutsFallWaterDamagePreventionAledo } from "./blog/gutters-downspouts-fall-water-damage-prevention-aledo"
+import { vacantHomeWinterFloodingHolidayTravelFortWorth } from "./blog/vacant-home-winter-flooding-holiday-travel-fort-worth"
+import { documentingDamageBeforeCrewArrivesAledo } from "./blog/documenting-damage-before-crew-arrives-aledo"
 
 export type { BlogPost, BlogCategory, ContentBlock } from "./blog/_types"
 export { BLOG_CATEGORIES } from "./blog/_types"
@@ -113,6 +123,26 @@ export const blogPosts: Record<string, BlogPost> = {
   [restorationCompanyVsGeneralContractorStormDamage.slug]: restorationCompanyVsGeneralContractorStormDamage,
   [sewageBackupEmergencyFortWorthNoDiy.slug]: sewageBackupEmergencyFortWorthNoDiy,
   [chimneyWaterDamageFortWorthFireplaceCeilingLeak.slug]: chimneyWaterDamageFortWorthFireplaceCeilingLeak,
+  [waterHeaterFailureFloodingFortWorthHome.slug]:
+    waterHeaterFailureFloodingFortWorthHome,
+  [hvacSystemSpreadingMoldThroughHouseAledo.slug]:
+    hvacSystemSpreadingMoldThroughHouseAledo,
+  [tropicalStormRemnantsNorthTexasFlooding.slug]:
+    tropicalStormRemnantsNorthTexasFlooding,
+  [policyRenewalRestorationCoverageGapsAledo.slug]:
+    policyRenewalRestorationCoverageGapsAledo,
+  [slabLeakWaterDamageUnderFoundationFortWorth.slug]:
+    slabLeakWaterDamageUnderFoundationFortWorth,
+  [fireplaceFirstFireSafetyChimneyFireRiskAledo.slug]:
+    fireplaceFirstFireSafetyChimneyFireRiskAledo,
+  [closingUpHouseFallVentilationMoldFortWorth.slug]:
+    closingUpHouseFallVentilationMoldFortWorth,
+  [guttersDownspoutsFallWaterDamagePreventionAledo.slug]:
+    guttersDownspoutsFallWaterDamagePreventionAledo,
+  [vacantHomeWinterFloodingHolidayTravelFortWorth.slug]:
+    vacantHomeWinterFloodingHolidayTravelFortWorth,
+  [documentingDamageBeforeCrewArrivesAledo.slug]:
+    documentingDamageBeforeCrewArrivesAledo,
 }
 
 /** Every post (including drafts), sorted newest-first by date. */
