@@ -48,8 +48,9 @@ Family-owned water & fire damage restoration company serving Aledo, Fort Worth, 
 - Webhook URL: _pending — add as `GHL_WEBHOOK_URL` env var when ready_
 
 ## Vercel
-- Project: _not yet created_
-- Domain: swat-restoration.com (confirm with client)
+- **Project: LIVE** — verified 2026-10-19 by curling production. Repo auto-deploys to production on push to `main`.
+- **Domain: https://www.swat-restoration.com — CONFIRMED LIVE** (apex 308-redirects to www; posts resolve at `/post/<slug>/` with trailing slashes)
+- **Treat every push to `main` as a production deploy.** Confirm with Kenneth before pushing.
 
 ## Notes
 - **Cloned from swat-plumbing** on 2026-06-09 — same component architecture, same shadcn v4 / base-ui quirks
