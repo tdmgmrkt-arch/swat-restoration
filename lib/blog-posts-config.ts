@@ -57,6 +57,9 @@ import { closingUpHouseFallVentilationMoldFortWorth } from "./blog/closing-up-ho
 import { guttersDownspoutsFallWaterDamagePreventionAledo } from "./blog/gutters-downspouts-fall-water-damage-prevention-aledo"
 import { vacantHomeWinterFloodingHolidayTravelFortWorth } from "./blog/vacant-home-winter-flooding-holiday-travel-fort-worth"
 import { documentingDamageBeforeCrewArrivesAledo } from "./blog/documenting-damage-before-crew-arrives-aledo"
+import { waterDamagedHardwoodFloorsCuppingFortWorth } from "./blog/water-damaged-hardwood-floors-cupping-fort-worth"
+import { dryerVentFireWarningSignsAledo } from "./blog/dryer-vent-fire-warning-signs-aledo"
+import { canYouStayInHouseDuringWaterDamageRestorationFortWorth } from "./blog/can-you-stay-in-house-during-water-damage-restoration-fort-worth"
 
 export type { BlogPost, BlogCategory, ContentBlock } from "./blog/_types"
 export { BLOG_CATEGORIES } from "./blog/_types"
@@ -143,6 +146,11 @@ export const blogPosts: Record<string, BlogPost> = {
     vacantHomeWinterFloodingHolidayTravelFortWorth,
   [documentingDamageBeforeCrewArrivesAledo.slug]:
     documentingDamageBeforeCrewArrivesAledo,
+  [waterDamagedHardwoodFloorsCuppingFortWorth.slug]:
+    waterDamagedHardwoodFloorsCuppingFortWorth,
+  [dryerVentFireWarningSignsAledo.slug]: dryerVentFireWarningSignsAledo,
+  [canYouStayInHouseDuringWaterDamageRestorationFortWorth.slug]:
+    canYouStayInHouseDuringWaterDamageRestorationFortWorth,
 }
 
 /** Every post (including drafts), sorted newest-first by date. */
