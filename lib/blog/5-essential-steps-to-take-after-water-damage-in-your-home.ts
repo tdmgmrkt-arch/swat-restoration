@@ -15,7 +15,11 @@ export const fiveEssentialStepsToTakeAfterWaterDamageInYourHome: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "Water damage can feel overwhelming, but acting quickly can minimize the impact and save you from further headaches. Whether it’s a burst pipe, a flood, or a leaking roof, knowing what to do immediately after water damage is crucial. At S.W.A.T. Restoration, we’re here to guide you through the process step by step.",
+      content: [
+        { type: "text", text: "Water damage can feel overwhelming, but acting quickly can minimize the impact and save you from further headaches. Whether it’s a " },
+        { type: "link", text: "burst pipe", href: "/water-damage/burst-pipe-cleanup" },
+        { type: "text", text: ", a flood, or a leaking roof, knowing what to do immediately after water damage is crucial. At S.W.A.T. Restoration, we’re here to guide you through the process step by step." },
+      ],
     },
     {
       type: "list",
@@ -28,8 +32,18 @@ export const fiveEssentialStepsToTakeAfterWaterDamageInYourHome: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "For a different angle on the same first hours, see",
+      linkText: "my home has water damage, what are the first steps",
+      href: "/post/my-home-has-water-damage-what-are-the-first-steps-to-take",
+    },
+    {
       type: "paragraph",
-      content: "Water damage is stressful, but with the right steps, you can protect your home and start the restoration process with confidence. If you’re facing water damage, don’t hesitate to contact S.W.A.T. Restoration for expert assistance.",
+      content: [
+        { type: "text", text: "" },
+        { type: "link", text: "Water damage", href: "/water-damage" },
+        { type: "text", text: " is stressful, but with the right steps, you can protect your home and start the restoration process with confidence. If you’re facing water damage, don’t hesitate to contact S.W.A.T. Restoration for expert assistance." },
+      ],
     },
   ],
 }

@@ -143,8 +143,11 @@ export const guttersDownspoutsFallWaterDamagePreventionAledo: BlogPost = {
     },
     {
       type: "paragraph",
-      content:
-        "For Aledo homeowners and the Parker County and DFW communities we serve, this is the lowest-cost, highest-return item on the fall list. The water damage calls we take in January frequently trace back to a gutter that was full in November.",
+      content: [
+        { type: "text", text: "For Aledo homeowners and the Parker County and DFW communities we serve, this is the lowest-cost, highest-return item on the fall list. The " },
+        { type: "link", text: "water damage", href: "/water-damage" },
+        { type: "text", text: " calls we take in January frequently trace back to a gutter that was full in November." },
+      ],
     },
   ],
 }

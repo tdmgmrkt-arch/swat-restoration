@@ -72,6 +72,24 @@ export const swatRestorationYourFirstRespondersForDisasters: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "On what family ownership changes in practice, see",
+      linkText: "why choosing a family-owned local restoration company matters",
+      href: "/post/why-choosing-a-family-owned-local-restoration-company-matters",
+    },
+    {
+      type: "callout",
+      text: "On why response speed decides the scope, see",
+      linkText: "the importance of immediate water damage restoration",
+      href: "/post/the-importance-of-immediate-water-damage-restoration",
+    },
+    {
+      type: "callout",
+      text: "On the difference between a restoration company and a general contractor, see",
+      linkText: "restoration company vs. general contractor",
+      href: "/post/restoration-company-vs-general-contractor-storm-damage",
+    },
+    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If your home or business has suffered water, fire, storm, or mold damage, call "},

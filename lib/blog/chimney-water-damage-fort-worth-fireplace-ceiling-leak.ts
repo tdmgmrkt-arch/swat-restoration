@@ -84,8 +84,11 @@ export const chimneyWaterDamageFortWorthFireplaceCeilingLeak: BlogPost = {
     { type: "heading", text: "Why Roofers Alone Don't Solve Chimney Leaks" },
     {
       type: "paragraph",
-      content:
-        "A dedicated roofer inspects shingles, flashing, and roof penetrations. That covers three of the five failure points. But chimney crowns, brick and mortar deterioration, and damaged chase pans on prefab chimneys often require mason or chimney-specialty repair work. And once water has already made it inside the home, the interior damage — saturated insulation, wet drywall, potential mold — is a restoration problem, not a roofing problem.",
+      content: [
+        { type: "text", text: "A dedicated roofer inspects shingles, flashing, and roof penetrations. That covers three of the five failure points. But chimney crowns, brick and mortar deterioration, and damaged chase pans on prefab chimneys often require mason or chimney-specialty repair work. And once water has already made it inside the home, the interior damage — saturated insulation, wet drywall, potential mold — is a restoration problem, not a " },
+        { type: "link", text: "roofing", href: "/reconstruction/roofing" },
+        { type: "text", text: " problem." },
+      ],
     },
     {
       type: "paragraph",

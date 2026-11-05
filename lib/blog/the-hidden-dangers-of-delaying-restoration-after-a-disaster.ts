@@ -26,7 +26,11 @@ export const theHiddenDangersOfDelayingRestorationAfterADisaster: BlogPost = {
     { type: "heading", text: "1. Water Damage Spreads Quickly" },
     {
       type: "paragraph",
-      content: "Water doesn’t stay put. It seeps into walls, floors, and foundations, weakening structures and creating the perfect breeding ground for mold. Within 24–48 hours, mold spores can begin to spread, turning a minor cleanup into a full remediation project.",
+      content: [
+        { type: "text", text: "Water doesn’t stay put. It seeps into walls, floors, and foundations, weakening structures and creating the perfect breeding ground for " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: ". Within 24–48 hours, mold spores can begin to spread, turning a minor cleanup into a full remediation project." },
+      ],
     },
     { type: "heading", text: "2. Mold Can Affect Your Health" },
     {
@@ -36,7 +40,11 @@ export const theHiddenDangersOfDelayingRestorationAfterADisaster: BlogPost = {
     { type: "heading", text: "3. Fire Damage Leaves More Than Ash" },
     {
       type: "paragraph",
-      content: "Even after a fire is out, smoke and soot linger. These particles can corrode electronics, stain surfaces, and leave odors that are nearly impossible to remove without professional equipment. The longer you wait, the deeper the damage sets in.",
+      content: [
+        { type: "text", text: "Even after a fire is out, smoke and " },
+        { type: "link", text: "soot", href: "/fire-damage/soot-removal" },
+        { type: "text", text: " linger. These particles can corrode electronics, stain surfaces, and leave odors that are nearly impossible to remove without professional equipment. The longer you wait, the deeper the damage sets in." },
+      ],
     },
     { type: "heading", text: "4. Insurance Claims Become Harder" },
     {
@@ -61,6 +69,12 @@ export const theHiddenDangersOfDelayingRestorationAfterADisaster: BlogPost = {
     {
       type: "paragraph",
       content: "When it comes to disasters, time is never on your side. The sooner you act, the easier, safer, and more affordable the recovery process will be.",
+    },
+    {
+      type: "callout",
+      text: "On why the first hours decide the scope, see",
+      linkText: "the importance of immediate water damage restoration",
+      href: "/post/the-importance-of-immediate-water-damage-restoration",
     },
     {
       type: "paragraph",

@@ -27,7 +27,11 @@ export const whyChoosingAFamilyOwnedLocalRestorationCompanyMatters: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "When storms or flooding hit North Texas, you want a company that already understands the unique challenges of the area. From hailstorms in Weatherford to flash flooding in Fort Worth, we’ve seen it all—and we know how to handle it. That local expertise means faster response times and better solutions that fit your specific needs.",
+      content: [
+        { type: "text", text: "When storms or " },
+        { type: "link", text: "flooding", href: "/water-damage/flood-restoration" },
+        { type: "text", text: " hit North Texas, you want a company that already understands the unique challenges of the area. From hailstorms in Weatherford to flash flooding in Fort Worth, we’ve seen it all—and we know how to handle it. That local expertise means faster response times and better solutions that fit your specific needs." },
+      ],
     },
     {
       type: "paragraph",
@@ -39,7 +43,11 @@ export const whyChoosingAFamilyOwnedLocalRestorationCompanyMatters: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "At the heart of SWAT Restoration are Dillon and Danielle Patterson, who started SWAT Plumbing and Restoration with one goal: to treat customers like family. That family-first approach carries through every project, from the technicians who respond to your call to the project managers who walk with you through insurance and reconstruction.",
+      content: [
+        { type: "text", text: "At the heart of SWAT Restoration are Dillon and Danielle Patterson, who started SWAT Plumbing and Restoration with one goal: to treat customers like family. That family-first approach carries through every project, from the technicians who respond to your call to the project managers who walk with you through insurance and " },
+        { type: "link", text: "reconstruction", href: "/reconstruction" },
+        { type: "text", text: "." },
+      ],
     },
     { type: "heading", text: "Final Thoughts" },
     {
@@ -49,6 +57,12 @@ export const whyChoosingAFamilyOwnedLocalRestorationCompanyMatters: BlogPost = {
         {"type":"strong","text":"North Texas’s first responders for disasters"},
         {"type":"text","text":", bringing both professional excellence and a personal touch to every restoration project."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On the practical difference in scope and sequencing, see",
+      linkText: "restoration company vs. general contractor",
+      href: "/post/restoration-company-vs-general-contractor-storm-damage",
     },
     {
       type: "paragraph",

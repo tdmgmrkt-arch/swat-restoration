@@ -15,7 +15,11 @@ export const bestCompanyForMoldRemediationNearMe: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide trusted, professional mold remediation services designed to remove mold at the source, protect your property, and restore a safe, healthy environment as quickly as possible.",
+      content: [
+        { type: "text", text: "We provide trusted, professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services designed to remove mold at the source, protect your property, and restore a safe, healthy environment as quickly as possible." },
+      ],
     },
     {
       type: "paragraph",
@@ -175,7 +179,11 @@ export const bestCompanyForMoldRemediationNearMe: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Incomplete remediation often leads to mold returning within weeks or months. This not only damages your property but also affects indoor air quality and health.",
+      content: [
+        { type: "text", text: "Incomplete remediation often leads to mold returning within weeks or months. This not only damages your property but also affects indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " and health." },
+      ],
     },
     {
       type: "paragraph",
@@ -190,6 +198,12 @@ export const bestCompanyForMoldRemediationNearMe: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", and complete restoration services designed to eliminate mold at the source. We respond quickly, use advanced equipment, and ensure your home is restored safely and thoroughly."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For what the work should cost in Texas, see",
+      linkText: "mold remediation cost",
+      href: "/post/what-does-mold-remediation-cost-in-texas",
     },
     {
       type: "paragraph",

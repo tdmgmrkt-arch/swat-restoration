@@ -15,7 +15,11 @@ export const whoToCallForMoldRemovalNearMe: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "Our mold removal team provides reliable mold remediation services that connect homeowners with trained professionals who can safely remove mold, stop it from spreading, and restore your property the right way.",
+      content: [
+        { type: "text", text: "Our mold removal team provides reliable " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that connect homeowners with trained professionals who can safely remove mold, stop it from spreading, and restore your property the right way." },
+      ],
     },
     {
       type: "paragraph",
@@ -149,7 +153,11 @@ export const whoToCallForMoldRemovalNearMe: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "From there, they create a plan that includes containment, removal, cleaning, and restoration. Equipment like air scrubbers and dehumidifiers is used to improve air quality and remove hidden moisture.",
+      content: [
+        { type: "text", text: "From there, they create a plan that includes containment, removal, cleaning, and restoration. Equipment like air scrubbers and dehumidifiers is used to improve " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " and remove hidden moisture." },
+      ],
     },
     {
       type: "paragraph",
@@ -196,6 +204,12 @@ export const whoToCallForMoldRemovalNearMe: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", detailed inspections, and full restoration services designed to eliminate mold at the source. We respond quickly, contain the problem, and restore your home safely and efficiently."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On how to evaluate a remediation company, see",
+      linkText: "choosing the right mold remediation company",
+      href: "/post/best-company-for-mold-remediation-near-me",
     },
     {
       type: "paragraph",

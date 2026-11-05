@@ -19,7 +19,11 @@ export const winterWaterDamageInDfw: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Winter weather in the Dallas–Fort Worth area may not bring constant snow, but it still creates serious water damage risks for homes and businesses. Freezing nights, sudden warm-ups, and seasonal storms place stress on plumbing systems, roofing materials, and foundations. Understanding how winter water damage happens in DFW allows property owners to act quickly and protect their spaces during colder months.",
+      content: [
+        { type: "text", text: "Winter weather in the Dallas–Fort Worth area may not bring constant snow, but it still creates serious water damage risks for homes and businesses. Freezing nights, sudden warm-ups, and seasonal storms place stress on plumbing systems, " },
+        { type: "link", text: "roofing", href: "/reconstruction/roofing" },
+        { type: "text", text: " materials, and foundations. Understanding how winter water damage happens in DFW allows property owners to act quickly and protect their spaces during colder months." },
+      ],
     },
     { type: "heading", text: "How Freezing Temperatures Affect DFW Plumbing" },
     {
@@ -68,7 +72,11 @@ export const winterWaterDamageInDfw: BlogPost = {
     { type: "heading", text: "What DFW Homeowners Worry About Most" },
     {
       type: "paragraph",
-      content: "Health and comfort are major concerns when water damage occurs in winter. Damp environments affect indoor air quality and can aggravate respiratory sensitivities, especially when families spend more time indoors. Mold growth tied to winter water damage increases these concerns if moisture is not addressed promptly.",
+      content: [
+        { type: "text", text: "Health and comfort are major concerns when water damage occurs in winter. Damp environments affect indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " and can aggravate respiratory sensitivities, especially when families spend more time indoors. Mold growth tied to winter water damage increases these concerns if moisture is not addressed promptly." },
+      ],
     },
     {
       type: "paragraph",
@@ -91,6 +99,12 @@ export const winterWaterDamageInDfw: BlogPost = {
     {
       type: "paragraph",
       content: "Winter water damage often requires specialized drying techniques due to cooler temperatures and limited ventilation. Experienced restoration teams understand how to stabilize affected areas, remove moisture efficiently, and prevent secondary damage. This expertise becomes especially important when water issues overlap with freezing conditions or storm-related events.",
+    },
+    {
+      type: "callout",
+      text: "For the full seasonal checklist, see",
+      linkText: "our emergency restoration checklist for winter storms",
+      href: "/post/emergency-restoration-checklist-for-winter-storms",
     },
     {
       type: "paragraph",

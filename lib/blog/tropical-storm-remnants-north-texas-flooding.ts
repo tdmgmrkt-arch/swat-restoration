@@ -95,8 +95,11 @@ export const tropicalStormRemnantsNorthTexasFlooding: BlogPost = {
     { type: "heading", text: "The Mold Timeline Is Shorter Than You Think" },
     {
       type: "paragraph",
-      content:
-        "Prolonged rain means prolonged elevated indoor humidity, often with the air conditioning running less because outdoor temperatures dropped. That combination — wet materials plus reduced dehumidification — is more favorable to mold growth than a summer leak with the AC running hard.",
+      content: [
+        { type: "text", text: "Prolonged rain means prolonged elevated indoor humidity, often with the air conditioning running less because outdoor temperatures dropped. That combination — wet materials plus reduced dehumidification — is more favorable to " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: " growth than a summer leak with the AC running hard." },
+      ],
     },
     {
       type: "paragraph",

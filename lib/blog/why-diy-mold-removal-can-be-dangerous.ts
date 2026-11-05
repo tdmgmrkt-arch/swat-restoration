@@ -15,7 +15,11 @@ export const whyDiyMoldRemovalCanBeDangerous: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold inspections and remediation services that protect property owners from the serious risks associated with improper mold removal and untreated contamination.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold inspections", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that protect property owners from the serious risks associated with improper mold removal and untreated contamination." },
+      ],
     },
     {
       type: "paragraph",
@@ -133,7 +137,11 @@ export const whyDiyMoldRemovalCanBeDangerous: BlogPost = {
     { type: "heading", text: "When professional remediation is the safer choice" },
     {
       type: "paragraph",
-      content: "Certified mold remediation is not just about cleaning — it is about containment, safety, proper removal, and long-term prevention. Professionals use specialized equipment, follow strict protocols, and restore affected areas correctly.",
+      content: [
+        { type: "text", text: "Certified " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " is not just about cleaning — it is about containment, safety, proper removal, and long-term prevention. Professionals use specialized equipment, follow strict protocols, and restore affected areas correctly." },
+      ],
     },
     {
       type: "paragraph",
@@ -148,6 +156,12 @@ export const whyDiyMoldRemovalCanBeDangerous: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", detailed inspections, and full restoration services to stop mold at the source and prevent it from returning. We handle containment, removal, moisture control, and repairs with precision and care."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On exposure risk specifically, see",
+      linkText: "the hidden dangers of mold",
+      href: "/post/the-hidden-dangers-of-mold-what-every-homeowner-should-know",
     },
     {
       type: "paragraph",

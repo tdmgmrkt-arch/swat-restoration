@@ -24,7 +24,11 @@ export const navigatingInsuranceAfterADisasterHowSwatRestorationHelpsHomeowners:
     { type: "heading", text: "The Insurance Challenge" },
     {
       type: "paragraph",
-      content: "Filing an insurance claim after a disaster isn’t always straightforward. Policies are full of fine print, coverage limits vary, and the paperwork can seem endless. Meanwhile, you’re left wondering: <em>Will my claim cover everything I need? How long will this take? Am I documenting things correctly?</em>",
+      content: [
+        { type: "text", text: "Filing an " },
+        { type: "link", text: "insurance claim", href: "/reconstruction/insurance-claims" },
+        { type: "text", text: " after a disaster isn’t always straightforward. Policies are full of fine print, coverage limits vary, and the paperwork can seem endless. Meanwhile, you’re left wondering: <em>Will my claim cover everything I need? How long will this take? Am I documenting things correctly?</em>" },
+      ],
     },
     {
       type: "paragraph",
@@ -65,6 +69,18 @@ export const navigatingInsuranceAfterADisasterHowSwatRestorationHelpsHomeowners:
         {"type":"strong","text":"SWAT Restoration"},
         {"type":"text","text":", we combine skilled restoration services with hands-on insurance support to make sure your home and your life are restored as quickly and smoothly as possible."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On what is typically covered, see",
+      linkText: "does homeowners insurance cover water damage restoration costs",
+      href: "/post/does-homeowners-insurance-cover-water-damage-restoration-costs",
+    },
+    {
+      type: "callout",
+      text: "For the storm-specific process, see",
+      linkText: "filing a homeowners insurance claim for storm damage",
+      href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth",
     },
     {
       type: "paragraph",

@@ -15,7 +15,11 @@ export const howToTellIfMoldIsBehindWalls: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "Our mold removal and mold remediation company offers professional mold inspection and remediation services that help homeowners detect hidden mold behind walls, stop it from spreading, and restore a safe, healthy living environment.",
+      content: [
+        { type: "text", text: "Our mold removal and mold remediation company offers professional " },
+        { type: "link", text: "mold inspection", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that help homeowners detect hidden mold behind walls, stop it from spreading, and restore a safe, healthy living environment." },
+      ],
     },
     {
       type: "paragraph",
@@ -82,7 +86,11 @@ export const howToTellIfMoldIsBehindWalls: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "If these symptoms improve when you leave the house, it may indicate poor indoor air quality caused by hidden mold. Identifying and removing the source is essential for restoring a healthy living environment.",
+      content: [
+        { type: "text", text: "If these symptoms improve when you leave the house, it may indicate poor indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " caused by hidden mold. Identifying and removing the source is essential for restoring a healthy living environment." },
+      ],
     },
     { type: "heading", text: "Visual Clues That Mold May Be Behind Drywall" },
     {
@@ -196,6 +204,12 @@ export const howToTellIfMoldIsBehindWalls: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":" services designed to eliminate hidden mold and restore your home safely."},
       ],
+    },
+    {
+      type: "callout",
+      text: "Once you have confirmed it, see",
+      linkText: "signs your property needs mold remediation now",
+      href: "/post/signs-your-property-needs-mold-remediation-now",
     },
     {
       type: "paragraph",

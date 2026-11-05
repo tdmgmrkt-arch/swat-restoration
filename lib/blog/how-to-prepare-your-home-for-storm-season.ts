@@ -34,6 +34,24 @@ export const howToPrepareYourHomeForStormSeason: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "The roof is the first thing to check. See",
+      linkText: "how to protect your roof during storm season",
+      href: "/post/how-to-protect-your-roof-during-storm-season",
+    },
+    {
+      type: "callout",
+      text: "For what recovery looks like afterward, see",
+      linkText: "storm damage in North Texas",
+      href: "/post/storm-damage-in-north-texas-how-to-protect-your-home-and-recover-fast",
+    },
+    {
+      type: "callout",
+      text: "On the claim itself, see",
+      linkText: "filing a homeowners insurance claim for storm damage",
+      href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth",
+    },
+    {
       type: "paragraph",
       content: [
         {"type":"text","text":"After a storm, "},

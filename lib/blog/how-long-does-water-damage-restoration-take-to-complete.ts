@@ -74,7 +74,11 @@ export const howLongDoesWaterDamageRestorationTakeToComplete: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "For most homes, structural drying takes three to five days. However, severe water damage affecting subfloors, insulation, or framing can require up to a week or longer to fully dry.",
+      content: [
+        { type: "text", text: "For most homes, " },
+        { type: "link", text: "structural drying", href: "/water-damage/structural-drying" },
+        { type: "text", text: " takes three to five days. However, severe water damage affecting subfloors, insulation, or framing can require up to a week or longer to fully dry." },
+      ],
     },
     { type: "heading", text: "Factors that affect restoration time" },
     {
@@ -130,7 +134,11 @@ export const howLongDoesWaterDamageRestorationTakeToComplete: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Addressing moisture quickly not only speeds up restoration but also protects indoor air quality and prevents additional remediation work later.",
+      content: [
+        { type: "text", text: "Addressing moisture quickly not only speeds up restoration but also protects indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " and prevents additional remediation work later." },
+      ],
     },
     { type: "heading", text: "Why fast professional response matters" },
     {
@@ -167,6 +175,12 @@ export const howLongDoesWaterDamageRestorationTakeToComplete: BlogPost = {
         {"type":"strong","text":"water extraction"},
         {"type":"text","text":", and full restoration services designed to bring your home or business back to normal. From emergency cleanup to final repairs, we manage the entire process with precision and care."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On what it costs, see",
+      linkText: "how much water damage repair costs",
+      href: "/post/how-much-does-water-damage-repair-cost",
     },
     {
       type: "paragraph",

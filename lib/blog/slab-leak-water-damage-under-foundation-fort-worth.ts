@@ -114,8 +114,11 @@ export const slabLeakWaterDamageUnderFoundationFortWorth: BlogPost = {
     { type: "heading", text: "Repair and Restoration Are Two Separate Jobs" },
     {
       type: "paragraph",
-      content:
-        "A point worth being direct about: a plumber fixes the leak. That work is necessary and it is not the whole job. Once the pipe is repaired, the saturated soil, damp concrete, wet framing, and any mold that developed in the cavities are all still there.",
+      content: [
+        { type: "text", text: "A point worth being direct about: a plumber fixes the leak. That work is necessary and it is not the whole job. Once the pipe is repaired, the saturated soil, damp concrete, wet framing, and any " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: " that developed in the cavities are all still there." },
+      ],
     },
     {
       type: "paragraph",
@@ -152,6 +155,12 @@ export const slabLeakWaterDamageUnderFoundationFortWorth: BlogPost = {
       type: "paragraph",
       content:
         "The practical implication is to document early and thoroughly. Meter readings, the date symptoms were first noticed, thermal images, and a clear record of the failure mode all matter more here than on a loss with an obvious trigger.",
+    },
+    {
+      type: "callout",
+      text: "For how this fits the wider picture, see",
+      linkText: "the main causes of water damage",
+      href: "/post/the-main-causes-of-water-damage",
     },
     {
       type: "paragraph",

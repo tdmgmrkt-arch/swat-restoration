@@ -94,7 +94,11 @@ export const howToPreventMoldAfterAFloodOrWaterDamage: BlogPost = {
     { type: "heading", text: "Clean and disinfect affected surfaces" },
     {
       type: "paragraph",
-      content: "Floodwater may carry bacteria, dirt, and contaminants that remain on surfaces after water removal. Cleaning and disinfecting affected areas reduces the risk of microbial growth and improves indoor safety.",
+      content: [
+        { type: "text", text: "Floodwater may carry bacteria, dirt, and contaminants that remain on surfaces after " },
+        { type: "link", text: "water removal", href: "/water-damage/water-removal" },
+        { type: "text", text: ". Cleaning and disinfecting affected areas reduces the risk of microbial growth and improves indoor safety." },
+      ],
     },
     {
       type: "paragraph",
@@ -163,7 +167,11 @@ export const howToPreventMoldAfterAFloodOrWaterDamage: BlogPost = {
     { type: "heading", text: "Protect your home after water damage" },
     {
       type: "paragraph",
-      content: "Taking action quickly after flooding is the best way to prevent mold and protect your property. Proper water removal, structural drying, cleaning, and humidity control all play important roles in stopping mold before it starts.",
+      content: [
+        { type: "text", text: "Taking action quickly after flooding is the best way to prevent mold and protect your property. Proper water removal, " },
+        { type: "link", text: "structural drying", href: "/water-damage/structural-drying" },
+        { type: "text", text: ", cleaning, and humidity control all play important roles in stopping mold before it starts." },
+      ],
     },
     {
       type: "paragraph",
@@ -178,6 +186,12 @@ export const howToPreventMoldAfterAFloodOrWaterDamage: BlogPost = {
         {"type":"strong","text":"water damage restoration"},
         {"type":"text","text":", and complete drying services designed to protect your home or business. We locate hidden moisture, remove damaged materials, and restore affected areas so you can move forward with confidence."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For the early visual signals, see",
+      linkText: "how to spot mold before it spreads",
+      href: "/post/how-to-spot-mold-before-it-spreads",
     },
     {
       type: "paragraph",

@@ -131,11 +131,19 @@ export const whatToDoAfterAHouseFireInFortWorth: BlogPost = {
     { type: "heading", text: "The Fire Restoration Process Explained" },
     {
       type: "paragraph",
-      content: "Professional fire restoration usually begins with emergency mitigation and property stabilization. After the initial assessment, restoration teams remove debris, extract water, clean soot residue, and begin structural drying.",
+      content: [
+        { type: "text", text: "Professional fire restoration usually begins with emergency mitigation and property stabilization. After the initial assessment, restoration teams remove debris, extract water, clean soot residue, and begin " },
+        { type: "link", text: "structural drying", href: "/water-damage/structural-drying" },
+        { type: "text", text: "." },
+      ],
     },
     {
       type: "paragraph",
-      content: "Air scrubbers and odor removal equipment improve indoor air quality while cleaning crews treat affected surfaces. In some cases, damaged drywall, insulation, flooring, or framing materials must be removed and replaced.",
+      content: [
+        { type: "text", text: "Air scrubbers and odor removal equipment improve indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " while cleaning crews treat affected surfaces. In some cases, damaged drywall, insulation, flooring, or framing materials must be removed and replaced." },
+      ],
     },
     {
       type: "paragraph",
@@ -145,6 +153,12 @@ export const whatToDoAfterAHouseFireInFortWorth: BlogPost = {
     {
       type: "paragraph",
       content: "Recovering after a house fire involves far more than cleaning visible damage. Smoke residue, hidden moisture, and structural concerns all require specialized attention to restore the property safely and completely.",
+    },
+    {
+      type: "callout",
+      text: "For what the following weeks look like, see",
+      linkText: "the fire damage restoration timeline",
+      href: "/post/fire-damage-restoration-timeline-week-by-week",
     },
     {
       type: "paragraph",

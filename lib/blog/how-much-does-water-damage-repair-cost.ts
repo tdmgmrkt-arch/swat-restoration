@@ -95,7 +95,11 @@ export const howMuchDoesWaterDamageRepairCost: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Clean water from a plumbing leak is typically less expensive to handle than contaminated water from sewage backups or storm flooding. Contaminated water requires specialized cleaning, sanitization, and disposal procedures to protect health and safety.",
+      content: [
+        { type: "text", text: "Clean water from a plumbing leak is typically less expensive to handle than contaminated water from " },
+        { type: "link", text: "sewage", href: "/water-damage/sewage-cleanup" },
+        { type: "text", text: " backups or storm flooding. Contaminated water requires specialized cleaning, sanitization, and disposal procedures to protect health and safety." },
+      ],
     },
     {
       type: "paragraph",
@@ -193,7 +197,11 @@ export const howMuchDoesWaterDamageRepairCost: BlogPost = {
     { type: "heading", text: "Insurance Coverage For Water Damage Restoration" },
     {
       type: "paragraph",
-      content: "Many homeowners insurance policies cover sudden and accidental water damage, such as burst pipes or appliance failures. However, coverage depends on the source of the damage and the details of the policy.",
+      content: [
+        { type: "text", text: "Many homeowners insurance policies cover sudden and accidental water damage, such as " },
+        { type: "link", text: "burst pipes", href: "/water-damage/burst-pipe-cleanup" },
+        { type: "text", text: " or appliance failures. However, coverage depends on the source of the damage and the details of the policy." },
+      ],
     },
     {
       type: "paragraph",
@@ -256,6 +264,12 @@ export const howMuchDoesWaterDamageRepairCost: BlogPost = {
         {"type":"strong","text":"water damage restoration"},
         {"type":"text","text":", emergency water extraction, structural drying, and complete repair services designed to protect your property and reduce long-term costs. We respond quickly, use advanced restoration equipment, and help guide you through the insurance process from start to finish."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On what your policy is likely to pay, see",
+      linkText: "does homeowners insurance cover water damage restoration costs",
+      href: "/post/does-homeowners-insurance-cover-water-damage-restoration-costs",
     },
     {
       type: "paragraph",

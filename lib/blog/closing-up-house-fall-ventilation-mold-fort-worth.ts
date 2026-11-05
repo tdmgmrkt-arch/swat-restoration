@@ -18,8 +18,11 @@ export const closingUpHouseFallVentilationMoldFortWorth: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content:
-        "Mold calls in Fort Worth have a seasonal shape that surprises people. Homeowners expect the worst of it in August, when humidity peaks. In practice, October is when a lot of households first notice a problem — the smell in a closet, the dark speckling on a bathroom ceiling, the patch behind a headboard on an exterior wall.",
+      content: [
+        { type: "text", text: "" },
+        { type: "link", text: "Mold", href: "/mold-remediation" },
+        { type: "text", text: " calls in Fort Worth have a seasonal shape that surprises people. Homeowners expect the worst of it in August, when humidity peaks. In practice, October is when a lot of households first notice a problem — the smell in a closet, the dark speckling on a bathroom ceiling, the patch behind a headboard on an exterior wall." },
+      ],
     },
     {
       type: "paragraph",

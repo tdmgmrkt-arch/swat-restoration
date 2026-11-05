@@ -15,11 +15,19 @@ export const signsYourPropertyNeedsMoldRemediationNow: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold inspections and remediation services that help property owners identify serious mold problems early and take immediate action to protect their buildings, health, and long-term property value.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold inspections", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that help property owners identify serious mold problems early and take immediate action to protect their buildings, health, and long-term property value." },
+      ],
     },
     {
       type: "paragraph",
-      content: "Mold rarely waits for permission to spread. When conditions are right, it grows fast, travels quietly, and causes damage that goes far beyond surface stains. Knowing the signs your property needs mold remediation now can be the difference between a controlled cleanup and a costly restoration project. Mold affects indoor air quality, structural materials, and the well-being of everyone inside the space. The sooner it’s addressed, the easier it is to stop.",
+      content: [
+        { type: "text", text: "Mold rarely waits for permission to spread. When conditions are right, it grows fast, travels quietly, and causes damage that goes far beyond surface stains. Knowing the signs your property needs " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " now can be the difference between a controlled cleanup and a costly restoration project. Mold affects indoor air quality, structural materials, and the well-being of everyone inside the space. The sooner it’s addressed, the easier it is to stop." },
+      ],
     },
     { type: "heading", text: "Persistent musty odors that never go away" },
     {
@@ -119,6 +127,12 @@ export const signsYourPropertyNeedsMoldRemediationNow: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", and full restoration services to stop mold at the source and prevent it from returning. We identify hidden growth, address moisture issues, and restore affected areas with care and precision."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For the sequence once it is confirmed, see",
+      linkText: "what to do after mold is found",
+      href: "/post/what-to-do-after-mold-is-found",
     },
     {
       type: "paragraph",

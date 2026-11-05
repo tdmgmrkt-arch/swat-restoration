@@ -158,6 +158,18 @@ export const vacantHomeWinterFloodingHolidayTravelFortWorth: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "On what a DFW winter does to plumbing, see",
+      linkText: "winter water damage in DFW",
+      href: "/post/winter-water-damage-in-dfw",
+    },
+    {
+      type: "callout",
+      text: "For the wider seasonal prep list, see",
+      linkText: "our emergency restoration checklist for winter storms",
+      href: "/post/emergency-restoration-checklist-for-winter-storms",
+    },
+    {
       type: "paragraph",
       content:
         "For Fort Worth homeowners and the DFW communities we serve, the summary is short. The single minute it takes to close the main before you leave eliminates nearly all of this. Of the large unoccupied-home losses we have worked, almost none of them involved a home where the water was off.",

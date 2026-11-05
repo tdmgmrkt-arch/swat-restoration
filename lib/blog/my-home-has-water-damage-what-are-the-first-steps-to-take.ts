@@ -28,7 +28,11 @@ export const myHomeHasWaterDamageWhatAreTheFirstStepsToTake: BlogPost = {
     { type: "heading", text: "Shut off the water source immediately" },
     {
       type: "paragraph",
-      content: "The very first step when water damage occurs is stopping the source of water. If the issue comes from a burst pipe, leaking appliance, or plumbing failure, locate and shut off the main water supply to prevent additional flooding.",
+      content: [
+        { type: "text", text: "The very first step when water damage occurs is stopping the source of water. If the issue comes from a " },
+        { type: "link", text: "burst pipe", href: "/water-damage/burst-pipe-cleanup" },
+        { type: "text", text: ", leaking appliance, or plumbing failure, locate and shut off the main water supply to prevent additional flooding." },
+      ],
     },
     {
       type: "paragraph",
@@ -114,7 +118,11 @@ export const myHomeHasWaterDamageWhatAreTheFirstStepsToTake: BlogPost = {
     { type: "heading", text: "Understand the drying and restoration process" },
     {
       type: "paragraph",
-      content: "Water damage restoration involves several critical steps beyond simple water removal. After standing water is extracted, the affected areas must be thoroughly dried using specialized equipment.",
+      content: [
+        { type: "text", text: "Water damage restoration involves several critical steps beyond simple " },
+        { type: "link", text: "water removal", href: "/water-damage/water-removal" },
+        { type: "text", text: ". After standing water is extracted, the affected areas must be thoroughly dried using specialized equipment." },
+      ],
     },
     {
       type: "paragraph",
@@ -155,6 +163,12 @@ export const myHomeHasWaterDamageWhatAreTheFirstStepsToTake: BlogPost = {
         {"type":"strong","text":"water damage restoration"},
         {"type":"text","text":", and complete repair services designed to bring your home back to its original condition. We respond quickly, use advanced drying equipment, and handle every step of the recovery process with care."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For the condensed checklist version, see",
+      linkText: "5 essential steps to take after water damage",
+      href: "/post/5-essential-steps-to-take-after-water-damage-in-your-home",
     },
     {
       type: "paragraph",

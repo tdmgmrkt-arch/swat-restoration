@@ -105,7 +105,11 @@ export const emergencyRestorationChecklistForWinterStorms: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Drying equipment such as air movers and dehumidifiers plays a critical role in restoring affected spaces. Acting within the first 24 to 48 hours significantly improves outcomes and limits reconstruction needs. Homeowners who delay response often face more extensive repairs later.",
+      content: [
+        { type: "text", text: "Drying equipment such as air movers and dehumidifiers plays a critical role in restoring affected spaces. Acting within the first 24 to 48 hours significantly improves outcomes and limits " },
+        { type: "link", text: "reconstruction", href: "/reconstruction" },
+        { type: "text", text: " needs. Homeowners who delay response often face more extensive repairs later." },
+      ],
     },
     {
       type: "paragraph",
@@ -131,7 +135,17 @@ export const emergencyRestorationChecklistForWinterStorms: BlogPost = {
     { type: "heading", text: "Professional Support When Winter Weather Strikes" },
     {
       type: "paragraph",
-      content: "Winter storms in DFW can cause unexpected disruption, but preparation and rapid response protect both property and peace of mind. From frozen pipes to roof leaks and interior flooding, acting quickly prevents minor issues from escalating.",
+      content: [
+        { type: "text", text: "Winter storms in DFW can cause unexpected disruption, but preparation and rapid response protect both property and peace of mind. From frozen pipes to roof leaks and interior " },
+        { type: "link", text: "flooding", href: "/water-damage/flood-restoration" },
+        { type: "text", text: ", acting quickly prevents minor issues from escalating." },
+      ],
+    },
+    {
+      type: "callout",
+      text: "For what a DFW freeze does specifically, see",
+      linkText: "winter water damage in DFW",
+      href: "/post/winter-water-damage-in-dfw",
     },
     {
       type: "paragraph",

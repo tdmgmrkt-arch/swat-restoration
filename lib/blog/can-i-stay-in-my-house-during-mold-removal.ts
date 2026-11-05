@@ -145,7 +145,11 @@ export const canIStayInMyHouseDuringMoldRemoval: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Small remediation projects may take only a few days, while larger jobs involving structural drying, demolition, and repairs may take longer.",
+      content: [
+        { type: "text", text: "Small remediation projects may take only a few days, while larger jobs involving " },
+        { type: "link", text: "structural drying", href: "/water-damage/structural-drying" },
+        { type: "text", text: ", demolition, and repairs may take longer." },
+      ],
     },
     {
       type: "paragraph",
@@ -167,7 +171,11 @@ export const canIStayInMyHouseDuringMoldRemoval: BlogPost = {
     { type: "heading", text: "Water Damage And Mold Remediation Often Go Together" },
     {
       type: "paragraph",
-      content: "Many homeowners don’t realize that mold problems are often connected to unresolved water damage. Burst pipes, roof leaks, flooding, and plumbing failures create ideal conditions for mold growth.",
+      content: [
+        { type: "text", text: "Many homeowners don’t realize that mold problems are often connected to unresolved water damage. " },
+        { type: "link", text: "Burst pipes", href: "/water-damage/burst-pipe-cleanup" },
+        { type: "text", text: ", roof leaks, flooding, and plumbing failures create ideal conditions for mold growth." },
+      ],
     },
     {
       type: "paragraph",
@@ -220,6 +228,12 @@ export const canIStayInMyHouseDuringMoldRemoval: BlogPost = {
         {"type":"strong","text":"mold removal"},
         {"type":"text","text":", containment, water damage restoration, and full repair services designed to restore your home safely and efficiently. We work quickly to minimize disruption while protecting your indoor air quality and your property."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For how long the work itself takes, see",
+      linkText: "the mold remediation process length",
+      href: "/post/mold-remediation-process-length",
     },
     {
       type: "paragraph",

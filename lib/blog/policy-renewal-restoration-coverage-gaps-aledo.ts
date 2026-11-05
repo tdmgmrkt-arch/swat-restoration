@@ -29,8 +29,11 @@ export const policyRenewalRestorationCoverageGapsAledo: BlogPost = {
     { type: "heading", text: "The Mold Sublimit Is the Big One" },
     {
       type: "paragraph",
-      content:
-        "If you read one thing in your policy, make it the mold provision. Many Texas homeowners policies cap mold remediation at a figure substantially below what a significant remediation actually costs, and that cap applies even when the water event that caused the mold was fully covered.",
+      content: [
+        { type: "text", text: "If you read one thing in your policy, make it the mold provision. Many Texas homeowners policies cap " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " at a figure substantially below what a significant remediation actually costs, and that cap applies even when the water event that caused the mold was fully covered." },
+      ],
     },
     {
       type: "paragraph",

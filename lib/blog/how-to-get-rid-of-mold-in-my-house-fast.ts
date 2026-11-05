@@ -15,7 +15,11 @@ export const howToGetRidOfMoldInMyHouseFast: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide fast, professional mold remediation services that remove mold at the source, stop it from spreading, and restore your home safely so you can get back to normal without the stress.",
+      content: [
+        { type: "text", text: "We provide fast, professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that remove mold at the source, stop it from spreading, and restore your home safely so you can get back to normal without the stress." },
+      ],
     },
     {
       type: "paragraph",
@@ -36,7 +40,11 @@ export const howToGetRidOfMoldInMyHouseFast: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "If the affected area is small, you can take initial steps like increasing airflow and reducing moisture. However, scrubbing mold with household cleaners often only removes surface staining, not the root of the problem. Mold grows into porous materials like drywall and wood, which means it can continue spreading even after it looks “clean.”",
+      content: [
+        { type: "text", text: "If the affected area is small, you can take initial steps like increasing airflow and reducing moisture. However, scrubbing " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: " with household cleaners often only removes surface staining, not the root of the problem. Mold grows into porous materials like drywall and wood, which means it can continue spreading even after it looks “clean.”" },
+      ],
     },
     {
       type: "paragraph",
@@ -194,6 +202,12 @@ export const howToGetRidOfMoldInMyHouseFast: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", thorough inspections, and complete restoration services designed to eliminate mold at the source. We respond quickly, contain the problem, and restore your home safely so you can move forward with confidence."},
       ],
+    },
+    {
+      type: "callout",
+      text: "Before reaching for bleach, read",
+      linkText: "why DIY mold removal can be dangerous",
+      href: "/post/why-diy-mold-removal-can-be-dangerous",
     },
     {
       type: "paragraph",

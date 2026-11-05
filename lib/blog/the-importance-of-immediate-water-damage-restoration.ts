@@ -38,6 +38,24 @@ export const theImportanceOfImmediateWaterDamageRestoration: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "For the first-hour sequence, see",
+      linkText: "what to do immediately after water damage",
+      href: "/post/what-to-do-immediately-after-water-damage-in-your-home",
+    },
+    {
+      type: "callout",
+      text: "On how long the work takes, see",
+      linkText: "how long water damage restoration takes to complete",
+      href: "/post/how-long-does-water-damage-restoration-take-to-complete",
+    },
+    {
+      type: "callout",
+      text: "On what waiting actually costs, see",
+      linkText: "the hidden dangers of delaying restoration",
+      href: "/post/the-hidden-dangers-of-delaying-restoration-after-a-disaster",
+    },
+    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If water damage strikes your home in "},

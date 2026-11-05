@@ -18,8 +18,11 @@ export const hvacSystemSpreadingMoldThroughHouseAledo: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content:
-        "Homeowners usually describe mold as a location: it's in the guest bathroom, it's behind the washing machine, it's in one corner of the garage. That framing is reasonable, and it is also why mold problems in Aledo homes so often turn out to be larger than the first inspection suggested.",
+      content: [
+        { type: "text", text: "Homeowners usually describe " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: " as a location: it's in the guest bathroom, it's behind the washing machine, it's in one corner of the garage. That framing is reasonable, and it is also why mold problems in Aledo homes so often turn out to be larger than the first inspection suggested." },
+      ],
     },
     {
       type: "paragraph",

@@ -63,7 +63,11 @@ export const doesHomeownersInsuranceCoverWaterDamageRestorationCosts: BlogPost =
     { type: "heading", text: "Water damage situations insurance may not cover" },
     {
       type: "paragraph",
-      content: "While many sudden water events are covered, not all water damage qualifies for insurance claims. Policies typically exclude damage that occurs gradually or results from lack of maintenance.",
+      content: [
+        { type: "text", text: "While many sudden water events are covered, not all water damage qualifies for " },
+        { type: "link", text: "insurance claims", href: "/reconstruction/insurance-claims" },
+        { type: "text", text: ". Policies typically exclude damage that occurs gradually or results from lack of maintenance." },
+      ],
     },
     {
       type: "paragraph",
@@ -158,7 +162,11 @@ export const doesHomeownersInsuranceCoverWaterDamageRestorationCosts: BlogPost =
     { type: "heading", text: "Preventing future water damage claims" },
     {
       type: "paragraph",
-      content: "After restoration is complete, taking preventive steps can help reduce the chances of future water damage claims. Routine inspections of plumbing systems, appliances, and roofing materials can identify potential problems early.",
+      content: [
+        { type: "text", text: "After restoration is complete, taking preventive steps can help reduce the chances of future water damage claims. Routine inspections of plumbing systems, appliances, and " },
+        { type: "link", text: "roofing", href: "/reconstruction/roofing" },
+        { type: "text", text: " materials can identify potential problems early." },
+      ],
     },
     {
       type: "paragraph",
@@ -186,6 +194,12 @@ export const doesHomeownersInsuranceCoverWaterDamageRestorationCosts: BlogPost =
         {"type":"strong","text":"water damage restoration"},
         {"type":"text","text":", emergency water removal, and full repair services designed to bring your home back to its original condition. We also assist with documentation and communication to help simplify the insurance claim process."},
       ],
+    },
+    {
+      type: "callout",
+      text: "For the underlying numbers, see",
+      linkText: "how much water damage repair costs",
+      href: "/post/how-much-does-water-damage-repair-cost",
     },
     {
       type: "paragraph",

@@ -15,7 +15,11 @@ export const emergencyWaterRemovalServicesInFortWorth: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide fast-response emergency water removal services in Fort Worth that help homeowners and businesses minimize damage, prevent mold growth, and begin recovery immediately after water intrusion.",
+      content: [
+        { type: "text", text: "We provide fast-response emergency " },
+        { type: "link", text: "water removal", href: "/water-damage/water-removal" },
+        { type: "text", text: " services in Fort Worth that help homeowners and businesses minimize damage, prevent mold growth, and begin recovery immediately after water intrusion." },
+      ],
     },
     {
       type: "paragraph",
@@ -92,7 +96,11 @@ export const emergencyWaterRemovalServicesInFortWorth: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Homeowners who delay water removal often face more extensive repairs later, especially when hidden moisture leads to structural deterioration or indoor air quality concerns. Fast mitigation significantly improves recovery timelines and limits repair costs.",
+      content: [
+        { type: "text", text: "Homeowners who delay water removal often face more extensive repairs later, especially when hidden moisture leads to structural deterioration or indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " concerns. Fast mitigation significantly improves recovery timelines and limits repair costs." },
+      ],
     },
     { type: "heading", text: "What Homeowners Care About Most During Water Emergencies" },
     {
@@ -150,6 +158,12 @@ export const emergencyWaterRemovalServicesInFortWorth: BlogPost = {
     {
       type: "paragraph",
       content: "Water emergencies can feel overwhelming, especially when damage spreads quickly through a home or business. Fast action makes a major difference in limiting repairs, protecting indoor air quality, and restoring property safely.",
+    },
+    {
+      type: "callout",
+      text: "Before the crew arrives, see",
+      linkText: "what to do immediately after water damage",
+      href: "/post/what-to-do-immediately-after-water-damage-in-your-home",
     },
     {
       type: "paragraph",

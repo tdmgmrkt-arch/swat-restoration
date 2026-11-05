@@ -29,8 +29,11 @@ export const documentingDamageBeforeCrewArrivesAledo: BlogPost = {
     { type: "heading", text: "Safety Comes First, Genuinely" },
     {
       type: "paragraph",
-      content:
-        "Before anything else: nothing in this article is worth an injury. Standing water near outlets or a panel is an electrocution risk until the power to that area is off at the breaker. A structure that has had a fire is not safe to enter until the fire department clears it. Sewage backup is a biohazard requiring protective equipment, not a photo opportunity.",
+      content: [
+        { type: "text", text: "Before anything else: nothing in this article is worth an injury. Standing water near outlets or a panel is an electrocution risk until the power to that area is off at the breaker. A structure that has had a fire is not safe to enter until the fire department clears it. " },
+        { type: "link", text: "Sewage", href: "/water-damage/sewage-cleanup" },
+        { type: "text", text: " backup is a biohazard requiring protective equipment, not a photo opportunity." },
+      ],
     },
     {
       type: "paragraph",

@@ -18,8 +18,11 @@ export const summerStormHailDamageAledoRoofWarningSigns: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content:
-        "Aledo sits directly in the path of the North Texas hail alley — the corridor across Parker, Tarrant, and Johnson counties that logs some of the highest severe-hail frequencies in the country. A single 20-minute storm in late June can bruise every shingle on a west-facing slope. Most of that damage is invisible from the ground. The homeowners who catch it early keep repair costs in the four figures. The ones who wait until the ceiling stains show up are usually looking at drywall replacement, insulation removal, and mold remediation on top of the roof itself.",
+      content: [
+        { type: "text", text: "Aledo sits directly in the path of the North Texas hail alley — the corridor across Parker, Tarrant, and Johnson counties that logs some of the highest severe-hail frequencies in the country. A single 20-minute storm in late June can bruise every shingle on a west-facing slope. Most of that damage is invisible from the ground. The homeowners who catch it early keep repair costs in the four figures. The ones who wait until the ceiling stains show up are usually looking at drywall replacement, insulation removal, and " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " on top of the roof itself." },
+      ],
     },
     {
       type: "paragraph",

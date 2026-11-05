@@ -15,7 +15,11 @@ export const theHiddenDangersOfMoldWhatEveryHomeownerShouldKnow: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "Mold isn’t just an eyesore—it’s a serious health hazard and can cause extensive damage to your home. Even a small mold issue can escalate quickly if left unchecked. Here’s what every homeowner needs to know about mold and how S.W.A.T. Restoration can help.",
+      content: [
+        { type: "text", text: "" },
+        { type: "link", text: "Mold", href: "/mold-remediation" },
+        { type: "text", text: " isn’t just an eyesore—it’s a serious health hazard and can cause extensive damage to your home. Even a small mold issue can escalate quickly if left unchecked. Here’s what every homeowner needs to know about mold and how S.W.A.T. Restoration can help." },
+      ],
     },
     {
       type: "paragraph",
@@ -59,13 +63,23 @@ export const theHiddenDangersOfMoldWhatEveryHomeownerShouldKnow: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Don’t attempt to handle mold on your own. Professional mold remediation ensures safe removal and prevents the problem from returning. At S.W.A.T. Restoration, we locate hidden mold, eliminate it completely, and address the source of moisture to stop future growth.",
+      content: [
+        { type: "text", text: "Don’t attempt to handle mold on your own. Professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " ensures safe removal and prevents the problem from returning. At S.W.A.T. Restoration, we locate hidden mold, eliminate it completely, and address the source of moisture to stop future growth." },
+      ],
     },
     {
       type: "paragraph",
       content: [
         {"type":"strong","text":"Conclusion"},
       ],
+    },
+    {
+      type: "callout",
+      text: "For the household health question, see",
+      linkText: "is mold in my house dangerous to my family",
+      href: "/post/is-mold-in-my-house-dangerous-to-my-family",
     },
     {
       type: "paragraph",

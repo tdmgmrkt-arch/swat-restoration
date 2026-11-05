@@ -15,7 +15,11 @@ export const whatDoesMoldRemediationCostInTexas: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold remediation services across Texas that help homeowners address contamination quickly while preventing long-term structural and indoor air quality problems.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services across Texas that help homeowners address contamination quickly while preventing long-term structural and indoor air quality problems." },
+      ],
     },
     {
       type: "paragraph",
@@ -122,7 +126,11 @@ export const whatDoesMoldRemediationCostInTexas: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Indoor air quality is another major concern. Mold spores may affect respiratory comfort, especially for children, older adults, or individuals with sensitivities. Professional containment and filtration help reduce airborne contamination during remediation.",
+      content: [
+        { type: "text", text: "Indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " is another major concern. Mold spores may affect respiratory comfort, especially for children, older adults, or individuals with sensitivities. Professional containment and filtration help reduce airborne contamination during remediation." },
+      ],
     },
     {
       type: "paragraph",
@@ -145,6 +153,12 @@ export const whatDoesMoldRemediationCostInTexas: BlogPost = {
     {
       type: "paragraph",
       content: "Mold problems rarely stay isolated for long when moisture remains untreated. Proper remediation involves more than removing visible growth — it requires moisture control, safe containment, structural drying, and detailed restoration planning.",
+    },
+    {
+      type: "callout",
+      text: "Cost tracks scope and duration. See",
+      linkText: "the mold remediation process length",
+      href: "/post/mold-remediation-process-length",
     },
     {
       type: "paragraph",

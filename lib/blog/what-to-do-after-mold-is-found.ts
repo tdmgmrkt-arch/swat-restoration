@@ -15,7 +15,11 @@ export const whatToDoAfterMoldIsFound: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold inspections and remediation services that guide property owners through the right steps after mold is discovered, helping stop its spread, protect health, and restore the space safely and completely.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold inspections", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that guide property owners through the right steps after mold is discovered, helping stop its spread, protect health, and restore the space safely and completely." },
+      ],
     },
     {
       type: "paragraph",
@@ -54,7 +58,11 @@ export const whatToDoAfterMoldIsFound: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "DIY cleanup can also complicate insurance claims, damage materials, and increase health risks. Mold remediation requires containment, air filtration, proper removal techniques, and protective equipment. Skipping these steps often leads to recurring mold and higher costs later.",
+      content: [
+        { type: "text", text: "DIY cleanup can also complicate insurance claims, damage materials, and increase health risks. " },
+        { type: "link", text: "Mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " requires containment, air filtration, proper removal techniques, and protective equipment. Skipping these steps often leads to recurring mold and higher costs later." },
+      ],
     },
     { type: "heading", text: "Schedule a professional mold inspection" },
     {
@@ -140,6 +148,12 @@ export const whatToDoAfterMoldIsFound: BlogPost = {
         {"type":"strong","text":"mold remediation"},
         {"type":"text","text":", thorough inspections, and full restoration services designed to stop mold at the source and protect your property long-term. We handle containment, removal, moisture control, and repairs with care and precision."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On timelines and what the work involves, see",
+      linkText: "the mold remediation process length",
+      href: "/post/mold-remediation-process-length",
     },
     {
       type: "paragraph",

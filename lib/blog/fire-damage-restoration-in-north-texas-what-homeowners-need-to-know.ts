@@ -24,7 +24,11 @@ export const fireDamageRestorationInNorthTexasWhatHomeownersNeedToKnow: BlogPost
     { type: "heading", text: "The Hidden Impact of Fire Damage" },
     {
       type: "paragraph",
-      content: "When you think of fire damage, you may picture burned walls or ruined furniture. But fire damage goes far beyond what you can see:",
+      content: [
+        { type: "text", text: "When you think of " },
+        { type: "link", text: "fire damage", href: "/fire-damage" },
+        { type: "text", text: ", you may picture burned walls or ruined furniture. But fire damage goes far beyond what you can see:" },
+      ],
     },
     {
       type: "list",
@@ -81,6 +85,18 @@ export const fireDamageRestorationInNorthTexasWhatHomeownersNeedToKnow: BlogPost
     {
       type: "paragraph",
       content: "Recovering from fire damage can feel overwhelming, but you don’t have to face it alone. With SWAT Restoration by your side, you’ll have a team that understands both the urgency of the situation and the importance of family, home, and peace of mind.",
+    },
+    {
+      type: "callout",
+      text: "For the first-week sequence, see",
+      linkText: "what to do after a house fire in Fort Worth",
+      href: "/post/what-to-do-after-a-house-fire-in-fort-worth",
+    },
+    {
+      type: "callout",
+      text: "On odor that outlasts the cleanup, see",
+      linkText: "smoke odor removal after a kitchen fire",
+      href: "/post/smoke-odor-removal-after-kitchen-fire",
     },
     {
       type: "paragraph",

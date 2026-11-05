@@ -15,11 +15,19 @@ export const howToSpotMoldBeforeItSpreads: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold inspections and remediation services that help homeowners and business owners detect mold early, stop its spread, and protect their property and health before costly damage occurs.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold inspections", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that help homeowners and business owners detect mold early, stop its spread, and protect their property and health before costly damage occurs." },
+      ],
     },
     {
       type: "paragraph",
-      content: "Mold problems rarely begin with dramatic signs. In many cases, mold develops quietly behind walls, under flooring, or in poorly ventilated spaces long before it becomes visible. Learning how to spot mold early gives you a major advantage, allowing you to take action before contamination spreads, air quality drops, and repairs become extensive. Early detection saves time, money, and stress while protecting the people who live or work in the space.",
+      content: [
+        { type: "text", text: "Mold problems rarely begin with dramatic signs. In many cases, mold develops quietly behind walls, under flooring, or in poorly ventilated spaces long before it becomes visible. Learning how to spot mold early gives you a major advantage, allowing you to take action before contamination spreads, " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " drops, and repairs become extensive. Early detection saves time, money, and stress while protecting the people who live or work in the space." },
+      ],
     },
     { type: "heading", text: "Early warning signs mold may already be growing" },
     {
@@ -129,6 +137,12 @@ export const howToSpotMoldBeforeItSpreads: BlogPost = {
         {"type":"strong","text":"mold removal"},
         {"type":"text","text":", and complete restoration services designed to protect your home or business from further damage. We identify the source, remove contamination safely, and restore affected areas the right way."},
       ],
+    },
+    {
+      type: "callout",
+      text: "Growth inside the wall assembly shows differently. See",
+      linkText: "how to tell if mold is behind walls",
+      href: "/post/how-to-tell-if-mold-is-behind-walls",
     },
     {
       type: "paragraph",

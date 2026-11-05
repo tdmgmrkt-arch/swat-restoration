@@ -15,7 +15,11 @@ export const whyMoldProblemsIncreaseDuringWinter: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold inspection and remediation services that help homeowners address cold-weather moisture issues before they lead to costly damage or indoor air quality concerns.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold inspection", href: "/mold-remediation/mold-inspection" },
+        { type: "text", text: " and remediation services that help homeowners address cold-weather moisture issues before they lead to costly damage or indoor air quality concerns." },
+      ],
     },
     {
       type: "paragraph",
@@ -60,7 +64,11 @@ export const whyMoldProblemsIncreaseDuringWinter: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Roof damage caused by winter storms can also allow moisture into attic spaces or insulation. As snow or ice melts, water may seep into building materials and remain trapped due to limited airflow. Over time, this trapped moisture compromises structural materials and increases the likelihood of mold spreading into living spaces. Addressing storm-related damage quickly with professional restoration services helps limit both structural and indoor air quality concerns.",
+      content: [
+        { type: "text", text: "Roof damage caused by winter storms can also allow moisture into attic spaces or insulation. As snow or ice melts, water may seep into building materials and remain trapped due to limited airflow. Over time, this trapped moisture compromises structural materials and increases the likelihood of mold spreading into living spaces. Addressing storm-related damage quickly with professional restoration services helps limit both structural and indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " concerns." },
+      ],
     },
     { type: "heading", text: "Warning Signs Homeowners Often Overlook" },
     {
@@ -97,6 +105,12 @@ export const whyMoldProblemsIncreaseDuringWinter: BlogPost = {
     {
       type: "paragraph",
       content: "Winter mold issues often require specialized containment and drying strategies due to lower outdoor temperatures. Experienced restoration teams understand how to remove affected materials safely while preventing spores from spreading through the home.",
+    },
+    {
+      type: "callout",
+      text: "After any water event, prevention is a short window. See",
+      linkText: "how to prevent mold after a flood",
+      href: "/post/how-to-prevent-mold-after-a-flood-or-water-damage",
     },
     {
       type: "paragraph",

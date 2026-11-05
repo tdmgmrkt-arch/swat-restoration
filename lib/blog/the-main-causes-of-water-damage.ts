@@ -24,7 +24,11 @@ export const theMainCausesOfWaterDamage: BlogPost = {
     { type: "heading", text: "1. Plumbing Leaks and Burst Pipes" },
     {
       type: "paragraph",
-      content: "A small leak may seem harmless at first, but over time it can cause significant water damage inside your walls, floors, and foundation. In extreme cases, a burst pipe can flood an entire room in minutes. Older homes in Fort Worth and Weatherford are especially prone to these issues, as aging plumbing materials deteriorate over time.",
+      content: [
+        { type: "text", text: "A small leak may seem harmless at first, but over time it can cause significant water damage inside your walls, floors, and foundation. In extreme cases, a " },
+        { type: "link", text: "burst pipe", href: "/water-damage/burst-pipe-cleanup" },
+        { type: "text", text: " can flood an entire room in minutes. Older homes in Fort Worth and Weatherford are especially prone to these issues, as aging plumbing materials deteriorate over time." },
+      ],
     },
     {
       type: "paragraph",
@@ -60,7 +64,11 @@ export const theMainCausesOfWaterDamage: BlogPost = {
     { type: "heading", text: "4. Appliance and Water Heater Failures" },
     {
       type: "paragraph",
-      content: "Water heaters, dishwashers, washing machines, and refrigerators with water lines are frequent culprits of water damage. Over time, hoses can crack, valves can fail, or tanks can corrode, releasing gallons of water onto your floors.",
+      content: [
+        { type: "text", text: "Water heaters, dishwashers, washing machines, and refrigerators with water lines are frequent culprits of " },
+        { type: "link", text: "water damage", href: "/water-damage" },
+        { type: "text", text: ". Over time, hoses can crack, valves can fail, or tanks can corrode, releasing gallons of water onto your floors." },
+      ],
     },
     {
       type: "paragraph",
@@ -100,6 +108,12 @@ export const theMainCausesOfWaterDamage: BlogPost = {
     {
       type: "paragraph",
       content: "Water damage doesn’t just harm your home—it disrupts your life. By understanding the main causes and staying proactive, you can reduce your risk. But if the unexpected happens, know that SWAT Restoration is ready 24/7 to step in, clean up, and restore your home with the care and integrity of a family-owned company.",
+    },
+    {
+      type: "callout",
+      text: "Whatever the cause, the clock matters most. See",
+      linkText: "the importance of immediate water damage restoration",
+      href: "/post/the-importance-of-immediate-water-damage-restoration",
     },
     {
       type: "paragraph",

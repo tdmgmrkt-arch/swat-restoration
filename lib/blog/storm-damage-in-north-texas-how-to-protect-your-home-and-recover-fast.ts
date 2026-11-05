@@ -37,12 +37,20 @@ export const stormDamageInNorthTexasHowToProtectYourHomeAndRecoverFast: BlogPost
     },
     {
       type: "paragraph",
-      content: "These problems don’t just affect your home’s appearance—they compromise safety and can lead to long-term issues like mold growth or structural instability if not addressed right away.",
+      content: [
+        { type: "text", text: "These problems don’t just affect your home’s appearance—they compromise safety and can lead to long-term issues like " },
+        { type: "link", text: "mold", href: "/mold-remediation" },
+        { type: "text", text: " growth or structural instability if not addressed right away." },
+      ],
     },
     { type: "heading", text: "Why Fast Response Matters" },
     {
       type: "paragraph",
-      content: "The first 24–48 hours after a storm are critical. Water that isn’t dried immediately can cause mold. A damaged roof left exposed can lead to major leaks. And insurance claims often require quick documentation of damage.",
+      content: [
+        { type: "text", text: "The first 24–48 hours after a storm are critical. Water that isn’t dried immediately can cause mold. A damaged roof left exposed can lead to major leaks. And " },
+        { type: "link", text: "insurance claims", href: "/reconstruction/insurance-claims" },
+        { type: "text", text: " often require quick documentation of damage." },
+      ],
     },
     {
       type: "paragraph",
@@ -79,6 +87,12 @@ export const stormDamageInNorthTexasHowToProtectYourHomeAndRecoverFast: BlogPost
         {"type":"strong","text":"SWAT Restoration"},
         {"type":"text","text":" to act fast, restore thoroughly, and walk with you through every step of the process—including the insurance headaches."},
       ],
+    },
+    {
+      type: "callout",
+      text: "On who should actually do the work, see",
+      linkText: "restoration company vs. general contractor",
+      href: "/post/restoration-company-vs-general-contractor-storm-damage",
     },
     {
       type: "paragraph",

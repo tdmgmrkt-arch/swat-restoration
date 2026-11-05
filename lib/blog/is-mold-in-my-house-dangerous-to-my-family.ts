@@ -15,7 +15,11 @@ export const isMoldInMyHouseDangerousToMyFamily: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold remediation services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that help families remove harmful mold safely while restoring healthier indoor conditions throughout the home." },
+      ],
     },
     {
       type: "paragraph",
@@ -49,7 +53,11 @@ export const isMoldInMyHouseDangerousToMyFamily: BlogPost = {
     { type: "heading", text: "Can Mold Affect Indoor Air Quality?" },
     {
       type: "paragraph",
-      content: "One of the biggest concerns surrounding mold is its impact on indoor air quality. As mold grows, it releases spores into the air that may circulate throughout the property, especially when HVAC systems are involved.",
+      content: [
+        { type: "text", text: "One of the biggest concerns surrounding mold is its impact on indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: ". As mold grows, it releases spores into the air that may circulate throughout the property, especially when HVAC systems are involved." },
+      ],
     },
     {
       type: "paragraph",
@@ -150,6 +158,12 @@ export const isMoldInMyHouseDangerousToMyFamily: BlogPost = {
     {
       type: "paragraph",
       content: "Mold problems rarely disappear without proper moisture control and remediation. Safe cleanup requires more than surface cleaning — it involves identifying hidden contamination, removing affected materials safely, and restoring healthy indoor conditions throughout the property.",
+    },
+    {
+      type: "callout",
+      text: "For the fuller picture on exposure, see",
+      linkText: "the hidden dangers of mold",
+      href: "/post/the-hidden-dangers-of-mold-what-every-homeowner-should-know",
     },
     {
       type: "paragraph",

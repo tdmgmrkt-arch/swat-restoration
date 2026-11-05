@@ -102,6 +102,24 @@ export const moldInYourHomeWhatYouNeedToKnow: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "For the specific signals worth acting on, see",
+      linkText: "signs your property needs mold remediation",
+      href: "/post/signs-your-property-needs-mold-remediation-now",
+    },
+    {
+      type: "callout",
+      text: "When there is nothing visible but you can smell it, see",
+      linkText: "how to tell if mold is behind walls",
+      href: "/post/how-to-tell-if-mold-is-behind-walls",
+    },
+    {
+      type: "callout",
+      text: "On the health question specifically, see",
+      linkText: "is mold in my house dangerous to my family",
+      href: "/post/is-mold-in-my-house-dangerous-to-my-family",
+    },
+    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If you’ve noticed signs of mold in your North Texas home, call "},

@@ -15,7 +15,11 @@ export const moldRemediationProcessLength: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold remediation services that help homeowners address contamination quickly while restoring safe, healthy indoor conditions with minimal disruption.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that help homeowners address contamination quickly while restoring safe, healthy indoor conditions with minimal disruption." },
+      ],
     },
     {
       type: "paragraph",
@@ -94,7 +98,11 @@ export const moldRemediationProcessLength: BlogPost = {
     { type: "heading", text: "Cleaning, Air Filtration, and Restoration" },
     {
       type: "paragraph",
-      content: "After drying is complete, technicians clean and sanitize remaining surfaces using specialized antimicrobial treatments. HEPA filtration systems remove airborne spores and improve indoor air quality during this stage.",
+      content: [
+        { type: "text", text: "After drying is complete, technicians clean and sanitize remaining surfaces using specialized antimicrobial treatments. HEPA filtration systems remove airborne spores and improve indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " during this stage." },
+      ],
     },
     {
       type: "paragraph",
@@ -130,6 +138,12 @@ export const moldRemediationProcessLength: BlogPost = {
     {
       type: "paragraph",
       content: "Mold remediation involves more than surface cleaning. Proper containment, moisture removal, and structural drying are essential to restoring a safe indoor environment and preventing future growth.",
+    },
+    {
+      type: "callout",
+      text: "On whether you need to leave while it happens, see",
+      linkText: "can I stay in my house during mold removal",
+      href: "/post/can-i-stay-in-my-house-during-mold-removal",
     },
     {
       type: "paragraph",

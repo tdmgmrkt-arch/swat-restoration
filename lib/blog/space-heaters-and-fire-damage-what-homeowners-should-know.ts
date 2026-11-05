@@ -101,11 +101,19 @@ export const spaceHeatersAndFireDamageWhatHomeownersShouldKnow: BlogPost = {
     { type: "heading", text: "What Homeowners Care About Most After a Heater Fire" },
     {
       type: "paragraph",
-      content: "Safety and health come first. Families want to know their home is secure and free from harmful smoke particles. Air quality concerns are especially important for children, older adults, and individuals with respiratory conditions.",
+      content: [
+        { type: "text", text: "Safety and health come first. Families want to know their home is secure and free from harmful smoke particles. " },
+        { type: "link", text: "Air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " concerns are especially important for children, older adults, and individuals with respiratory conditions." },
+      ],
     },
     {
       type: "paragraph",
-      content: "Property restoration is another top concern. Fire can damage drywall, insulation, framing, and personal belongings within minutes. The cleanup process may involve debris removal, deodorization, structural drying, and reconstruction. Working with a team experienced in both mitigation and rebuilding simplifies the process and reduces delays.",
+      content: [
+        { type: "text", text: "Property restoration is another top concern. Fire can damage drywall, insulation, framing, and personal belongings within minutes. The cleanup process may involve debris removal, deodorization, " },
+        { type: "link", text: "structural drying", href: "/water-damage/structural-drying" },
+        { type: "text", text: ", and reconstruction. Working with a team experienced in both mitigation and rebuilding simplifies the process and reduces delays." },
+      ],
     },
     {
       type: "paragraph",
@@ -137,6 +145,12 @@ export const spaceHeatersAndFireDamageWhatHomeownersShouldKnow: BlogPost = {
     {
       type: "paragraph",
       content: "Even minor heater fires can create hidden damage behind walls or inside duct systems. Professional restoration teams assess structural integrity, remove contaminated materials, and ensure the property is safe for reentry. Specialized drying and deodorization equipment helps eliminate lingering smoke odors and moisture left behind by firefighting efforts.",
+    },
+    {
+      type: "callout",
+      text: "If the worst happens, see",
+      linkText: "what to do after a house fire in Fort Worth",
+      href: "/post/what-to-do-after-a-house-fire-in-fort-worth",
     },
     {
       type: "paragraph",

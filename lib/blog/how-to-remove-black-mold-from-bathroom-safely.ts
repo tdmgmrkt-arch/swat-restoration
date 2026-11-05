@@ -15,7 +15,11 @@ export const howToRemoveBlackMoldFromBathroomSafely: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold remediation services that help homeowners remove dangerous bathroom mold safely while addressing the moisture issues causing it to return.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that help homeowners remove dangerous bathroom mold safely while addressing the moisture issues causing it to return." },
+      ],
     },
     {
       type: "paragraph",
@@ -40,7 +44,11 @@ export const howToRemoveBlackMoldFromBathroomSafely: BlogPost = {
     },
     {
       type: "paragraph",
-      content: "Regular cleaning helps reduce surface buildup, but moisture control remains the most important factor in preventing black mold from returning.",
+      content: [
+        { type: "text", text: "Regular cleaning helps reduce surface buildup, but moisture control remains the most important factor in preventing " },
+        { type: "link", text: "black mold", href: "/mold-remediation/black-mold" },
+        { type: "text", text: " from returning." },
+      ],
     },
     { type: "heading", text: "Signs Black Mold May Be Spreading" },
     {
@@ -149,6 +157,12 @@ export const howToRemoveBlackMoldFromBathroomSafely: BlogPost = {
     {
       type: "paragraph",
       content: "Bathroom mold problems often start small but can quickly spread when moisture remains untreated. Proper cleanup involves more than surface cleaning — it requires identifying the source of moisture and ensuring contamination is fully removed.",
+    },
+    {
+      type: "callout",
+      text: "Surface treatment has real limits. See",
+      linkText: "why DIY mold removal can be dangerous",
+      href: "/post/why-diy-mold-removal-can-be-dangerous",
     },
     {
       type: "paragraph",

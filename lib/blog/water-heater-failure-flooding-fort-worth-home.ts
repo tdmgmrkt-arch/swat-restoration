@@ -152,8 +152,11 @@ export const waterHeaterFailureFloodingFortWorthHome: BlogPost = {
     },
     {
       type: "paragraph",
-      content:
-        "For Fort Worth homeowners and the surrounding DFW communities we serve, the goal on a water heater loss is to get the structure genuinely dry — verified by meter, not by appearance — before anything gets closed back up. That is the step that determines whether you are dealing with mold remediation three weeks from now.",
+      content: [
+        { type: "text", text: "For Fort Worth homeowners and the surrounding DFW communities we serve, the goal on a water heater loss is to get the structure genuinely dry — verified by meter, not by appearance — before anything gets closed back up. That is the step that determines whether you are dealing with " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " three weeks from now." },
+      ],
     },
   ],
 }

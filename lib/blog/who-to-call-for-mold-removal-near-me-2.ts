@@ -15,7 +15,11 @@ export const whoToCallForMoldRemovalNearMe2: BlogPost = {
   body: [
     {
       type: "paragraph",
-      content: "We provide professional mold remediation services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly.",
+      content: [
+        { type: "text", text: "We provide professional " },
+        { type: "link", text: "mold remediation", href: "/mold-remediation/mold-removal" },
+        { type: "text", text: " services that help homeowners identify hidden moisture problems, remove contamination safely, and restore healthy indoor conditions quickly." },
+      ],
     },
     {
       type: "paragraph",
@@ -129,7 +133,11 @@ export const whoToCallForMoldRemovalNearMe2: BlogPost = {
     { type: "heading", text: "What Homeowners Care About Most" },
     {
       type: "paragraph",
-      content: "Indoor air quality is usually one of the biggest concerns once mold is discovered. Many families worry about odors, respiratory irritation, and long-term exposure, especially when young children, older adults, or individuals with sensitivities are involved.",
+      content: [
+        { type: "text", text: "Indoor " },
+        { type: "link", text: "air quality", href: "/mold-remediation/air-quality" },
+        { type: "text", text: " is usually one of the biggest concerns once mold is discovered. Many families worry about odors, respiratory irritation, and long-term exposure, especially when young children, older adults, or individuals with sensitivities are involved." },
+      ],
     },
     {
       type: "paragraph",
@@ -160,6 +168,12 @@ export const whoToCallForMoldRemovalNearMe2: BlogPost = {
     {
       type: "paragraph",
       content: "Mold problems rarely improve on their own. Safe and effective remediation requires proper containment, moisture removal, air filtration, and restoration planning to fully address the source of contamination.",
+    },
+    {
+      type: "callout",
+      text: "On how to evaluate a remediation company, see",
+      linkText: "choosing the right mold remediation company",
+      href: "/post/best-company-for-mold-remediation-near-me",
     },
     {
       type: "paragraph",

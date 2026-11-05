@@ -29,7 +29,11 @@ export const whatToDoImmediatelyAfterWaterDamageInYourHome: BlogPost = {
     { type: "heading", text: "Step 2: Stop the Source of the Water" },
     {
       type: "paragraph",
-      content: "If the damage is caused by a plumbing issue, shut off the main water valve right away. For storm-related flooding, use sandbags or temporary barriers to minimize incoming water until help arrives.",
+      content: [
+        { type: "text", text: "If the damage is caused by a plumbing issue, shut off the main water valve right away. For storm-related " },
+        { type: "link", text: "flooding", href: "/water-damage/flood-restoration" },
+        { type: "text", text: ", use sandbags or temporary barriers to minimize incoming water until help arrives." },
+      ],
     },
     { type: "heading", text: "Step 3: Call the Professionals" },
     {
@@ -43,7 +47,11 @@ export const whatToDoImmediatelyAfterWaterDamageInYourHome: BlogPost = {
     { type: "heading", text: "Step 4: Document the Damage for Insurance" },
     {
       type: "paragraph",
-      content: "Take photos and videos of everything the water touched—floors, furniture, walls, and belongings. This documentation is vital for insurance claims. At SWAT Restoration, we also provide professional documentation to ensure your claim is as smooth as possible.",
+      content: [
+        { type: "text", text: "Take photos and videos of everything the water touched—floors, furniture, walls, and belongings. This documentation is vital for " },
+        { type: "link", text: "insurance claims", href: "/reconstruction/insurance-claims" },
+        { type: "text", text: ". At SWAT Restoration, we also provide professional documentation to ensure your claim is as smooth as possible." },
+      ],
     },
     { type: "heading", text: "Step 5: Begin the Drying Process" },
     {
@@ -79,6 +87,12 @@ export const whatToDoImmediatelyAfterWaterDamageInYourHome: BlogPost = {
         {"type":"strong","text":"first responders for disasters"},
         {"type":"text","text":", ready to step in, clean up, and restore your home to better than before."},
       ],
+    },
+    {
+      type: "callout",
+      text: "Once mitigation starts, see",
+      linkText: "how long water damage restoration takes to complete",
+      href: "/post/how-long-does-water-damage-restoration-take-to-complete",
     },
     {
       type: "paragraph",
