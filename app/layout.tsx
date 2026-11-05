@@ -5,6 +5,7 @@ import "./globals.css"
 import { siteConfig } from "@/lib/site-config"
 import { canonicalUrl } from "@/lib/utils"
 import { AccessibilityWidget } from "@/components/site/accessibility-widget"
+import SiteOutageNotice from "@/components/site/site-outage-notice"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -80,6 +81,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <SiteOutageNotice />
         {children}
         <AccessibilityWidget />
       </body>
