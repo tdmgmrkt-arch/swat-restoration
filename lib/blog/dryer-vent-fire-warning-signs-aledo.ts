@@ -42,6 +42,12 @@ export const dryerVentFireWarningSignsAledo: BlogPost = {
       content:
         "Two things make it worse in a lot of North Texas homes specifically: long duct runs from an interior laundry room to an exterior wall or roof cap, and flexible foil or plastic transition hose behind the machine, which crushes against the wall when the dryer is pushed back and traps lint at every kink.",
     },
+    {
+      type: "callout",
+      text: "For odor that keeps coming back after the surfaces look clean, see",
+      linkText: "Odor Removal",
+      href: "/fire-damage/odor-removal",
+    },
     { type: "heading", text: "The Warning Signs, In the Order They Appear" },
     {
       type: "list",
@@ -124,12 +130,6 @@ export const dryerVentFireWarningSignsAledo: BlogPost = {
       linkText: "Soot Removal",
       href: "/fire-damage/soot-removal",
     },
-    {
-      type: "callout",
-      text: "For odor that keeps coming back after the surfaces look clean, see",
-      linkText: "Odor Removal",
-      href: "/fire-damage/odor-removal",
-    },
     { type: "heading", text: "If It Already Happened" },
     {
       type: "list",
@@ -159,6 +159,5 @@ export const dryerVentFireWarningSignsAledo: BlogPost = {
           text: " for 24/7 dispatch across Aledo, Fort Worth, and the surrounding DFW communities. And if you are reading this because the towels are taking two cycles — that is the cheap version of this problem. Clear the duct this week.",
         },
       ],
-    },
-  ],
+    },],
 }

@@ -33,8 +33,20 @@ export const swatRestorationYourFirstRespondersForDisasters: BlogPost = {
       ],
     },
     {
+      type: "callout",
+      text: "On why response speed decides the scope, see",
+      linkText: "the importance of immediate water damage restoration",
+      href: "/post/the-importance-of-immediate-water-damage-restoration",
+    },
+    {
       type: "paragraph",
       content: "As a local, family-owned company, we care about more than just fixing what’s broken. We care about restoring your peace of mind. When you call us, you’re not talking to a corporate call center—you’re working with neighbors who understand what you’re going through.",
+    },
+    {
+      type: "callout",
+      text: "On the difference between a restoration company and a general contractor, see",
+      linkText: "restoration company vs. general contractor",
+      href: "/post/restoration-company-vs-general-contractor-storm-damage",
     },
     { type: "heading", text: "Comprehensive Services" },
     {
@@ -78,24 +90,11 @@ export const swatRestorationYourFirstRespondersForDisasters: BlogPost = {
       href: "/post/why-choosing-a-family-owned-local-restoration-company-matters",
     },
     {
-      type: "callout",
-      text: "On why response speed decides the scope, see",
-      linkText: "the importance of immediate water damage restoration",
-      href: "/post/the-importance-of-immediate-water-damage-restoration",
-    },
-    {
-      type: "callout",
-      text: "On the difference between a restoration company and a general contractor, see",
-      linkText: "restoration company vs. general contractor",
-      href: "/post/restoration-company-vs-general-contractor-storm-damage",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If your home or business has suffered water, fire, storm, or mold damage, call "},
         {"type":"strong","text":"SWAT Restoration"},
         {"type":"text","text":" today. Let us help you rebuild, restore, and return to normal."},
       ],
-    },
-  ],
+    },],
 }

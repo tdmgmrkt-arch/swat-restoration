@@ -29,12 +29,6 @@ export const howToProtectYourRoofDuringStormSeason: BlogPost = {
     },
     {
       type: "callout",
-      text: "For the whole-house version of this list, see",
-      linkText: "how to prepare your home for storm season",
-      href: "/post/how-to-prepare-your-home-for-storm-season",
-    },
-    {
-      type: "callout",
       text: "On what hail actually leaves behind, see",
       linkText: "summer storm hail damage roof warning signs",
       href: "/post/summer-storm-hail-damage-aledo-roof-warning-signs",
@@ -45,6 +39,14 @@ export const howToProtectYourRoofDuringStormSeason: BlogPost = {
         { type: "text", text: "A well-maintained roof is your best defense against " },
         { type: "link", text: "storm damage", href: "/reconstruction/storm-damage" },
         { type: "text", text: ". By taking these proactive steps, you can protect your home and avoid unnecessary stress. If you need assistance with storm damage repairs or a roof inspection, S.W.A.T. Restoration is here to help." },
+      ],
+    },
+    {
+      type: "paragraph",
+      content: [
+        { type: "text", text: "For the whole-house version of this checklist, see " },
+        { type: "link", text: "how to prepare your home for storm season", href: "/post/how-to-prepare-your-home-for-storm-season" },
+        { type: "text", text: "." },
       ],
     },
   ],

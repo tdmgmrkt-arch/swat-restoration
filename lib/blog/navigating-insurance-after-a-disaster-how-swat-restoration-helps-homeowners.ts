@@ -38,6 +38,12 @@ export const navigatingInsuranceAfterADisasterHowSwatRestorationHelpsHomeowners:
         {"type":"text","text":" the paperwork makes all the difference."},
       ],
     },
+    {
+      type: "callout",
+      text: "For the storm-specific process, see",
+      linkText: "filing a homeowners insurance claim for storm damage",
+      href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth",
+    },
     { type: "heading", text: "How SWAT Restoration Supports You" },
     {
       type: "paragraph",
@@ -77,18 +83,11 @@ export const navigatingInsuranceAfterADisasterHowSwatRestorationHelpsHomeowners:
       href: "/post/does-homeowners-insurance-cover-water-damage-restoration-costs",
     },
     {
-      type: "callout",
-      text: "For the storm-specific process, see",
-      linkText: "filing a homeowners insurance claim for storm damage",
-      href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If you’re facing storm, fire, water, or mold damage, call the "},
         {"type":"strong","text":"first responders for disasters"},
         {"type":"text","text":"—SWAT Restoration. We’ll take care of the cleanup <em>and</em>"},
       ],
-    },
-  ],
+    },],
 }

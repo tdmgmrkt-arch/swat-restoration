@@ -40,18 +40,6 @@ export const howToPrepareYourHomeForStormSeason: BlogPost = {
       href: "/post/how-to-protect-your-roof-during-storm-season",
     },
     {
-      type: "callout",
-      text: "For what recovery looks like afterward, see",
-      linkText: "storm damage in North Texas",
-      href: "/post/storm-damage-in-north-texas-how-to-protect-your-home-and-recover-fast",
-    },
-    {
-      type: "callout",
-      text: "On the claim itself, see",
-      linkText: "filing a homeowners insurance claim for storm damage",
-      href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"After a storm, "},
@@ -61,6 +49,16 @@ export const howToPrepareYourHomeForStormSeason: BlogPost = {
         {"type":"text","text":" is ready to respond immediately, helping homeowners with storm damage assessments, water extraction, and complete restoration services in "},
         {"type":"strong","text":"Fort Worth, TX"},
         {"type":"text","text":". Don’t let storm season catch you off guard—be prepared and know who to call when you need help."},
+      ],
+    },
+    {
+      type: "paragraph",
+      content: [
+        { type: "text", text: "If a storm has already come through, our guides to " },
+        { type: "link", text: "storm damage recovery in North Texas", href: "/post/storm-damage-in-north-texas-how-to-protect-your-home-and-recover-fast" },
+        { type: "text", text: " and " },
+        { type: "link", text: "filing a homeowners insurance claim", href: "/post/filing-homeowners-insurance-claim-storm-damage-fort-worth" },
+        { type: "text", text: " cover what comes next." },
       ],
     },
   ],

@@ -38,6 +38,12 @@ export const moldInYourHomeWhatYouNeedToKnow: BlogPost = {
       type: "paragraph",
       content: "The bottom line: mold isn’t just unpleasant—it can be unsafe.",
     },
+    {
+      type: "callout",
+      text: "When there is nothing visible but you can smell it, see",
+      linkText: "how to tell if mold is behind walls",
+      href: "/post/how-to-tell-if-mold-is-behind-walls",
+    },
     { type: "heading", text: "Common Causes of Mold" },
     {
       type: "paragraph",
@@ -55,6 +61,12 @@ export const moldInYourHomeWhatYouNeedToKnow: BlogPost = {
     {
       type: "paragraph",
       content: "If you’ve recently had water damage—or notice a musty smell—it’s smart to have your home inspected.",
+    },
+    {
+      type: "callout",
+      text: "On the health question specifically, see",
+      linkText: "is mold in my house dangerous to my family",
+      href: "/post/is-mold-in-my-house-dangerous-to-my-family",
     },
     { type: "heading", text: "Why You Need Professional Mold Remediation" },
     {
@@ -108,24 +120,11 @@ export const moldInYourHomeWhatYouNeedToKnow: BlogPost = {
       href: "/post/signs-your-property-needs-mold-remediation-now",
     },
     {
-      type: "callout",
-      text: "When there is nothing visible but you can smell it, see",
-      linkText: "how to tell if mold is behind walls",
-      href: "/post/how-to-tell-if-mold-is-behind-walls",
-    },
-    {
-      type: "callout",
-      text: "On the health question specifically, see",
-      linkText: "is mold in my house dangerous to my family",
-      href: "/post/is-mold-in-my-house-dangerous-to-my-family",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If you’ve noticed signs of mold in your North Texas home, call "},
         {"type":"strong","text":"SWAT Restoration"},
         {"type":"text","text":" today."},
       ],
-    },
-  ],
+    },],
 }

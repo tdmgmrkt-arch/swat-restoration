@@ -44,22 +44,20 @@ export const theImportanceOfImmediateWaterDamageRestoration: BlogPost = {
       href: "/post/what-to-do-immediately-after-water-damage-in-your-home",
     },
     {
-      type: "callout",
-      text: "On how long the work takes, see",
-      linkText: "how long water damage restoration takes to complete",
-      href: "/post/how-long-does-water-damage-restoration-take-to-complete",
-    },
-    {
-      type: "callout",
-      text: "On what waiting actually costs, see",
-      linkText: "the hidden dangers of delaying restoration",
-      href: "/post/the-hidden-dangers-of-delaying-restoration-after-a-disaster",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If water damage strikes your home in "},
         {"type":"strong","text":"Aledo, TX"},
+      ],
+    },
+    {
+      type: "paragraph",
+      content: [
+        { type: "text", text: "For how long the work takes and what waiting costs, see " },
+        { type: "link", text: "how long water damage restoration takes", href: "/post/how-long-does-water-damage-restoration-take-to-complete" },
+        { type: "text", text: " and " },
+        { type: "link", text: "the hidden dangers of delaying restoration", href: "/post/the-hidden-dangers-of-delaying-restoration-after-a-disaster" },
+        { type: "text", text: "." },
       ],
     },
   ],

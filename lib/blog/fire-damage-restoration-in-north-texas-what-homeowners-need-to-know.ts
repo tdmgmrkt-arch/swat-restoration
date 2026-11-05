@@ -49,6 +49,12 @@ export const fireDamageRestorationInNorthTexasWhatHomeownersNeedToKnow: BlogPost
       content: "A DIY cleanup might handle surface messes, but fire damage requires more. Professional restoration ensures:",
     },
     {
+      type: "callout",
+      text: "On odor that outlasts the cleanup, see",
+      linkText: "smoke odor removal after a kitchen fire",
+      href: "/post/smoke-odor-removal-after-kitchen-fire",
+    },
+    {
       type: "list",
       items: [
         "Thorough Cleaning: Specialized equipment removes soot, smoke residue, and odors.",
@@ -93,18 +99,11 @@ export const fireDamageRestorationInNorthTexasWhatHomeownersNeedToKnow: BlogPost
       href: "/post/what-to-do-after-a-house-fire-in-fort-worth",
     },
     {
-      type: "callout",
-      text: "On odor that outlasts the cleanup, see",
-      linkText: "smoke odor removal after a kitchen fire",
-      href: "/post/smoke-odor-removal-after-kitchen-fire",
-    },
-    {
       type: "paragraph",
       content: [
         {"type":"text","text":"If your North Texas home or business suffers fire damage, call "},
         {"type":"strong","text":"SWAT Restoration"},
         {"type":"text","text":"—your trusted partner in rebuilding and restoring."},
       ],
-    },
-  ],
+    },],
 }

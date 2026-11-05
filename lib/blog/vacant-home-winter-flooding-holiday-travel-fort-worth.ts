@@ -77,6 +77,12 @@ export const vacantHomeWinterFloodingHolidayTravelFortWorth: BlogPost = {
       content:
         "The freeze items are specific to this season and specific to North Texas. DFW gets occasional hard freezes rather than a sustained cold season, which means homes here are built with less freeze protection than northern construction and homeowners have less habitual freeze preparation.",
     },
+    {
+      type: "callout",
+      text: "For the wider seasonal prep list, see",
+      linkText: "our emergency restoration checklist for winter storms",
+      href: "/post/emergency-restoration-checklist-for-winter-storms",
+    },
     { type: "heading", text: "The Pre-Travel Checklist" },
     {
       type: "paragraph",
@@ -164,15 +170,8 @@ export const vacantHomeWinterFloodingHolidayTravelFortWorth: BlogPost = {
       href: "/post/winter-water-damage-in-dfw",
     },
     {
-      type: "callout",
-      text: "For the wider seasonal prep list, see",
-      linkText: "our emergency restoration checklist for winter storms",
-      href: "/post/emergency-restoration-checklist-for-winter-storms",
-    },
-    {
       type: "paragraph",
       content:
         "For Fort Worth homeowners and the DFW communities we serve, the summary is short. The single minute it takes to close the main before you leave eliminates nearly all of this. Of the large unoccupied-home losses we have worked, almost none of them involved a home where the water was off.",
-    },
-  ],
+    },],
 }
