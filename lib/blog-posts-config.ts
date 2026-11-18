@@ -60,6 +60,8 @@ import { documentingDamageBeforeCrewArrivesAledo } from "./blog/documenting-dama
 import { waterDamagedHardwoodFloorsCuppingFortWorth } from "./blog/water-damaged-hardwood-floors-cupping-fort-worth"
 import { dryerVentFireWarningSignsAledo } from "./blog/dryer-vent-fire-warning-signs-aledo"
 import { canYouStayInHouseDuringWaterDamageRestorationFortWorth } from "./blog/can-you-stay-in-house-during-water-damage-restoration-fort-worth"
+import { furnaceBurningSmellWarningSignsAledo } from "./blog/furnace-burning-smell-warning-signs-aledo"
+import { filingSmallWaterDamageClaimInsuranceRatesFortWorth } from "./blog/filing-small-water-damage-claim-insurance-rates-fort-worth"
 
 export type { BlogPost, BlogCategory, ContentBlock } from "./blog/_types"
 export { BLOG_CATEGORIES } from "./blog/_types"
@@ -151,6 +153,10 @@ export const blogPosts: Record<string, BlogPost> = {
   [dryerVentFireWarningSignsAledo.slug]: dryerVentFireWarningSignsAledo,
   [canYouStayInHouseDuringWaterDamageRestorationFortWorth.slug]:
     canYouStayInHouseDuringWaterDamageRestorationFortWorth,
+  [furnaceBurningSmellWarningSignsAledo.slug]:
+    furnaceBurningSmellWarningSignsAledo,
+  [filingSmallWaterDamageClaimInsuranceRatesFortWorth.slug]:
+    filingSmallWaterDamageClaimInsuranceRatesFortWorth,
 }
 
 /** Every post (including drafts), sorted newest-first by date. */
