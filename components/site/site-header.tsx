@@ -330,7 +330,7 @@ export default function SiteHeader() {
 
   return (
     <header
-      className="sticky top-0 z-40 w-full bg-[#1a2347] border-b border-white/8 shadow-lg"
+      className="sticky top-[var(--outage-strip-offset,0px)] z-40 w-full bg-[#1a2347] border-b border-white/8 shadow-lg"
       onMouseLeave={scheduleClose}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-6 h-16 flex items-center justify-between gap-4">
